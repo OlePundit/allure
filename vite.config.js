@@ -16,12 +16,9 @@ export default defineConfig({
                 'resources/js/plugin.js',
                 'resources/js/jquery.mCustomScrollbar.concat.min.js',
                 'resources/js/custom.js',
-                'resources/js/owl.carousel.js',
                 'resources/css/responsive.css',
                 'resources/css/jquery.mCustomScrollbar.min.css',
                 'resources/css/owl.carousel.min.css',
-                'resources/css/owl.theme.default.min.css',
-
             ],
             refresh: true,
         }),
