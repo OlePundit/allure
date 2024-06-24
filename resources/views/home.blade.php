@@ -66,31 +66,8 @@
                             <li class="nav-item">
                             <a class="nav-link text-white" href="/about">About</a>
                             </li>
-                            <li class="dropdown nav-item">
-                            <a class= "dropdown-toggle nav-link text-white" href="#" style="text-decoration:none;" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Services
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                
-                                    <a class="dropdown-item text-dark" href="/services/">Hair dressing</a>
-                                    <a class="dropdown-item text-dark" href="/services/">Massage</a>
-                                    <a class="dropdown-item text-dark" href="/services/">Colour</a>
-                                    <a class="dropdown-item text-dark" href="/services/">Caucasian hair</a>
-                                    <a class="dropdown-item text-dark" href="/services/">African hair</a>
-                                    <a class="dropdown-item text-dark" href="/services/">Men's cave facial treatment</a>
-                                    <a class="dropdown-item text-dark" href="/services/">African hair</a>
-                                    <a class="dropdown-item text-dark" href="/services/">Body scrubs</a>
-                                    <a class="dropdown-item text-dark" href="/services/">Weaving</a>
-                                    <a class="dropdown-item text-dark" href="/services/">Pixie cut</a>
-
-                                    <a class="dropdown-item text-dark" href="/services/">Caucasian hair</a>
-                                    <a class="dropdown-item text-dark" href="/services/">Relaxers</a>
-                                    <a class="dropdown-item text-dark" href="/services/">Permanent weave</a>
-                                    <a class="dropdown-item text-dark" href="/services/">Dread locks</a>
-                                    <a class="dropdown-item text-dark" href="/services/">Barber shop`</a>
-
-
-                            </div>                           
+                            <li class="nav-item">
+                            <a class="nav-link text-white" href="/services">Services</a>
                             </li>
                             <li class="nav-item">
                             <a class="nav-link text-white" href="/book">Book</a>
@@ -139,41 +116,40 @@
                     <!-- Slides -->
                     <div class="swiper-slide box">
                         <div class="col-sm-6 text">
-                            <img src="/storage/images/hero.png">
+                            <img src="/storage/images/hero.png" alt="hero-img">
                             <p class="banner_text">Welcome to Allure Essence Spa & Hair Studio, your sanctuary of tranquility and beauty in the heart of Nairobi. Immerse yourself in our luxurious treatments designed to rejuvenate your mind, body, and spirit.</p>
                             <div class="read_bt"><a href="/book">Book Today</a></div>
                         </div>
-                        <img src="/storage/images/slider4.webp" class="">
+                        <img src="/storage/images/slider4.webp" class="" alt="slider-img">
                     </div>
 
                     <div class="swiper-slide box">
                         <div class="col-sm-6 text">
-                            <img src="/storage/images/hero.png">
+                            <img src="/storage/images/hero.png" alt="hero-img">
                             <p class="banner_text">Welcome to Allure Essence Spa & Hair Studio, your sanctuary of tranquility and beauty in the heart of Nairobi. Immerse yourself in our luxurious treatments designed to rejuvenate your mind, body, and spirit.</p>
                             <div class="read_bt"><a href="/book">Book Today</a></div>
                         </div>
-                        <img src="/storage/images/slider.webp" class="">
+                        <img src="/storage/images/slider.webp" class="" alt="slider-img">
 
                     </div>
                     <div class="swiper-slide box">
                         <div class="col-sm-6 text">
-                            <img src="/storage/images/hero.png">
+                            <img src="/storage/images/hero.png" alt="hero-img">
                             <p class="banner_text">Welcome to Allure Essence Spa & Hair Studio, your sanctuary of tranquility and beauty in the heart of Nairobi. Immerse yourself in our luxurious treatments designed to rejuvenate your mind, body, and spirit.</p>
                             <div class="read_bt"><a href="/book">Book Today</a></div>
                         </div>
-                        <img src="/storage/images/slider1.webp" class="">
+                        <img src="/storage/images/slider1.webp" class="" alt="slider-img">
 
                     </div>
                     <div class="swiper-slide box">
                         <div class="col-sm-6 text">
-                            <img src="/storage/images/hero.png">
+                            <img src="/storage/images/hero.png" alt="hero-img">
                             <p class="banner_text">Welcome to Allure Essence Spa & Hair Studio, your sanctuary of tranquility and beauty in the heart of Nairobi. Immerse yourself in our luxurious treatments designed to rejuvenate your mind, body, and spirit.</p>
                             <div class="read_bt"><a href="/book">Book Today</a></div>
                         </div>
-                        <img src="/storage/images/slider2.webp" class="">
+                        <img src="/storage/images/slider2.webp" class="" alt="slider-img">
 
                     </div>
-                    ...
                 </div>
             <!-- If we need pagination -->
                 <div class="swiper-pagination swiper-pagination1"></div>
@@ -188,15 +164,15 @@
 
         <!-- banner section end -->
         <!-- about section start -->
-        <div class="about_section layout_padding" style="background-image: url('{{ asset('storage/images/field.webp')}}');background-size: cover; ">
+        <div class="about_section layout_padding">
             <div class="container">
                 <div class="about_section_main">
                 <h2 class="mb-3">Welcome to Allure Essence</h2>
                 <div class="row">
                     <div class="col-md-6 tab">
                     <div class="image-container">
-                        <img src="/storage/images/about3.webp" class="image_3 rounded">
-                        <img src="/storage/images/about.webp" class="image-4-overlap rounded">
+                        <img src="/storage/images/about3.webp" class="image_3 rounded" alt="info-img">
+                        <img src="/storage/images/about.webp" class="image-4-overlap rounded" alt="info-img">
                     </div>
 
                     </div>
@@ -217,8 +193,8 @@
                     </div>
                     <div class="col-md-6">
                         <div class="image-container-1">
-                            <img src="/storage/images/about4.webp" class="image_3 rounded">
-                            <img src="/storage/images/about2.webp" class="image-4-overlap rounded">
+                            <img src="/storage/images/about4.webp" class="image_3 rounded" alt="info-img">
+                            <img src="/storage/images/about2.webp" class="image-4-overlap rounded" alt="info-img">
                         </div>
 
                     </div>
@@ -242,139 +218,67 @@
                 </div>
                 </div>
                 <div class="product_section_2 layout_padding">
+                <h3>Hair Dressing Services</h3>
                 <div class="row product-row">
+                    @foreach($hairs as $hair)
+
                     <div class="col-lg-3 col-sm-6">
                         <div class="card" style="width: 100%;">
-                            <img src="/storage/images/product.jpg" class="card-img-top" alt="...">
+                            <img src="/storage/images/product.jpg" class="card-img-top" alt="thumbnail">
                             <div class="card-body">
-                            <h5 class="card-title">Plain line Small</h5>
-                            <p class="card-text">Ksh 3000</p>
+                            <h5 class="card-title">{{$hair->name}}</h5>
+                            <p class="card-text">{{$hair->price}}</p>
                             <a href="/book" class="">Order Now</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="card" style="width: 100%;">
-                            <img src="/storage/images/product.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">Plain line Small</h5>
-                            <p class="card-text">Ksh 3000</p>
-                            <a href="/book" class="">Order Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="card" style="width: 100%;">
-                            <img src="/storage/images/product.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">Plain line Small</h5>
-                            <p class="card-text">Ksh 3000</p>
-                            <a href="/book" class="">Order Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="card" style="width: 100%;">
-                            <img src="/storage/images/product.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">Plain line Small</h5>
-                            <p class="card-text">Ksh 3000</p>
-                            <a href="/book" class="">Order Now</a>
-                            </div>
-                        </div>
-                    </div>
+                    @endforeach
+
                 </div>
+                <h3>Massage Services</h3>
+
                 <div class="row product-row">
+                    @foreach($massages as $massage)
+
                     <div class="col-lg-3 col-sm-6">
                         <div class="card" style="width: 100%;">
-                            <img src="/storage/images/product.jpg" class="card-img-top" alt="...">
+                            <img src="/storage/images/product.jpg" class="card-img-top" alt="thumbnail">
                             <div class="card-body">
-                            <h5 class="card-title">Plain line Small</h5>
-                            <p class="card-text">Ksh 3000</p>
+                            <h5 class="card-title">{{$massage->name}}</h5>
+                            <p class="card-text">{{$massage->price}}</p>
                             <a href="/book" class="">Order Now</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="card" style="width: 100%;">
-                            <img src="/storage/images/product.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">Plain line Small</h5>
-                            <p class="card-text">Ksh 3000</p>
-                            <a href="/book" class="">Order Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="card" style="width: 100%;">
-                            <img src="/storage/images/product.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">Plain line Small</h5>
-                            <p class="card-text">Ksh 3000</p>
-                            <a href="/book" class="">Order Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="card" style="width: 100%;">
-                            <img src="/storage/images/product.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">Plain line Small</h5>
-                            <p class="card-text">Ksh 3000</p>
-                            <a href="/book" class="">Order Now</a>
-                            </div>
-                        </div>
-                    </div>
+                    @endforeach
+
                 </div>
+                <h3>Body Scrub Services</h3>
+
                 <div class="row product-row">
+                    @foreach($bodys as $body)
+
                     <div class="col-lg-3 col-sm-6">
                         <div class="card" style="width: 100%;">
                             <img src="/storage/images/product.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                            <h5 class="card-title">Plain line Small</h5>
-                            <p class="card-text">Ksh 3000</p>
+                            <h5 class="card-title">{{$body->name}}</h5>
+                            <p class="card-text">{{$body->price}}</p>
                             <a href="/book" class="">Order Now</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="card" style="width: 100%;">
-                            <img src="/storage/images/product.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">Plain line Small</h5>
-                            <p class="card-text">Ksh 3000</p>
-                            <a href="/book" class="">Order Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="card" style="width: 100%;">
-                            <img src="/storage/images/product.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">Plain line Small</h5>
-                            <p class="card-text">Ksh 3000</p>
-                            <a href="/book" class="">Order Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="card" style="width: 100%;">
-                            <img src="/storage/images/product.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">Plain line Small</h5>
-                            <p class="card-text">Ksh 3000</p>
-                            <a href="/book" class="">Order Now</a>
-                            </div>
-                        </div>
-                    </div>
+                    @endforeach
+
+
                 </div>
-                <div class="seemore_bt"><a href="#">See More</a></div>
+                <div class="seemore_bt"><a href="/services">See More</a></div>
                 </div>
             </div>
         </div>
         <!-- product section end -->
         <!-- banner section start -->
-        <div class="info_section layout_padding" style="background-image: url('{{ asset('storage/images/blur-background.jpg')}}');">
+        <div class="info_section layout_padding">
             <div class="swiper-container swiper2">
                 <div class="swiper-wrapper mb-5">
                     <div class="swiper-slide">
@@ -382,7 +286,7 @@
                             <div class="col-md-6 col-12 info">
                                 <h3>Allure Essence</h3>
                                 <p class="mb-5">At Allure Essence Spa & Hair Studio, we take pride in offering a comprehensive range of hairdressing services tailored to meet the diverse needs of our clientele. Whether you're looking for a fresh new look, maintaining your current style, or preparing for a special occasion, our expert stylists are here to ensure you leave our salon looking and feeling your best.</p>
-                                <img src="/storage/images/aboutSlider.webp">
+                                <img src="/storage/images/aboutSlider.webp" alt="banner-img">
                             </div>
                             <div class="col-md-1 col-12 buttons">
                                 <div class="swiper-button-prev swiper-button-prev2"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
@@ -417,7 +321,7 @@
                             <div class="col-md-6 col-12 info">
                                 <h3>Allure Essence</h3>
                                 <p class="mb-5">At Allure Essence Spa & Hair Studio, we believe in the power of therapeutic touch to heal the body, calm the mind, and rejuvenate the spirit. Our comprehensive range of massage services is designed to address your unique needs and preferences, ensuring a deeply relaxing and restorative experience.</p>
-                                <img src="/storage/images/about2Slide.webp">
+                                <img src="/storage/images/about2Slide.webp" alt="banner-img">
                             </div>
                             <div class="col-md-1 col-12 buttons">
                                 <div class="swiper-button-prev swiper-button-prev2"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
@@ -452,7 +356,7 @@
                             <div class="col-md-6 col-12 info">
                                 <h3>Allure Essence</h3>
                                 <p class="mb-5">Welcome to the Barber Shop at Allure Essence Spa & Hair Studio, where classic barbering meets contemporary style. Located in the heart of Nairobi, our barber shop offers a full range of grooming services designed to keep you looking sharp and feeling your best. Whether you need a quick trim, a precise shave, or a complete style transformation, our experienced barbers are here to deliver exceptional service with meticulous attention to detail.</p>
-                                <img src="/storage/images/barber.webp">
+                                <img src="/storage/images/barber.webp" alt="banner-img">
                             </div>
                             <div class="col-md-1 col-12 buttons">
                                 <div class="swiper-button-prev swiper-button-prev2"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
@@ -486,14 +390,14 @@
                         <div class="row">
                             <div class="col-md-6 col-12 info">
                                 <h3>Allure Essence</h3>
-                                <p class="mb-5">Indulge in the ultimate pampering experience with our luxurious nail and feet services at Serenity Spa & Hair Studio. Located in the heart of Nairobi, our salon offers a serene escape where you can relax and rejuvenate while our skilled technicians provide meticulous care for your hands and feet. From elegant manicures to revitalizing pedicures and soothing foot scrubs, we offer a range of treatments designed to leave you looking and feeling your best.</p>
-                                <img src="/storage/images/feet.webp">
+                                <p class="mb-5">Indulge in the ultimate pampering experience with our luxurious nail and feet services at Allure Essence Spa & Hair Studio. Located in the heart of Nairobi, our salon offers a serene escape where you can relax and rejuvenate while our skilled technicians provide meticulous care for your hands and feet. From elegant manicures to revitalizing pedicures and soothing foot scrubs, we offer a range of treatments designed to leave you looking and feeling your best.</p>
+                                <img src="/storage/images/feet.webp" alt="banner-img">
                             </div>
-                            <div class="col-md-6 col-12 buttons">
+                            <div class="col-md-1 col-12 buttons">
                                 <div class="swiper-button-prev swiper-button-prev2"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
                                 <div class="swiper-button-next swiper-button-next2"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
                             </div>
-                            <div class="col-md-6 col-12 info-side">
+                            <div class="col-md-4 col-12 info-side">
                                 <div class="row">
                                 <div class="col-6 mb-3">
                                     <img src="/storage/images/feet1.webp">
@@ -540,11 +444,11 @@
                         <div class="client_section_2">
                             <div class="client_main">
                             <div class="client_left">
-                                <div class="client_img"><img src="/storage/images/client-img.png"></div>
+                                <div class="client_img"><img src="/storage/images/testimonial.webp" class="rounded" alt="testimonial"></div>
                             </div>
                             <div class="client_right">
-                                <h3 class="name_text">Jonyro</h3>
-                                <p class="dolor_text">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation  eu </p>
+                                <h3 class="name_text">Sarah J</h3>
+                                <p class="dolor_text">I had an absolutely amazing experience at Allure Essence Spa & Hair Studio! From the moment I walked in, I was greeted with warm smiles and a calming atmosphere. </p>
                             </div>
                             </div>
                         </div>
@@ -553,11 +457,11 @@
                         <div class="client_section_2">
                             <div class="client_main">
                             <div class="client_left">
-                                <div class="client_img"><img src="/storage/images/client-img.png"></div>
+                                <div class="client_img"><img src="/storage/images/testimonial2.webp" class="rounded" alt="testimonial"></div>
                             </div>
                             <div class="client_right">
-                                <h3 class="name_text">Jonyro</h3>
-                                <p class="dolor_text">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation  eu </p>
+                                <h3 class="name_text">Mark R</h3>
+                                <p class="dolor_text">Allure Essence Spa & Hair Studio exceeded all my expectations! I booked a full spa day for my wife and me, and it was worth every penny. The facilities are clean and beautifully decorated, creating a perfect ambiance for relaxation. </p>
                             </div>
                             </div>
                         </div>
@@ -566,11 +470,11 @@
                         <div class="client_section_2">
                             <div class="client_main">
                             <div class="client_left">
-                                <div class="client_img"><img src="/storage/images/client-img.png"></div>
+                                <div class="client_img"><img src="/storage/images/testimonial1.webp" class="rounded" alt="testimonial"></div>
                             </div>
                             <div class="client_right">
-                                <h3 class="name_text">Jonyro</h3>
-                                <p class="dolor_text">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation  eu </p>
+                                <h3 class="name_text">Emily L</h3>
+                                <p class="dolor_text">I cannot say enough good things about Allure Essence Spa & Hair Studio! I had a wonderful experience from start to finish. The staff are incredibly friendly and made me feel at ease right away. </p>
                             </div>
                             </div>
                         </div>

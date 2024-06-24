@@ -60,26 +60,8 @@
                   <li class="nav-item">
                   <a class="nav-link" href="/about">About</a>
                   </li>
-                  <li class="dropdown nav-item">
-                  <a class= "dropdown-toggle nav-link" href="#" style="text-decoration:none;" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Services
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">                     
-                     <a class="dropdown-item text-dark" href="/services/">Hair dressing</a>
-                     <a class="dropdown-item text-dark" href="/services/">Massage</a>
-                     <a class="dropdown-item text-dark" href="/services/">Colour</a>
-                     <a class="dropdown-item text-dark" href="/services/">Caucasian hair</a>
-                     <a class="dropdown-item text-dark" href="/services/">African hair</a>
-                     <a class="dropdown-item text-dark" href="/services/">Men's cave facial treatment</a>
-                     <a class="dropdown-item text-dark" href="/services/">Body scrubs</a>
-                     <a class="dropdown-item text-dark" href="/services/">Weaving</a>
-                     <a class="dropdown-item text-dark" href="/services/">Pixie cut</a>
-                     <a class="dropdown-item text-dark" href="/services/">Caucasian hair</a>
-                     <a class="dropdown-item text-dark" href="/services/">Relaxers</a>
-                     <a class="dropdown-item text-dark" href="/services/">Permanent weave</a>
-                     <a class="dropdown-item text-dark" href="/services/">Dread locks</a>
-                     <a class="dropdown-item text-dark" href="/services/">Barber shop`</a>
-                  </div>                           
+                  <li class="nav-item">
+                  <a class="nav-link text-white" href="/services">Services</a>
                   </li>
                   <li class="nav-item">
                   <a class="nav-link" href="/book">Book</a>

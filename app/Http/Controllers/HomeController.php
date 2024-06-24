@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Blog;
+use App\Models\Service;
 
 class HomeController extends Controller
 {
@@ -21,7 +22,11 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $hairs = Service::where('category','Hair dressing')->limit(4)->get();
+        $massages = Service::where('category', 'Massage')->limit(4)->get();
+        $bodys = Service::where('category', 'Body Scrubs')->limit(4)->get();
+
+        return view('home', compact('hairs','massages','bodys'));
     }
     public function about()
     {
@@ -44,5 +49,24 @@ class HomeController extends Controller
     {
 
         return view('blog', compact('slug'));
+    }
+    public function services()
+    {
+        $hairs = Service::where('category','Hair dressing')->get();
+        $massages = Service::where('category', 'Massage')->get();
+        $bodys = Service::where('category', 'Body Scrubs')->get();
+        $dreads = Service::where('category', 'Dread locks')->get();
+        $mens = Service::where('category', 'Mens')->get();
+        $colours = Service::where('category', 'Colour')->get();
+        $africans = Service::where('category', 'African Hair')->get();
+        $caucasians = Service::where('category', 'Caucasian Hair')->get();
+        $weavings = Service::where('category', 'weaving')->get();
+        $permanents = Service::where('category', 'Permanent Weave')->get();
+        $pixies = Service::where('category', 'Pixie cut')->get();
+        $relaxers = Service::where('category', 'Relaxers')->get();
+        $barberAs = Service::where('category', 'Barber African')->get();
+        $barberC = Service::where('category', 'Barber Caucasian')->get();
+
+        return view('services', compact('hairs','messages','bodys','dreads','mens','colours','africans','caucasians','weavings','permanents','pixies','relaxers','barberA','barberC'));
     }
 }

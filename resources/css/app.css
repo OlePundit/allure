@@ -40,9 +40,6 @@
 html {
     scroll-behavior: smooth;
 }
-.banner_section .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
-}
 .swiper1 {
 	width: 100%;
 	height: 80vh;
@@ -140,7 +137,7 @@ html {
     line-height: 1.2; /* Adjust line height as needed */
     writing-mode: vertical-lr; /* Vertical text from top to bottom */
     text-orientation: mixed; /* Ensures letters are upright */
-    font-family: Ysabeau Office;
+    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
     color:#fff;
 
 }
@@ -230,12 +227,12 @@ html {
     cursor:pointer
 }
 .box .text h1{
-    font-family: Ysabeau Office;
+    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
     color:#E1C17E;
 
 }
 .box .text p{
-    font-family: Ysabeau Office;
+    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
     color:#000;
     font-size: 20px;
     font-weight: 500;
@@ -623,7 +620,7 @@ button {
     color:#fff;
     font-weight: 600;
     margin-bottom: 10px;
-    font-family: Ysabeau Office;
+    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
     font-size:20px;
 }
 .product_section .card .card-body a{
@@ -655,7 +652,7 @@ button {
     text-align: start;
     color:#E1C17E;
     font-weight: bold;
-    font-family: Ysabeau Office;
+    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
 
 }
 
@@ -780,7 +777,16 @@ button {
 
 
 /* product section end */
+/* service section start */
 
+
+.service_section {
+    width: 100%;
+    float: left;
+    height: auto;
+    padding-bottom: 90px;
+    background: #202020;
+}
 
 /* about section start */
 
@@ -790,6 +796,7 @@ button {
     float: left;
     height: auto;
     padding-bottom: 90px;
+    background: #202020;
 }
 .about_section::after{
     filter:blur(10px);
@@ -797,9 +804,9 @@ button {
 .about_section h2{
     text-align: center;
     font-weight: 700;
-    font-family: Ysabeau Office;
+    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
     font-size: 52px;
-    color:#000;
+    color:#fff;
 }
 .about_section_main {
     width: 100%;
@@ -823,9 +830,9 @@ button {
     width: 100%;
     float: left;
     font-size: 28px;
-    color: #000;
+    color: #fff;
     font-weight: 500;
-    font-family: Ysabeau Office;
+    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
     text-transform: uppercase;
 }
 
@@ -833,7 +840,7 @@ button {
     width: 100%;
     float: left;
     font-size: 17px;
-    color: #000;
+    color: #fff;
     margin: 0px;
 }
 .image-container {
@@ -906,7 +913,7 @@ button {
 }
 
 .customer_taital {
-    font-family: Ysabeau Office;
+    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
     width: 100%;
     float: left;
     font-size: 52px;
@@ -1017,7 +1024,7 @@ button {
     font-weight: bold;
     font-size: 40px;
     text-transform: uppercase;
-    font-family: Ysabeau Office;
+    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
 }
 
 .contact_text {
@@ -1252,7 +1259,7 @@ button {
 .info_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    background: #202020;
     height: auto;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -1272,7 +1279,7 @@ button {
     color:#E1C17E;
     text-transform: uppercase;
     font-weight: 600;
-    font-family: Ysabeau Office;
+    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
     font-size: 32px;
 }
 .info_section p{
@@ -1338,7 +1345,7 @@ button {
 } 
 .current-cat{
     margin: auto;
-    font-family: Ysabeau Office;
+    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
     font-weight:500;
     font-size:24px;
 }
