@@ -73,7 +73,7 @@
                   <a class="nav-link" href="/blogs">Blog</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" href="https://wa.me/+254797262808"><i class="fab fa-whatsapp" style="margin-right:10px;"></i>Always online</a>
+                  <a class="nav-link" href="https://wa.me/+254795614357"><i class="fab fa-whatsapp" style="margin-right:10px;"></i>Always online</a>
                   </li>
                </ul>
 
@@ -137,19 +137,19 @@
             </div>
             <div class="social_icon">
                <ul>
-                  <li>
-                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                  </li>
-                  <li>
-                     <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                  </li>
-                  <li>
-                     <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                  </li>
-                  <li>
-                     <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                  </li>
-               </ul>
+                    <li>
+                        <a href="https://www.facebook.com/allureessencespa"><i class="fa fa-facebook mb-4" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="mailto:info@allureessence.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="tel:+254795614357"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/allure_essence_spa/"><i class="fa fa-instagram mb-4" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
             </div>
          </div>
       </div>
