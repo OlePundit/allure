@@ -552,7 +552,7 @@
                                 <li><a href="/about" class="text-white">About</a></li>
                                 <li><a href="/contact" class="text-white">Contact</a></li>
                                 <li><a href="/book" class="text-white">Book</a></li>
-                                <li><a href="/blog" class="text-white">Blog</a></li>
+                                <li><a href="/blogs" class="text-white">Blog</a></li>
                             </ul>
                         </div>
                     </div>
