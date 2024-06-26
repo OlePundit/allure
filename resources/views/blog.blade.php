@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="container service">
+<div class="container blog">
     <div class="row justify-content-center">
         <div class="container" style="width:100%;margin:auto;">
             <div class="row section-service" style="align-items:flex-start;justify-content:flex-start;">
@@ -12,7 +12,8 @@
                     <h6 class="text-center">{{$slug->created_at}}</h6>
                 </div>
                 <div class="col-lg-9 col-md-12 body">
-                {!! $slug->body !!}
+                    <h1>{{$slug->title}}></h1>
+                    {!! $slug->body !!}
                     <div class="row">
                         <a href="/book">
                             <button>Book Today</button>
