@@ -53,7 +53,7 @@ class HomeController extends Controller
     public function services()
     {
         $hairs = Service::where('category','Hair dressing')->get();
-        $messages = Service::where('category', 'Massage')->get();
+        $massages = Service::where('category', 'Massage')->get();
         $bodys = Service::where('category', 'Body Scrubs')->get();
         $dreads = Service::where('category', 'Dread locks')->get();
         $mens = Service::where('category', 'Mens')->get();
@@ -67,6 +67,6 @@ class HomeController extends Controller
         $barberAs = Service::where('category', 'Barber African')->get();
         $barberCs = Service::where('category', 'Barber Caucasian')->get();
 
-        return view('services', compact('hairs','messages','bodys','dreads','mens','colours','africans','caucasians','weavings','permanents','pixies','relaxers','barberAs','barberCs'));
+        return view('services', compact('hairs','massages','bodys','dreads','mens','colours','africans','caucasians','weavings','permanents','pixies','relaxers','barberAs','barberCs'));
     }
 }
