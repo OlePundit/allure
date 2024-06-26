@@ -11,10 +11,10 @@
             @foreach($hairs as $hair)
             <div class="col-lg-2">
                 <div class="card" style="width: 100%;">
-                    <img src="/storage/images/product.jpg" class="card-img-top" alt="thumbnail">
+                    <img src="/storage/{{$hair->thumbnail}}" class="card-img-top" alt="thumbnail">
                     <div class="card-body">
                     <h5 class="card-title">{{$hair->name}}</h5>
-                    <p class="card-text">{{$hair->price}}</p>
+                    <p class="card-text">Ksh {{$hair->price}}</p>
                     <a href="/book" class="">Order Now</a>
                     </div>
                 </div>
@@ -27,10 +27,10 @@
 
             <div class="col-lg-3 col-sm-6">
                 <div class="card" style="width: 100%;">
-                    <img src="/storage/images/product.jpg" class="card-img-top" alt="thumbnail">
+                    <img src="/storage/{{$massage->thumbnail}}" class="card-img-top" alt="thumbnail">
                     <div class="card-body">
                     <h5 class="card-title">{{$massage->name}}</h5>
-                    <p class="card-text">{{$massage->price}}</p>
+                    <p class="card-text">Ksh {{$massage->price}}</p>
                     <a href="/book" class="">Order Now</a>
                     </div>
                 </div>
@@ -44,10 +44,10 @@
 
             <div class="col-lg-3 col-sm-6">
                 <div class="card" style="width: 100%;">
-                    <img src="/storage/images/product.jpg" class="card-img-top" alt="...">
+                    <img src="/storage/{{$body->thumbnail}}" class="card-img-top" alt="...">
                     <div class="card-body">
                     <h5 class="card-title">{{$body->name}}</h5>
-                    <p class="card-text">{{$body->price}}</p>
+                    <p class="card-text">Ksh {{$body->price}}</p>
                     <a href="/book" class="">Order Now</a>
                     </div>
                 </div>
@@ -63,10 +63,10 @@
 
             <div class="col-lg-3 col-sm-6">
                 <div class="card" style="width: 100%;">
-                    <img src="/storage/images/product.jpg" class="card-img-top" alt="...">
+                    <img src="/storage/{{$dread->thumbnail}}" class="card-img-top" alt="...">
                     <div class="card-body">
                     <h5 class="card-title">{{$dread->name}}</h5>
-                    <p class="card-text">{{$dread->price}}</p>
+                    <p class="card-text">Ksh {{$dread->price}}</p>
                     <a href="/book" class="">Order Now</a>
                     </div>
                 </div>
@@ -82,10 +82,10 @@
 
             <div class="col-lg-3 col-sm-6">
                 <div class="card" style="width: 100%;">
-                    <img src="/storage/images/product.jpg" class="card-img-top" alt="...">
+                    <img src="/storage/{{$men->thumbnail}}" class="card-img-top" alt="...">
                     <div class="card-body">
                     <h5 class="card-title">{{$men->name}}</h5>
-                    <p class="card-text">{{$men->price}}</p>
+                    <p class="card-text">Ksh {{$men->price}}</p>
                     <a href="/book" class="">Order Now</a>
                     </div>
                 </div>
@@ -101,10 +101,10 @@
 
             <div class="col-lg-3 col-sm-6">
                 <div class="card" style="width: 100%;">
-                    <img src="/storage/images/product.jpg" class="card-img-top" alt="...">
+                    <img src="/storage/{{$colour->thumbnail}}" class="card-img-top" alt="...">
                     <div class="card-body">
                     <h5 class="card-title">{{$colour->name}}</h5>
-                    <p class="card-text">{{$colour->price}}</p>
+                    <p class="card-text">Ksh {{$colour->price}}</p>
                     <a href="/book" class="">Order Now</a>
                     </div>
                 </div>
@@ -120,10 +120,10 @@
 
             <div class="col-lg-3 col-sm-6">
                 <div class="card" style="width: 100%;">
-                    <img src="/storage/images/product.jpg" class="card-img-top" alt="...">
+                    <img src="/storage/{{$african->thumbnail}}" class="card-img-top" alt="...">
                     <div class="card-body">
                     <h5 class="card-title">{{$african->name}}</h5>
-                    <p class="card-text">{{$african->price}}</p>
+                    <p class="card-text">Ksh {{$african->price}}</p>
                     <a href="/book" class="">Order Now</a>
                     </div>
                 </div>
@@ -139,10 +139,10 @@
 
             <div class="col-lg-3 col-sm-6">
                 <div class="card" style="width: 100%;">
-                    <img src="/storage/images/product.jpg" class="card-img-top" alt="...">
+                    <img src="/storage/{{$caucasian->thumbnail}}" class="card-img-top" alt="...">
                     <div class="card-body">
                     <h5 class="card-title">{{$caucasian->name}}</h5>
-                    <p class="card-text">{{$caucasian->price}}</p>
+                    <p class="card-text">Ksh {{$caucasian->price}}</p>
                     <a href="/book" class="">Order Now</a>
                     </div>
                 </div>
@@ -159,10 +159,10 @@
 
             <div class="col-lg-3 col-sm-6">
                 <div class="card" style="width: 100%;">
-                    <img src="/storage/images/product.jpg" class="card-img-top" alt="...">
+                    <img src="/storage/{{$weaving->thumbnail}}" class="card-img-top" alt="...">
                     <div class="card-body">
                     <h5 class="card-title">{{$weaving->name}}</h5>
-                    <p class="card-text">{{$weaving->price}}</p>
+                    <p class="card-text">Ksh {{$weaving->price}}</p>
                     <a href="/book" class="">Order Now</a>
                     </div>
                 </div>
@@ -179,10 +179,10 @@
 
             <div class="col-lg-3 col-sm-6">
                 <div class="card" style="width: 100%;">
-                    <img src="/storage/images/product.jpg" class="card-img-top" alt="...">
+                    <img src="/storage/{{$permanent->thumbnail}}" class="card-img-top" alt="...">
                     <div class="card-body">
                     <h5 class="card-title">{{$permanent->name}}</h5>
-                    <p class="card-text">{{$permanent->price}}</p>
+                    <p class="card-text">Ksh {{$permanent->price}}</p>
                     <a href="/book" class="">Order Now</a>
                     </div>
                 </div>
@@ -198,10 +198,10 @@
 
             <div class="col-lg-3 col-sm-6">
                 <div class="card" style="width: 100%;">
-                    <img src="/storage/images/product.jpg" class="card-img-top" alt="...">
+                    <img src="/storage/{{$pixie->thumbnail}}" class="card-img-top" alt="...">
                     <div class="card-body">
                     <h5 class="card-title">{{$pixie->name}}</h5>
-                    <p class="card-text">{{$pixie->price}}</p>
+                    <p class="card-text">Ksh {{$pixie->price}}</p>
                     <a href="/book" class="">Order Now</a>
                     </div>
                 </div>
@@ -217,10 +217,10 @@
 
             <div class="col-lg-3 col-sm-6">
                 <div class="card" style="width: 100%;">
-                    <img src="/storage/images/product.jpg" class="card-img-top" alt="...">
+                    <img src="/storage/{{$relaxer->thumbnail}}" class="card-img-top" alt="...">
                     <div class="card-body">
                     <h5 class="card-title">{{$relaxer->name}}</h5>
-                    <p class="card-text">{{$relaxer->price}}</p>
+                    <p class="card-text">Ksh {{$relaxer->price}}</p>
                     <a href="/book" class="">Order Now</a>
                     </div>
                 </div>
@@ -236,10 +236,10 @@
 
             <div class="col-lg-3 col-sm-6">
                 <div class="card" style="width: 100%;">
-                    <img src="/storage/images/product.jpg" class="card-img-top" alt="...">
+                    <img src="/storage/{{$barberA->thumbnail}}" class="card-img-top" alt="...">
                     <div class="card-body">
                     <h5 class="card-title">{{$barberA->name}}</h5>
-                    <p class="card-text">{{$barberA->price}}</p>
+                    <p class="card-text">Ksh {{$barberA->price}}</p>
                     <a href="/book" class="">Order Now</a>
                     </div>
                 </div>
@@ -255,10 +255,10 @@
 
             <div class="col-lg-3 col-sm-6">
                 <div class="card" style="width: 100%;">
-                    <img src="/storage/images/product.jpg" class="card-img-top" alt="...">
+                    <img src="/storage/{{$barberC->thumbnail}}" class="card-img-top" alt="...">
                     <div class="card-body">
                     <h5 class="card-title">{{$barberC->name}}</h5>
-                    <p class="card-text">{{$barberC->price}}</p>
+                    <p class="card-text">Ksh {{$barberC->price}}</p>
                     <a href="/book" class="">Order Now</a>
                     </div>
                 </div>

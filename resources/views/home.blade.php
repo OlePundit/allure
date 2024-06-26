@@ -29,16 +29,18 @@
 
         <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
         <!-- Scripts -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
         <!-- Bootstrap JS -->
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
         <!-- Styles -->
         <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
-        <link rel="stylesheet" href="{{ asset('build/assets/app-D7yHkshj.css') }}">
+        <link rel="stylesheet" href="{{ asset('build/assets/app-DJyq2DSN.css') }}">
         <link rel="stylesheet" href="{{ asset('build/assets/app-sEhFnVTV.css') }}">
-        <link rel="stylesheet" href="{{ asset('build/assets/responsive-Dx8seIzz.css') }}">
+        <link rel="stylesheet" href="{{ asset('build/assets/responsive-8r-qn9KV.css') }}">
         <script src="{{ asset('build/assets/app-BwDpqcm8.js') }}"></script>
     </head>
     <body>
@@ -225,7 +227,7 @@
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="card" style="width: 100%;">
-                            <img src="/storage/images/product.jpg" class="card-img-top" alt="thumbnail">
+                            <img src="/storage/{{$hair->thumbnail}}" class="card-img-top" alt="thumbnail">
                             <div class="card-body">
                             <h5 class="card-title">{{$hair->name}}</h5>
                             <p class="card-text">{{$hair->price}}</p>
@@ -243,7 +245,7 @@
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="card" style="width: 100%;">
-                            <img src="/storage/images/product.jpg" class="card-img-top" alt="thumbnail">
+                            <img src="/storage/{{$massage->thumbnail}}" class="card-img-top" alt="thumbnail">
                             <div class="card-body">
                             <h5 class="card-title">{{$massage->name}}</h5>
                             <p class="card-text">{{$massage->price}}</p>
@@ -261,7 +263,7 @@
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="card" style="width: 100%;">
-                            <img src="/storage/images/product.jpg" class="card-img-top" alt="...">
+                            <img src="/storage/{{$body->thumbnail}}" class="card-img-top" alt="...">
                             <div class="card-body">
                             <h5 class="card-title">{{$body->name}}</h5>
                             <p class="card-text">{{$body->price}}</p>

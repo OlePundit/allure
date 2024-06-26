@@ -14,7 +14,7 @@
                 <form method="POST" action="https://formsubmit.co/your@email.com">
                     <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
                     <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
-                    <select class="form-select mb-3">
+                    <select class="form-control mb-3">
                         <option value="null">Choose service type</option>
                         <option value="hair dressing">Hair dressing</option>
                         <option value="Massage">Massage</option>

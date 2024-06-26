@@ -53,7 +53,7 @@ class HomeController extends Controller
     public function services()
     {
         $hairs = Service::where('category','Hair dressing')->get();
-        $massages = Service::where('category', 'Massage')->get();
+        $messages = Service::where('category', 'Massage')->get();
         $bodys = Service::where('category', 'Body Scrubs')->get();
         $dreads = Service::where('category', 'Dread locks')->get();
         $mens = Service::where('category', 'Mens')->get();

@@ -525,6 +525,12 @@ button {
     padding-left: 90px;
     z-index: 2;
 }
+.app .navbar-toggler{
+    border-color:#202020;
+}
+.app .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
 
 
 /* header section end */
@@ -539,6 +545,16 @@ button {
     height: 80vh;
     background-size: 100% 100%;
     background-repeat: no-repeat;
+}
+.banner_section .navbar-toggler{
+    border-color:#fff;
+}
+.banner_section .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.banner_section .collapse ul{
+    padding:50px;
+    background:#202020;
 }
 
 .banner_taital {
@@ -594,8 +610,12 @@ button {
     padding-bottom: 90px;
     background:#202020;
 }
-.product_section h3{
-    color:#fff;
+.product_section h3 {
+    color: #fff;
+    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 500;
 }
 .product-row{
     margin-bottom: 50px;
@@ -615,8 +635,10 @@ button {
     border-radius: 0 0 8px 8px;
     padding-bottom: 25px;
 }
-.product_section .card .card-body h5{
-    color:#fff;
+.product_section .card .card-body h5 {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
 }
 .product_section .card .card-body p{
     color:#fff;
@@ -1377,4 +1399,11 @@ button {
     position: absolute;
     bottom: 0px; /* Adjust the value to your preference */
     z-index: 10;
+}
+.service_section h3 {
+    color: #fff;
+    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 500;
 }

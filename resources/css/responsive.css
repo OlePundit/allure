@@ -152,9 +152,7 @@
 /*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
 
 @media only screen and (min-width: 280px) and (max-width: 599px) {
-    .navbar-toggler{
-        margin-left: 35px;
-    }
+
     .cart-content-right {
         padding-bottom: 5px;
     }
@@ -536,9 +534,7 @@
         background-color: rgba(255, 255, 255, 0.3);
         height: 100%;
     }
-    .navbar-toggler{
-        margin-left: 35px;
-    }
+
     .read_bt a {
         width: 80%;
         float: left;
@@ -594,6 +590,13 @@
     }
     .navbar-brand{
         display:none;
+    }
+    .about_section h2 {
+        text-align: center;
+        font-weight: 700;
+        font-family: Ysabeau Office, Times New Roman, Times, serif;
+        font-size: 40px;
+        color: #fff;
     }
     .box .text {
         position: absolute;
