@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div><img src="storage/images/about4.webp" class="image_3 rounded"></div>
+                <div><img src="storage/images/about4.webp" class="image_3 rounded" alt="about"></div>
             </div>
         </div>
     </div>

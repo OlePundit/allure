@@ -113,7 +113,7 @@
       <!-- footer section start -->
       <div class="footer_section layout_padding">
          <div class="container">
-            <div class="footer_logo"><a href="index.html"><img src="storage/images/logo.png"></a></div>
+            <div class="footer_logo"><a href="index.html"><img src="storage/images/logo.png" alt="logo"></a></div>
             <div class="contact_section_2">
                <div class="row">
                   <div class="col-sm-4">
@@ -139,7 +139,7 @@
                      </div>
                   </div>
                   <div class="col-sm-4">
-                     <div class="footer_logo_1"><a href="index.html"><img src="storage/images/logo.png"></a></div>
+                     <div class="footer_logo_1"><a href="index.html"><img src="storage/images/logo.png" alt="logo"></a></div>
                      <p class="dummy_text">Experience relaxation and rejuvenation</p>
                   </div>
                   <div class="col-sm-4">

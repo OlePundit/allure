@@ -137,7 +137,19 @@
                             <p class="banner_text">Welcome to Allure Essence Spa & Hair Studio, your sanctuary of tranquility and beauty in the heart of Nairobi. Immerse yourself in our luxurious treatments designed to rejuvenate your mind, body, and spirit.</p>
                             <div class="read_bt"><a href="/book">Book Today</a></div>
                         </div>
-                        <img src="/storage/images/slider4.webp" class="" alt="slider-img">
+                        <img
+                        sizes="(max-width: 1400px) 100vw, 1400px"
+                        srcset="
+                        slider4_osltwa_c_scale,w_200.webp 200w,
+                        slider4_osltwa_c_scale,w_678.webp 678w,
+                        slider4_osltwa_c_scale,w_981.webp 981w,
+                        slider4_osltwa_c_scale,w_1272.webp 1272w,
+                        slider4_osltwa_c_scale,w_1326.webp 1326w,
+                        slider4_osltwa_c_scale,w_1386.webp 1386w,
+                        slider4_osltwa_c_scale,w_1400.webp 1400w"
+                        src="slider4_osltwa_c_scale,w_1400.webp"
+                        alt="slider">
+
                     </div>
 
                     <div class="swiper-slide box">
@@ -164,7 +176,17 @@
                             <p class="banner_text">Welcome to Allure Essence Spa & Hair Studio, your sanctuary of tranquility and beauty in the heart of Nairobi. Immerse yourself in our luxurious treatments designed to rejuvenate your mind, body, and spirit.</p>
                             <div class="read_bt"><a href="/book">Book Today</a></div>
                         </div>
-                        <img src="/storage/images/slider2.webp" class="" alt="slider-img">
+                        <img
+                        sizes="(max-width: 1400px) 100vw, 1400px"
+                        srcset="
+                        slider2_zpsjvu_c_scale,w_200.webp 200w,
+                        slider2_zpsjvu_c_scale,w_643.webp 643w,
+                        slider2_zpsjvu_c_scale,w_949.webp 949w,
+                        slider2_zpsjvu_c_scale,w_1237.webp 1237w,
+                        slider2_zpsjvu_c_scale,w_1333.webp 1333w,
+                        slider2_zpsjvu_c_scale,w_1400.webp 1400w"
+                        src="slider2_zpsjvu_c_scale,w_1400.webp"
+                        alt="slider">
 
                     </div>
                 </div>
@@ -210,7 +232,27 @@
                     </div>
                     <div class="col-md-6">
                         <div class="image-container-1">
-                            <img src="/storage/images/about4.webp" class="image_3 rounded" alt="info-img">
+                            <img
+                            sizes="(max-width: 1400px) 100vw, 1400px"
+                            srcset="
+                            about4_en1htn_c_scale,w_200.webp 200w,
+                            about4_en1htn_c_scale,w_381.webp 381w,
+                            about4_en1htn_c_scale,w_582.webp 582w,
+                            about4_en1htn_c_scale,w_573.webp 573w,
+                            about4_en1htn_c_scale,w_676.webp 676w,
+                            about4_en1htn_c_scale,w_777.webp 777w,
+                            about4_en1htn_c_scale,w_872.webp 872w,
+                            about4_en1htn_c_scale,w_966.webp 966w,
+                            about4_en1htn_c_scale,w_1067.webp 1067w,
+                            about4_en1htn_c_scale,w_1159.webp 1159w,
+                            about4_en1htn_c_scale,w_1269.webp 1269w,
+                            about4_en1htn_c_scale,w_1365.webp 1365w,
+                            about4_en1htn_c_scale,w_1396.webp 1396w,
+                            about4_en1htn_c_scale,w_1392.webp 1392w,
+                            about4_en1htn_c_scale,w_1397.webp 1397w,
+                            about4_en1htn_c_scale,w_1400.webp 1400w"
+                            src="about4_en1htn_c_scale,w_1400.webp"
+                            class="image_3 rounded" alt="info-img">
                             <img src="/storage/images/about2.webp" class="image-4-overlap rounded" alt="info-img">
                         </div>
 
@@ -312,22 +354,52 @@
                             <div class="col-md-4 col-12 info-side">
                                 <div class="row">
                                 <div class="col-6 mb-3">
-                                    <img src="/storage/images/aboutSlider1.webp">
+                                    <img src="/storage/images/aboutSlider1.webp" alt="banner-img">
                                 </div>
                                 <div class="col-6 mb-3">
-                                    <img src="/storage/images/aboutSlider2.webp">
+                                    <img
+                                    sizes="(max-width: 1400px) 100vw, 1400px"
+                                    srcset="
+                                    aboutSlider2_emcfnp_c_scale,w_200.webp 200w,
+                                    aboutSlider2_emcfnp_c_scale,w_419.webp 419w,
+                                    aboutSlider2_emcfnp_c_scale,w_571.webp 571w,
+                                    aboutSlider2_emcfnp_c_scale,w_701.webp 701w,
+                                    aboutSlider2_emcfnp_c_scale,w_843.webp 843w,
+                                    aboutSlider2_emcfnp_c_scale,w_983.webp 983w,
+                                    aboutSlider2_emcfnp_c_scale,w_943.webp 943w,
+                                    aboutSlider2_emcfnp_c_scale,w_1296.webp 1296w,
+                                    aboutSlider2_emcfnp_c_scale,w_1371.webp 1371w,
+                                    aboutSlider2_emcfnp_c_scale,w_1391.webp 1391w,
+                                    aboutSlider2_emcfnp_c_scale,w_1374.webp 1374w,
+                                    aboutSlider2_emcfnp_c_scale,w_1400.webp 1400w"
+                                    src="aboutSlider2_emcfnp_c_scale,w_1400.webp"
+                                    alt="banner">
                                 </div>                           
                                 <div class="col-6 mb-3">
-                                    <img src="/storage/images/aboutSlider3.webp">
+                                    <img src="/storage/images/aboutSlider3.webp" alt="banner-img">
                                 </div>
                                 <div class="col-6 mb-3">
-                                    <img src="/storage/images/aboutSlider4.webp">
+                                    <img src="/storage/images/aboutSlider4.webp" alt="banner-img">
                                 </div>
                                 <div class="col-6">
-                                    <img src="/storage/images/aboutSlider5.webp">
+                                    <img
+                                    sizes="(max-width: 1400px) 100vw, 1400px"
+                                    srcset="
+                                    aboutSlider5_gorn32_c_scale,w_200.webp 200w,
+                                    aboutSlider5_gorn32_c_scale,w_475.webp 475w,
+                                    aboutSlider5_gorn32_c_scale,w_665.webp 665w,
+                                    aboutSlider5_gorn32_c_scale,w_851.webp 851w,
+                                    aboutSlider5_gorn32_c_scale,w_1009.webp 1009w,
+                                    aboutSlider5_gorn32_c_scale,w_1166.webp 1166w,
+                                    aboutSlider5_gorn32_c_scale,w_1304.webp 1304w,
+                                    aboutSlider5_gorn32_c_scale,w_1398.webp 1398w,
+                                    aboutSlider5_gorn32_c_scale,w_1396.webp 1396w,
+                                    aboutSlider5_gorn32_c_scale,w_1400.webp 1400w"
+                                    src="aboutSlider5_gorn32_c_scale,w_1400.webp"
+                                    alt="banner">
                                 </div>
                                 <div class="col-6">
-                                    <img src="/storage/images/aboutSlider6.webp">
+                                    <img src="/storage/images/aboutSlider6.webp" alt="banner-img">
                                 </div>
                                 </div>
                             </div>
@@ -347,22 +419,43 @@
                             <div class="col-md-4 col-12 info-side">
                                 <div class="row">
                                 <div class="col-6 mb-3">
-                                    <img src="/storage/images/spa.webp">
+                                    <img src="/storage/images/spa.webp" alt="banner-img">
                                 </div>
                                 <div class="col-6 mb-3">
-                                    <img src="/storage/images/about2Slide2.webp">
+                                    <img src="/storage/images/about2Slide2.webp" alt="banner-img">
                                 </div>                           
                                 <div class="col-6 mb-3">
-                                    <img src="/storage/images/spa1.webp">
+                                    <img src="/storage/images/spa1.webp" alt="banner-img">
                                 </div>
                                 <div class="col-6 mb-3">
-                                    <img src="/storage/images/about2Slide4.webp">
+                                    <img src="/storage/images/about2Slide4.webp" alt="banner-img">
                                 </div>
                                 <div class="col-6">
-                                    <img src="/storage/images/spa2.webp">
+                                    <img src="/storage/images/spa2.webp" alt="banner-img">
                                 </div>
                                 <div class="col-6">
-                                    <img src="/storage/images/about2Slide6.webp">
+                                    <img
+                                    sizes="(max-width: 1400px) 100vw, 1400px"
+                                    srcset="
+                                    about2Slide6_ix2nwm_c_scale,w_200.webp 200w,
+                                    about2Slide6_ix2nwm_c_scale,w_415.webp 415w,
+                                    about2Slide6_ix2nwm_c_scale,w_528.webp 528w,
+                                    about2Slide6_ix2nwm_c_scale,w_665.webp 665w,
+                                    about2Slide6_ix2nwm_c_scale,w_794.webp 794w,
+                                    about2Slide6_ix2nwm_c_scale,w_848.webp 848w,
+                                    about2Slide6_ix2nwm_c_scale,w_867.webp 867w,
+                                    about2Slide6_ix2nwm_c_scale,w_951.webp 951w,
+                                    about2Slide6_ix2nwm_c_scale,w_1027.webp 1027w,
+                                    about2Slide6_ix2nwm_c_scale,w_1101.webp 1101w,
+                                    about2Slide6_ix2nwm_c_scale,w_1177.webp 1177w,
+                                    about2Slide6_ix2nwm_c_scale,w_1237.webp 1237w,
+                                    about2Slide6_ix2nwm_c_scale,w_1297.webp 1297w,
+                                    about2Slide6_ix2nwm_c_scale,w_1361.webp 1361w,
+                                    about2Slide6_ix2nwm_c_scale,w_1395.webp 1395w,
+                                    about2Slide6_ix2nwm_c_scale,w_1399.webp 1399w,
+                                    about2Slide6_ix2nwm_c_scale,w_1400.webp 1400w"
+                                    src="about2Slide6_ix2nwm_c_scale,w_1400.webp"
+                                    alt="">
                                 </div>
                                 </div>
                             </div>
@@ -373,7 +466,23 @@
                             <div class="col-md-6 col-12 info">
                                 <h3>Allure Essence</h3>
                                 <p class="mb-5">Welcome to the Barber Shop at Allure Essence Spa & Hair Studio, where classic barbering meets contemporary style. Located in the heart of Nairobi, our barber shop offers a full range of grooming services designed to keep you looking sharp and feeling your best. Whether you need a quick trim, a precise shave, or a complete style transformation, our experienced barbers are here to deliver exceptional service with meticulous attention to detail.</p>
-                                <img src="/storage/images/barber.webp" alt="banner-img">
+                                <img
+                                sizes="(max-width: 1400px) 100vw, 1400px"
+                                srcset="
+                                barber_wplliv_c_scale,w_200.webp 200w,
+                                barber_wplliv_c_scale,w_372.webp 372w,
+                                barber_wplliv_c_scale,w_527.webp 527w,
+                                barber_wplliv_c_scale,w_609.webp 609w,
+                                barber_wplliv_c_scale,w_726.webp 726w,
+                                barber_wplliv_c_scale,w_851.webp 851w,
+                                barber_wplliv_c_scale,w_971.webp 971w,
+                                barber_wplliv_c_scale,w_1101.webp 1101w,
+                                barber_wplliv_c_scale,w_1201.webp 1201w,
+                                barber_wplliv_c_scale,w_1303.webp 1303w,
+                                barber_wplliv_c_scale,w_1393.webp 1393w,
+                                barber_wplliv_c_scale,w_1400.webp 1400w"
+                                src="barber_wplliv_c_scale,w_1400.webp"
+                                alt="banner">
                             </div>
                             <div class="col-md-1 col-12 buttons">
                                 <div class="swiper-button-prev swiper-button-prev2"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
@@ -382,22 +491,59 @@
                             <div class="col-md-4 col-12 info-side">
                                 <div class="row">
                                 <div class="col-6 mb-3">
-                                    <img src="/storage/images/barber1.webp">
+                                    <img src="/storage/images/barber1.webp" alt="banner-img">
                                 </div>
                                 <div class="col-6 mb-3">
-                                    <img src="/storage/images/barber2.webp">
+                                    <img src="/storage/images/barber2.webp" alt="banner-img">
                                 </div>                           
                                 <div class="col-6 mb-3">
-                                    <img src="/storage/images/barber3.webp">
+                                    <img src="/storage/images/barber3.webp" alt="banner-img">
                                 </div>
                                 <div class="col-6 mb-3">
-                                    <img src="/storage/images/barber4.webp">
+                                    <img src="/storage/images/barber4.webp" alt="banner-img">
                                 </div>
                                 <div class="col-6">
-                                    <img src="/storage/images/barber5.webp">
+                                    <img
+                                    sizes="(max-width: 1400px) 100vw, 1400px"
+                                    srcset="
+                                    barber5_ankkef_c_scale,w_200.webp 200w,
+                                    barber5_ankkef_c_scale,w_439.webp 439w,
+                                    barber5_ankkef_c_scale,w_636.webp 636w,
+                                    barber5_ankkef_c_scale,w_820.webp 820w,
+                                    barber5_ankkef_c_scale,w_977.webp 977w,
+                                    barber5_ankkef_c_scale,w_924.webp 924w,
+                                    barber5_ankkef_c_scale,w_1276.webp 1276w,
+                                    barber5_ankkef_c_scale,w_1349.webp 1349w,
+                                    barber5_ankkef_c_scale,w_1381.webp 1381w,
+                                    barber5_ankkef_c_scale,w_1388.webp 1388w,
+                                    barber5_ankkef_c_scale,w_1400.webp 1400w"
+                                    src="barber5_ankkef_c_scale,w_1400.webp"
+                                    alt="banner">
                                 </div>
                                 <div class="col-6">
-                                    <img src="/storage/images/barber6.webp">
+                                <img
+                                sizes="(max-width: 1400px) 100vw, 1400px"
+                                srcset="
+                                barber6_sjlluj_c_scale,w_200.webp 200w,
+                                barber6_sjlluj_c_scale,w_337.webp 337w,
+                                barber6_sjlluj_c_scale,w_460.webp 460w,
+                                barber6_sjlluj_c_scale,w_536.webp 536w,
+                                barber6_sjlluj_c_scale,w_625.webp 625w,
+                                barber6_sjlluj_c_scale,w_707.webp 707w,
+                                barber6_sjlluj_c_scale,w_799.webp 799w,
+                                barber6_sjlluj_c_scale,w_897.webp 897w,
+                                barber6_sjlluj_c_scale,w_924.webp 924w,
+                                barber6_sjlluj_c_scale,w_934.webp 934w,
+                                barber6_sjlluj_c_scale,w_1008.webp 1008w,
+                                barber6_sjlluj_c_scale,w_1293.webp 1293w,
+                                barber6_sjlluj_c_scale,w_1154.webp 1154w,
+                                barber6_sjlluj_c_scale,w_1225.webp 1225w,
+                                barber6_sjlluj_c_scale,w_1287.webp 1287w,
+                                barber6_sjlluj_c_scale,w_1364.webp 1364w,
+                                barber6_sjlluj_c_scale,w_1390.webp 1390w,
+                                barber6_sjlluj_c_scale,w_1400.webp 1400w"
+                                src="barber6_sjlluj_c_scale,w_1400.webp"
+                                alt="banner">
                                 </div>
                                 </div>
                             </div>
@@ -417,22 +563,22 @@
                             <div class="col-md-4 col-12 info-side">
                                 <div class="row">
                                 <div class="col-6 mb-3">
-                                    <img src="/storage/images/feet1.webp">
+                                    <img src="/storage/images/feet1.webp" alt="banner-img">
                                 </div>
                                 <div class="col-6 mb-3">
-                                    <img src="/storage/images/feet2.webp">
+                                    <img src="/storage/images/feet2.webp" alt="banner-img">
                                 </div>                           
                                 <div class="col-6 mb-3">
-                                    <img src="/storage/images/feet3.webp">
+                                    <img src="/storage/images/feet3.webp" alt="banner-img">
                                 </div>
                                 <div class="col-6 mb-3">
-                                    <img src="/storage/images/feet4.webp">
+                                    <img src="/storage/images/feet4.webp" alt="banner-img">
                                 </div>
                                 <div class="col-6">
-                                    <img src="/storage/images/feet5.webp">
+                                    <img src="/storage/images/feet5.webp" alt="banner-img">
                                 </div>
                                 <div class="col-6">
-                                    <img src="/storage/images/feet6.webp">
+                                    <img src="/storage/images/feet6.webp" alt="banner-img">
                                 </div>
                                 </div>
                             </div>
@@ -530,7 +676,7 @@
         <!-- footer section start -->
         <div class="footer_section layout_padding">
             <div class="container">
-                <div class="footer_logo"><a href="index.html"><img src="/storage/images/logo.png"></a></div>
+                <div class="footer_logo"><a href="index.html"><img src="/storage/images/logo.png" alt="logo"></a></div>
                 <div class="contact_section_2">
                 <div class="row">
                     <div class="col-sm-4">
@@ -556,7 +702,7 @@
                         </div>
                     </div>
                     <div class="col-sm-4">
-                        <div class="footer_logo_1"><a href="index.html"><img src="/storage/images/logo.png"></a></div>
+                        <div class="footer_logo_1"><a href="index.html"><img src="/storage/images/logo.png" alt="logo"></a></div>
                         <p class="dummy_text">Experience relaxation and rejuvenation</p>
                     </div>
                     <div class="col-sm-4">
