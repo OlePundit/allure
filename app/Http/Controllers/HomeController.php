@@ -65,8 +65,8 @@ class HomeController extends Controller
         $pixies = Service::where('category', 'Pixie cut')->get();
         $relaxers = Service::where('category', 'Relaxers')->get();
         $barberAs = Service::where('category', 'Barber African')->get();
-        $barberC = Service::where('category', 'Barber Caucasian')->get();
+        $barberCs = Service::where('category', 'Barber Caucasian')->get();
 
-        return view('services', compact('hairs','messages','bodys','dreads','mens','colours','africans','caucasians','weavings','permanents','pixies','relaxers','barberA','barberC'));
+        return view('services', compact('hairs','messages','bodys','dreads','mens','colours','africans','caucasians','weavings','permanents','pixies','relaxers','barberAs','barberCs'));
     }
 }

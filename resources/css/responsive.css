@@ -573,6 +573,13 @@
         margin-bottom: 30px;
     }
 }
+@media (max-width: 767px) {
+
+    .banner_section .collapse ul{
+        padding:50px;
+        background:#202020;
+    }
+}
 @media (max-width: 575px) {
     .header_section {
         background-size: 100% 100%;
