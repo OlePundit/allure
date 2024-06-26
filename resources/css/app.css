@@ -1549,3 +1549,17 @@ button {
     padding-bottom: 90px;
     background: #202020;
 }
+.blog a{
+    background:#E1C17E;
+    border-radius: 8px;
+    padding:5px 10px;
+}
+.blog a:hover{
+    background:#fff;
+    border-radius: 8px;
+    padding:5px 10px;
+    color:#000;
+}
+.blog a button{
+    background:none;
+}
