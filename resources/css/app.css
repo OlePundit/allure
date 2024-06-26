@@ -1562,4 +1562,9 @@ button {
 }
 .blog a button{
     background:none;
+
+}
+
+.blog h2, h3, h4{
+    color:#fff;
 }
