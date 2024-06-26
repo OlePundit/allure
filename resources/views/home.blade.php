@@ -605,6 +605,8 @@
         var swiper1 = new Swiper('.swiper1', {
             // Optional parameters
             direction: 'vertical',
+            simulateTouch: false,
+
             // If we need pagination
             pagination: {
                 el: '.swiper-pagination1',
