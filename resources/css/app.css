@@ -1407,3 +1407,43 @@ button {
     margin-bottom: 15px;
     font-weight: 500;
 }
+.service_section .card{
+    border:none;
+    background:#404040;
+
+}
+.service_section .card p{
+    margin:0;
+}
+.service_section .card .card-img-top{
+    border-radius:6px 6px  0 0;
+    height: 300px;
+    object-fit: cover;
+}
+.service_section .card .card-body{
+    border-radius: 0 0 8px 8px;
+    padding-bottom: 25px;
+}
+.service_section .card .card-body h5 {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+}
+.service_section .card .card-body p{
+    color:#fff;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+    font-size:20px;
+}
+.service_section .card .card-body a{
+    background:#E1C17E;
+    border-radius: 8px;
+    padding:5px 10px;
+}
+.service_section .card .card-body a:hover{
+    background:#fff;
+    border-radius: 8px;
+    padding:5px 10px;
+    color:#000;
+}

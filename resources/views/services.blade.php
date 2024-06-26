@@ -9,7 +9,7 @@
 
         <div class="row">
             @foreach($hairs as $hair)
-            <div class="col-lg-2">
+            <div class="col-lg-3 mt-5">
                 <div class="card" style="width: 100%;">
                     <img src="/storage/{{$hair->thumbnail}}" class="card-img-top" alt="thumbnail">
                     <div class="card-body">
