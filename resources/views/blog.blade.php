@@ -14,7 +14,9 @@
                 <div class="col-lg-9 col-md-12 body">
                 {!! $slug->body !!}
                     <div class="row">
-                        <button>Request Quotation</button>
+                        <a href="/book">
+                            <button>Book Today</button>
+                        </a>
                     </div>
                 </div>
             </div>
