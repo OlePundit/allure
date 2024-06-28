@@ -11,7 +11,7 @@
         </div>
         <div class="col-md-6">
             <div class="contact_main">
-                <form method="POST" action="https://formsubmit.co/your@email.com">
+                <form method="POST" action="https://formsubmit.co/admin@allureessencespa.com">
                     <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
                     <input type="email" class="form-control mb-3" name="email" placeholder="email" required>
                     <textarea type="text" class="form-control mb-3" name="text" placeholder="Enter text" required></textarea>
