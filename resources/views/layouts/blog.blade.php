@@ -144,7 +144,7 @@
                   </div>
                   <div class="col-sm-4">
                         <div class="main">
-                            <h3 class="address_text text-white">Quick Links</h3>
+                            <h3 class="address_text text-white">Quick Links</h3>1
                             <ul>
                                 <li><a href="/about" class="text-white">About</a></li>
                                 <li><a href="/contact" class="text-white">Contact</a></li>

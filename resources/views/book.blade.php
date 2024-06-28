@@ -11,9 +11,12 @@
         </div>
         <div class="col-md-6">
             <div class="contact_main">
-                <form method="POST" action="https://formsubmit.co/your@email.com">
+                <form method="POST" action="https://formsubmit.co/admin@allureessencespa.com">
                     <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
                     <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
+                    <label class="text-white" style="font-size:16px;">Booking date</label>
+                    <input type="date" class="form-control mb-3" name="phone" placeholder="Booking date" required>
+
                     <select class="form-control mb-3">
                         <option value="null">Choose service type</option>
                         <option value="hair dressing">Hair dressing</option>
