@@ -666,6 +666,9 @@ button {
     margin-right: 10px;
     padding: 3px 6px;
 }
+.product_section .card .card-body .duration-wrap span i{
+    margin-right: 7px;
+}
 .product_section .card .card-body a{
     background:#E1C17E;
     border-radius: 8px;
@@ -1656,6 +1659,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 10px;
 }
 .ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor, .ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor, .ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor {
     cursor: text;
