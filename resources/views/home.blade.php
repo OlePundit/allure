@@ -268,8 +268,8 @@
                                         <h5 class="card-title">{{$hair->name}}</h5>
                                         <h6 class="desc">{{$hair->description}}</h6>
                                         <div class="d-flex duration-wrap">
-                                            <span class="card-text">{{$hair->duration}}</span>
-                                            <span class="">{{$hair->payment_terms}}</span>
+                                            <span class="card-text"><i class="fa-solid fa-clock"></i>{{$hair->duration}}</span>
+                                            <span class=""><i class="fa-solid fa-money-bill"></i>{{$hair->payment_terms}}</span>
                                         </div>
                                         <hr></hr>
                                         <div class="d-flex price-wrap">
@@ -295,8 +295,8 @@
                                         <h5 class="card-title">{{$massage->name}}</h5>
                                         <h6 class="desc">{{$massage->description}}</h6>
                                         <div class="d-flex duration-wrap">
-                                            <span class="card-text">{{$massage->duration}}</span>
-                                            <span class="">{{$massage->payment_terms}}</span>
+                                            <span class="card-text"><i class="fa-solid fa-clock"></i>{{$massage->duration}}</span>
+                                            <span class=""><i class="fa-solid fa-money-bill"></i>{{$massage->payment_terms}}</span>
                                         </div>
                                         <hr></hr>
                                         <div class="d-flex price-wrap">
@@ -319,18 +319,17 @@
                                     <div class="card mb-5" style="width: 100%;">
                                         <img src="/storage/{{$body->thumbnail}}" class="card-img-top" alt="...">
                                         <div class="card-body">
-                                        <h5 class="card-title">{{$body->name}}</h5>
-                                        <h6 class="desc">{{$body->description}}</h6>
-                                        <div class="d-flex duration-wrap">
-                                            <span class="card-text">{{$body->duration}}</span>
-                                            <span class="">{{$body->payment_terms}}</span>
-                                        </div>
-                                        <hr></hr>
-                                        <div class="d-flex price-wrap">
-                                            <p class="card-text">KSH {{$body->price}}</p>
-                                            <a href="/book" class="">Order Now</a>
-                                        </div>
-
+                                            <h5 class="card-title">{{$body->name}}</h5>
+                                            <h6 class="desc">{{$body->description}}</h6>
+                                            <div class="d-flex duration-wrap">
+                                                <span class="card-text"><i class="fa-solid fa-clock"></i>{{$body->duration}}</span>
+                                                <span class=""><i class="fa-solid fa-money-bill"></i>{{$body->payment_terms}}</span>
+                                            </div>
+                                            <hr></hr>
+                                            <div class="d-flex price-wrap">
+                                                <p class="card-text">KSH {{$body->price}}</p>
+                                                <a href="/book" class="">Order Now</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

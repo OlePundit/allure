@@ -659,6 +659,13 @@ button {
     font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
     font-size:20px;
 }
+.product_section .card .card-body .duration-wrap span{
+    color:#fff;
+    background:#202020;
+    border-radius: 8px;
+    margin-right: 10px;
+    padding: 3px 6px;
+}
 .product_section .card .card-body a{
     background:#E1C17E;
     border-radius: 8px;
