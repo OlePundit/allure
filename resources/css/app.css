@@ -639,7 +639,14 @@ button {
 .product_section .card .card-body h5 {
     color: #fff;
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 700;
+    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+
+}
+.product_section .card .card-body h6 {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
 }
 .product_section .card .card-body p{
     color:#fff;

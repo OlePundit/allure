@@ -267,7 +267,7 @@
                                         <div class="card-body">
                                         <h5 class="card-title">{{$hair->name}}</h5>
                                         <h6 class="desc">{{$hair->description}}</h6>
-                                        <p class="card-text">{{$hair->price}}</p>
+                                        <p class="card-text">KSH {{$hair->price}}</p>
                                         <a href="/book" class="">Order Now</a>
                                         </div>
                                     </div>
@@ -287,7 +287,7 @@
                                         <h5 class="card-title">{{$massage->name}}</h5>
                                         <h6 class="desc">{{$massage->description}}</h6>
 
-                                        <p class="card-text">{{$massage->price}}</p>
+                                        <p class="card-text">KSH {{$massage->price}}</p>
                                         <a href="/book" class="">Order Now</a>
                                         </div>
                                     </div>
@@ -307,7 +307,7 @@
                                         <h5 class="card-title">{{$body->name}}</h5>
                                         <h6 class="desc">{{$body->description}}</h6>
 
-                                        <p class="card-text">{{$body->price}}</p>
+                                        <p class="card-text">KSH {{$body->price}}</p>
                                         <a href="/book" class="">Order Now</a>
                                         </div>
                                     </div>
