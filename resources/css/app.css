@@ -648,6 +648,10 @@ button {
     font-size: 15px;
     font-weight: 400;
 }
+.product_section .card .card-body .price-wrap {
+    display:flex;
+    justify-content: space-between;
+}
 .product_section .card .card-body p{
     color:#fff;
     font-weight: 600;
