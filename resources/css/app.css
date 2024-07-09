@@ -1181,6 +1181,12 @@ button {
 .footer_section .business-hours .hours ul li{
     color:#fff;
 }
+.footer_section .main h3{
+    text-align: end;
+}
+.footer_section .main ul li{
+    text-align: end;
+}
 .footer_logo {
     width: 100%;
     float: left;

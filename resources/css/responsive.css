@@ -675,6 +675,12 @@
         padding-top: 0px;
         padding-left: 0px;
     }
+    .footer_section .main h3{
+        text-align: start;
+    }
+    .footer_section .main ul li{
+        text-align: start;
+    }
     .about_taital {
         font-size: 30px;
     }
