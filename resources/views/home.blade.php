@@ -53,9 +53,9 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
         <!-- Styles -->
         <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
-        <link rel="stylesheet" href="{{ asset('build/assets/app-B_VZRs9C.css') }}">
+        <link rel="stylesheet" href="{{ asset('build/assets/app-D73YxdJv.css') }}">
         <link rel="stylesheet" href="{{ asset('build/assets/app-sEhFnVTV.css') }}">
-        <link rel="stylesheet" href="{{ asset('build/assets/responsive-DhAHJOLM.css') }}">
+        <link rel="stylesheet" href="{{ asset('build/assets/responsive-DxX5jR_s.css') }}">
         <script src="{{ asset('build/assets/app-BwDpqcm8.js') }}"></script>
     </head>
     <body>
@@ -237,6 +237,124 @@
             </div>
         </div>
         <!-- about section end -->
+        <!-- service section start -->
+
+        <section class="services-section section-padding" id="section_3">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-12 col-12">
+                        <h2 class="mb-5">Gallery</h2>
+                    </div>
+
+                    <div class="col-lg-6 col-12 mb-4">
+                        <div class="services-thumb">
+                            <img
+                            sizes="(max-width: 1400px) 100vw, 1400px"
+                            srcset="
+                            storage/images/about3_upz0lc_c_scale,w_200.webp 200w,
+                            storage/images/about3_upz0lc_c_scale,w_572.webp 572w,
+                            storage/images/about3_upz0lc_c_scale,w_837.webp 837w,
+                            storage/images/about3_upz0lc_c_scale,w_1050.webp 1050w,
+                            storage/images/about3_upz0lc_c_scale,w_1286.webp 1286w,
+                            storage/images/about3_upz0lc_c_scale,w_1400.webp 1400w"
+                            src="storage/images/about3_upz0lc_c_scale,w_1400.webp"
+                            alt="info-img" class="services-image img-fluid">
+                            <div class="services-info d-flex align-items-end">
+                                <h4 class="mb-0">Hair cut</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-12 mb-4">
+                        <div class="services-thumb">
+                            <img
+                            sizes="(max-width: 1400px) 100vw, 1400px"
+                            srcset="
+                            storage/images/about_qhucqq_c_scale,w_200.webp 200w,
+                            storage/images/about_qhucqq_c_scale,w_391.webp 391w,
+                            storage/images/about_qhucqq_c_scale,w_512.webp 512w,
+                            storage/images/about_qhucqq_c_scale,w_653.webp 653w,
+                            storage/images/about_qhucqq_c_scale,w_780.webp 780w,
+                            storage/images/about_qhucqq_c_scale,w_913.webp 913w,
+                            storage/images/about_qhucqq_c_scale,w_950.webp 950w,
+                            storage/images/about_qhucqq_c_scale,w_994.webp 994w,
+                            storage/images/about_qhucqq_c_scale,w_1106.webp 1106w,
+                            storage/images/about_qhucqq_c_scale,w_1202.webp 1202w,
+                            storage/images/about_qhucqq_c_scale,w_1312.webp 1312w,
+                            storage/images/about_qhucqq_c_scale,w_1397.webp 1397w,
+                            storage/images/about_qhucqq_c_scale,w_1400.webp 1400w"
+                            src="storage/images/about_qhucqq_c_scale,w_1400.webp"
+                            alt="info-img" class="services-image img-fluid">
+                            <div class="services-info d-flex align-items-end">
+                                <h4 class="mb-0">Washing</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-12 mb-4 mb-lg-0">
+                        <div class="services-thumb">
+                        <img
+                            sizes="(max-width: 1400px) 100vw, 1400px"
+                            srcset="
+                            storage/images/about4_en1htn_c_scale,w_200.webp 200w,
+                            storage/images/about4_en1htn_c_scale,w_381.webp 381w,
+                            storage/images/about4_en1htn_c_scale,w_582.webp 582w,
+                            storage/images/about4_en1htn_c_scale,w_573.webp 573w,
+                            storage/images/about4_en1htn_c_scale,w_676.webp 676w,
+                            storage/images/about4_en1htn_c_scale,w_777.webp 777w,
+                            storage/images/about4_en1htn_c_scale,w_872.webp 872w,
+                            storage/images/about4_en1htn_c_scale,w_966.webp 966w,
+                            storage/images/about4_en1htn_c_scale,w_1067.webp 1067w,
+                            storage/images/about4_en1htn_c_scale,w_1159.webp 1159w,
+                            storage/images/about4_en1htn_c_scale,w_1269.webp 1269w,
+                            storage/images/about4_en1htn_c_scale,w_1365.webp 1365w,
+                            storage/images/about4_en1htn_c_scale,w_1396.webp 1396w,
+                            storage/images/about4_en1htn_c_scale,w_1392.webp 1392w,
+                            storage/images/about4_en1htn_c_scale,w_1397.webp 1397w,
+                            storage/images/about4_en1htn_c_scale,w_1400.webp 1400w"
+                            src="storage/images/about4_en1htn_c_scale,w_1400.webp"
+                            class="services-image img-fluid" alt="info-img">
+                            <div class="services-info d-flex align-items-end">
+                                <h4 class="mb-0">Shaves</h4>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-12">
+                        <div class="services-thumb">
+                            <img
+                            sizes="(max-width: 1400px) 100vw, 1400px"
+                            srcset="
+                            storage/images/about2_ubmvtp_c_scale,w_200.webp 200w,
+                            storage/images/about2_ubmvtp_c_scale,w_362.webp 362w,
+                            storage/images/about2_ubmvtp_c_scale,w_490.webp 490w,
+                            storage/images/about2_ubmvtp_c_scale,w_602.webp 602w,
+                            storage/images/about2_ubmvtp_c_scale,w_711.webp 711w,
+                            storage/images/about2_ubmvtp_c_scale,w_829.webp 829w,
+                            storage/images/about2_ubmvtp_c_scale,w_927.webp 927w,
+                            storage/images/about2_ubmvtp_c_scale,w_931.webp 931w,
+                            storage/images/about2_ubmvtp_c_scale,w_1006.webp 1006w,
+                            storage/images/about2_ubmvtp_c_scale,w_1097.webp 1097w,
+                            storage/images/about2_ubmvtp_c_scale,w_1199.webp 1199w,
+                            storage/images/about2_ubmvtp_c_scale,w_1287.webp 1287w,
+                            storage/images/about2_ubmvtp_c_scale,w_1373.webp 1373w,
+                            storage/images/about2_ubmvtp_c_scale,w_1398.webp 1398w,
+                            storage/images/about2_ubmvtp_c_scale,w_1400.webp 1400w"
+                            src="storage/images/about2_ubmvtp_c_scale,w_1400.webp"
+                            alt="info-img" class="services-image img-fluid" >
+                            <div class="services-info d-flex align-items-end">
+                                <h4 class="mb-0">Kids</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- service section end -->
+
         <!-- product section start -->
 
         <div class="product_section layout_padding">
