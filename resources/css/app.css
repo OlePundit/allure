@@ -1596,6 +1596,14 @@ button {
 /*---------------------------------------
   SERVICES             
 -----------------------------------------*/
+.services-section h3 {
+    margin: 0;
+    color: #e1c17e;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Ysabeau Office, Times New Roman, Times, serif;
+    font-size: 32px;
+}
 .services-thumb {
     border-radius: 20px;
     position: relative;
