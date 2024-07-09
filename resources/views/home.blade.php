@@ -261,7 +261,7 @@
                             src="storage/images/about3_upz0lc_c_scale,w_1400.webp"
                             alt="info-img" class="services-image img-fluid">
                             <div class="services-info d-flex align-items-end">
-                                <h4 class="mb-0">Hair cut</h4>
+                                <h4 class="mb-0">Spa</h4>
                             </div>
                         </div>
                     </div>
@@ -287,7 +287,7 @@
                             src="storage/images/about_qhucqq_c_scale,w_1400.webp"
                             alt="info-img" class="services-image img-fluid">
                             <div class="services-info d-flex align-items-end">
-                                <h4 class="mb-0">Washing</h4>
+                                <h4 class="mb-0">Pedicure</h4>
                             </div>
                         </div>
                     </div>
@@ -316,7 +316,7 @@
                             src="storage/images/about4_en1htn_c_scale,w_1400.webp"
                             class="services-image img-fluid" alt="info-img">
                             <div class="services-info d-flex align-items-end">
-                                <h4 class="mb-0">Shaves</h4>
+                                <h4 class="mb-0">Reception</h4>
 
                             </div>
                         </div>
@@ -372,7 +372,7 @@
                             src="storage/images/barber1_vsh8ga_c_scale,w_1400.webp"
                             alt="info-img" class="services-image img-fluid" >
                             <div class="services-info d-flex align-items-end">
-                                <h4 class="mb-0">Kids</h4>
+                                <h4 class="mb-0">Barber</h4>
                             </div>
                         </div>
                     </div>
@@ -394,7 +394,7 @@
                             src="storage/images/spa2_uijii6_c_scale,w_1400.webp"
                             alt="info-img" class="services-image img-fluid" >
                             <div class="services-info d-flex align-items-end">
-                                <h4 class="mb-0">Kids</h4>
+                                <h4 class="mb-0">Facial</h4>
                             </div>
                         </div>
                     </div>

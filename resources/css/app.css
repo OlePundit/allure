@@ -1596,6 +1596,15 @@ button {
 /*---------------------------------------
   SERVICES             
 -----------------------------------------*/
+.services-section {
+    width: 100%;
+    float: left;
+    background: #202020;
+    height: auto;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
 .services-section h3 {
     margin: 0;
     color: #e1c17e;
@@ -1604,12 +1613,17 @@ button {
     font-family: Ysabeau Office, Times New Roman, Times, serif;
     font-size: 32px;
 }
+.services-info h4 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+}
 .services-thumb {
     border-radius: 20px;
     position: relative;
     overflow: hidden;
     height:350px;
-  }
+}
   
   .services-thumb:hover .services-info {
     border-color: #E1C17E;
