@@ -267,8 +267,12 @@
                                         <div class="card-body">
                                         <h5 class="card-title">{{$hair->name}}</h5>
                                         <h6 class="desc">{{$hair->description}}</h6>
-                                        <p class="card-text">KSH {{$hair->price}}</p>
-                                        <a href="/book" class="">Order Now</a>
+                                        <hr></hr>
+                                        <div class="d-flex">
+                                            <p class="card-text">KSH {{$hair->price}}</p>
+                                            <a href="/book" class="">Order Now</a>
+                                        </div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -286,9 +290,12 @@
                                         <div class="card-body">
                                         <h5 class="card-title">{{$massage->name}}</h5>
                                         <h6 class="desc">{{$massage->description}}</h6>
+                                        <hr></hr>
+                                        <div class="d-flex">
+                                            <p class="card-text">KSH {{$massage->price}}</p>
+                                            <a href="/book" class="">Order Now</a>
+                                        </div>
 
-                                        <p class="card-text">KSH {{$massage->price}}</p>
-                                        <a href="/book" class="">Order Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -306,9 +313,12 @@
                                         <div class="card-body">
                                         <h5 class="card-title">{{$body->name}}</h5>
                                         <h6 class="desc">{{$body->description}}</h6>
+                                        <hr></hr>
+                                        <div class="d-flex">
+                                            <p class="card-text">KSH {{$body->price}}</p>
+                                            <a href="/book" class="">Order Now</a>
+                                        </div>
 
-                                        <p class="card-text">KSH {{$body->price}}</p>
-                                        <a href="/book" class="">Order Now</a>
                                         </div>
                                     </div>
                                 </div>
