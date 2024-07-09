@@ -1187,6 +1187,22 @@ button {
 .footer_section .main ul li{
     text-align: end;
 }
+.footer_section .cancellation-btn{
+    background: none;
+    border: 1px solid #E1C17E;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_section .cancellation-btn i{
+    padding: 5px 5px;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .footer_logo {
     width: 100%;
     float: left;

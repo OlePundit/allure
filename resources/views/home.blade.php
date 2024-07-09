@@ -1166,24 +1166,58 @@
                 </div>
                 <div class="row mt-5">
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Launch demo modal
-                    </button>
-
+                    <div class="col-12">
+                        <button type="button" class="cancellation-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Cancellation Policy<i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </button>
+                    </div>
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            ...
+                        This venue has specific guidelines regarding cancellations for certain services. They have the authority to impose a fee for cancellations made late or in the event of a no-show.
+
+                        There will be no charges for cancellations made up to 3 hours to your appointment time. Later than this, a cancellation fee of up to 30% of your booking value will be applied, before your refund is processed.
+
+                        Please note that in case of no show without any communication, your booking will be automatically cancelled 1 hour after your scheduled time.
+
+                        The cancellation fee will only be imposed if the terms of the cancellation policy are violated.
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <!-- Button trigger modal -->
+                    <div class="col-12">
+                        <button type="button" class="cancellation-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Reschedule Policy<i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Reschedule Policy</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        This venue has specific guidelines regarding rescheduling of appointments.
+
+                        You are allowed to reschedule within up to 1 hour before your appointment after which you will need to contact the business for rescheduling.
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                         </div>
                     </div>
