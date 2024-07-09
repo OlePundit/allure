@@ -855,52 +855,7 @@
                     <h1 class="customer_taital">What Our customers say</h1>
                 </div>
                 </div>
-                <div class="swiper-container1 swiper3">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="client_section_2">
-                            <div class="client_main">
-                            <div class="client_left">
-                                <div class="client_img"><img src="/storage/images/testimonial.webp" class="rounded" alt="testimonial"></div>
-                            </div>
-                            <div class="client_right">
-                                <h3 class="name_text">Sarah J</h3>
-                                <p class="dolor_text">I had an absolutely amazing experience at Allure Essence Spa & Hair Studio! From the moment I walked in, I was greeted with warm smiles and a calming atmosphere. </p>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="client_section_2">
-                            <div class="client_main">
-                            <div class="client_left">
-                                <div class="client_img"><img src="/storage/images/testimonial2.webp" class="rounded" alt="testimonial"></div>
-                            </div>
-                            <div class="client_right">
-                                <h3 class="name_text">Mark R</h3>
-                                <p class="dolor_text">Allure Essence Spa & Hair Studio exceeded all my expectations! I booked a full spa day for my wife and me, and it was worth every penny. The facilities are clean and beautifully decorated, creating a perfect ambiance for relaxation. </p>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="client_section_2">
-                            <div class="client_main">
-                            <div class="client_left">
-                                <div class="client_img"><img src="/storage/images/testimonial1.webp" class="rounded" alt="testimonial"></div>
-                            </div>
-                            <div class="client_right">
-                                <h3 class="name_text">Emily L</h3>
-                                <p class="dolor_text">I cannot say enough good things about Allure Essence Spa & Hair Studio! I had a wonderful experience from start to finish. The staff are incredibly friendly and made me feel at ease right away. </p>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-button-prev3"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
-                <div class="swiper-button-next3"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
-                </div>
-
+                <script src="https://widget.trustmary.com/m1v3XdTF5"></script>
             </div>
         </div>
         <!-- customer section end -->
@@ -1005,17 +960,6 @@
       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
       <script>
-        var swiper3 = new Swiper('.swiper3', {
-               spaceBetween: 30,
-               pagination: {
-               el: '.swiper-pagination3',
-               clickable: true,
-               },
-               navigation: {
-                  nextEl: '.swiper-button-next3',
-                  prevEl: '.swiper-button-prev3',
-               },
-            });
         var swiper1 = new Swiper('.swiper1', {
             // Optional parameters
             direction: 'vertical',
@@ -1106,7 +1050,6 @@
             $( "#tabs" ).tabs();
         } );
         </script>
-        <script src="https://widget.trustmary.com/m1v3XdTF5"></script>
 
    </body>
 </html>
