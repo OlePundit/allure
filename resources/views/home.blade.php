@@ -1136,7 +1136,10 @@
                     </ul>
                 </div>
                 <div class="row">
-                    <h3>Business Hours</h3>
+                    <div class="col-12">
+                        <h3>Business Hours</h3>
+
+                    </div>
                     <div class="business-hours">
                         <div class="hours">
                             <ul style="text-decoration-none">
