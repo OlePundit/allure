@@ -1137,7 +1137,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <h3>Business Hours</h3>
+                        <h3 class="address_text">Business Hours</h3>
 
                     </div>
                     <div class="col-12 business-hours">
