@@ -1135,6 +1135,32 @@
                         </li>
                     </ul>
                 </div>
+                <div class="row">
+                    <h3>Business Hours</h3>
+                    <div class="business-hours">
+                        <div class="hours">
+                            <ul style="text-decoration-none">
+                                <li><span class="dot"></span>Monday</li>
+                                <li><span class="dot"></span>Tuesday</li>
+                                <li><span class="dot"></span>Wednesday</li>
+                                <li><span class="dot"></span>Thursday</li>
+                                <li><span class="dot"></span>Friday</li>
+                                <li><span class="dot"></span>Saturday</li>
+                                <li><span class="dot"></span>Sunday</li>
+                            </ul>
+                            <ul style="text-decoration-none">
+                                <li>8:00 A.M - 7:00 P.M</li>
+                                <li>8:00 A.M - 7:00 P.M</li>
+                                <li>8:00 A.M - 7:00 P.M</li>
+                                <li>8:00 A.M - 7:00 P.M</li>
+                                <li>8:00 A.M - 7:00 P.M</li>
+                                <li>8:00 A.M - 7:00 P.M</li>
+                                <li>Appointment Only</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
         <!-- footer section end -->

@@ -33,7 +33,14 @@
 
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
-
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color: #E73232; /* Blue color */
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 7px;
+}
 * {
     box-sizing: border-box !important;
     transition: ease all 0.5s;
@@ -173,7 +180,6 @@ html {
     top: 10%; /* Adjust this value to move the positioned div up and down */
     text-align: start;
     width: 40%; /* Set the width of the positioned div */
-    background-color: rgba(255, 255, 255, 0.3); /* White color with 30% opacity */
     padding:16px 16px;
     border-radius:10px;
     margin-top: 30px;
@@ -1168,7 +1174,10 @@ button {
     background-size: 100%;
     padding-bottom: 30px;
 }
-
+.footer_section .business-hours .hours{
+    display: flex;
+    justify-content: space-between;
+}
 .footer_logo {
     width: 100%;
     float: left;
