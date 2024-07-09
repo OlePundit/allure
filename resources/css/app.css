@@ -1601,15 +1601,15 @@ button {
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
     color: #000;
     text-decoration: none; 
-    background: ;
+    background: #E1C17E!important;
 }
 .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
     color: #000;
     text-decoration: none;
 }
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
-    border: 1px solid #c5c5c5;
-    background: #f6f6f6;
+    border: 1px solid #E1C17E;
+    background: none;
     font-weight: 400;
     color: #454545;
     border-radius: 8px;
@@ -1627,4 +1627,21 @@ button {
 .ui-tabs .ui-tabs-nav li.ui-tabs-active {
     margin-bottom: 8px;
     padding-bottom: 1px;
+}
+.product_section .product_section_2 ul li a i{
+    background: #fff;
+    padding: 5px 5px;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor, .ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor, .ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor {
+    cursor: text;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
 }

@@ -733,3 +733,8 @@
         height: auto;
     }
 }
+@media (min-width: 1200px) {
+    .product_section .container{
+        max-width: 1200px;
+    }
+}

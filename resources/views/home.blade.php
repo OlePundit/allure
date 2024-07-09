@@ -251,69 +251,69 @@
                 </div>
                 </div>
                 <div class="product_section_2 layout_padding">
-                <div id="tabs">
-                    <ul>
-                        <li><a href="#tabs-1">Hair Dressing Services<i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
-                        <li><a href="#tabs-2">Massage Services<i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
-                        <li><a href="#tabs-3">Body Scrub Services<i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
-                    </ul>
-                    <div id="tabs-1">
-                        <div class="row product-row">
-                            @foreach($hairs as $hair)
+                    <div id="tabs">
+                        <ul>
+                            <li><a href="#tabs-1">Hair Dressing Services<i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
+                            <li><a href="#tabs-2">Massage Services<i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
+                            <li><a href="#tabs-3">Body Scrub Services<i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
+                        </ul>
+                        <div id="tabs-1">
+                            <div class="row product-row">
+                                @foreach($hairs as $hair)
 
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="card" style="width: 100%;">
-                                    <img src="/storage/{{$hair->thumbnail}}" class="card-img-top" alt="thumbnail">
-                                    <div class="card-body">
-                                    <h5 class="card-title">{{$hair->name}}</h5>
-                                    <p class="card-text">{{$hair->price}}</p>
-                                    <a href="/book" class="">Order Now</a>
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="card" style="width: 100%;">
+                                        <img src="/storage/{{$hair->thumbnail}}" class="card-img-top" alt="thumbnail">
+                                        <div class="card-body">
+                                        <h5 class="card-title">{{$hair->name}}</h5>
+                                        <p class="card-text">{{$hair->price}}</p>
+                                        <a href="/book" class="">Order Now</a>
+                                        </div>
                                     </div>
                                 </div>
+                                @endforeach
+
                             </div>
-                            @endforeach
-
                         </div>
-                    </div>
-                    <div id="tabs-2">
-                        <div class="row product-row">
-                            @foreach($massages as $massage)
+                        <div id="tabs-2">
+                            <div class="row product-row">
+                                @foreach($massages as $massage)
 
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="card" style="width: 100%;">
-                                    <img src="/storage/{{$massage->thumbnail}}" class="card-img-top" alt="thumbnail">
-                                    <div class="card-body">
-                                    <h5 class="card-title">{{$massage->name}}</h5>
-                                    <p class="card-text">{{$massage->price}}</p>
-                                    <a href="/book" class="">Order Now</a>
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="card" style="width: 100%;">
+                                        <img src="/storage/{{$massage->thumbnail}}" class="card-img-top" alt="thumbnail">
+                                        <div class="card-body">
+                                        <h5 class="card-title">{{$massage->name}}</h5>
+                                        <p class="card-text">{{$massage->price}}</p>
+                                        <a href="/book" class="">Order Now</a>
+                                        </div>
                                     </div>
                                 </div>
+                                @endforeach
+
                             </div>
-                            @endforeach
-
                         </div>
-                    </div>
-                    <div id="tabs-3">
-                        <div class="row product-row">
-                            @foreach($bodys as $body)
+                        <div id="tabs-3">
+                            <div class="row product-row">
+                                @foreach($bodys as $body)
 
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="card" style="width: 100%;">
-                                    <img src="/storage/{{$body->thumbnail}}" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                    <h5 class="card-title">{{$body->name}}</h5>
-                                    <p class="card-text">{{$body->price}}</p>
-                                    <a href="/book" class="">Order Now</a>
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="card" style="width: 100%;">
+                                        <img src="/storage/{{$body->thumbnail}}" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                        <h5 class="card-title">{{$body->name}}</h5>
+                                        <p class="card-text">{{$body->price}}</p>
+                                        <a href="/book" class="">Order Now</a>
+                                        </div>
                                     </div>
                                 </div>
+                                @endforeach
+
+
                             </div>
-                            @endforeach
-
-
                         </div>
                     </div>
-                </div>
-                <div class="seemore_bt"><a href="/services">See More</a></div>
+                    <div class="seemore_bt"><a href="/services">See More</a></div>
                 </div>
             </div>
         </div>
