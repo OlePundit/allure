@@ -34,8 +34,8 @@
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 .dot {
-    height: 20px;
-    width: 20px;
+    height: 10px;
+    width: 10px;
     background-color: #E73232; /* Blue color */
     border-radius: 50%;
     display: inline-block;
@@ -1177,6 +1177,9 @@ button {
 .footer_section .business-hours .hours{
     display: flex;
     justify-content: space-between;
+}
+.footer_section .business-hours .hours ul li{
+    color:#fff;
 }
 .footer_logo {
     width: 100%;
