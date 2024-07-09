@@ -261,7 +261,7 @@
                             <div class="row product-row">
                                 @foreach($hairs as $hair)
 
-                                <div class="col-lg-3 col-sm-6">
+                                <div class="col-12">
                                     <div class="card" style="width: 100%;">
                                         <img src="/storage/{{$hair->thumbnail}}" class="card-img-top" alt="thumbnail">
                                         <div class="card-body">
@@ -279,7 +279,7 @@
                             <div class="row product-row">
                                 @foreach($massages as $massage)
 
-                                <div class="col-lg-3 col-sm-6">
+                                <div class="col-12">
                                     <div class="card" style="width: 100%;">
                                         <img src="/storage/{{$massage->thumbnail}}" class="card-img-top" alt="thumbnail">
                                         <div class="card-body">
@@ -297,7 +297,7 @@
                             <div class="row product-row">
                                 @foreach($bodys as $body)
 
-                                <div class="col-lg-3 col-sm-6">
+                                <div class="col-12">
                                     <div class="card" style="width: 100%;">
                                         <img src="/storage/{{$body->thumbnail}}" class="card-img-top" alt="...">
                                         <div class="card-body">
