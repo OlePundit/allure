@@ -262,10 +262,11 @@
                                 @foreach($hairs as $hair)
 
                                 <div class="col-12">
-                                    <div class="card" style="width: 100%;">
+                                    <div class="card mb-3" style="width: 100%;">
                                         <img src="/storage/{{$hair->thumbnail}}" class="card-img-top" alt="thumbnail">
                                         <div class="card-body">
                                         <h5 class="card-title">{{$hair->name}}</h5>
+                                        <h6 class="desc">{{$hair->description}}</h6>
                                         <p class="card-text">{{$hair->price}}</p>
                                         <a href="/book" class="">Order Now</a>
                                         </div>
@@ -280,10 +281,12 @@
                                 @foreach($massages as $massage)
 
                                 <div class="col-12">
-                                    <div class="card" style="width: 100%;">
+                                    <div class="card mb-3" style="width: 100%;">
                                         <img src="/storage/{{$massage->thumbnail}}" class="card-img-top" alt="thumbnail">
                                         <div class="card-body">
                                         <h5 class="card-title">{{$massage->name}}</h5>
+                                        <h6 class="desc">{{$massage->description}}</h6>
+
                                         <p class="card-text">{{$massage->price}}</p>
                                         <a href="/book" class="">Order Now</a>
                                         </div>
@@ -298,10 +301,12 @@
                                 @foreach($bodys as $body)
 
                                 <div class="col-12">
-                                    <div class="card" style="width: 100%;">
+                                    <div class="card mb-3" style="width: 100%;">
                                         <img src="/storage/{{$body->thumbnail}}" class="card-img-top" alt="...">
                                         <div class="card-body">
                                         <h5 class="card-title">{{$body->name}}</h5>
+                                        <h6 class="desc">{{$body->description}}</h6>
+
                                         <p class="card-text">{{$body->price}}</p>
                                         <a href="/book" class="">Order Now</a>
                                         </div>
