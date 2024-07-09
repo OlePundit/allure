@@ -1141,7 +1141,7 @@
 
                     </div>
                     <div class="business-hours">
-                        <div class="hours">
+                        <div class="col-12 hours">
                             <ul style="text-decoration-none">
                                 <li><span class="dot"></span>Monday</li>
                                 <li><span class="dot"></span>Tuesday</li>
