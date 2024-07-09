@@ -1173,27 +1173,26 @@
                     </div>
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                        This venue has specific guidelines regarding cancellations for certain services. They have the authority to impose a fee for cancellations made late or in the event of a no-show.
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            This venue has specific guidelines regarding cancellations for certain services. They have the authority to impose a fee for cancellations made late or in the event of a no-show.
 
-                        There will be no charges for cancellations made up to 3 hours to your appointment time. Later than this, a cancellation fee of up to 30% of your booking value will be applied, before your refund is processed.
+                            There will be no charges for cancellations made up to 3 hours to your appointment time. Later than this, a cancellation fee of up to 30% of your booking value will be applied, before your refund is processed.
 
-                        Please note that in case of no show without any communication, your booking will be automatically cancelled 1 hour after your scheduled time.
+                            Please note that in case of no show without any communication, your booking will be automatically cancelled 1 hour after your scheduled time.
 
-                        The cancellation fee will only be imposed if the terms of the cancellation policy are violated.
+                            The cancellation fee will only be imposed if the terms of the cancellation policy are violated.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                            </div>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                        </div>
-                    </div>
                     </div>
                 </div>
                 <div class="row mt-3">
