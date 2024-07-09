@@ -1600,6 +1600,7 @@ button {
     border-radius: 20px;
     position: relative;
     overflow: hidden;
+    height:350px;
   }
   
   .services-thumb:hover .services-info {

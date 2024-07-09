@@ -53,9 +53,9 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
         <!-- Styles -->
         <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
-        <link rel="stylesheet" href="{{ asset('build/assets/app-D73YxdJv.css') }}">
+     <link rel="stylesheet" href="{{ asset('build/assets/app-B_VZRs9C.css') }}">
         <link rel="stylesheet" href="{{ asset('build/assets/app-sEhFnVTV.css') }}">
-        <link rel="stylesheet" href="{{ asset('build/assets/responsive-DxX5jR_s.css') }}">
+        <link rel="stylesheet" href="{{ asset('build/assets/responsive-DhAHJOLM.css') }}">
         <script src="{{ asset('build/assets/app-BwDpqcm8.js') }}"></script>
     </head>
     <body>
@@ -247,7 +247,7 @@
                         <h2 class="mb-5">Gallery</h2>
                     </div>
 
-                    <div class="col-lg-6 col-12 mb-4">
+                    <div class="col-lg-4 col-12 mb-4">
                         <div class="services-thumb">
                             <img
                             sizes="(max-width: 1400px) 100vw, 1400px"
@@ -266,7 +266,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-12 mb-4">
+                    <div class="col-lg-4 col-12 mb-4">
                         <div class="services-thumb">
                             <img
                             sizes="(max-width: 1400px) 100vw, 1400px"
@@ -292,7 +292,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-12 mb-4 mb-lg-0">
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                         <div class="services-thumb">
                         <img
                             sizes="(max-width: 1400px) 100vw, 1400px"
@@ -322,7 +322,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-12">
+                    <div class="col-lg-4 col-12">
                         <div class="services-thumb">
                             <img
                             sizes="(max-width: 1400px) 100vw, 1400px"
@@ -350,6 +350,54 @@
                         </div>
                     </div>
 
+                    <div class="col-lg-4 col-12">
+                        <div class="services-thumb">
+                            <img
+                            sizes="(max-width: 1400px) 100vw, 1400px"
+                            srcset="
+                            storage/images/barber1_vsh8ga_c_scale,w_200.webp 200w,
+                            storage/images/barber1_vsh8ga_c_scale,w_387.webp 387w,
+                            storage/images/barber1_vsh8ga_c_scale,w_490.webp 490w,
+                            storage/images/barber1_vsh8ga_c_scale,w_624.webp 624w,
+                            storage/images/barber1_vsh8ga_c_scale,w_762.webp 762w,
+                            storage/images/barber1_vsh8ga_c_scale,w_877.webp 877w,
+                            storage/images/barber1_vsh8ga_c_scale,w_977.webp 977w,
+                            storage/images/barber1_vsh8ga_c_scale,w_1142.webp 1142w,
+                            storage/images/barber1_vsh8ga_c_scale,w_1230.webp 1230w,
+                            storage/images/barber1_vsh8ga_c_scale,w_1357.webp 1357w,
+                            storage/images/barber1_vsh8ga_c_scale,w_1382.webp 1382w,
+                            storage/images/barber1_vsh8ga_c_scale,w_1354.webp 1354w,
+                            storage/images/barber1_vsh8ga_c_scale,w_1383.webp 1383w,
+                            storage/images/barber1_vsh8ga_c_scale,w_1400.webp 1400w"
+                            src="storage/images/barber1_vsh8ga_c_scale,w_1400.webp"
+                            alt="info-img" class="services-image img-fluid" >
+                            <div class="services-info d-flex align-items-end">
+                                <h4 class="mb-0">Kids</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-12">
+                        <div class="services-thumb">
+                            <img
+                            sizes="(max-width: 1400px) 100vw, 1400px"
+                            srcset="
+                            storage/images/spa2_uijii6_c_scale,w_200.webp 200w,
+                            storage/images/spa2_uijii6_c_scale,w_502.webp 502w,
+                            storage/images/spa2_uijii6_c_scale,w_731.webp 731w,
+                            storage/images/spa2_uijii6_c_scale,w_876.webp 876w,
+                            storage/images/spa2_uijii6_c_scale,w_986.webp 986w,
+                            storage/images/spa2_uijii6_c_scale,w_1158.webp 1158w,
+                            storage/images/spa2_uijii6_c_scale,w_1344.webp 1344w,
+                            storage/images/spa2_uijii6_c_scale,w_1374.webp 1374w,
+                            storage/images/spa2_uijii6_c_scale,w_1400.webp 1400w"
+                            src="storage/images/spa2_uijii6_c_scale,w_1400.webp"
+                            alt="info-img" class="services-image img-fluid" >
+                            <div class="services-info d-flex align-items-end">
+                                <h4 class="mb-0">Kids</h4>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
