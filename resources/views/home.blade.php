@@ -262,7 +262,7 @@
                                 @foreach($hairs as $hair)
 
                                 <div class="col-md-6 col-12">
-                                    <div class="card mb-3" style="width: 100%;">
+                                    <div class="card mb-5" style="width: 100%;">
                                         <img src="/storage/{{$hair->thumbnail}}" class="card-img-top" alt="thumbnail">
                                         <div class="card-body">
                                         <h5 class="card-title">{{$hair->name}}</h5>
@@ -281,7 +281,7 @@
                                 @foreach($massages as $massage)
 
                                 <div class="col-md-6 col-12">
-                                    <div class="card mb-3" style="width: 100%;">
+                                    <div class="card mb-5" style="width: 100%;">
                                         <img src="/storage/{{$massage->thumbnail}}" class="card-img-top" alt="thumbnail">
                                         <div class="card-body">
                                         <h5 class="card-title">{{$massage->name}}</h5>
@@ -301,7 +301,7 @@
                                 @foreach($bodys as $body)
 
                                 <div class="col-md-6 col-12">
-                                    <div class="card mb-3" style="width: 100%;">
+                                    <div class="card mb-5" style="width: 100%;">
                                         <img src="/storage/{{$body->thumbnail}}" class="card-img-top" alt="...">
                                         <div class="card-body">
                                         <h5 class="card-title">{{$body->name}}</h5>
