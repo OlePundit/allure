@@ -9,13 +9,22 @@
 
         <div class="row">
             @foreach($hairs as $hair)
-            <div class="col-lg-3 mt-5">
-                <div class="card" style="width: 100%;">
+            <div class="col-md-4 col-12 mt-5">
+                <div class="card mb-5" style="width: 100%;">
                     <img src="/storage/{{$hair->thumbnail}}" class="card-img-top" alt="thumbnail">
                     <div class="card-body">
                     <h5 class="card-title">{{$hair->name}}</h5>
-                    <p class="card-text">Ksh {{$hair->price}}</p>
-                    <a href="/book" class="">Order Now</a>
+                    <h6 class="desc">{{$hair->description}}</h6>
+                    <div class="d-flex duration-wrap">
+                        <span class="card-text"><i class="fa-solid fa-clock"></i>{{$hair->duration}}</span>
+                        <span class=""><i class="fa-solid fa-money-bill"></i>{{$hair->payment_terms}}</span>
+                    </div>
+                    <hr></hr>
+                    <div class="d-flex price-wrap">
+                        <p class="card-text">KSH {{$hair->price}}</p>
+                        <a href="/book" class="">Order Now</a>
+                    </div>
+
                     </div>
                 </div>
             </div>
