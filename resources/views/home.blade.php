@@ -28,6 +28,7 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
 
         <!-- style css -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
@@ -95,9 +96,6 @@
                             <li class="nav-item">
                             <a class="nav-link text-white" href="/blogs">Blog</a>
                             </li>
-                            <li class="nav-item">
-                            <a class="nav-link text-white" href="https://wa.me/+254795614357"><i class="fab fa-whatsapp" style="margin-right:10px;"></i>Always online</a>
-                            </li>
                         </ul>
 
 
@@ -122,7 +120,8 @@
                         <div class="social-icons">
                             <a href="https://www.facebook.com/allureessencespa"><i class="fa fa-facebook mb-4" aria-hidden="true"></i></a>
                             <a href="https://www.instagram.com/allure_essence_spa/"><i class="fa fa-instagram mb-4" aria-hidden="true"></i></a>
-                            <a href="mailto:info@allureessence.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                            <a href="https://www.tiktok.com/@allureessencespa"><i class="fa fa-tiktok mb-4" aria-hidden="true"></i></a>
+                            <a href="https://wa.me/+254795614357"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
                         </div>
 
                     </div>
@@ -133,8 +132,7 @@
                     <!-- Slides -->
                     <div class="swiper-slide box">
                         <div class="col-sm-6 text">
-                            <img src="/storage/images/hero.png" alt="hero-img">
-                            <p class="banner_text">Welcome to Allure Essence Spa & Hair Studio, your sanctuary of tranquility and beauty in the heart of Nairobi. Immerse yourself in our luxurious treatments designed to rejuvenate your mind, body, and spirit.</p>
+                            <p class="banner_text">BEAUTY BEYOND SKIN DEEP</p>
                             <div class="read_bt"><a href="/book">Book Today</a></div>
                         </div>
                         <img
@@ -154,8 +152,7 @@
 
                     <div class="swiper-slide box">
                         <div class="col-sm-6 text">
-                            <img src="/storage/images/hero.png" alt="hero-img">
-                            <p class="banner_text">Welcome to Allure Essence Spa & Hair Studio, your sanctuary of tranquility and beauty in the heart of Nairobi. Immerse yourself in our luxurious treatments designed to rejuvenate your mind, body, and spirit.</p>
+                            <p class="banner_text">BEAUTY BEYOND SKIN DEEP</p>
                             <div class="read_bt"><a href="/book">Book Today</a></div>
                         </div>
                         <img
@@ -173,8 +170,7 @@
                     </div>
                     <div class="swiper-slide box">
                         <div class="col-sm-6 text">
-                            <img src="/storage/images/hero.png" alt="hero-img">
-                            <p class="banner_text">Welcome to Allure Essence Spa & Hair Studio, your sanctuary of tranquility and beauty in the heart of Nairobi. Immerse yourself in our luxurious treatments designed to rejuvenate your mind, body, and spirit.</p>
+                            <p class="banner_text">BEAUTY BEYOND SKIN DEEP</p>
                             <div class="read_bt"><a href="/book">Book Today</a></div>
                         </div>
                         <img
@@ -192,8 +188,7 @@
                     </div>
                     <div class="swiper-slide box">
                         <div class="col-sm-6 text">
-                            <img src="/storage/images/hero.png" alt="hero-img">
-                            <p class="banner_text">Welcome to Allure Essence Spa & Hair Studio, your sanctuary of tranquility and beauty in the heart of Nairobi. Immerse yourself in our luxurious treatments designed to rejuvenate your mind, body, and spirit.</p>
+                            <p class="banner_text">BEAUTY BEYOND SKIN DEEP</p>
                             <div class="read_bt"><a href="/book">Book Today</a></div>
                         </div>
                         <img
@@ -226,111 +221,24 @@
         <div class="about_section layout_padding">
             <div class="container">
                 <div class="about_section_main">
-                <h2 class="mb-3">Welcome to Allure Essence</h2>
-                <div class="row">
-                    <div class="col-md-6 tab">
-                    <div class="image-container">
-                        <img
-                        sizes="(max-width: 1400px) 100vw, 1400px"
-                        srcset="
-                        storage/images/about3_upz0lc_c_scale,w_200.webp 200w,
-                        storage/images/about3_upz0lc_c_scale,w_572.webp 572w,
-                        storage/images/about3_upz0lc_c_scale,w_837.webp 837w,
-                        storage/images/about3_upz0lc_c_scale,w_1050.webp 1050w,
-                        storage/images/about3_upz0lc_c_scale,w_1286.webp 1286w,
-                        storage/images/about3_upz0lc_c_scale,w_1400.webp 1400w"
-                        src="storage/images/about3_upz0lc_c_scale,w_1400.webp"
-                        alt="info-img" class="image_3 rounded">
-                        <img
-                        sizes="(max-width: 1400px) 100vw, 1400px"
-                        srcset="
-                        storage/images/about_qhucqq_c_scale,w_200.webp 200w,
-                        storage/images/about_qhucqq_c_scale,w_391.webp 391w,
-                        storage/images/about_qhucqq_c_scale,w_512.webp 512w,
-                        storage/images/about_qhucqq_c_scale,w_653.webp 653w,
-                        storage/images/about_qhucqq_c_scale,w_780.webp 780w,
-                        storage/images/about_qhucqq_c_scale,w_913.webp 913w,
-                        storage/images/about_qhucqq_c_scale,w_950.webp 950w,
-                        storage/images/about_qhucqq_c_scale,w_994.webp 994w,
-                        storage/images/about_qhucqq_c_scale,w_1106.webp 1106w,
-                        storage/images/about_qhucqq_c_scale,w_1202.webp 1202w,
-                        storage/images/about_qhucqq_c_scale,w_1312.webp 1312w,
-                        storage/images/about_qhucqq_c_scale,w_1397.webp 1397w,
-                        storage/images/about_qhucqq_c_scale,w_1400.webp 1400w"
-                        src="storage/images/about_qhucqq_c_scale,w_1400.webp"
-                        alt="info-img" class="image-4-overlap rounded">
-                    </div>
-
-                    </div>
-                    <div class="col-md-6">
-                        <div class="about_taital_main">
-                            <h1 class="about_taital">Nairobi's #1 Spa and hair studio</h1>
-                            <p class="about_text">Located in the heart of Nairobi, Allure Essence Spa & Hair Studio is your ultimate destination for relaxation and rejuvenation. Our luxurious spa and state-of-the-art hair studio offer a wide range of services for both men and women, ensuring you leave feeling refreshed and revitalized.</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="about_taital_main">
+                            <h1 class="about_taital">About Allure Essence</h1>
+                            <p class="about_text">Welcome to Allure Essence Spa & Hair Studio, where beauty and relaxation converge in a luxurious oasis of tranquility. Nestled in the heart of Nairobi, our salon and spa offer a comprehensive range of services designed to rejuvenate your mind, body, and soul. From innovative hairdressing and sophisticated styling to therapeutic massages and indulgent skincare treatments, our team of skilled professionals is dedicated to providing an unparalleled experience. At Allure Essence, we believe in the power of self-care and are committed to helping you look and feel your absolute best. Step into our sanctuary and let us pamper you with our exceptional services, personalized to meet your unique needs and preferences.</p>
+                            <div class="readmore_bt"><a href="/book">BOOK TODAY</a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div><img src="storage/images/about4.webp" class="image_3 rounded" alt="about"></div>
                         </div>
                     </div>
-
-                </div>
-                <div class="row mt-5 tab-2">
-                    <div class="col-md-6">
-                        <div class="about_taital_main-1">
-                            <h1 class="about_taital">State of the art facilities</h1>
-                            <p class="about_text">From our massage therapy room, to our shower room, and sauna. We boast of having state of the art facilities and experienced attendants who are available round the clock to cater to your every need.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="image-container-1">
-                            <img
-                            sizes="(max-width: 1400px) 100vw, 1400px"
-                            srcset="
-                            storage/images/about4_en1htn_c_scale,w_200.webp 200w,
-                            storage/images/about4_en1htn_c_scale,w_381.webp 381w,
-                            storage/images/about4_en1htn_c_scale,w_582.webp 582w,
-                            storage/images/about4_en1htn_c_scale,w_573.webp 573w,
-                            storage/images/about4_en1htn_c_scale,w_676.webp 676w,
-                            storage/images/about4_en1htn_c_scale,w_777.webp 777w,
-                            storage/images/about4_en1htn_c_scale,w_872.webp 872w,
-                            storage/images/about4_en1htn_c_scale,w_966.webp 966w,
-                            storage/images/about4_en1htn_c_scale,w_1067.webp 1067w,
-                            storage/images/about4_en1htn_c_scale,w_1159.webp 1159w,
-                            storage/images/about4_en1htn_c_scale,w_1269.webp 1269w,
-                            storage/images/about4_en1htn_c_scale,w_1365.webp 1365w,
-                            storage/images/about4_en1htn_c_scale,w_1396.webp 1396w,
-                            storage/images/about4_en1htn_c_scale,w_1392.webp 1392w,
-                            storage/images/about4_en1htn_c_scale,w_1397.webp 1397w,
-                            storage/images/about4_en1htn_c_scale,w_1400.webp 1400w"
-                            src="storage/images/about4_en1htn_c_scale,w_1400.webp"
-                            class="image_3 rounded" alt="info-img">
-                            <img
-                            sizes="(max-width: 1400px) 100vw, 1400px"
-                            srcset="
-                            storage/images/about2_ubmvtp_c_scale,w_200.webp 200w,
-                            storage/images/about2_ubmvtp_c_scale,w_362.webp 362w,
-                            storage/images/about2_ubmvtp_c_scale,w_490.webp 490w,
-                            storage/images/about2_ubmvtp_c_scale,w_602.webp 602w,
-                            storage/images/about2_ubmvtp_c_scale,w_711.webp 711w,
-                            storage/images/about2_ubmvtp_c_scale,w_829.webp 829w,
-                            storage/images/about2_ubmvtp_c_scale,w_927.webp 927w,
-                            storage/images/about2_ubmvtp_c_scale,w_931.webp 931w,
-                            storage/images/about2_ubmvtp_c_scale,w_1006.webp 1006w,
-                            storage/images/about2_ubmvtp_c_scale,w_1097.webp 1097w,
-                            storage/images/about2_ubmvtp_c_scale,w_1199.webp 1199w,
-                            storage/images/about2_ubmvtp_c_scale,w_1287.webp 1287w,
-                            storage/images/about2_ubmvtp_c_scale,w_1373.webp 1373w,
-                            storage/images/about2_ubmvtp_c_scale,w_1398.webp 1398w,
-                            storage/images/about2_ubmvtp_c_scale,w_1400.webp 1400w"
-                            src="storage/images/about2_ubmvtp_c_scale,w_1400.webp"
-                            alt="info-img" class="image-4-overlap rounded" >
-                        </div>
-
-                    </div>
-
-
-                </div>
                 </div>
             </div>
         </div>
         <!-- about section end -->
         <!-- product section start -->
+
         <div class="product_section layout_padding">
             <div class="container">
                 <div class="row">
@@ -343,59 +251,67 @@
                 </div>
                 </div>
                 <div class="product_section_2 layout_padding">
-                <h3>Hair Dressing Services</h3>
-                <div class="row product-row">
-                    @foreach($hairs as $hair)
+                <div id="tabs">
+                    <ul>
+                        <li><a href="#tabs-1">Hair Dressing Services</a></li>
+                        <li><a href="#tabs-2">Massage Services</a></li>
+                        <li><a href="#tabs-3">Body Scrub Services</a></li>
+                    </ul>
+                    <div id="tabs-1">
+                        <div class="row product-row">
+                            @foreach($hairs as $hair)
 
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="card" style="width: 100%;">
-                            <img src="/storage/{{$hair->thumbnail}}" class="card-img-top" alt="thumbnail">
-                            <div class="card-body">
-                            <h5 class="card-title">{{$hair->name}}</h5>
-                            <p class="card-text">{{$hair->price}}</p>
-                            <a href="/book" class="">Order Now</a>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="card" style="width: 100%;">
+                                    <img src="/storage/{{$hair->thumbnail}}" class="card-img-top" alt="thumbnail">
+                                    <div class="card-body">
+                                    <h5 class="card-title">{{$hair->name}}</h5>
+                                    <p class="card-text">{{$hair->price}}</p>
+                                    <a href="/book" class="">Order Now</a>
+                                    </div>
+                                </div>
                             </div>
+                            @endforeach
+
                         </div>
                     </div>
-                    @endforeach
+                    <div id="tabs-2">
+                        <div class="row product-row">
+                            @foreach($massages as $massage)
 
-                </div>
-                <h3>Massage Services</h3>
-
-                <div class="row product-row">
-                    @foreach($massages as $massage)
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="card" style="width: 100%;">
-                            <img src="/storage/{{$massage->thumbnail}}" class="card-img-top" alt="thumbnail">
-                            <div class="card-body">
-                            <h5 class="card-title">{{$massage->name}}</h5>
-                            <p class="card-text">{{$massage->price}}</p>
-                            <a href="/book" class="">Order Now</a>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="card" style="width: 100%;">
+                                    <img src="/storage/{{$massage->thumbnail}}" class="card-img-top" alt="thumbnail">
+                                    <div class="card-body">
+                                    <h5 class="card-title">{{$massage->name}}</h5>
+                                    <p class="card-text">{{$massage->price}}</p>
+                                    <a href="/book" class="">Order Now</a>
+                                    </div>
+                                </div>
                             </div>
+                            @endforeach
+
                         </div>
                     </div>
-                    @endforeach
+                    <div id="tabs-3">
+                        <div class="row product-row">
+                            @foreach($bodys as $body)
 
-                </div>
-                <h3>Body Scrub Services</h3>
-
-                <div class="row product-row">
-                    @foreach($bodys as $body)
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="card" style="width: 100%;">
-                            <img src="/storage/{{$body->thumbnail}}" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">{{$body->name}}</h5>
-                            <p class="card-text">{{$body->price}}</p>
-                            <a href="/book" class="">Order Now</a>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="card" style="width: 100%;">
+                                    <img src="/storage/{{$body->thumbnail}}" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                    <h5 class="card-title">{{$body->name}}</h5>
+                                    <p class="card-text">{{$body->price}}</p>
+                                    <a href="/book" class="">Order Now</a>
+                                    </div>
+                                </div>
                             </div>
+                            @endforeach
+
+
                         </div>
                     </div>
-                    @endforeach
-
-
                 </div>
                 <div class="seemore_bt"><a href="/services">See More</a></div>
                 </div>
@@ -1005,9 +921,9 @@
                 </div>
             </div>
             <div class="map_main">
-            <div class="map-responsive">
-                <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Kilimani+(allure%20essence)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="600" height="400" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
-            </div>
+                <div class="map-responsive">
+                    <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=6th%20Floor,%20Wood%20Avenue%20Plaza,%20Kilimani,%20Nairobi,%20Moi,%20Nairobi%20Area,%20Kenya%2000100+(Allure%20Essence%20Spa)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="600" height="400" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
+                </div>
             </div>
         </div>
         <!-- contact section end -->
@@ -1104,6 +1020,9 @@
             // Optional parameters
             direction: 'vertical',
             simulateTouch: false,
+            autoplay: {
+                delay: 3000,
+            },
 
             // If we need pagination
             pagination: {
@@ -1182,5 +1101,12 @@
 
 
       </script>
+        <script>
+        $( function() {
+            $( "#tabs" ).tabs();
+        } );
+        </script>
+        <script src="https://widget.trustmary.com/m1v3XdTF5"></script>
+
    </body>
 </html>

@@ -362,6 +362,13 @@
     .login_text {
         display: none;
     }
+    .box .text p{
+        font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+        color:#fff;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 1;
+    }
     .banner_taital {
         font-size: 50px;
         padding-top: 0px;
@@ -631,9 +638,16 @@
         top: 10%;
         text-align: start;
         width: 70%;
-        background-color: rgba(255, 255, 255, 0.3);
         padding: 16px 16px;
         border-radius: 10px;
+    }
+    .box .text p{
+        font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+        color:#fff;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 1;
+    
     }
     .product_taital {
         font-size: 30px;

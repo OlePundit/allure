@@ -100,9 +100,6 @@
                   <li class="nav-item">
                   <a class="nav-link" href="/blogs">Blog</a>
                   </li>
-                  <li class="nav-item">
-                  <a class="nav-link" href="https://wa.me/+254795614357"><i class="fab fa-whatsapp" style="margin-right:10px;"></i>Always online</a>
-                  </li>
                </ul>
 
 
