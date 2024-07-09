@@ -1140,8 +1140,8 @@
                         <h3>Business Hours</h3>
 
                     </div>
-                    <div class="business-hours">
-                        <div class="col-12 hours">
+                    <div class="col-12 business-hours">
+                        <div class="hours">
                             <ul style="text-decoration-none">
                                 <li><span class="dot"></span>Monday</li>
                                 <li><span class="dot"></span>Tuesday</li>
