@@ -2,7 +2,7 @@
 
 @section('content')
 <!-- about section start -->
-<div class="service_section layout_padding">
+<div class="product_section layout_padding">
     <div class="container">
     <div class="service_section_main">
         <h3>Hair Dressing Services</h3>
