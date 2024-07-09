@@ -267,6 +267,10 @@
                                         <div class="card-body">
                                         <h5 class="card-title">{{$hair->name}}</h5>
                                         <h6 class="desc">{{$hair->description}}</h6>
+                                        <div class="d-flex duration-wrap">
+                                            <span class="card-text">{{$hair->duration}}</span>
+                                            <span class="">{{$hair->payment_terms}}</span>
+                                        </div>
                                         <hr></hr>
                                         <div class="d-flex price-wrap">
                                             <p class="card-text">KSH {{$hair->price}}</p>
@@ -290,6 +294,10 @@
                                         <div class="card-body">
                                         <h5 class="card-title">{{$massage->name}}</h5>
                                         <h6 class="desc">{{$massage->description}}</h6>
+                                        <div class="d-flex duration-wrap">
+                                            <span class="card-text">{{$massage->duration}}</span>
+                                            <span class="">{{$massage->payment_terms}}</span>
+                                        </div>
                                         <hr></hr>
                                         <div class="d-flex price-wrap">
                                             <p class="card-text">KSH {{$massage->price}}</p>
@@ -313,6 +321,10 @@
                                         <div class="card-body">
                                         <h5 class="card-title">{{$body->name}}</h5>
                                         <h6 class="desc">{{$body->description}}</h6>
+                                        <div class="d-flex duration-wrap">
+                                            <span class="card-text">{{$body->duration}}</span>
+                                            <span class="">{{$body->payment_terms}}</span>
+                                        </div>
                                         <hr></hr>
                                         <div class="d-flex price-wrap">
                                             <p class="card-text">KSH {{$body->price}}</p>
