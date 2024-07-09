@@ -1570,3 +1570,61 @@ button {
 .blog h2, h3, h4{
     color:#fff;
 }
+
+
+
+.ui-tabs .ui-tabs-nav {
+    margin: 0;
+    padding: .2em .2em 0;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.ui-widget.ui-widget-content {
+    border: none;
+    display: flex;
+}
+.ui-widget-content {
+    border: none!important;
+    background: #202020;
+    color: #333;
+}
+.ui-widget-header {
+    border: none;
+    background: #202020;
+    color: #333;
+    font-weight: 700;
+}
+.ui-widget.ui-widget-content {
+    border: none; 
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    color: #000;
+    text-decoration: none; 
+    background: ;
+}
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+    color: #000;
+    text-decoration: none;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: 1px solid #c5c5c5;
+    background: #f6f6f6;
+    font-weight: 400;
+    color: #454545;
+    border-radius: 8px;
+}
+.ui-tabs .ui-tabs-nav li {
+    list-style: none;
+    float: left;
+    position: relative;
+    top: 0;
+    margin: 8px 1px;
+    border-bottom-width: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    margin-bottom: 8px;
+    padding-bottom: 1px;
+}

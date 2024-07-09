@@ -253,9 +253,9 @@
                 <div class="product_section_2 layout_padding">
                 <div id="tabs">
                     <ul>
-                        <li><a href="#tabs-1">Hair Dressing Services</a></li>
-                        <li><a href="#tabs-2">Massage Services</a></li>
-                        <li><a href="#tabs-3">Body Scrub Services</a></li>
+                        <li><a href="#tabs-1">Hair Dressing Services<i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
+                        <li><a href="#tabs-2">Massage Services<i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
+                        <li><a href="#tabs-3">Body Scrub Services<i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
                     </ul>
                     <div id="tabs-1">
                         <div class="row product-row">
