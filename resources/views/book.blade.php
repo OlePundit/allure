@@ -16,6 +16,7 @@
                     <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
                     <label class="text-white" style="font-size:16px;">Booking date</label>
                     <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+                    <input type="time" class="form-control mb-3" name="hour" placeholder="Booking date" required>
 
                     <select class="form-control mb-3">
                         <option value="null">Choose service type</option>
