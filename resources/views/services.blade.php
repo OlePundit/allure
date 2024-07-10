@@ -32,32 +32,32 @@
             <div class="modal fade" id="hairModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                    <form method="POST" action="https://formsubmit.co/admin@allureessencespa.com">
-                        <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
-                        <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
-                        <label class="text-white" style="font-size:16px;">Booking date</label>
-                        <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
-                        <label class="text-white" style="font-size:16px;">Price</label>
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Booking form</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form method="POST" action="https://formsubmit.co/admin@allureessencespa.com">
+                                <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
+                                <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
+                                <label class="text-white" style="font-size:16px;">Booking date</label>
+                                <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+                                <label class="text-white" style="font-size:16px;">Price</label>
 
-                        <input type="text" class="form-control mb-3" name="price" value="{{$hair->price}}">
+                                <input type="text" class="form-control mb-3" name="price" value="{{$hair->price}}">
 
-                        <input type="text" class="form-control mb-3" name="service type" value="hair dressing">
-                          <label class="text-white" style="font-size:16px;">Service name</label>
-                        <input type="text" class="form-control mb-3" name="service name" value="{{$hair->name}}">
-                        <label class="text-white" style="font-size:16px;">Payment terms</label>
-                        <input type="text" class="form-control mb-3" name="payment terms" value="{{$hair->payment_terms}}">
+                                <input type="text" class="form-control mb-3" name="service type" value="hair dressing">
+                                <label class="text-white" style="font-size:16px;">Service name</label>
+                                <input type="text" class="form-control mb-3" name="service name" value="{{$hair->name}}">
+                                <label class="text-white" style="font-size:16px;">Payment terms</label>
+                                <input type="text" class="form-control mb-3" name="payment terms" value="{{$hair->payment_terms}}">
 
-                        <button type="submit">Send</button>
-                    </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="" data-bs-dismiss="modal">Close</button>
-                    </div>
+                                <button type="submit">Send</button>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Booking form</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -151,7 +151,7 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Booking form</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -213,7 +213,7 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Booking form</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -275,7 +275,7 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Booking form</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -337,7 +337,7 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Booking form</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -399,7 +399,7 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Booking form</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -461,7 +461,7 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Booking form</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -524,7 +524,7 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Booking form</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -587,7 +587,7 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Booking form</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -649,7 +649,7 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Booking form</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -711,7 +711,7 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Booking form</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -773,7 +773,7 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Booking form</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -835,7 +835,7 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Booking form</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
