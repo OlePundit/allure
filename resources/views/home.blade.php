@@ -451,7 +451,7 @@
                                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                 </div>
                                                 <div class="modal-body">
-                                                <form method="POST" action="https://formsubmit.co/admin@allureessencespa.com">
+                                                <form method="POST" action="https://formsubmit.co/info@allureessencespa.com">
                                                     <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
                                                     <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
                                                     <label class="text-white" style="font-size:16px;">Booking date</label>
@@ -510,7 +510,7 @@
                                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                 </div>
                                                 <div class="modal-body">
-                                                <form method="POST" action="https://formsubmit.co/admin@allureessencespa.com">
+                                                <form method="POST" action="https://formsubmit.co/info@allureessencespa.com">
                                                     <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
                                                     <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
                                                     <label class="text-white" style="font-size:16px;">Booking date</label>
@@ -570,7 +570,7 @@
                                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                     </div>
                                                     <div class="modal-body">
-                                                    <form method="POST" action="https://formsubmit.co/admin@allureessencespa.com">
+                                                    <form method="POST" action="https://formsubmit.co/info@allureessencespa.com">
                                                         <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
                                                         <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
                                                         <label class="text-white" style="font-size:16px;">Booking date</label>
