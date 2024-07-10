@@ -76,6 +76,27 @@
          $( "#datepicker" ).datepicker();
       } );
       </script>
+            <!-- Javascript files-->
+            <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            flatpickr('#datePicker', {
+            dateFormat: 'Y-m-d', // Customize the date format
+            // Add more options here to customize the appearance
+            });
+        });
+        </script>
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            flatpickr('#timePicker', {
+            enableTime: true,
+            noCalendar: true,
+            dateFormat: 'H:i', // Customize the time format
+            time_24hr: true // Use 24-hour format
+            // Add more options here to customize the appearance
+            });
+        });
+        </script>
+
    </head>
    <body class="app">
       <nav class="navbar navbar-expand-md shadow-sm text-3">
@@ -282,26 +303,6 @@
          </div>
       </div>
       <!-- copyright section end -->
-      <!-- Javascript files-->
-      <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            flatpickr('#datePicker', {
-            dateFormat: 'Y-m-d', // Customize the date format
-            // Add more options here to customize the appearance
-            });
-        });
-        </script>
-        <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            flatpickr('#timePicker', {
-            enableTime: true,
-            noCalendar: true,
-            dateFormat: 'H:i', // Customize the time format
-            time_24hr: true // Use 24-hour format
-            // Add more options here to customize the appearance
-            });
-        });
-        </script>
 
 
    </body>

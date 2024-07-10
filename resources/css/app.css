@@ -1879,8 +1879,11 @@ button {
   }
   
   .flatpickr-time input {
-    color: #495057; /* Change text color */
+    background:#666666;
+    border:none;
+    color:#fff;
   }
+
   
   .flatpickr-time .flatpickr-time-separator {
     color: #495057; /* Change separator color */
