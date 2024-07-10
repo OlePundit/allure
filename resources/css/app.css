@@ -615,6 +615,27 @@ button {
     padding-bottom: 90px;
     background:#202020;
 }
+.product_section .modal-content{
+    background:#202020;
+}
+
+.product_section .modal-content input{
+    background:#202020;
+    border:none;
+
+}
+.product_section .modal-content .modal-footer button{
+
+    width: 100%;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: #E1C17E;
+
+}
+.product_section .modal-content input::placeholder {
+    color: #fff; /* Change this to your desired color */
+    opacity: 1; /* Optional: Ensure the color is fully opaque */
+}
 .product_section h3 {
     color: #fff;
     font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;

@@ -22,7 +22,7 @@
                     <hr></hr>
                     <div class="d-flex price-wrap">
                         <p class="card-text">KSH {{$hair->price}}</p>
-                        <a href="/book" class="" data-bs-toggle="modal" data-bs-target="#hairModal">Order Now</a>
+                        <a href="#"  class="" data-bs-toggle="modal" data-bs-target="#hairModal">Order Now</a>
                     </div>
 
                     </div>
@@ -42,16 +42,21 @@
                         <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
                         <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+                        <label class="text-white" style="font-size:16px;">Price</label>
+
+                        <input type="text" class="form-control mb-3" name="price" value="{{$hair->price}}">
 
                         <input type="text" class="form-control mb-3" name="service type" value="hair dressing">
+                          <label class="text-white" style="font-size:16px;">Service name</label>
                         <input type="text" class="form-control mb-3" name="service name" value="{{$hair->name}}">
-                        <input type="text" class="form-control mb-3" name="service name" value="{{$hair->payment_terms}}">
+                        <label class="text-white" style="font-size:16px;">Payment terms</label>
+                        <input type="text" class="form-control mb-3" name="payment terms" value="{{$hair->payment_terms}}">
 
                         <button type="submit">Send</button>
                     </form>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="" data-bs-dismiss="modal">Close</button>
                     </div>
                     </div>
                 </div>
@@ -75,9 +80,43 @@
                     <hr></hr>
                     <div class="d-flex price-wrap">
                         <p class="card-text">KSH {{$massage->price}}</p>
-                        <a href="/book" class="">Order Now</a>
+                        <a href="#"  data-bs-toggle="modal" data-bs-target="#massageModal" class="">Order Now</a>
                     </div>
 
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="massageModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <form method="POST" action="https://formsubmit.co/admin@allureessencespa.com">
+                        <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
+                        <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
+                        <label class="text-white" style="font-size:16px;">Booking date</label>
+                        <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+
+                        <input type="text" class="form-control mb-3" name="service type" value="Massage Services">
+                        <label class="text-white" style="font-size:16px;">Price</label>
+
+                        <input type="text" class="form-control mb-3" name="price" value="{{$hair->price}}">
+
+                          <label class="text-white" style="font-size:16px;">Service name</label>
+                        <input type="text" class="form-control mb-3" name="service name" value="{{$massage->name}}">
+                        <label class="text-white" style="font-size:16px;">Payment terms</label>
+                        <input type="text" class="form-control mb-3" name="payment terms" value="{{$massage->payment_terms}}">
+
+                        <button type="submit">Send</button>
+                    </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -101,9 +140,43 @@
                     <hr></hr>
                     <div class="d-flex price-wrap">
                         <p class="card-text">KSH {{$body->price}}</p>
-                        <a href="/book" class="">Order Now</a>
+                        <a href="#"  data-bs-toggle="modal" data-bs-target="#bodyModal" class="">Order Now</a>
                     </div>
 
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="bodyModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <form method="POST" action="https://formsubmit.co/admin@allureessencespa.com">
+                        <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
+                        <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
+                        <label class="text-white" style="font-size:16px;">Booking date</label>
+                        <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+
+                        <input type="text" class="form-control mb-3" name="service type" value="Body Scrub Services">
+                        <label class="text-white" style="font-size:16px;">Price</label>
+
+                        <input type="text" class="form-control mb-3" name="price" value="{{$body->price}}">
+
+                          <label class="text-white" style="font-size:16px;">Service name</label>
+                        <input type="text" class="form-control mb-3" name="service name" value="{{$body->name}}">
+                        <label class="text-white" style="font-size:16px;">Payment terms</label>
+                        <input type="text" class="form-control mb-3" name="payment terms" value="{{$body->payment_terms}}">
+
+                        <button type="submit">Send</button>
+                    </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -129,9 +202,43 @@
                     <hr></hr>
                     <div class="d-flex price-wrap">
                         <p class="card-text">KSH {{$dread->price}}</p>
-                        <a href="/book" class="">Order Now</a>
+                        <a href="#"  data-bs-toggle="modal" data-bs-target="#dreadModal" class="">Order Now</a>
                     </div>
 
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="dreadModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <form method="POST" action="https://formsubmit.co/admin@allureessencespa.com">
+                        <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
+                        <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
+                        <label class="text-white" style="font-size:16px;">Booking date</label>
+                        <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+
+                        <input type="text" class="form-control mb-3" name="service type" value="Dread Locks">
+                        <label class="text-white" style="font-size:16px;">Price</label>
+
+                        <input type="text" class="form-control mb-3" name="price" value="{{$dread->price}}">
+
+                          <label class="text-white" style="font-size:16px;">Service name</label>
+                        <input type="text" class="form-control mb-3" name="service name" value="{{$dread->name}}">
+                        <label class="text-white" style="font-size:16px;">Payment terms</label>
+                        <input type="text" class="form-control mb-3" name="payment terms" value="{{$dread->payment_terms}}">
+
+                        <button type="submit">Send</button>
+                    </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -157,9 +264,43 @@
                     <hr></hr>
                     <div class="d-flex price-wrap">
                         <p class="card-text">KSH {{$men->price}}</p>
-                        <a href="/book" class="">Order Now</a>
+                        <a href="#"  data-bs-toggle="modal" data-bs-target="#menModal" class="">Order Now</a>
                     </div>
 
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="menModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <form method="POST" action="https://formsubmit.co/admin@allureessencespa.com">
+                        <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
+                        <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
+                        <label class="text-white" style="font-size:16px;">Booking date</label>
+                        <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+
+                        <input type="text" class="form-control mb-3" name="service type" value="Men's Facial Services">
+                        <label class="text-white" style="font-size:16px;">Price</label>
+
+                        <input type="text" class="form-control mb-3" name="price" value="{{$men->price}}">
+
+                          <label class="text-white" style="font-size:16px;">Service name</label>
+                        <input type="text" class="form-control mb-3" name="service name" value="{{$men->name}}">
+                        <label class="text-white" style="font-size:16px;">Payment terms</label>
+                        <input type="text" class="form-control mb-3" name="payment terms" value="{{$men->payment_terms}}">
+
+                        <button type="submit">Send</button>
+                    </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -185,9 +326,43 @@
                     <hr></hr>
                     <div class="d-flex price-wrap">
                         <p class="card-text">KSH {{$colour->price}}</p>
-                        <a href="/book" class="">Order Now</a>
+                        <a href="#"  data-bs-toggle="modal" data-bs-target="#colourModal" class="">Order Now</a>
                     </div>
 
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="colourModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <form method="POST" action="https://formsubmit.co/admin@allureessencespa.com">
+                        <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
+                        <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
+                        <label class="text-white" style="font-size:16px;">Booking date</label>
+                        <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+
+                        <input type="text" class="form-control mb-3" name="service type" value="Colour Services">
+                        <label class="text-white" style="font-size:16px;">Price</label>
+
+                        <input type="text" class="form-control mb-3" name="price" value="{{$colour->price}}">
+
+                          <label class="text-white" style="font-size:16px;">Service name</label>
+                        <input type="text" class="form-control mb-3" name="service name" value="{{$colour->name}}">
+                        <label class="text-white" style="font-size:16px;">Payment terms</label>
+                        <input type="text" class="form-control mb-3" name="payment terms" value="{{$colour->payment_terms}}">
+
+                        <button type="submit">Send</button>
+                    </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -213,9 +388,43 @@
                     <hr></hr>
                     <div class="d-flex price-wrap">
                         <p class="card-text">KSH {{$african->price}}</p>
-                        <a href="/book" class="">Order Now</a>
+                        <a href="#"  data-bs-toggle="modal" data-bs-target="#africanModal" class="">Order Now</a>
                     </div>
 
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="africanModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <form method="POST" action="https://formsubmit.co/admin@allureessencespa.com">
+                        <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
+                        <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
+                        <label class="text-white" style="font-size:16px;">Booking date</label>
+                        <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+
+                        <input type="text" class="form-control mb-3" name="service type" value="African Hair Services">
+                                                <label class="text-white" style="font-size:16px;">Price</label>
+
+                        <input type="text" class="form-control mb-3" name="price" value="{{$african->price}}">
+
+                          <label class="text-white" style="font-size:16px;">Service name</label>
+                        <input type="text" class="form-control mb-3" name="service name" value="{{$african->name}}">
+                        <label class="text-white" style="font-size:16px;">Payment terms</label>
+                        <input type="text" class="form-control mb-3" name="payment terms" value="{{$african->payment_terms}}">
+
+                        <button type="submit">Send</button>
+                    </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -241,9 +450,43 @@
                     <hr></hr>
                     <div class="d-flex price-wrap">
                         <p class="card-text">KSH {{$caucasian->price}}</p>
-                        <a href="/book" class="">Order Now</a>
+                        <a href="#"  data-bs-toggle="modal" data-bs-target="#caucasianModal" class="">Order Now</a>
                     </div>
 
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="caucasianModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <form method="POST" action="https://formsubmit.co/admin@allureessencespa.com">
+                        <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
+                        <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
+                        <label class="text-white" style="font-size:16px;">Booking date</label>
+                        <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+
+                        <input type="text" class="form-control mb-3" name="service type" value="Caucasian Hair Services">
+                        <label class="text-white" style="font-size:16px;">Price</label>
+
+                        <input type="text" class="form-control mb-3" name="price" value="{{$caucasian->price}}">
+
+                          <label class="text-white" style="font-size:16px;">Service name</label>
+                        <input type="text" class="form-control mb-3" name="service name" value="{{$caucasian->name}}">
+                        <label class="text-white" style="font-size:16px;">Payment terms</label>
+                        <input type="text" class="form-control mb-3" name="payment terms" value="{{$caucasian->payment_terms}}">
+
+                        <button type="submit">Send</button>
+                    </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -270,9 +513,43 @@
                     <hr></hr>
                     <div class="d-flex price-wrap">
                         <p class="card-text">KSH {{$weaving->price}}</p>
-                        <a href="/book" class="">Order Now</a>
+                        <a href="#"  data-bs-toggle="modal" data-bs-target="#weavingModal" class="">Order Now</a>
                     </div>
 
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="weavingModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <form method="POST" action="https://formsubmit.co/admin@allureessencespa.com">
+                        <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
+                        <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
+                        <label class="text-white" style="font-size:16px;">Booking date</label>
+                        <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+
+                        <input type="text" class="form-control mb-3" name="service type" value="Weaving services">
+                        <label class="text-white" style="font-size:16px;">Price</label>
+
+                        <input type="text" class="form-control mb-3" name="price" value="{{$weaving->price}}">
+
+                          <label class="text-white" style="font-size:16px;">Service name</label>
+                        <input type="text" class="form-control mb-3" name="service name" value="{{$weaving->name}}">
+                        <label class="text-white" style="font-size:16px;">Payment terms</label>
+                        <input type="text" class="form-control mb-3" name="payment terms" value="{{$weaving->payment_terms}}">
+
+                        <button type="submit">Send</button>
+                    </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -299,9 +576,43 @@
                     <hr></hr>
                     <div class="d-flex price-wrap">
                         <p class="card-text">KSH {{$permanent->price}}</p>
-                        <a href="/book" class="">Order Now</a>
+                        <a href="#"  data-bs-toggle="modal" data-bs-target="#permanentModal" class="">Order Now</a>
                     </div>
 
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="permanentModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <form method="POST" action="https://formsubmit.co/admin@allureessencespa.com">
+                        <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
+                        <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
+                        <label class="text-white" style="font-size:16px;">Booking date</label>
+                        <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+
+                        <input type="text" class="form-control mb-3" name="service type" value="Permanent weave">
+                        <label class="text-white" style="font-size:16px;">Price</label>
+
+                        <input type="text" class="form-control mb-3" name="price" value="{{$permanent->price}}">
+
+                          <label class="text-white" style="font-size:16px;">Service name</label>
+                        <input type="text" class="form-control mb-3" name="service name" value="{{$permanent->name}}">
+                        <label class="text-white" style="font-size:16px;">Payment terms</label>
+                        <input type="text" class="form-control mb-3" name="payment terms" value="{{$permanent->payment_terms}}">
+
+                        <button type="submit">Send</button>
+                    </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -309,7 +620,7 @@
 
 
         </div>
-        <h3>relaxer Cut</h3>
+        <h3>Pixie Cut</h3>
 
         <div class="row product-row">
             @foreach($pixies as $pixie)
@@ -327,9 +638,43 @@
                     <hr></hr>
                     <div class="d-flex price-wrap">
                         <p class="card-text">KSH {{$pixie->price}}</p>
-                        <a href="/book" class="">Order Now</a>
+                        <a href="#"  data-bs-toggle="modal" data-bs-target="#pixieModal" class="">Order Now</a>
                     </div>
 
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="pixieModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <form method="POST" action="https://formsubmit.co/admin@allureessencespa.com">
+                        <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
+                        <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
+                        <label class="text-white" style="font-size:16px;">Booking date</label>
+                        <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+
+                        <input type="text" class="form-control mb-3" name="service type" value="Pixie Cut">
+                        <label class="text-white" style="font-size:16px;">Price</label>
+
+                        <input type="text" class="form-control mb-3" name="price" value="{{$pixie->price}}">
+
+                          <label class="text-white" style="font-size:16px;">Service name</label>
+                        <input type="text" class="form-control mb-3" name="service name" value="{{$pixie->name}}">
+                        <label class="text-white" style="font-size:16px;">Payment terms</label>
+                        <input type="text" class="form-control mb-3" name="payment terms" value="{{$pixie->payment_terms}}">
+
+                        <button type="submit">Send</button>
+                    </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -355,9 +700,43 @@
                     <hr></hr>
                     <div class="d-flex price-wrap">
                         <p class="card-text">KSH {{$relaxer->price}}</p>
-                        <a href="/book" class="">Order Now</a>
+                        <a href="#"  data-bs-toggle="modal" data-bs-target="#relaxerModal" class="">Order Now</a>
                     </div>
 
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="relaxerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <form method="POST" action="https://formsubmit.co/admin@allureessencespa.com">
+                        <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
+                        <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
+                        <label class="text-white" style="font-size:16px;">Booking date</label>
+                        <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+
+                        <input type="text" class="form-control mb-3" name="service type" value="Relaxers">
+                        <label class="text-white" style="font-size:16px;">Price</label>
+
+                        <input type="text" class="form-control mb-3" name="price" value="{{$relaxer->price}}">
+
+                          <label class="text-white" style="font-size:16px;">Service name</label>
+                        <input type="text" class="form-control mb-3" name="service name" value="{{$relaxer->name}}">
+                        <label class="text-white" style="font-size:16px;">Payment terms</label>
+                        <input type="text" class="form-control mb-3" name="payment terms" value="{{$relaxer->payment_terms}}">
+
+                        <button type="submit">Send</button>
+                    </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -383,9 +762,43 @@
                     <hr></hr>
                     <div class="d-flex price-wrap">
                         <p class="card-text">KSH {{$barberA->price}}</p>
-                        <a href="/book" class="">Order Now</a>
+                        <a href="#"  data-bs-toggle="modal" data-bs-target="#barberAModal" class="">Order Now</a>
                     </div>
 
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="barberAModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <form method="POST" action="https://formsubmit.co/admin@allureessencespa.com">
+                        <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
+                        <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
+                        <label class="text-white" style="font-size:16px;">Booking date</label>
+                        <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+
+                        <input type="text" class="form-control mb-3" name="service type" value="hair dressingBarber Shop Services(Caucasian)">
+                        <label class="text-white" style="font-size:16px;">Price</label>
+
+                        <input type="text" class="form-control mb-3" name="price" value="{{$barberA->price}}">
+
+                          <label class="text-white" style="font-size:16px;">Service name</label>
+                        <input type="text" class="form-control mb-3" name="service name" value="{{$barberA->name}}">
+                        <label class="text-white" style="font-size:16px;">Payment terms</label>
+                        <input type="text" class="form-control mb-3" name="payment terms" value="{{$barberA->payment_terms}}">
+
+                        <button type="submit">Send</button>
+                    </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -411,9 +824,45 @@
                     <hr></hr>
                     <div class="d-flex price-wrap">
                         <p class="card-text">KSH {{$barberC->price}}</p>
-                        <a href="/book" class="">Order Now</a>
+                        <a href="#"  data-bs-toggle="modal" data-bs-target="#barberCModal" class="">Order Now</a>
                     </div>
 
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="barberCModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <form method="POST" action="https://formsubmit.co/admin@allureessencespa.com">
+                        <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
+                        <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
+                        <label class="text-white" style="font-size:16px;">Booking date</label>
+                        <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+
+                        <input type="text" class="form-control mb-3" name="service type" value="Barber Shop Services(African)">
+                        <label class="text-white" style="font-size:16px;">Price</label>
+
+
+                        <input type="text" class="form-control mb-3" name="price" value="{{$barberC->price}}">
+
+                        <label class="text-white" style="font-size:16px;">Service name</label>
+                        <input type="text" class="form-control mb-3" name="service name" value="{{$barberC->name}}">
+                        <label class="text-white" style="font-size:16px;">Payment terms</label>
+
+                        <input type="text" class="form-control mb-3" name="payment terms" value="{{$barberC->payment_terms}}">
+
+                        <button type="submit">Send</button>
+                    </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                    </div>
                     </div>
                 </div>
             </div>
