@@ -755,3 +755,8 @@
         max-width: 1200px;
     }
 }
+@media (min-width: 1400px) {
+    .info_section .container{
+        max-width:1400px
+    }
+}

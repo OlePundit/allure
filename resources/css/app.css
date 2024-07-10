@@ -1235,6 +1235,17 @@ button {
     display: flex;
     justify-content: space-between;
 }
+.footer_section .modal-content{
+    background: #202020;
+}
+.footer_section .modal-title{
+    font-size: 30px;
+    font-weight: 600;
+    color:#fff;
+}
+.footer_section .modal-body{
+    color:#fff;
+}
 .footer_section .cancellation-btn i{
     padding: 5px 5px;
     border:1px solid #E1C17E;
