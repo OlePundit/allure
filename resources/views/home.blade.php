@@ -208,9 +208,7 @@
             <!-- If we need pagination -->
                 <div class="swiper-pagination swiper-pagination1"></div>
 
-            <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"><i class="fas fa-arrow-left" aria-hidden="true"></i></div>
-                <div class="swiper-button-next"><i class="fas fa-arrow-right" aria-hidden="true"></i></div>
+
 
                 <!-- If we need scrollbar -->
             </div>
