@@ -57,6 +57,9 @@
         <link rel="stylesheet" href="{{ asset('build/assets/app-sEhFnVTV.css') }}">
         <link rel="stylesheet" href="{{ asset('build/assets/responsive-DhAHJOLM.css') }}">
         <script src="{{ asset('build/assets/app-BwDpqcm8.js') }}"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
     </head>
     <body>
 
@@ -453,9 +456,9 @@
                                                     <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
                                                     <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
                                                     <label class="text-white" style="font-size:16px;">Booking date</label>
-                                                    <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
-                                <label class="text-white" style="font-size:16px;">Booking time</label>
-                                <input type="time" class="form-control mb-3" name="time" placeholder="Booking date" required>                                                      
+                                                    <input type="text" id="datePicker" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+                                                    <label class="text-white" style="font-size:16px;">Booking time</label>
+                                                    <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>                                                     
                                                     
                                                     <input type="text" class="form-control mb-3" name="service type" value="hair dressing">
 
@@ -516,9 +519,9 @@
                                                     <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
                                                     <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
                                                     <label class="text-white" style="font-size:16px;">Booking date</label>
-                                                    <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
-                                <label class="text-white" style="font-size:16px;">Booking time</label>
-                                <input type="time" class="form-control mb-3" name="time" placeholder="Booking date" required>                                                      
+                                                    <input type="text" id="datePicker" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+                                                    <label class="text-white" style="font-size:16px;">Booking time</label>
+                                                    <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>                                                     
                                                     
 
                                                     <input type="text" class="form-control mb-3" name="service type" value="Massage Services">
@@ -579,9 +582,9 @@
                                                         <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
                                                         <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
                                                         <label class="text-white" style="font-size:16px;">Booking date</label>
-                                                        <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
-                                    <label class="text-white" style="font-size:16px;">Booking time</label>
-                                <input type="time" class="form-control mb-3" name="time" placeholder="Booking date" required>                                                      
+                                                        <input type="text" id="datePicker" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+                                                        <label class="text-white" style="font-size:16px;">Booking time</label>
+                                                        <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>                                                     
                                                         
 
                                                         <input type="text" class="form-control mb-3" name="service type" value="Body Scrub Services">
@@ -1438,6 +1441,25 @@
         $( function() {
             $( "#tabs" ).tabs();
         } );
+        </script>
+              <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            flatpickr('#datePicker', {
+            dateFormat: 'Y-m-d', // Customize the date format
+            // Add more options here to customize the appearance
+            });
+        });
+        </script>
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            flatpickr('#timePicker', {
+            enableTime: true,
+            noCalendar: true,
+            dateFormat: 'H:i', // Customize the time format
+            time_24hr: true // Use 24-hour format
+            // Add more options here to customize the appearance
+            });
+        });
         </script>
 
    </body>

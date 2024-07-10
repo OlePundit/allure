@@ -18,9 +18,9 @@
                     <input type="text" id="datePicker" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
                     
                     <label class="text-white" style="font-size:16px;">Booking time</label>
-                    <input type="time" class="form-control mb-3" name="time" placeholder="Booking date" required>
+                    <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>
 
-                    <select class="form-control mb-3">
+                    <select class="form-control mb-3" name="service type">
                         <option value="null">Choose service type</option>
                         <option value="hair dressing">Hair dressing</option>
                         <option value="Massage">Massage</option>

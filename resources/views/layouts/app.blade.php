@@ -291,6 +291,18 @@
             });
         });
         </script>
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            flatpickr('#timePicker', {
+            enableTime: true,
+            noCalendar: true,
+            dateFormat: 'H:i', // Customize the time format
+            time_24hr: true // Use 24-hour format
+            // Add more options here to customize the appearance
+            });
+        });
+        </script>
+
 
    </body>
 </html>
