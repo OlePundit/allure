@@ -1343,6 +1343,9 @@
             // Optional parameters
             direction: 'vertical',
             simulateTouch: false,
+            autoplay: {
+                delay: 3000,
+            },
 
             // If we need pagination
             pagination: {
