@@ -42,11 +42,14 @@
                                 <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
                                 <label class="text-white" style="font-size:16px;">Booking date</label>
                                 <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+                                <label class="text-white" style="font-size:16px;">Booking time</label>
+                                <input type="time" class="form-control mb-3" name="time" placeholder="Booking date" required>      
+                                <input type="text" class="form-control mb-3" name="service type" value="hair dressing">
+                            
                                 <label class="text-white" style="font-size:16px;">Price</label>
 
                                 <input type="text" class="form-control mb-3" name="price" value="{{$hair->price}}">
 
-                                <input type="text" class="form-control mb-3" name="service type" value="hair dressing">
                                 <label class="text-white" style="font-size:16px;">Service name</label>
                                 <input type="text" class="form-control mb-3" name="service name" value="{{$hair->name}}">
                                 <label class="text-white" style="font-size:16px;">Payment terms</label>
@@ -100,6 +103,8 @@
                         <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
                         <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+                    <label class="text-white" style="font-size:16px;">Booking time</label>
+                    <input type="time" class="form-control mb-3" name="time" placeholder="Booking date" required>                        
 
                         <input type="text" class="form-control mb-3" name="service type" value="Massage Services">
                         <label class="text-white" style="font-size:16px;">Price</label>
@@ -160,6 +165,8 @@
                         <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
                         <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+                    <label class="text-white" style="font-size:16px;">Booking time</label>
+                    <input type="time" class="form-control mb-3" name="time" placeholder="Booking date" required>                        
 
                         <input type="text" class="form-control mb-3" name="service type" value="Body Scrub Services">
                         <label class="text-white" style="font-size:16px;">Price</label>
@@ -222,6 +229,8 @@
                         <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
                         <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+                    <label class="text-white" style="font-size:16px;">Booking time</label>
+                    <input type="time" class="form-control mb-3" name="time" placeholder="Booking date" required>                        
 
                         <input type="text" class="form-control mb-3" name="service type" value="Dread Locks">
                         <label class="text-white" style="font-size:16px;">Price</label>
@@ -284,6 +293,8 @@
                         <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
                         <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+                    <label class="text-white" style="font-size:16px;">Booking time</label>
+                    <input type="time" class="form-control mb-3" name="time" placeholder="Booking date" required>                        
 
                         <input type="text" class="form-control mb-3" name="service type" value="Men's Facial Services">
                         <label class="text-white" style="font-size:16px;">Price</label>
@@ -346,6 +357,8 @@
                         <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
                         <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+                    <label class="text-white" style="font-size:16px;">Booking time</label>
+                    <input type="time" class="form-control mb-3" name="time" placeholder="Booking date" required>                        
 
                         <input type="text" class="form-control mb-3" name="service type" value="Colour Services">
                         <label class="text-white" style="font-size:16px;">Price</label>
@@ -408,6 +421,8 @@
                         <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
                         <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+                    <label class="text-white" style="font-size:16px;">Booking time</label>
+                    <input type="time" class="form-control mb-3" name="time" placeholder="Booking date" required>                        
 
                         <input type="text" class="form-control mb-3" name="service type" value="African Hair Services">
                                                 <label class="text-white" style="font-size:16px;">Price</label>
@@ -470,6 +485,8 @@
                         <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
                         <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+                    <label class="text-white" style="font-size:16px;">Booking time</label>
+                    <input type="time" class="form-control mb-3" name="time" placeholder="Booking date" required>                        
 
                         <input type="text" class="form-control mb-3" name="service type" value="Caucasian Hair Services">
                         <label class="text-white" style="font-size:16px;">Price</label>
@@ -533,6 +550,8 @@
                         <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
                         <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+                    <label class="text-white" style="font-size:16px;">Booking time</label>
+                    <input type="time" class="form-control mb-3" name="time" placeholder="Booking date" required>                        
 
                         <input type="text" class="form-control mb-3" name="service type" value="Weaving services">
                         <label class="text-white" style="font-size:16px;">Price</label>
@@ -596,6 +615,8 @@
                         <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
                         <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+                    <label class="text-white" style="font-size:16px;">Booking time</label>
+                    <input type="time" class="form-control mb-3" name="time" placeholder="Booking date" required>                        
 
                         <input type="text" class="form-control mb-3" name="service type" value="Permanent weave">
                         <label class="text-white" style="font-size:16px;">Price</label>
@@ -658,6 +679,8 @@
                         <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
                         <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+                    <label class="text-white" style="font-size:16px;">Booking time</label>
+                    <input type="time" class="form-control mb-3" name="time" placeholder="Booking date" required>                        
 
                         <input type="text" class="form-control mb-3" name="service type" value="Pixie Cut">
                         <label class="text-white" style="font-size:16px;">Price</label>
@@ -720,6 +743,8 @@
                         <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
                         <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+                    <label class="text-white" style="font-size:16px;">Booking time</label>
+                    <input type="time" class="form-control mb-3" name="time" placeholder="Booking date" required>                        
 
                         <input type="text" class="form-control mb-3" name="service type" value="Relaxers">
                         <label class="text-white" style="font-size:16px;">Price</label>
@@ -782,6 +807,8 @@
                         <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
                         <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+                    <label class="text-white" style="font-size:16px;">Booking time</label>
+                    <input type="time" class="form-control mb-3" name="time" placeholder="Booking date" required>                        
 
                         <input type="text" class="form-control mb-3" name="service type" value="hair dressingBarber Shop Services(Caucasian)">
                         <label class="text-white" style="font-size:16px;">Price</label>
@@ -844,6 +871,8 @@
                         <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
                         <input type="date" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+                    <label class="text-white" style="font-size:16px;">Booking time</label>
+                    <input type="time" class="form-control mb-3" name="time" placeholder="Booking date" required>                        
 
                         <input type="text" class="form-control mb-3" name="service type" value="Barber Shop Services(African)">
                         <label class="text-white" style="font-size:16px;">Price</label>
