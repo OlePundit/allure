@@ -621,528 +621,530 @@
         <!-- product section end -->
         <!-- banner section start -->
         <div class="info_section layout_padding">
-            <div class="swiper-container swiper2">
-                <div class="swiper-wrapper mb-5">
-                    <div class="swiper-slide">
-                        <div class="row">
-                            <div class="col-md-6 col-12 info">
-                                <h3>Allure Essence</h3>
-                                <p class="mb-5">At Allure Essence Spa & Hair Studio, we take pride in offering a comprehensive range of hairdressing services tailored to meet the diverse needs of our clientele. Whether you're looking for a fresh new look, maintaining your current style, or preparing for a special occasion, our expert stylists are here to ensure you leave our salon looking and feeling your best.</p>
-                                <img
-                                sizes="(max-width: 1400px) 100vw, 1400px"
-                                srcset="
-                                storage/images/aboutSlider_p242ei_c_scale,w_200.webp 200w,
-                                storage/images/aboutSlider_p242ei_c_scale,w_515.webp 515w,
-                                storage/images/aboutSlider_p242ei_c_scale,w_734.webp 734w,
-                                storage/images/aboutSlider_p242ei_c_scale,w_926.webp 926w,
-                                storage/images/aboutSlider_p242ei_c_scale,w_1156.webp 1156w,
-                                storage/images/aboutSlider_p242ei_c_scale,w_1341.webp 1341w,
-                                storage/images/aboutSlider_p242ei_c_scale,w_1342.webp 1342w,
-                                storage/images/aboutSlider_p242ei_c_scale,w_1400.webp 1400w"
-                                src="storage/images/aboutSlider_p242ei_c_scale,w_1400.webp"
-                                alt="banner">
+            <div class="container">
+                <div class="swiper-container swiper2">
+                    <div class="swiper-wrapper mb-5">
+                        <div class="swiper-slide">
+                            <div class="row">
+                                <div class="col-md-6 col-12 info">
+                                    <h3>Allure Essence</h3>
+                                    <p class="mb-5">At Allure Essence Spa & Hair Studio, we take pride in offering a comprehensive range of hairdressing services tailored to meet the diverse needs of our clientele. Whether you're looking for a fresh new look, maintaining your current style, or preparing for a special occasion, our expert stylists are here to ensure you leave our salon looking and feeling your best.</p>
+                                    <img
+                                    sizes="(max-width: 1400px) 100vw, 1400px"
+                                    srcset="
+                                    storage/images/aboutSlider_p242ei_c_scale,w_200.webp 200w,
+                                    storage/images/aboutSlider_p242ei_c_scale,w_515.webp 515w,
+                                    storage/images/aboutSlider_p242ei_c_scale,w_734.webp 734w,
+                                    storage/images/aboutSlider_p242ei_c_scale,w_926.webp 926w,
+                                    storage/images/aboutSlider_p242ei_c_scale,w_1156.webp 1156w,
+                                    storage/images/aboutSlider_p242ei_c_scale,w_1341.webp 1341w,
+                                    storage/images/aboutSlider_p242ei_c_scale,w_1342.webp 1342w,
+                                    storage/images/aboutSlider_p242ei_c_scale,w_1400.webp 1400w"
+                                    src="storage/images/aboutSlider_p242ei_c_scale,w_1400.webp"
+                                    alt="banner">
+                                </div>
+                                <div class="col-md-1 col-12 buttons">
+                                    <div class="swiper-button-prev swiper-button-prev2"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+                                    <div class="swiper-button-next swiper-button-next2"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+                                </div>
+                                <div class="col-md-4 col-12 info-side">
+                                    <div class="row">
+                                    <div class="col-6 mb-3">
+                                        <img
+                                        sizes="(max-width: 1400px) 100vw, 1400px"
+                                        srcset="
+                                        storage/images/aboutSlider1_kvjopz_c_scale,w_200.webp 200w,
+                                        storage/images/aboutSlider1_kvjopz_c_scale,w_704.webp 704w,
+                                        storage/images/aboutSlider1_kvjopz_c_scale,w_1056.webp 1056w,
+                                        storage/images/aboutSlider1_kvjopz_c_scale,w_1377.webp 1377w,
+                                        storage/images/aboutSlider1_kvjopz_c_scale,w_1400.webp 1400w"
+                                        src="storage/images/aboutSlider1_kvjopz_c_scale,w_1400.webp"
+                                        alt="banner">
+                                    </div>
+                                    <div class="col-6 mb-3">
+                                        <img
+                                        sizes="(max-width: 1400px) 100vw, 1400px"
+                                        srcset="
+                                        storage/images/aboutSlider2_emcfnp_c_scale,w_200.webp 200w,
+                                        storage/images/aboutSlider2_emcfnp_c_scale,w_419.webp 419w,
+                                        storage/images/aboutSlider2_emcfnp_c_scale,w_571.webp 571w,
+                                        storage/images/aboutSlider2_emcfnp_c_scale,w_701.webp 701w,
+                                        storage/images/aboutSlider2_emcfnp_c_scale,w_843.webp 843w,
+                                        storage/images/aboutSlider2_emcfnp_c_scale,w_983.webp 983w,
+                                        storage/images/aboutSlider2_emcfnp_c_scale,w_943.webp 943w,
+                                        storage/images/aboutSlider2_emcfnp_c_scale,w_1296.webp 1296w,
+                                        storage/images/aboutSlider2_emcfnp_c_scale,w_1371.webp 1371w,
+                                        storage/images/aboutSlider2_emcfnp_c_scale,w_1391.webp 1391w,
+                                        storage/images/aboutSlider2_emcfnp_c_scale,w_1374.webp 1374w,
+                                        storage/images/aboutSlider2_emcfnp_c_scale,w_1400.webp 1400w"
+                                        src="storage/images/aboutSlider2_emcfnp_c_scale,w_1400.webp"
+                                        alt="banner">
+                                    </div>                           
+                                    <div class="col-6 mb-3">
+                                        <img
+                                        sizes="(max-width: 1400px) 100vw, 1400px"
+                                        srcset="
+                                        storage/images/aboutSlider3_wrejrf_c_scale,w_200.webp 200w,
+                                        storage/images/aboutSlider3_wrejrf_c_scale,w_436.webp 436w,
+                                        storage/images/aboutSlider3_wrejrf_c_scale,w_609.webp 609w,
+                                        storage/images/aboutSlider3_wrejrf_c_scale,w_810.webp 810w,
+                                        storage/images/aboutSlider3_wrejrf_c_scale,w_984.webp 984w,
+                                        storage/images/aboutSlider3_wrejrf_c_scale,w_998.webp 998w,
+                                        storage/images/aboutSlider3_wrejrf_c_scale,w_1317.webp 1317w,
+                                        storage/images/aboutSlider3_wrejrf_c_scale,w_1393.webp 1393w,
+                                        storage/images/aboutSlider3_wrejrf_c_scale,w_1400.webp 1400w"
+                                        src="storage/images/aboutSlider3_wrejrf_c_scale,w_1400.webp"
+                                        alt="banner">
+                                    </div>
+                                    <div class="col-6 mb-3">
+                                        <img
+                                        sizes="(max-width: 1400px) 100vw, 1400px"
+                                        srcset="
+                                        storage/images/aboutSlider4_t0lfng_c_scale,w_200.webp 200w,
+                                        storage/images/aboutSlider4_t0lfng_c_scale,w_461.webp 461w,
+                                        storage/images/aboutSlider4_t0lfng_c_scale,w_634.webp 634w,
+                                        storage/images/aboutSlider4_t0lfng_c_scale,w_1010.webp 1010w,
+                                        storage/images/aboutSlider4_t0lfng_c_scale,w_1047.webp 1047w,
+                                        storage/images/aboutSlider4_t0lfng_c_scale,w_1058.webp 1058w,
+                                        storage/images/aboutSlider4_t0lfng_c_scale,w_1349.webp 1349w,
+                                        storage/images/aboutSlider4_t0lfng_c_scale,w_1241.webp 1241w,
+                                        storage/images/aboutSlider4_t0lfng_c_scale,w_1400.webp 1400w"
+                                        src="storage/images/aboutSlider4_t0lfng_c_scale,w_1400.webp"
+                                        alt="banner">
+                                    </div>
+                                    <div class="col-6">
+                                        <img
+                                        sizes="(max-width: 1400px) 100vw, 1400px"
+                                        srcset="
+                                        storage/images/aboutSlider5_gorn32_c_scale,w_200.webp 200w,
+                                        storage/images/aboutSlider5_gorn32_c_scale,w_475.webp 475w,
+                                        storage/images/aboutSlider5_gorn32_c_scale,w_665.webp 665w,
+                                        storage/images/aboutSlider5_gorn32_c_scale,w_851.webp 851w,
+                                        storage/images/aboutSlider5_gorn32_c_scale,w_1009.webp 1009w,
+                                        storage/images/aboutSlider5_gorn32_c_scale,w_1166.webp 1166w,
+                                        storage/images/aboutSlider5_gorn32_c_scale,w_1304.webp 1304w,
+                                        storage/images/aboutSlider5_gorn32_c_scale,w_1398.webp 1398w,
+                                        storage/images/aboutSlider5_gorn32_c_scale,w_1396.webp 1396w,
+                                        storage/images/aboutSlider5_gorn32_c_scale,w_1400.webp 1400w"
+                                        src="storage/images/storage/images/aboutSlider5_gorn32_c_scale,w_1400.webp"
+                                        alt="banner">
+                                    </div>
+                                    <div class="col-6">
+                                        <img
+                                        sizes="(max-width: 1400px) 100vw, 1400px"
+                                        srcset="
+                                        storage/images/aboutSlider6_wakdrt_c_scale,w_200.webp 200w,
+                                        storage/images/aboutSlider6_wakdrt_c_scale,w_499.webp 499w,
+                                        storage/images/aboutSlider6_wakdrt_c_scale,w_709.webp 709w,
+                                        storage/images/aboutSlider6_wakdrt_c_scale,w_919.webp 919w,
+                                        storage/images/aboutSlider6_wakdrt_c_scale,w_1104.webp 1104w,
+                                        storage/images/aboutSlider6_wakdrt_c_scale,w_1275.webp 1275w,
+                                        storage/images/aboutSlider6_wakdrt_c_scale,w_1393.webp 1393w,
+                                        storage/images/aboutSlider6_wakdrt_c_scale,w_1400.webp 1400w"
+                                        src="storage/images/aboutSlider6_wakdrt_c_scale,w_1400.webp"
+                                        alt="banner">
+                                    </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-1 col-12 buttons">
-                                <div class="swiper-button-prev swiper-button-prev2"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
-                                <div class="swiper-button-next swiper-button-next2"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="row">
+                                <div class="col-md-6 col-12 info">
+                                    <h3>Allure Essence</h3>
+                                    <p class="mb-5">At Allure Essence Spa & Hair Studio, we believe in the power of therapeutic touch to heal the body, calm the mind, and rejuvenate the spirit. Our comprehensive range of massage services is designed to address your unique needs and preferences, ensuring a deeply relaxing and restorative experience.</p>
+                                    <img
+                                    sizes="(max-width: 1400px) 100vw, 1400px"
+                                    srcset="
+                                    storage/images/about2Slide_xhhlc2_c_scale,w_200.webp 200w,
+                                    storage/images/about2Slide_xhhlc2_c_scale,w_450.webp 450w,
+                                    storage/images/about2Slide_xhhlc2_c_scale,w_619.webp 619w,
+                                    storage/images/about2Slide_xhhlc2_c_scale,w_812.webp 812w,
+                                    storage/images/about2Slide_xhhlc2_c_scale,w_991.webp 991w,
+                                    storage/images/about2Slide_xhhlc2_c_scale,w_1155.webp 1155w,
+                                    storage/images/about2Slide_xhhlc2_c_scale,w_1319.webp 1319w,
+                                    storage/images/about2Slide_xhhlc2_c_scale,w_1397.webp 1397w,
+                                    storage/images/about2Slide_xhhlc2_c_scale,w_1400.webp 1400w"
+                                    src="storage/images/about2Slide_xhhlc2_c_scale,w_1400.webp"
+                                    alt="banner">
+                                </div>
+                                <div class="col-md-1 col-12 buttons">
+                                    <div class="swiper-button-prev swiper-button-prev2"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+                                    <div class="swiper-button-next swiper-button-next2"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+                                </div>
+                                <div class="col-md-4 col-12 info-side">
+                                    <div class="row">
+                                    <div class="col-6 mb-3">
+                                        <img
+                                        sizes="(max-width: 1400px) 100vw, 1400px"
+                                        srcset="
+                                        storage/images/spa_zjwj0l_c_scale,w_200.webp 200w,
+                                        storage/images/spa_zjwj0l_c_scale,w_533.webp 533w,
+                                        storage/images/spa_zjwj0l_c_scale,w_803.webp 803w,
+                                        storage/images/spa_zjwj0l_c_scale,w_934.webp 934w,
+                                        storage/images/spa_zjwj0l_c_scale,w_1106.webp 1106w,
+                                        storage/images/spa_zjwj0l_c_scale,w_1310.webp 1310w,
+                                        storage/images/spa_zjwj0l_c_scale,w_1400.webp 1400w"
+                                        src="storage/images/spa_zjwj0l_c_scale,w_1400.webp"
+                                        alt="banner">
+                                    </div>
+                                    <div class="col-6 mb-3">
+                                        <img
+                                        sizes="(max-width: 1400px) 100vw, 1400px"
+                                        srcset="
+                                        storage/images/about2Slide2_m5zmkw_c_scale,w_200.webp 200w,
+                                        storage/images/about2Slide2_m5zmkw_c_scale,w_462.webp 462w,
+                                        storage/images/about2Slide2_m5zmkw_c_scale,w_632.webp 632w,
+                                        storage/images/about2Slide2_m5zmkw_c_scale,w_849.webp 849w,
+                                        storage/images/about2Slide2_m5zmkw_c_scale,w_1013.webp 1013w,
+                                        storage/images/about2Slide2_m5zmkw_c_scale,w_1195.webp 1195w,
+                                        storage/images/about2Slide2_m5zmkw_c_scale,w_1351.webp 1351w,
+                                        storage/images/about2Slide2_m5zmkw_c_scale,w_1400.webp 1400w"
+                                        src="storage/images/about2Slide2_m5zmkw_c_scale,w_1400.webp"
+                                        alt="banner">
+                                    </div>                           
+                                    <div class="col-6 mb-3">
+                                        <img
+                                        sizes="(max-width: 1400px) 100vw, 1400px"
+                                        srcset="
+                                        storage/images/spa1_mxwxu6_c_scale,w_200.webp 200w,
+                                        storage/images/spa1_mxwxu6_c_scale,w_502.webp 502w,
+                                        storage/images/spa1_mxwxu6_c_scale,w_731.webp 731w,
+                                        storage/images/spa1_mxwxu6_c_scale,w_873.webp 873w,
+                                        storage/images/spa1_mxwxu6_c_scale,w_995.webp 995w,
+                                        storage/images/spa1_mxwxu6_c_scale,w_1159.webp 1159w,
+                                        storage/images/spa1_mxwxu6_c_scale,w_1301.webp 1301w,
+                                        storage/images/spa1_mxwxu6_c_scale,w_1371.webp 1371w,
+                                        storage/images/spa1_mxwxu6_c_scale,w_1400.webp 1400w"
+                                        src="storage/images/spa1_mxwxu6_c_scale,w_1400.webp"
+                                        alt="banner">
+                                    </div>
+                                    <div class="col-6 mb-3">
+                                        <img
+                                        sizes="(max-width: 1400px) 100vw, 1400px"
+                                        srcset="
+                                        storage/images/about2Slide4_gxhq98_c_scale,w_200.webp 200w,
+                                        storage/images/about2Slide4_gxhq98_c_scale,w_440.webp 440w,
+                                        storage/images/about2Slide4_gxhq98_c_scale,w_615.webp 615w,
+                                        storage/images/about2Slide4_gxhq98_c_scale,w_781.webp 781w,
+                                        storage/images/about2Slide4_gxhq98_c_scale,w_966.webp 966w,
+                                        storage/images/about2Slide4_gxhq98_c_scale,w_1116.webp 1116w,
+                                        storage/images/about2Slide4_gxhq98_c_scale,w_1305.webp 1305w,
+                                        storage/images/about2Slide4_gxhq98_c_scale,w_1383.webp 1383w,
+                                        storage/images/about2Slide4_gxhq98_c_scale,w_1400.webp 1400w"
+                                        src="storage/images/about2Slide4_gxhq98_c_scale,w_1400.webp"
+                                        alt="banner">
+                                    </div>
+                                    <div class="col-6">
+                                        <img
+                                        sizes="(max-width: 1400px) 100vw, 1400px"
+                                        srcset="
+                                        storage/images/spa2_uijii6_c_scale,w_200.webp 200w,
+                                        storage/images/spa2_uijii6_c_scale,w_502.webp 502w,
+                                        storage/images/spa2_uijii6_c_scale,w_731.webp 731w,
+                                        storage/images/spa2_uijii6_c_scale,w_876.webp 876w,
+                                        storage/images/spa2_uijii6_c_scale,w_986.webp 986w,
+                                        storage/images/spa2_uijii6_c_scale,w_1158.webp 1158w,
+                                        storage/images/spa2_uijii6_c_scale,w_1344.webp 1344w,
+                                        storage/images/spa2_uijii6_c_scale,w_1374.webp 1374w,
+                                        storage/images/spa2_uijii6_c_scale,w_1400.webp 1400w"
+                                        src="storage/images/spa2_uijii6_c_scale,w_1400.webp"
+                                        alt="banner">
+                                    </div>
+                                    <div class="col-6">
+                                        <img
+                                        sizes="(max-width: 1400px) 100vw, 1400px"
+                                        srcset="
+                                        storage/images/about2Slide6_ix2nwm_c_scale,w_200.webp 200w,
+                                        storage/images/about2Slide6_ix2nwm_c_scale,w_415.webp 415w,
+                                        storage/images/about2Slide6_ix2nwm_c_scale,w_528.webp 528w,
+                                        storage/images/about2Slide6_ix2nwm_c_scale,w_665.webp 665w,
+                                        storage/images/about2Slide6_ix2nwm_c_scale,w_794.webp 794w,
+                                        storage/images/about2Slide6_ix2nwm_c_scale,w_848.webp 848w,
+                                        storage/images/about2Slide6_ix2nwm_c_scale,w_867.webp 867w,
+                                        storage/images/about2Slide6_ix2nwm_c_scale,w_951.webp 951w,
+                                        storage/images/about2Slide6_ix2nwm_c_scale,w_1027.webp 1027w,
+                                        storage/images/about2Slide6_ix2nwm_c_scale,w_1101.webp 1101w,
+                                        storage/images/about2Slide6_ix2nwm_c_scale,w_1177.webp 1177w,
+                                        storage/images/about2Slide6_ix2nwm_c_scale,w_1237.webp 1237w,
+                                        storage/images/about2Slide6_ix2nwm_c_scale,w_1297.webp 1297w,
+                                        storage/images/about2Slide6_ix2nwm_c_scale,w_1361.webp 1361w,
+                                        storage/images/about2Slide6_ix2nwm_c_scale,w_1395.webp 1395w,
+                                        storage/images/about2Slide6_ix2nwm_c_scale,w_1399.webp 1399w,
+                                        storage/images/about2Slide6_ix2nwm_c_scale,w_1400.webp 1400w"
+                                        src="storage/images/about2Slide6_ix2nwm_c_scale,w_1400.webp"
+                                        alt="banner">
+                                    </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-4 col-12 info-side">
-                                <div class="row">
-                                <div class="col-6 mb-3">
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="row">
+                                <div class="col-md-6 col-12 info">
+                                    <h3>Allure Essence</h3>
+                                    <p class="mb-5">Welcome to the Barber Shop at Allure Essence Spa & Hair Studio, where classic barbering meets contemporary style. Located in the heart of Nairobi, our barber shop offers a full range of grooming services designed to keep you looking sharp and feeling your best. Whether you need a quick trim, a precise shave, or a complete style transformation, our experienced barbers are here to deliver exceptional service with meticulous attention to detail.</p>
                                     <img
                                     sizes="(max-width: 1400px) 100vw, 1400px"
                                     srcset="
-                                    storage/images/aboutSlider1_kvjopz_c_scale,w_200.webp 200w,
-                                    storage/images/aboutSlider1_kvjopz_c_scale,w_704.webp 704w,
-                                    storage/images/aboutSlider1_kvjopz_c_scale,w_1056.webp 1056w,
-                                    storage/images/aboutSlider1_kvjopz_c_scale,w_1377.webp 1377w,
-                                    storage/images/aboutSlider1_kvjopz_c_scale,w_1400.webp 1400w"
-                                    src="storage/images/aboutSlider1_kvjopz_c_scale,w_1400.webp"
+                                    storage/images/barber_ene28z_c_scale,w_200.webp 200w,
+                                    storage/images/barber_ene28z_c_scale,w_372.webp 372w,
+                                    storage/images/barber_ene28z_c_scale,w_527.webp 527w,
+                                    storage/images/barber_ene28z_c_scale,w_609.webp 609w,
+                                    storage/images/barber_ene28z_c_scale,w_726.webp 726w,
+                                    storage/images/barber_ene28z_c_scale,w_851.webp 851w,
+                                    storage/images/barber_ene28z_c_scale,w_971.webp 971w,
+                                    storage/images/barber_ene28z_c_scale,w_1101.webp 1101w,
+                                    storage/images/barber_ene28z_c_scale,w_1201.webp 1201w,
+                                    storage/images/barber_ene28z_c_scale,w_1303.webp 1303w,
+                                    storage/images/barber_ene28z_c_scale,w_1393.webp 1393w,
+                                    storage/images/barber_ene28z_c_scale,w_1400.webp 1400w"
+                                    src="storage/images/barber_ene28z_c_scale,w_1400.webp"
                                     alt="banner">
                                 </div>
-                                <div class="col-6 mb-3">
+                                <div class="col-md-1 col-12 buttons">
+                                    <div class="swiper-button-prev swiper-button-prev2"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+                                    <div class="swiper-button-next swiper-button-next2"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+                                </div>
+                                <div class="col-md-4 col-12 info-side">
+                                    <div class="row">
+                                    <div class="col-6 mb-3">
+                                        <img
+                                        sizes="(max-width: 1400px) 100vw, 1400px"
+                                        srcset="
+                                        storage/images/barber1_vsh8ga_c_scale,w_200.webp 200w,
+                                        storage/images/barber1_vsh8ga_c_scale,w_387.webp 387w,
+                                        storage/images/barber1_vsh8ga_c_scale,w_490.webp 490w,
+                                        storage/images/barber1_vsh8ga_c_scale,w_624.webp 624w,
+                                        storage/images/barber1_vsh8ga_c_scale,w_762.webp 762w,
+                                        storage/images/barber1_vsh8ga_c_scale,w_877.webp 877w,
+                                        storage/images/barber1_vsh8ga_c_scale,w_977.webp 977w,
+                                        storage/images/barber1_vsh8ga_c_scale,w_1142.webp 1142w,
+                                        storage/images/barber1_vsh8ga_c_scale,w_1230.webp 1230w,
+                                        storage/images/barber1_vsh8ga_c_scale,w_1357.webp 1357w,
+                                        storage/images/barber1_vsh8ga_c_scale,w_1382.webp 1382w,
+                                        storage/images/barber1_vsh8ga_c_scale,w_1354.webp 1354w,
+                                        storage/images/barber1_vsh8ga_c_scale,w_1383.webp 1383w,
+                                        storage/images/barber1_vsh8ga_c_scale,w_1400.webp 1400w"
+                                        src="storage/images/barber1_vsh8ga_c_scale,w_1400.webp"
+                                        alt="banner">
+                                    </div>
+                                    <div class="col-6 mb-3">
+                                        <img
+                                        sizes="(max-width: 1400px) 100vw, 1400px"
+                                        srcset="
+                                        storage/images/barber2_cqueq4_c_scale,w_200.webp 200w,
+                                        storage/images/barber2_cqueq4_c_scale,w_442.webp 442w,
+                                        storage/images/barber2_cqueq4_c_scale,w_664.webp 664w,
+                                        storage/images/barber2_cqueq4_c_scale,w_791.webp 791w,
+                                        storage/images/barber2_cqueq4_c_scale,w_982.webp 982w,
+                                        storage/images/barber2_cqueq4_c_scale,w_1131.webp 1131w,
+                                        storage/images/barber2_cqueq4_c_scale,w_1302.webp 1302w,
+                                        storage/images/barber2_cqueq4_c_scale,w_1400.webp 1400w"
+                                        src="storage/images/barber2_cqueq4_c_scale,w_1400.webp"
+                                        alt="banner">
+                                    </div>                           
+                                    <div class="col-6 mb-3">
+                                        <img
+                                        sizes="(max-width: 1400px) 100vw, 1400px"
+                                        srcset="
+                                        storage/images/barber3_u6zsvn_c_scale,w_200.webp 200w,
+                                        storage/images/barber3_u6zsvn_c_scale,w_526.webp 526w,
+                                        storage/images/barber3_u6zsvn_c_scale,w_766.webp 766w,
+                                        storage/images/barber3_u6zsvn_c_scale,w_920.webp 920w,
+                                        storage/images/barber3_u6zsvn_c_scale,w_1002.webp 1002w,
+                                        storage/images/barber3_u6zsvn_c_scale,w_1148.webp 1148w,
+                                        storage/images/barber3_u6zsvn_c_scale,w_1336.webp 1336w,
+                                        storage/images/barber3_u6zsvn_c_scale,w_1400.webp 1400w"
+                                        src="storage/images/barber3_u6zsvn_c_scale,w_1400.webp"
+                                        alt="banner">
+                                    </div>
+                                    <div class="col-6 mb-3">
+                                        <img
+                                        sizes="(max-width: 1400px) 100vw, 1400px"
+                                        srcset="
+                                        storage/images/barber4_swkwgq_c_scale,w_200.webp 200w,
+                                        storage/images/barber4_swkwgq_c_scale,w_528.webp 528w,
+                                        storage/images/barber4_swkwgq_c_scale,w_753.webp 753w,
+                                        storage/images/barber4_swkwgq_c_scale,w_916.webp 916w,
+                                        storage/images/barber4_swkwgq_c_scale,w_994.webp 994w,
+                                        storage/images/barber4_swkwgq_c_scale,w_1185.webp 1185w,
+                                        storage/images/barber4_swkwgq_c_scale,w_1331.webp 1331w,
+                                        storage/images/barber4_swkwgq_c_scale,w_1400.webp 1400w"
+                                        src="storage/images/barber4_swkwgq_c_scale,w_1400.webp"
+                                        alt="banner">
+                                    </div>
+                                    <div class="col-6">
+                                        <img
+                                        sizes="(max-width: 1400px) 100vw, 1400px"
+                                        srcset="
+                                        storage/images/barber5_ankkef_c_scale,w_200.webp 200w,
+                                        storage/images/barber5_ankkef_c_scale,w_439.webp 439w,
+                                        storage/images/barber5_ankkef_c_scale,w_636.webp 636w,
+                                        storage/images/barber5_ankkef_c_scale,w_820.webp 820w,
+                                        storage/images/barber5_ankkef_c_scale,w_977.webp 977w,
+                                        storage/images/barber5_ankkef_c_scale,w_924.webp 924w,
+                                        storage/images/barber5_ankkef_c_scale,w_1276.webp 1276w,
+                                        storage/images/barber5_ankkef_c_scale,w_1349.webp 1349w,
+                                        storage/images/barber5_ankkef_c_scale,w_1381.webp 1381w,
+                                        storage/images/barber5_ankkef_c_scale,w_1388.webp 1388w,
+                                        storage/images/barber5_ankkef_c_scale,w_1400.webp 1400w"
+                                        src="storage/images/barber5_ankkef_c_scale,w_1400.webp"
+                                        alt="banner">
+                                    </div>
+                                    <div class="col-6">
                                     <img
                                     sizes="(max-width: 1400px) 100vw, 1400px"
                                     srcset="
-                                    storage/images/aboutSlider2_emcfnp_c_scale,w_200.webp 200w,
-                                    storage/images/aboutSlider2_emcfnp_c_scale,w_419.webp 419w,
-                                    storage/images/aboutSlider2_emcfnp_c_scale,w_571.webp 571w,
-                                    storage/images/aboutSlider2_emcfnp_c_scale,w_701.webp 701w,
-                                    storage/images/aboutSlider2_emcfnp_c_scale,w_843.webp 843w,
-                                    storage/images/aboutSlider2_emcfnp_c_scale,w_983.webp 983w,
-                                    storage/images/aboutSlider2_emcfnp_c_scale,w_943.webp 943w,
-                                    storage/images/aboutSlider2_emcfnp_c_scale,w_1296.webp 1296w,
-                                    storage/images/aboutSlider2_emcfnp_c_scale,w_1371.webp 1371w,
-                                    storage/images/aboutSlider2_emcfnp_c_scale,w_1391.webp 1391w,
-                                    storage/images/aboutSlider2_emcfnp_c_scale,w_1374.webp 1374w,
-                                    storage/images/aboutSlider2_emcfnp_c_scale,w_1400.webp 1400w"
-                                    src="storage/images/aboutSlider2_emcfnp_c_scale,w_1400.webp"
+                                    storage/images/barber6_sjlluj_c_scale,w_200.webp 200w,
+                                    storage/images/barber6_sjlluj_c_scale,w_337.webp 337w,
+                                    storage/images/barber6_sjlluj_c_scale,w_460.webp 460w,
+                                    storage/images/barber6_sjlluj_c_scale,w_536.webp 536w,
+                                    storage/images/barber6_sjlluj_c_scale,w_625.webp 625w,
+                                    storage/images/barber6_sjlluj_c_scale,w_707.webp 707w,
+                                    storage/images/barber6_sjlluj_c_scale,w_799.webp 799w,
+                                    storage/images/barber6_sjlluj_c_scale,w_897.webp 897w,
+                                    storage/images/barber6_sjlluj_c_scale,w_924.webp 924w,
+                                    storage/images/barber6_sjlluj_c_scale,w_934.webp 934w,
+                                    storage/images/barber6_sjlluj_c_scale,w_1008.webp 1008w,
+                                    storage/images/barber6_sjlluj_c_scale,w_1293.webp 1293w,
+                                    storage/images/barber6_sjlluj_c_scale,w_1154.webp 1154w,
+                                    storage/images/barber6_sjlluj_c_scale,w_1225.webp 1225w,
+                                    storage/images/barber6_sjlluj_c_scale,w_1287.webp 1287w,
+                                    storage/images/barber6_sjlluj_c_scale,w_1364.webp 1364w,
+                                    storage/images/barber6_sjlluj_c_scale,w_1390.webp 1390w,
+                                    storage/images/barber6_sjlluj_c_scale,w_1400.webp 1400w"
+                                    src="storage/images/barber6_sjlluj_c_scale,w_1400.webp"
                                     alt="banner">
-                                </div>                           
-                                <div class="col-6 mb-3">
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="row">
+                                <div class="col-md-6 col-12 info">
+                                    <h3>Allure Essence</h3>
+                                    <p class="mb-5">Indulge in the ultimate pampering experience with our luxurious nail and feet services at Allure Essence Spa & Hair Studio. Located in the heart of Nairobi, our salon offers a serene escape where you can relax and rejuvenate while our skilled technicians provide meticulous care for your hands and feet. From elegant manicures to revitalizing pedicures and soothing foot scrubs, we offer a range of treatments designed to leave you looking and feeling your best.</p>
                                     <img
                                     sizes="(max-width: 1400px) 100vw, 1400px"
                                     srcset="
-                                    storage/images/aboutSlider3_wrejrf_c_scale,w_200.webp 200w,
-                                    storage/images/aboutSlider3_wrejrf_c_scale,w_436.webp 436w,
-                                    storage/images/aboutSlider3_wrejrf_c_scale,w_609.webp 609w,
-                                    storage/images/aboutSlider3_wrejrf_c_scale,w_810.webp 810w,
-                                    storage/images/aboutSlider3_wrejrf_c_scale,w_984.webp 984w,
-                                    storage/images/aboutSlider3_wrejrf_c_scale,w_998.webp 998w,
-                                    storage/images/aboutSlider3_wrejrf_c_scale,w_1317.webp 1317w,
-                                    storage/images/aboutSlider3_wrejrf_c_scale,w_1393.webp 1393w,
-                                    storage/images/aboutSlider3_wrejrf_c_scale,w_1400.webp 1400w"
-                                    src="storage/images/aboutSlider3_wrejrf_c_scale,w_1400.webp"
+                                    storage/images/feet_xr7umm_c_scale,w_200.webp 200w,
+                                    storage/images/feet_xr7umm_c_scale,w_443.webp 443w,
+                                    storage/images/feet_xr7umm_c_scale,w_640.webp 640w,
+                                    storage/images/feet_xr7umm_c_scale,w_812.webp 812w,
+                                    storage/images/feet_xr7umm_c_scale,w_873.webp 873w,
+                                    storage/images/feet_xr7umm_c_scale,w_1014.webp 1014w,
+                                    storage/images/feet_xr7umm_c_scale,w_1157.webp 1157w,
+                                    storage/images/feet_xr7umm_c_scale,w_1298.webp 1298w,
+                                    storage/images/feet_xr7umm_c_scale,w_1379.webp 1379w,
+                                    storage/images/feet_xr7umm_c_scale,w_1400.webp 1400w"
+                                    src="storage/images/feet_xr7umm_c_scale,w_1400.webp"
                                     alt="banner">
                                 </div>
-                                <div class="col-6 mb-3">
-                                    <img
-                                    sizes="(max-width: 1400px) 100vw, 1400px"
-                                    srcset="
-                                    storage/images/aboutSlider4_t0lfng_c_scale,w_200.webp 200w,
-                                    storage/images/aboutSlider4_t0lfng_c_scale,w_461.webp 461w,
-                                    storage/images/aboutSlider4_t0lfng_c_scale,w_634.webp 634w,
-                                    storage/images/aboutSlider4_t0lfng_c_scale,w_1010.webp 1010w,
-                                    storage/images/aboutSlider4_t0lfng_c_scale,w_1047.webp 1047w,
-                                    storage/images/aboutSlider4_t0lfng_c_scale,w_1058.webp 1058w,
-                                    storage/images/aboutSlider4_t0lfng_c_scale,w_1349.webp 1349w,
-                                    storage/images/aboutSlider4_t0lfng_c_scale,w_1241.webp 1241w,
-                                    storage/images/aboutSlider4_t0lfng_c_scale,w_1400.webp 1400w"
-                                    src="storage/images/aboutSlider4_t0lfng_c_scale,w_1400.webp"
-                                    alt="banner">
+                                <div class="col-md-1 col-12 buttons">
+                                    <div class="swiper-button-prev swiper-button-prev2"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+                                    <div class="swiper-button-next swiper-button-next2"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
                                 </div>
-                                <div class="col-6">
-                                    <img
-                                    sizes="(max-width: 1400px) 100vw, 1400px"
-                                    srcset="
-                                    storage/images/aboutSlider5_gorn32_c_scale,w_200.webp 200w,
-                                    storage/images/aboutSlider5_gorn32_c_scale,w_475.webp 475w,
-                                    storage/images/aboutSlider5_gorn32_c_scale,w_665.webp 665w,
-                                    storage/images/aboutSlider5_gorn32_c_scale,w_851.webp 851w,
-                                    storage/images/aboutSlider5_gorn32_c_scale,w_1009.webp 1009w,
-                                    storage/images/aboutSlider5_gorn32_c_scale,w_1166.webp 1166w,
-                                    storage/images/aboutSlider5_gorn32_c_scale,w_1304.webp 1304w,
-                                    storage/images/aboutSlider5_gorn32_c_scale,w_1398.webp 1398w,
-                                    storage/images/aboutSlider5_gorn32_c_scale,w_1396.webp 1396w,
-                                    storage/images/aboutSlider5_gorn32_c_scale,w_1400.webp 1400w"
-                                    src="storage/images/storage/images/aboutSlider5_gorn32_c_scale,w_1400.webp"
-                                    alt="banner">
-                                </div>
-                                <div class="col-6">
-                                    <img
-                                    sizes="(max-width: 1400px) 100vw, 1400px"
-                                    srcset="
-                                    storage/images/aboutSlider6_wakdrt_c_scale,w_200.webp 200w,
-                                    storage/images/aboutSlider6_wakdrt_c_scale,w_499.webp 499w,
-                                    storage/images/aboutSlider6_wakdrt_c_scale,w_709.webp 709w,
-                                    storage/images/aboutSlider6_wakdrt_c_scale,w_919.webp 919w,
-                                    storage/images/aboutSlider6_wakdrt_c_scale,w_1104.webp 1104w,
-                                    storage/images/aboutSlider6_wakdrt_c_scale,w_1275.webp 1275w,
-                                    storage/images/aboutSlider6_wakdrt_c_scale,w_1393.webp 1393w,
-                                    storage/images/aboutSlider6_wakdrt_c_scale,w_1400.webp 1400w"
-                                    src="storage/images/aboutSlider6_wakdrt_c_scale,w_1400.webp"
-                                    alt="banner">
-                                </div>
+                                <div class="col-md-4 col-12 info-side">
+                                    <div class="row">
+                                    <div class="col-6 mb-3">
+                                        <img
+                                        sizes="(max-width: 1400px) 100vw, 1400px"
+                                        srcset="
+                                        storage/images/feet1_vpgqol_c_scale,w_200.webp 200w,
+                                        storage/images/feet1_vpgqol_c_scale,w_455.webp 455w,
+                                        storage/images/feet1_vpgqol_c_scale,w_661.webp 661w,
+                                        storage/images/feet1_vpgqol_c_scale,w_872.webp 872w,
+                                        storage/images/feet1_vpgqol_c_scale,w_990.webp 990w,
+                                        storage/images/feet1_vpgqol_c_scale,w_1077.webp 1077w,
+                                        storage/images/feet1_vpgqol_c_scale,w_1246.webp 1246w,
+                                        storage/images/feet1_vpgqol_c_scale,w_1392.webp 1392w,
+                                        storage/images/feet1_vpgqol_c_scale,w_1400.webp 1400w"
+                                        src="storage/images/feet1_vpgqol_c_scale,w_1400.webp"
+                                        alt="banner">
+                                    </div>
+                                    <div class="col-6 mb-3">
+                                        <img
+                                        sizes="(max-width: 1400px) 100vw, 1400px"
+                                        srcset="
+                                        storage/images/feet2_mhfsak_c_scale,w_200.webp 200w,
+                                        storage/images/feet2_mhfsak_c_scale,w_660.webp 660w,
+                                        storage/images/feet2_mhfsak_c_scale,w_966.webp 966w,
+                                        storage/images/feet2_mhfsak_c_scale,w_1192.webp 1192w,
+                                        storage/images/feet2_mhfsak_c_scale,w_1400.webp 1400w"
+                                        src="storage/images/feet2_mhfsak_c_scale,w_1400.webp"
+                                        alt="banner">
+                                    </div>                           
+                                    <div class="col-6 mb-3">
+                                        <img
+                                        sizes="(max-width: 1400px) 100vw, 1400px"
+                                        srcset="
+                                        storage/images/feet3_mtqbbb_c_scale,w_200.webp 200w,
+                                        storage/images/feet3_mtqbbb_c_scale,w_535.webp 535w,
+                                        storage/images/feet3_mtqbbb_c_scale,w_810.webp 810w,
+                                        storage/images/feet3_mtqbbb_c_scale,w_992.webp 992w,
+                                        storage/images/feet3_mtqbbb_c_scale,w_1271.webp 1271w,
+                                        storage/images/feet3_mtqbbb_c_scale,w_1393.webp 1393w,
+                                        storage/images/feet3_mtqbbb_c_scale,w_1400.webp 1400w"
+                                        src="storage/images/feet3_mtqbbb_c_scale,w_1400.webp"
+                                        alt="banner">
+                                    </div>
+                                    <div class="col-6 mb-3">
+                                        <img
+                                        sizes="(max-width: 1400px) 100vw, 1400px"
+                                        srcset="
+                                        storage/images/feet4_owa5po_c_scale,w_200.webp 200w,
+                                        storage/images/feet4_owa5po_c_scale,w_510.webp 510w,
+                                        storage/images/feet4_owa5po_c_scale,w_756.webp 756w,
+                                        storage/images/feet4_owa5po_c_scale,w_899.webp 899w,
+                                        storage/images/feet4_owa5po_c_scale,w_1012.webp 1012w,
+                                        storage/images/feet4_owa5po_c_scale,w_1177.webp 1177w,
+                                        storage/images/feet4_owa5po_c_scale,w_1326.webp 1326w,
+                                        storage/images/feet4_owa5po_c_scale,w_1385.webp 1385w,
+                                        storage/images/feet4_owa5po_c_scale,w_1400.webp 1400w"
+                                        src="storage/images/feet4_owa5po_c_scale,w_1400.webp"
+                                        alt="banner">
+                                    </div>
+                                    <div class="col-6">
+                                        <img
+                                        sizes="(max-width: 1400px) 100vw, 1400px"
+                                        srcset="
+                                        storage/images/feet5_x7z7ex_c_scale,w_200.webp 200w,
+                                        storage/images/feet5_x7z7ex_c_scale,w_464.webp 464w,
+                                        storage/images/feet5_x7z7ex_c_scale,w_679.webp 679w,
+                                        storage/images/feet5_x7z7ex_c_scale,w_892.webp 892w,
+                                        storage/images/feet5_x7z7ex_c_scale,w_1102.webp 1102w,
+                                        storage/images/feet5_x7z7ex_c_scale,w_1389.webp 1389w,
+                                        storage/images/feet5_x7z7ex_c_scale,w_1312.webp 1312w,
+                                        storage/images/feet5_x7z7ex_c_scale,w_1400.webp 1400w"
+                                        src="storage/images/feet5_x7z7ex_c_scale,w_1400.webp"
+                                        alt="banner">
+                                    </div>
+                                    <div class="col-6">
+                                        <img
+                                        sizes="(max-width: 1400px) 100vw, 1400px"
+                                        srcset="
+                                        storage/images/feet6_tuxh0x_c_scale,w_200.webp 200w,
+                                        storage/images/feet6_tuxh0x_c_scale,w_489.webp 489w,
+                                        storage/images/feet6_tuxh0x_c_scale,w_714.webp 714w,
+                                        storage/images/feet6_tuxh0x_c_scale,w_909.webp 909w,
+                                        storage/images/feet6_tuxh0x_c_scale,w_1170.webp 1170w,
+                                        storage/images/feet6_tuxh0x_c_scale,w_1384.webp 1384w,
+                                        storage/images/feet6_tuxh0x_c_scale,w_1358.webp 1358w,
+                                        storage/images/feet6_tuxh0x_c_scale,w_1400.webp 1400w"
+                                        src="storage/images/feet6_tuxh0x_c_scale,w_1400.webp"
+                                        alt="banner-img">
+                                    </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="row">
-                            <div class="col-md-6 col-12 info">
-                                <h3>Allure Essence</h3>
-                                <p class="mb-5">At Allure Essence Spa & Hair Studio, we believe in the power of therapeutic touch to heal the body, calm the mind, and rejuvenate the spirit. Our comprehensive range of massage services is designed to address your unique needs and preferences, ensuring a deeply relaxing and restorative experience.</p>
-                                <img
-                                sizes="(max-width: 1400px) 100vw, 1400px"
-                                srcset="
-                                storage/images/about2Slide_xhhlc2_c_scale,w_200.webp 200w,
-                                storage/images/about2Slide_xhhlc2_c_scale,w_450.webp 450w,
-                                storage/images/about2Slide_xhhlc2_c_scale,w_619.webp 619w,
-                                storage/images/about2Slide_xhhlc2_c_scale,w_812.webp 812w,
-                                storage/images/about2Slide_xhhlc2_c_scale,w_991.webp 991w,
-                                storage/images/about2Slide_xhhlc2_c_scale,w_1155.webp 1155w,
-                                storage/images/about2Slide_xhhlc2_c_scale,w_1319.webp 1319w,
-                                storage/images/about2Slide_xhhlc2_c_scale,w_1397.webp 1397w,
-                                storage/images/about2Slide_xhhlc2_c_scale,w_1400.webp 1400w"
-                                src="storage/images/about2Slide_xhhlc2_c_scale,w_1400.webp"
-                                alt="banner">
-                            </div>
-                            <div class="col-md-1 col-12 buttons">
-                                <div class="swiper-button-prev swiper-button-prev2"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
-                                <div class="swiper-button-next swiper-button-next2"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
-                            </div>
-                            <div class="col-md-4 col-12 info-side">
-                                <div class="row">
-                                <div class="col-6 mb-3">
-                                    <img
-                                    sizes="(max-width: 1400px) 100vw, 1400px"
-                                    srcset="
-                                    storage/images/spa_zjwj0l_c_scale,w_200.webp 200w,
-                                    storage/images/spa_zjwj0l_c_scale,w_533.webp 533w,
-                                    storage/images/spa_zjwj0l_c_scale,w_803.webp 803w,
-                                    storage/images/spa_zjwj0l_c_scale,w_934.webp 934w,
-                                    storage/images/spa_zjwj0l_c_scale,w_1106.webp 1106w,
-                                    storage/images/spa_zjwj0l_c_scale,w_1310.webp 1310w,
-                                    storage/images/spa_zjwj0l_c_scale,w_1400.webp 1400w"
-                                    src="storage/images/spa_zjwj0l_c_scale,w_1400.webp"
-                                    alt="banner">
-                                </div>
-                                <div class="col-6 mb-3">
-                                    <img
-                                    sizes="(max-width: 1400px) 100vw, 1400px"
-                                    srcset="
-                                    storage/images/about2Slide2_m5zmkw_c_scale,w_200.webp 200w,
-                                    storage/images/about2Slide2_m5zmkw_c_scale,w_462.webp 462w,
-                                    storage/images/about2Slide2_m5zmkw_c_scale,w_632.webp 632w,
-                                    storage/images/about2Slide2_m5zmkw_c_scale,w_849.webp 849w,
-                                    storage/images/about2Slide2_m5zmkw_c_scale,w_1013.webp 1013w,
-                                    storage/images/about2Slide2_m5zmkw_c_scale,w_1195.webp 1195w,
-                                    storage/images/about2Slide2_m5zmkw_c_scale,w_1351.webp 1351w,
-                                    storage/images/about2Slide2_m5zmkw_c_scale,w_1400.webp 1400w"
-                                    src="storage/images/about2Slide2_m5zmkw_c_scale,w_1400.webp"
-                                    alt="banner">
-                                </div>                           
-                                <div class="col-6 mb-3">
-                                    <img
-                                    sizes="(max-width: 1400px) 100vw, 1400px"
-                                    srcset="
-                                    storage/images/spa1_mxwxu6_c_scale,w_200.webp 200w,
-                                    storage/images/spa1_mxwxu6_c_scale,w_502.webp 502w,
-                                    storage/images/spa1_mxwxu6_c_scale,w_731.webp 731w,
-                                    storage/images/spa1_mxwxu6_c_scale,w_873.webp 873w,
-                                    storage/images/spa1_mxwxu6_c_scale,w_995.webp 995w,
-                                    storage/images/spa1_mxwxu6_c_scale,w_1159.webp 1159w,
-                                    storage/images/spa1_mxwxu6_c_scale,w_1301.webp 1301w,
-                                    storage/images/spa1_mxwxu6_c_scale,w_1371.webp 1371w,
-                                    storage/images/spa1_mxwxu6_c_scale,w_1400.webp 1400w"
-                                    src="storage/images/spa1_mxwxu6_c_scale,w_1400.webp"
-                                    alt="banner">
-                                </div>
-                                <div class="col-6 mb-3">
-                                    <img
-                                    sizes="(max-width: 1400px) 100vw, 1400px"
-                                    srcset="
-                                    storage/images/about2Slide4_gxhq98_c_scale,w_200.webp 200w,
-                                    storage/images/about2Slide4_gxhq98_c_scale,w_440.webp 440w,
-                                    storage/images/about2Slide4_gxhq98_c_scale,w_615.webp 615w,
-                                    storage/images/about2Slide4_gxhq98_c_scale,w_781.webp 781w,
-                                    storage/images/about2Slide4_gxhq98_c_scale,w_966.webp 966w,
-                                    storage/images/about2Slide4_gxhq98_c_scale,w_1116.webp 1116w,
-                                    storage/images/about2Slide4_gxhq98_c_scale,w_1305.webp 1305w,
-                                    storage/images/about2Slide4_gxhq98_c_scale,w_1383.webp 1383w,
-                                    storage/images/about2Slide4_gxhq98_c_scale,w_1400.webp 1400w"
-                                    src="storage/images/about2Slide4_gxhq98_c_scale,w_1400.webp"
-                                    alt="banner">
-                                </div>
-                                <div class="col-6">
-                                    <img
-                                    sizes="(max-width: 1400px) 100vw, 1400px"
-                                    srcset="
-                                    storage/images/spa2_uijii6_c_scale,w_200.webp 200w,
-                                    storage/images/spa2_uijii6_c_scale,w_502.webp 502w,
-                                    storage/images/spa2_uijii6_c_scale,w_731.webp 731w,
-                                    storage/images/spa2_uijii6_c_scale,w_876.webp 876w,
-                                    storage/images/spa2_uijii6_c_scale,w_986.webp 986w,
-                                    storage/images/spa2_uijii6_c_scale,w_1158.webp 1158w,
-                                    storage/images/spa2_uijii6_c_scale,w_1344.webp 1344w,
-                                    storage/images/spa2_uijii6_c_scale,w_1374.webp 1374w,
-                                    storage/images/spa2_uijii6_c_scale,w_1400.webp 1400w"
-                                    src="storage/images/spa2_uijii6_c_scale,w_1400.webp"
-                                    alt="banner">
-                                </div>
-                                <div class="col-6">
-                                    <img
-                                    sizes="(max-width: 1400px) 100vw, 1400px"
-                                    srcset="
-                                    storage/images/about2Slide6_ix2nwm_c_scale,w_200.webp 200w,
-                                    storage/images/about2Slide6_ix2nwm_c_scale,w_415.webp 415w,
-                                    storage/images/about2Slide6_ix2nwm_c_scale,w_528.webp 528w,
-                                    storage/images/about2Slide6_ix2nwm_c_scale,w_665.webp 665w,
-                                    storage/images/about2Slide6_ix2nwm_c_scale,w_794.webp 794w,
-                                    storage/images/about2Slide6_ix2nwm_c_scale,w_848.webp 848w,
-                                    storage/images/about2Slide6_ix2nwm_c_scale,w_867.webp 867w,
-                                    storage/images/about2Slide6_ix2nwm_c_scale,w_951.webp 951w,
-                                    storage/images/about2Slide6_ix2nwm_c_scale,w_1027.webp 1027w,
-                                    storage/images/about2Slide6_ix2nwm_c_scale,w_1101.webp 1101w,
-                                    storage/images/about2Slide6_ix2nwm_c_scale,w_1177.webp 1177w,
-                                    storage/images/about2Slide6_ix2nwm_c_scale,w_1237.webp 1237w,
-                                    storage/images/about2Slide6_ix2nwm_c_scale,w_1297.webp 1297w,
-                                    storage/images/about2Slide6_ix2nwm_c_scale,w_1361.webp 1361w,
-                                    storage/images/about2Slide6_ix2nwm_c_scale,w_1395.webp 1395w,
-                                    storage/images/about2Slide6_ix2nwm_c_scale,w_1399.webp 1399w,
-                                    storage/images/about2Slide6_ix2nwm_c_scale,w_1400.webp 1400w"
-                                    src="storage/images/about2Slide6_ix2nwm_c_scale,w_1400.webp"
-                                    alt="banner">
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="row">
-                            <div class="col-md-6 col-12 info">
-                                <h3>Allure Essence</h3>
-                                <p class="mb-5">Welcome to the Barber Shop at Allure Essence Spa & Hair Studio, where classic barbering meets contemporary style. Located in the heart of Nairobi, our barber shop offers a full range of grooming services designed to keep you looking sharp and feeling your best. Whether you need a quick trim, a precise shave, or a complete style transformation, our experienced barbers are here to deliver exceptional service with meticulous attention to detail.</p>
-                                <img
-                                sizes="(max-width: 1400px) 100vw, 1400px"
-                                srcset="
-                                storage/images/barber_ene28z_c_scale,w_200.webp 200w,
-                                storage/images/barber_ene28z_c_scale,w_372.webp 372w,
-                                storage/images/barber_ene28z_c_scale,w_527.webp 527w,
-                                storage/images/barber_ene28z_c_scale,w_609.webp 609w,
-                                storage/images/barber_ene28z_c_scale,w_726.webp 726w,
-                                storage/images/barber_ene28z_c_scale,w_851.webp 851w,
-                                storage/images/barber_ene28z_c_scale,w_971.webp 971w,
-                                storage/images/barber_ene28z_c_scale,w_1101.webp 1101w,
-                                storage/images/barber_ene28z_c_scale,w_1201.webp 1201w,
-                                storage/images/barber_ene28z_c_scale,w_1303.webp 1303w,
-                                storage/images/barber_ene28z_c_scale,w_1393.webp 1393w,
-                                storage/images/barber_ene28z_c_scale,w_1400.webp 1400w"
-                                src="storage/images/barber_ene28z_c_scale,w_1400.webp"
-                                alt="banner">
-                            </div>
-                            <div class="col-md-1 col-12 buttons">
-                                <div class="swiper-button-prev swiper-button-prev2"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
-                                <div class="swiper-button-next swiper-button-next2"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
-                            </div>
-                            <div class="col-md-4 col-12 info-side">
-                                <div class="row">
-                                <div class="col-6 mb-3">
-                                    <img
-                                    sizes="(max-width: 1400px) 100vw, 1400px"
-                                    srcset="
-                                    storage/images/barber1_vsh8ga_c_scale,w_200.webp 200w,
-                                    storage/images/barber1_vsh8ga_c_scale,w_387.webp 387w,
-                                    storage/images/barber1_vsh8ga_c_scale,w_490.webp 490w,
-                                    storage/images/barber1_vsh8ga_c_scale,w_624.webp 624w,
-                                    storage/images/barber1_vsh8ga_c_scale,w_762.webp 762w,
-                                    storage/images/barber1_vsh8ga_c_scale,w_877.webp 877w,
-                                    storage/images/barber1_vsh8ga_c_scale,w_977.webp 977w,
-                                    storage/images/barber1_vsh8ga_c_scale,w_1142.webp 1142w,
-                                    storage/images/barber1_vsh8ga_c_scale,w_1230.webp 1230w,
-                                    storage/images/barber1_vsh8ga_c_scale,w_1357.webp 1357w,
-                                    storage/images/barber1_vsh8ga_c_scale,w_1382.webp 1382w,
-                                    storage/images/barber1_vsh8ga_c_scale,w_1354.webp 1354w,
-                                    storage/images/barber1_vsh8ga_c_scale,w_1383.webp 1383w,
-                                    storage/images/barber1_vsh8ga_c_scale,w_1400.webp 1400w"
-                                    src="storage/images/barber1_vsh8ga_c_scale,w_1400.webp"
-                                    alt="banner">
-                                </div>
-                                <div class="col-6 mb-3">
-                                    <img
-                                    sizes="(max-width: 1400px) 100vw, 1400px"
-                                    srcset="
-                                    storage/images/barber2_cqueq4_c_scale,w_200.webp 200w,
-                                    storage/images/barber2_cqueq4_c_scale,w_442.webp 442w,
-                                    storage/images/barber2_cqueq4_c_scale,w_664.webp 664w,
-                                    storage/images/barber2_cqueq4_c_scale,w_791.webp 791w,
-                                    storage/images/barber2_cqueq4_c_scale,w_982.webp 982w,
-                                    storage/images/barber2_cqueq4_c_scale,w_1131.webp 1131w,
-                                    storage/images/barber2_cqueq4_c_scale,w_1302.webp 1302w,
-                                    storage/images/barber2_cqueq4_c_scale,w_1400.webp 1400w"
-                                    src="storage/images/barber2_cqueq4_c_scale,w_1400.webp"
-                                    alt="banner">
-                                </div>                           
-                                <div class="col-6 mb-3">
-                                    <img
-                                    sizes="(max-width: 1400px) 100vw, 1400px"
-                                    srcset="
-                                    storage/images/barber3_u6zsvn_c_scale,w_200.webp 200w,
-                                    storage/images/barber3_u6zsvn_c_scale,w_526.webp 526w,
-                                    storage/images/barber3_u6zsvn_c_scale,w_766.webp 766w,
-                                    storage/images/barber3_u6zsvn_c_scale,w_920.webp 920w,
-                                    storage/images/barber3_u6zsvn_c_scale,w_1002.webp 1002w,
-                                    storage/images/barber3_u6zsvn_c_scale,w_1148.webp 1148w,
-                                    storage/images/barber3_u6zsvn_c_scale,w_1336.webp 1336w,
-                                    storage/images/barber3_u6zsvn_c_scale,w_1400.webp 1400w"
-                                    src="storage/images/barber3_u6zsvn_c_scale,w_1400.webp"
-                                    alt="banner">
-                                </div>
-                                <div class="col-6 mb-3">
-                                    <img
-                                    sizes="(max-width: 1400px) 100vw, 1400px"
-                                    srcset="
-                                    storage/images/barber4_swkwgq_c_scale,w_200.webp 200w,
-                                    storage/images/barber4_swkwgq_c_scale,w_528.webp 528w,
-                                    storage/images/barber4_swkwgq_c_scale,w_753.webp 753w,
-                                    storage/images/barber4_swkwgq_c_scale,w_916.webp 916w,
-                                    storage/images/barber4_swkwgq_c_scale,w_994.webp 994w,
-                                    storage/images/barber4_swkwgq_c_scale,w_1185.webp 1185w,
-                                    storage/images/barber4_swkwgq_c_scale,w_1331.webp 1331w,
-                                    storage/images/barber4_swkwgq_c_scale,w_1400.webp 1400w"
-                                    src="storage/images/barber4_swkwgq_c_scale,w_1400.webp"
-                                    alt="banner">
-                                </div>
-                                <div class="col-6">
-                                    <img
-                                    sizes="(max-width: 1400px) 100vw, 1400px"
-                                    srcset="
-                                    storage/images/barber5_ankkef_c_scale,w_200.webp 200w,
-                                    storage/images/barber5_ankkef_c_scale,w_439.webp 439w,
-                                    storage/images/barber5_ankkef_c_scale,w_636.webp 636w,
-                                    storage/images/barber5_ankkef_c_scale,w_820.webp 820w,
-                                    storage/images/barber5_ankkef_c_scale,w_977.webp 977w,
-                                    storage/images/barber5_ankkef_c_scale,w_924.webp 924w,
-                                    storage/images/barber5_ankkef_c_scale,w_1276.webp 1276w,
-                                    storage/images/barber5_ankkef_c_scale,w_1349.webp 1349w,
-                                    storage/images/barber5_ankkef_c_scale,w_1381.webp 1381w,
-                                    storage/images/barber5_ankkef_c_scale,w_1388.webp 1388w,
-                                    storage/images/barber5_ankkef_c_scale,w_1400.webp 1400w"
-                                    src="storage/images/barber5_ankkef_c_scale,w_1400.webp"
-                                    alt="banner">
-                                </div>
-                                <div class="col-6">
-                                <img
-                                sizes="(max-width: 1400px) 100vw, 1400px"
-                                srcset="
-                                storage/images/barber6_sjlluj_c_scale,w_200.webp 200w,
-                                storage/images/barber6_sjlluj_c_scale,w_337.webp 337w,
-                                storage/images/barber6_sjlluj_c_scale,w_460.webp 460w,
-                                storage/images/barber6_sjlluj_c_scale,w_536.webp 536w,
-                                storage/images/barber6_sjlluj_c_scale,w_625.webp 625w,
-                                storage/images/barber6_sjlluj_c_scale,w_707.webp 707w,
-                                storage/images/barber6_sjlluj_c_scale,w_799.webp 799w,
-                                storage/images/barber6_sjlluj_c_scale,w_897.webp 897w,
-                                storage/images/barber6_sjlluj_c_scale,w_924.webp 924w,
-                                storage/images/barber6_sjlluj_c_scale,w_934.webp 934w,
-                                storage/images/barber6_sjlluj_c_scale,w_1008.webp 1008w,
-                                storage/images/barber6_sjlluj_c_scale,w_1293.webp 1293w,
-                                storage/images/barber6_sjlluj_c_scale,w_1154.webp 1154w,
-                                storage/images/barber6_sjlluj_c_scale,w_1225.webp 1225w,
-                                storage/images/barber6_sjlluj_c_scale,w_1287.webp 1287w,
-                                storage/images/barber6_sjlluj_c_scale,w_1364.webp 1364w,
-                                storage/images/barber6_sjlluj_c_scale,w_1390.webp 1390w,
-                                storage/images/barber6_sjlluj_c_scale,w_1400.webp 1400w"
-                                src="storage/images/barber6_sjlluj_c_scale,w_1400.webp"
-                                alt="banner">
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="row">
-                            <div class="col-md-6 col-12 info">
-                                <h3>Allure Essence</h3>
-                                <p class="mb-5">Indulge in the ultimate pampering experience with our luxurious nail and feet services at Allure Essence Spa & Hair Studio. Located in the heart of Nairobi, our salon offers a serene escape where you can relax and rejuvenate while our skilled technicians provide meticulous care for your hands and feet. From elegant manicures to revitalizing pedicures and soothing foot scrubs, we offer a range of treatments designed to leave you looking and feeling your best.</p>
-                                <img
-                                sizes="(max-width: 1400px) 100vw, 1400px"
-                                srcset="
-                                storage/images/feet_xr7umm_c_scale,w_200.webp 200w,
-                                storage/images/feet_xr7umm_c_scale,w_443.webp 443w,
-                                storage/images/feet_xr7umm_c_scale,w_640.webp 640w,
-                                storage/images/feet_xr7umm_c_scale,w_812.webp 812w,
-                                storage/images/feet_xr7umm_c_scale,w_873.webp 873w,
-                                storage/images/feet_xr7umm_c_scale,w_1014.webp 1014w,
-                                storage/images/feet_xr7umm_c_scale,w_1157.webp 1157w,
-                                storage/images/feet_xr7umm_c_scale,w_1298.webp 1298w,
-                                storage/images/feet_xr7umm_c_scale,w_1379.webp 1379w,
-                                storage/images/feet_xr7umm_c_scale,w_1400.webp 1400w"
-                                src="storage/images/feet_xr7umm_c_scale,w_1400.webp"
-                                alt="banner">
-                            </div>
-                            <div class="col-md-1 col-12 buttons">
-                                <div class="swiper-button-prev swiper-button-prev2"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
-                                <div class="swiper-button-next swiper-button-next2"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
-                            </div>
-                            <div class="col-md-4 col-12 info-side">
-                                <div class="row">
-                                <div class="col-6 mb-3">
-                                    <img
-                                    sizes="(max-width: 1400px) 100vw, 1400px"
-                                    srcset="
-                                    storage/images/feet1_vpgqol_c_scale,w_200.webp 200w,
-                                    storage/images/feet1_vpgqol_c_scale,w_455.webp 455w,
-                                    storage/images/feet1_vpgqol_c_scale,w_661.webp 661w,
-                                    storage/images/feet1_vpgqol_c_scale,w_872.webp 872w,
-                                    storage/images/feet1_vpgqol_c_scale,w_990.webp 990w,
-                                    storage/images/feet1_vpgqol_c_scale,w_1077.webp 1077w,
-                                    storage/images/feet1_vpgqol_c_scale,w_1246.webp 1246w,
-                                    storage/images/feet1_vpgqol_c_scale,w_1392.webp 1392w,
-                                    storage/images/feet1_vpgqol_c_scale,w_1400.webp 1400w"
-                                    src="storage/images/feet1_vpgqol_c_scale,w_1400.webp"
-                                    alt="banner">
-                                </div>
-                                <div class="col-6 mb-3">
-                                    <img
-                                    sizes="(max-width: 1400px) 100vw, 1400px"
-                                    srcset="
-                                    storage/images/feet2_mhfsak_c_scale,w_200.webp 200w,
-                                    storage/images/feet2_mhfsak_c_scale,w_660.webp 660w,
-                                    storage/images/feet2_mhfsak_c_scale,w_966.webp 966w,
-                                    storage/images/feet2_mhfsak_c_scale,w_1192.webp 1192w,
-                                    storage/images/feet2_mhfsak_c_scale,w_1400.webp 1400w"
-                                    src="storage/images/feet2_mhfsak_c_scale,w_1400.webp"
-                                    alt="banner">
-                                </div>                           
-                                <div class="col-6 mb-3">
-                                    <img
-                                    sizes="(max-width: 1400px) 100vw, 1400px"
-                                    srcset="
-                                    storage/images/feet3_mtqbbb_c_scale,w_200.webp 200w,
-                                    storage/images/feet3_mtqbbb_c_scale,w_535.webp 535w,
-                                    storage/images/feet3_mtqbbb_c_scale,w_810.webp 810w,
-                                    storage/images/feet3_mtqbbb_c_scale,w_992.webp 992w,
-                                    storage/images/feet3_mtqbbb_c_scale,w_1271.webp 1271w,
-                                    storage/images/feet3_mtqbbb_c_scale,w_1393.webp 1393w,
-                                    storage/images/feet3_mtqbbb_c_scale,w_1400.webp 1400w"
-                                    src="storage/images/feet3_mtqbbb_c_scale,w_1400.webp"
-                                    alt="banner">
-                                </div>
-                                <div class="col-6 mb-3">
-                                    <img
-                                    sizes="(max-width: 1400px) 100vw, 1400px"
-                                    srcset="
-                                    storage/images/feet4_owa5po_c_scale,w_200.webp 200w,
-                                    storage/images/feet4_owa5po_c_scale,w_510.webp 510w,
-                                    storage/images/feet4_owa5po_c_scale,w_756.webp 756w,
-                                    storage/images/feet4_owa5po_c_scale,w_899.webp 899w,
-                                    storage/images/feet4_owa5po_c_scale,w_1012.webp 1012w,
-                                    storage/images/feet4_owa5po_c_scale,w_1177.webp 1177w,
-                                    storage/images/feet4_owa5po_c_scale,w_1326.webp 1326w,
-                                    storage/images/feet4_owa5po_c_scale,w_1385.webp 1385w,
-                                    storage/images/feet4_owa5po_c_scale,w_1400.webp 1400w"
-                                    src="storage/images/feet4_owa5po_c_scale,w_1400.webp"
-                                    alt="banner">
-                                </div>
-                                <div class="col-6">
-                                    <img
-                                    sizes="(max-width: 1400px) 100vw, 1400px"
-                                    srcset="
-                                    storage/images/feet5_x7z7ex_c_scale,w_200.webp 200w,
-                                    storage/images/feet5_x7z7ex_c_scale,w_464.webp 464w,
-                                    storage/images/feet5_x7z7ex_c_scale,w_679.webp 679w,
-                                    storage/images/feet5_x7z7ex_c_scale,w_892.webp 892w,
-                                    storage/images/feet5_x7z7ex_c_scale,w_1102.webp 1102w,
-                                    storage/images/feet5_x7z7ex_c_scale,w_1389.webp 1389w,
-                                    storage/images/feet5_x7z7ex_c_scale,w_1312.webp 1312w,
-                                    storage/images/feet5_x7z7ex_c_scale,w_1400.webp 1400w"
-                                    src="storage/images/feet5_x7z7ex_c_scale,w_1400.webp"
-                                    alt="banner">
-                                </div>
-                                <div class="col-6">
-                                    <img
-                                    sizes="(max-width: 1400px) 100vw, 1400px"
-                                    srcset="
-                                    storage/images/feet6_tuxh0x_c_scale,w_200.webp 200w,
-                                    storage/images/feet6_tuxh0x_c_scale,w_489.webp 489w,
-                                    storage/images/feet6_tuxh0x_c_scale,w_714.webp 714w,
-                                    storage/images/feet6_tuxh0x_c_scale,w_909.webp 909w,
-                                    storage/images/feet6_tuxh0x_c_scale,w_1170.webp 1170w,
-                                    storage/images/feet6_tuxh0x_c_scale,w_1384.webp 1384w,
-                                    storage/images/feet6_tuxh0x_c_scale,w_1358.webp 1358w,
-                                    storage/images/feet6_tuxh0x_c_scale,w_1400.webp 1400w"
-                                    src="storage/images/feet6_tuxh0x_c_scale,w_1400.webp"
-                                    alt="banner-img">
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination2 mt-5"></div>
                 </div>
-                
-                <!-- Add Pagination -->
-                <div class="swiper-pagination2 mt-5"></div>
             </div>
         </div>
 
