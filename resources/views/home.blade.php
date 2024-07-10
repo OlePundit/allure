@@ -624,7 +624,7 @@
             <div class="container">
                 <div class="swiper-container swiper2">
                     <div class="swiper-wrapper mb-5">
-                        <div class="swiper-slide">
+                        <div class="swiper-slide" style="width:100%">
                             <div class="row">
                                 <div class="col-md-6 col-12 info">
                                     <h3>Allure Essence</h3>
@@ -748,7 +748,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
+                        <div class="swiper-slide" style="width:100%">
                             <div class="row">
                                 <div class="col-md-6 col-12 info">
                                     <h3>Allure Essence</h3>
@@ -879,7 +879,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
+                        <div class="swiper-slide" style="width:100%">
                             <div class="row">
                                 <div class="col-md-6 col-12 info">
                                     <h3>Allure Essence</h3>
@@ -1021,7 +1021,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
+                        <div class="swiper-slide"  style="width:100%">
                             <div class="row">
                                 <div class="col-md-6 col-12 info">
                                     <h3>Allure Essence</h3>
