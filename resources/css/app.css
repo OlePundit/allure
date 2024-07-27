@@ -91,6 +91,7 @@ html {
     background-position: center;
     height:100%
 }
+
 .swiper-container3{
     height:100%
 }
@@ -141,6 +142,7 @@ html {
 .swiper-pagination-bullet-active {
     font-weight: bold;
     color:#E73232;
+    font-size:36;
 }
 .vertical-text {
     transform: rotate(360deg); /* Rotate text 90 degrees clockwise */
@@ -178,11 +180,11 @@ html {
     position: absolute;
     z-index: 999;
     margin: 0;
-    left: 50%;
-    right: 0;
-    top: 10%; /* Adjust this value to move the positioned div up and down */
-    text-align: start;
-    width: 40%; /* Set the width of the positioned div */
+    left: 10%;
+    right: 10%;
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 80%; /* Set the width of the positioned div */
     padding:16px 16px;
     border-radius:10px;
     margin-top: 30px;
@@ -201,7 +203,7 @@ html {
     right: 0;
     text-align: start;
     width: 4%; /* Set the width of the positioned div */
-    background-color: rgba(255, 255, 255, 0.3); /* White color with 30% opacity */
+    background-color: rgba(255, 87, 51, 0.3); /* White color with 30% opacity */
     height:100%;
 }
 .box-2 .text-3{
@@ -242,12 +244,28 @@ html {
     color:#E1C17E;
 
 }
-.box .text p{
+.box .text h2{
     font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
     color:#fff;
     font-size: 52px;
-    font-weight: 500;
+    font-weight: 800;
     line-height: 1;
+
+}
+.box .text h3{
+    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+    color:#fff;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1;
+
+}
+.box .text p{
+    color:#fff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1;
+    margin:0;
 
 }
 body {
@@ -586,29 +604,59 @@ button {
     color: #000;
     margin: 20px 0px;
 }
-
+.button-wrap{
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+}
 .read_bt {
     width: 170px;
     float: left;
     padding-top: 30px;
+
 }
 
 .read_bt a {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #ffffff;
-    background-color: #252525;
+    color: #E73232;
     text-align: center;
     padding: 10px 0px;
-    border-radius: 5px;
+    border-radius: 20px;
+    border:1px solid #E1C17E;
     text-transform: uppercase;
+}
+.read_bt a svg{
+    width: 25%;
+    color: #E73232;
+
 }
 
 .read_bt a:hover {
     color: #000!important;
     background-color: #E1C17E;
 }
+.swiper-slide .image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide .image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.swiper-slide .gradient-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20%; /* Adjust this value to change the height of the gradient */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent); /* Adjust the rgba value to change the darkness of the gradient */
+}
+
 
 
 /* banner section end */
@@ -896,18 +944,32 @@ button {
     font-weight: 700;
     font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
     font-size: 52px;
-    color:#fff;
+    color:#E73232;
 }
 .about_section_main {
     width: 100%;
     float: left;
 }
+.about_section_main h3{
+    color:#E1C17E;
+    text-transform: uppercase;
+    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+
+}
+.about_section_main svg text{
+    color: #E1C17E!important;
+}
+.about_section_main h3{
+    text-align: center;
+}
+.about_section_main p{
+    text-align: center;
+    font-size: 15px;
+}
 
 .about_taital_main {
     width: 100%;
     float: left;
-    padding-top: 20px;
-    padding-left: 30px;
 }
 .about_taital_main-1 {
     width: 100%;
@@ -923,7 +985,6 @@ button {
     color: #E1C17E;
     font-weight: 500;
     font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
-    text-transform: uppercase;
 }
 
 .about_text {
@@ -1111,8 +1172,22 @@ button {
     border:none;
     color:#fff;
 }
+.contact_section select{
+    background:#666666;
+    border:none;
+    color:#fff;
+}
+.contact_section textarea{
+    background:#666666;
+    border:none;
+    color:#fff;
+}
 
 .contact_section input::placeholder {
+    color: #fff; /* Change this to your desired color */
+    opacity: 1; /* Optional: Ensure the color is fully opaque */
+}
+.contact_section textarea::placeholder {
     color: #fff; /* Change this to your desired color */
     opacity: 1; /* Optional: Ensure the color is fully opaque */
 }
@@ -1204,8 +1279,19 @@ button {
 
 .contact_section_2 {
     width: 100%;
-    float: left;
+    position: relative;
+    display: inline-block; 
+    padding-bottom: 30px;
 }
+.contact_section_2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%; /* Centers the pseudo-element */
+    width: 80%; /* Adjust this value to change the length of the border */
+    transform: translateX(-50%); /* Centers the pseudo-element */
+    border-bottom: 1.5px solid #E73232; /* Adjust border style and color */
+  }
 
 
 /* contact section start */
@@ -1221,6 +1307,18 @@ button {
     background-size: 100%;
     padding-bottom: 30px;
 }
+.footer_section .contact_section_2 .footer_logo_1 img{
+    max-width:30%;
+}
+.footer_section .footer_contact_wrap{
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.footer_section .contact_section_2 p{
+    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+    font-weight:500;
+    font-size: 24px;
+}
 .footer_section .business-hours .hours{
     display: flex;
     justify-content: space-between;
@@ -1233,6 +1331,10 @@ button {
 }
 .footer_section .main ul li{
     text-align: end;
+    color: #E1C17E;
+}
+.footer_section .main ul li a{
+    color: #E1C17E;
 }
 .footer_section .cancellation-btn{
     background: none;
@@ -1291,12 +1393,12 @@ button {
 
 .address_bt li {
     font-size: 16px;
-    color: #ffffff;
+    color: #E1C17E;
     padding: 10px 0px 0px 0px;
 }
 
 .address_bt li a {
-    color: #ffffff;
+    color: #E1C17E;
 }
 
 .address_bt li a:hover {
@@ -1309,8 +1411,9 @@ button {
 
 .address_text {
     font-size: 24px;
-    color: #ffffff;
-    text-transform: uppercase;
+    color: #E73232;
+    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+    font-weight: 500;
 }
 
 .dummy_text {
@@ -1338,13 +1441,45 @@ button {
 }
 
 .social_icon {
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     text-align: center;
     padding-top: 40px;
-    border-bottom: 1px solid #f5ddb6;
+    border-bottom: 1.5px solid #E73232;
     padding-bottom: 30px;
+    position: relative;
+    margin-top: 12px;
 }
+
+.social_icon .privacy li {
+    float: left;
+    font-size: 15px;
+    color: #f5ddb6!important;
+    padding: 5px;
+}
+.social_icon .privacy li a {
+
+    color: #f5ddb6!important;
+}
+.social_icon .dot {
+    height: 5px;
+    width: 5px;
+    background-color: #E1C17E; /* Blue color */
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.social_icon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%; /* Centers the pseudo-element */
+    width: 50%; /* Adjust this value to change the length of the border */
+    transform: translateX(-50%); /* Centers the pseudo-element */
+    border-bottom: 1.5px solid #E73232; /* Adjust border style and color */
+  }
+
 
 .social_icon ul {
     margin: 0px;
@@ -1359,10 +1494,18 @@ button {
     color: #f5ddb6;
     padding: 10px;
 }
-
-.social_icon li a {
-    color: #f5ddb6;
-}
+.social_icon .top-icons li a {
+    background: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    width: 40px; /* Adjust as needed */
+    height: 40px; /* Should be the same as width for a perfect circle */
+    text-align: center; /* Centers the content within the circle */
+    line-height: 40px; /* Aligns the text vertically if it's a single line */
+  }
+  
 
 .social_icon li a:hover {
     color: #ffffff;
@@ -1879,11 +2022,13 @@ button {
   }
   
   .flatpickr-time input {
+    color: #495057; /* Change text color */
+  }
+ #timePicker, #datePicker{
     background:#666666;
     border:none;
     color:#fff;
-  }
-
+    }
   
   .flatpickr-time .flatpickr-time-separator {
     color: #495057; /* Change separator color */
