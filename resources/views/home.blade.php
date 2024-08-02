@@ -1499,7 +1499,7 @@
                                             alt="info-img" class="services-image img-fluid" >
                                             <div class="services-info align-items-end">
                                                 <h4>{{$barberA->name}}</h4>
-                                                <p>{{$barberA->description}} </p>
+                                                <p>{{\Illuminate\Support\Str::limit($barberA->description)}} </p>
                                                 <div class="d-flex mt-2 duration-wrap">
                                                     <span class="card-text"><i class="fa-solid fa-clock"></i>{{$barberA->duration}}</span>
                                                     <span class=""><i class="fa-solid fa-money-bill"></i>{{$barberA->payment_terms}}</span>
@@ -1576,7 +1576,7 @@
                                         alt="info-img" class="services-image img-fluid" >
                                         <div class="services-info align-items-end">
                                             <h4>{{$barberC->name}}</h4>
-                                            <p>{{$barberC->description}} </p>
+                                            <p>{{\Illuminate\Support\Str::limit($barberC->description)}} </p>
                                             <div class="d-flex mt-2 duration-wrap">
                                                 <span class="card-text"><i class="fa-solid fa-clock"></i>{{$barberC->duration}}</span>
                                                 <span class=""><i class="fa-solid fa-money-bill"></i>{{$barberC->payment_terms}}</span>
@@ -1652,7 +1652,7 @@
                                         alt="info-img" class="services-image img-fluid" >
                                         <div class="services-info align-items-end">
                                             <h4>{{$salon->name}}</h4>
-                                            <p>{{$salon->description}} </p>
+                                            <p>{{\Illuminate\Support\Str::limit($salon->description)}} </p>
                                             <div class="d-flex mt-2 duration-wrap">
                                                 <span class="card-text"><i class="fa-solid fa-clock"></i>{{$salon->duration}}</span>
                                                 <span class=""><i class="fa-solid fa-money-bill"></i>{{$salon->payment_terms}}</span>
@@ -1730,7 +1730,7 @@
                                         alt="info-img" class="services-image img-fluid" >
                                         <div class="services-info align-items-end">
                                             <h4>{{$salonC->name}}</h4>
-                                            <p>{{$salonC->description}} </p>
+                                            <p>{{\Illuminate\Support\Str::limit($salonC->description)}} </p>
                                             <div class="d-flex mt-2 duration-wrap">
                                                 <span class="card-text"><i class="fa-solid fa-clock"></i>{{$salonC->duration}}</span>
                                                 <span class=""><i class="fa-solid fa-money-bill"></i>{{$salonC->payment_terms}}</span>
@@ -1807,7 +1807,7 @@
                                         alt="info-img" class="services-image img-fluid" >
                                         <div class="services-info align-items-end">
                                             <h4>{{$mani->name}}</h4>
-                                            <p>{{$mani->description}} </p>
+                                            <p>{{\Illuminate\Support\Str::limit($mani->description)}} </p>
                                             <div class="d-flex mt-2 duration-wrap">
                                                 <span class="card-text"><i class="fa-solid fa-clock"></i>{{$mani->duration}}</span>
                                                 <span class=""><i class="fa-solid fa-money-bill"></i>{{$mani->payment_terms}}</span>
@@ -1885,7 +1885,7 @@
                                         alt="info-img" class="services-image img-fluid" >
                                         <div class="services-info align-items-end">
                                             <h4>{{$massage->name}}</h4>
-                                            <p>{{$massage->description}} </p>
+                                            <p>{{\Illuminate\Support\Str::limit($massage->description)}} </p>
                                             <div class="d-flex mt-2 duration-wrap">
                                                 <span class="card-text"><i class="fa-solid fa-clock"></i>{{$massage->duration}}</span>
                                                 <span class=""><i class="fa-solid fa-money-bill"></i>{{$massage->payment_terms}}</span>
@@ -1962,7 +1962,7 @@
                                         alt="info-img" class="services-image img-fluid" >
                                         <div class="services-info align-items-end">
                                             <h4>{{$facial->name}}</h4>
-                                            <p>{{$facial->description}} </p>
+                                            <p>{{\Illuminate\Support\Str::limit($facial->description)}} </p>
                                             <div class="d-flex mt-2 duration-wrap">
                                                 <span class="card-text"><i class="fa-solid fa-clock"></i>{{$facial->duration}}</span>
                                                 <span class=""><i class="fa-solid fa-money-bill"></i>{{$facial->payment_terms}}</span>
@@ -2039,7 +2039,7 @@
                                         alt="info-img" class="services-image img-fluid" >
                                         <div class="services-info align-items-end">
                                             <h4>{{$hot->name}}</h4>
-                                            <p>{{$hot->description}} </p>
+                                            <p>{{\Illuminate\Support\Str::limit($hot->description)}} </p>
                                             <div class="d-flex mt-2 duration-wrap">
                                                 <span class="card-text"><i class="fa-solid fa-clock"></i>{{$hot->duration}}</span>
                                                 <span class=""><i class="fa-solid fa-money-bill"></i>{{$hot->payment_terms}}</span>
@@ -2116,7 +2116,7 @@
                                         alt="info-img" class="services-image img-fluid" >
                                         <div class="services-info align-items-end">
                                             <h4>{{$moroccan->name}}</h4>
-                                            <p>{{$moroccan->description}} </p>
+                                            <p>{{\Illuminate\Support\Str::limit($moroccan->description)}} </p>
                                             <div class="d-flex mt-2 duration-wrap">
                                                 <span class="card-text"><i class="fa-solid fa-clock"></i>{{$moroccan->duration}}</span>
                                                 <span class=""><i class="fa-solid fa-money-bill"></i>{{$moroccan->payment_terms}}</span>
@@ -2193,7 +2193,7 @@
                                         alt="info-img" class="services-image img-fluid" >
                                         <div class="services-info align-items-end">
                                             <h4>{{$steam->name}}</h4>
-                                            <p>{{$steam->description}} </p>
+                                            <p>{{\Illuminate\Support\Str::limit($steam->description)}} </p>
                                             <div class="d-flex mt-2 duration-wrap">
                                                 <span class="card-text"><i class="fa-solid fa-clock"></i>{{$steam->duration}}</span>
                                                 <span class=""><i class="fa-solid fa-money-bill"></i>{{$steam->payment_terms}}</span>
@@ -2272,7 +2272,7 @@
                                         alt="info-img" class="services-image img-fluid" >
                                         <div class="services-info align-items-end">
                                             <h4>{{$sauna->name}}</h4>
-                                            <p>{{$sauna->description}} </p>
+                                            <p>{{\Illuminate\Support\Str::limit($sauna->description)}} </p>
                                             <div class="d-flex mt-2 duration-wrap">
                                                 <span class="card-text"><i class="fa-solid fa-clock"></i>{{$sauna->duration}}</span>
                                                 <span class=""><i class="fa-solid fa-money-bill"></i>{{$sauna->payment_terms}}</span>
@@ -2350,7 +2350,7 @@
                                         alt="info-img" class="services-image img-fluid" >
                                         <div class="services-info align-items-end">
                                             <h4>{{$waxing->name}}</h4>
-                                            <p>{{$waxing->description}} </p>
+                                            <p>{{\Illuminate\Support\Str::limit($waxing->description)}} </p>
                                             <div class="d-flex mt-2 duration-wrap">
                                                 <span class="card-text"><i class="fa-solid fa-clock"></i>{{$waxing->duration}}</span>
                                                 <span class=""><i class="fa-solid fa-money-bill"></i>{{$waxing->payment_terms}}</span>
