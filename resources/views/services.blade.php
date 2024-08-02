@@ -9,7 +9,7 @@
         <div class="row">
             @foreach($massages as $massage)
 
-            <div class="col-lg-4 col-md-6 col-12">
+            <div class="product-wrap col-lg-4 col-md-6 col-12">
                 <div class="services-thumb">
                     <img
                     src="storage/{{$massage->thumbnail}}"
@@ -72,7 +72,7 @@
         <div class="row product-row">
         @foreach($facials as $facial)
 
-            <div class="col-lg-4 col-md-6 col-12">
+            <div class="product-wrap col-lg-4 col-md-6 col-12">
                 <div class="services-thumb">
                     <img
                     src="storage/{{$facial->thumbnail}}"
@@ -136,7 +136,7 @@
         <div class="row product-row">
             @foreach($hots as $hot)
 
-            <div class="col-lg-4 col-md-6 col-12">
+            <div class="product-wrap col-lg-4 col-md-6 col-12">
                 <div class="services-thumb">
                     <img
                     src="storage/{{$hot->thumbnail}}"
@@ -198,7 +198,7 @@
         <div class="row product-row">
             @foreach($moroccans as $moroccan)
 
-            <div class="col-lg-4 col-md-6 col-12">
+            <div class="product-wrap col-lg-4 col-md-6 col-12">
                 <div class="services-thumb">
                     <img
                     src="storage/{{$moroccan->thumbnail}}"
@@ -261,7 +261,7 @@
         <div class="row product-row">
             @foreach($steams as $steam)
 
-            <div class="col-lg-4 col-md-6 col-12">
+            <div class="product-wrap col-lg-4 col-md-6 col-12">
                 <div class="services-thumb">
                     <img
                     src="storage/{{$steam->thumbnail}}"
@@ -324,7 +324,7 @@
         <div class="row product-row">
             @foreach($saunas as $sauna)
 
-            <div class="col-lg-4 col-md-6 col-12">
+            <div class="product-wrap col-lg-4 col-md-6 col-12">
                 <div class="services-thumb">
                     <img
                     src="storage/{{$sauna->thumbnail}}"
@@ -387,7 +387,7 @@
         <div class="row product-row">
             @foreach($waxings as $waxing)
 
-            <div class="col-lg-4 col-md-6 col-12">
+            <div class="product-wrap col-lg-4 col-md-6 col-12">
                 <div class="services-thumb">
                     <img
                     src="storage/{{$waxing->thumbnail}}"
@@ -450,7 +450,7 @@
         <div class="row product-row">
             @foreach($manis as $mani)
 
-            <div class="col-lg-4 col-md-6 col-12">
+            <div class="product-wrap col-lg-4 col-md-6 col-12">
                 <div class="services-thumb">
                     <img
                     src="storage/{{$mani->thumbnail}}"
@@ -515,7 +515,7 @@
         <div class="row product-row">
             @foreach($salons as $salon)
 
-            <div class="col-lg-4 col-md-6 col-12">
+            <div class="product-wrap col-lg-4 col-md-6 col-12">
                 <div class="services-thumb">
                     <img
                     src="storage/{{$salon->thumbnail}}"
@@ -579,7 +579,7 @@
         <div class="row product-row">
             @foreach($salonCs as $salonC)
 
-            <div class="col-lg-4 col-md-6 col-12">
+            <div class="product-wrap col-lg-4 col-md-6 col-12">
                 <div class="services-thumb">
                     <img
                     src="storage/{{$salonC->thumbnail}}"
@@ -649,7 +649,7 @@
         <div class="row product-row">
             @foreach($barberCs as $barberC)
 
-            <div class="col-lg-4 col-md-6 col-12">
+            <div class="product-wrap col-lg-4 col-md-6 col-12">
                 <div class="services-thumb">
                     <img
                     src="storage/{{$barberC->thumbnail}}"
@@ -714,7 +714,7 @@
         <div class="row product-row">
             @foreach($barberAs as $barberA)
 
-            <div class="col-lg-4 col-md-6 col-12">
+            <div class="product-wrap col-lg-4 col-md-6 col-12">
                 <div class="services-thumb">
                     <img
                     src="storage/{{$barberA->thumbnail}}"

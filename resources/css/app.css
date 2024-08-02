@@ -748,7 +748,7 @@ button {
     color: #fff;
     font-size: 30px;
 }
-.product_section .product-row{
+.product_section .product-wrap{
     margin-bottom: 30px;
 }
 .product_section .modal-content input{
