@@ -586,7 +586,8 @@
                     alt="info-img" class="services-image img-fluid" >
                     <div class="services-info align-items-end">
                         <h4>{{$salonC->name}}</h4>
-                        <p>{{$salonC->description}} </p>
+                        <p>{{ \Illuminate\Support\Str::limit($salonC->description, 50) }}
+                        </p>
                         <div class="d-flex mt-2 duration-wrap">
                             <span class="card-text"><i class="fa-solid fa-clock"></i>{{$salonC->duration}}</span>
                             <span class=""><i class="fa-solid fa-money-bill"></i>{{$salonC->payment_terms}}</span>
