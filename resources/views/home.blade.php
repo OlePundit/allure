@@ -144,7 +144,6 @@
                                 <div class="read_bt"><a href="/book">Book Today</a></div>
                                 <div class="read_bt">
                                     <a href="/#services-section">See more
-                                        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
                                         <svg
                                             xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
                                             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
