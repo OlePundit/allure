@@ -62,7 +62,13 @@ html {
 
 .swiper2 {
 	width: 100%;
-	height: 80vh;
+	height: 100%;
+    position: relative;
+
+}
+.swiper3 {
+	width: 100%;
+	height: 100%;
     position: relative;
 
 }
@@ -71,10 +77,65 @@ html {
 }
 .swiper-container {
     width: 100%;
-    height: 600px;
+    height: 1000px;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
+}
+.swiper-container4 {
+    width: 100%;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.swiper-pagination2 {
+    position: absolute;
+    text-align: center;
+    transition: .3s opacity;
+    transform: translate3d(0, 0, 0);
+    z-index: 10;
+    width: 100%;
+    bottom: 10px; /* Adjust as needed */
+}
+
+.swiper-pagination2 .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #ffffff; /* Change the color as needed */
+    opacity: 0.2;
+    transition: opacity .3s;
+}
+
+.swiper-pagination2 .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #E1C17E; /* Change the active bullet color as needed */
+}
+.swiper-pagination3 {
+    position: absolute;
+    text-align: center;
+    transition: .3s opacity;
+    transform: translate3d(0, 0, 0);
+    z-index: 10;
+    width: 100%;
+    bottom: 10px; /* Adjust as needed */
+}
+
+.swiper-pagination3 .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #ffffff; /* Change the color as needed */
+    opacity: 0.2;
+    transition: opacity .3s;
+}
+
+.swiper-pagination3 .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #E1C17E; /* Change the active bullet color as needed */
 }
 .swiper-container1 {
     width: 100%;
@@ -142,7 +203,7 @@ html {
 .swiper-pagination-bullet-active {
     font-weight: bold;
     color:#E73232;
-    font-size:36;
+    font-size:36px;
 }
 .vertical-text {
     transform: rotate(360deg); /* Rotate text 90 degrees clockwise */
@@ -547,7 +608,15 @@ button {
 .login_text a:hover {
     color: #ffffff;
 }
-
+.navbar-nav .nav-link{
+    font-family: Ysabeau Office, Times New Roman, Times, serif;
+    font-size: 20px;
+}
+.navbar-nav .nav-link:hover{
+    font-family: Ysabeau Office, Times New Roman, Times, serif;
+    font-size: 20px;
+    color: #E1C17E!important;
+}
 .navbar-light .navbar-brand {
     color: rgba(0, 0, 0, .9);
     padding-left: 90px;
@@ -700,13 +769,50 @@ button {
     color: #fff; /* Change this to your desired color */
     opacity: 1; /* Optional: Ensure the color is fully opaque */
 }
-
-.product_section h3 {
-    color: #fff;
-    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
-    font-size: 24px;
-    margin-bottom: 15px;
+.product_section svg{
+    width:250px;
+}
+.product_section .svg-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product_section .services-thumb .services-info{
+    border:none;
+    top:50%;
+    z-index:10;
+}
+.product_section .services-thumb .services-info p{
+    margin:0;
+}
+.product_section .sub-cat{
+    border: 1px solid #E73232;
+    font-family: Ysabeau Office, Times New Roman, Times, serif;
     font-weight: 500;
+    font-size: 24px;
+    padding: 0px 10px;
+    color: #E1C17E;
+    border-radius: 8px;
+    text-transform: uppercase;
+
+}
+.product_section .svg-wrap h4{
+    font-family: Ysabeau Office, Times New Roman, Times, serif;
+    font-weight: 700;
+    color: #E1C17E;
+    font-size: 52px;
+
+}
+.product_section h3 {
+    margin: 0;
+    font-weight: 700;
+    font-family: Ysabeau Office, Times New Roman, Times, serif;
+    font-size: 52px;
+    color: #E73232;
+    text-align: center;
+}
+.product_section p{
+    color:#fff;
 }
 .product-row{
     margin-bottom: 50px;
@@ -740,9 +846,48 @@ button {
     font-size: 15px;
     font-weight: 400;
 }
-.product_section .card .card-body .price-wrap {
+.product_section .price-wrap {
     display:flex;
     justify-content: space-between;
+}
+.product_section .price-wrap p{
+    font-weight: 500;
+    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+.product_section .price-wrap a{
+    font-weight: 500;
+    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #E73232;
+    border:1px solid #E1C17E;
+    border-radius: 12px;
+    padding:0 10px;
+
+}
+.product_section .price-wrap a:hover{
+    font-weight: 500;
+    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #E73232;
+    background: #E1C17E;
+    border-radius: 12px;
+    padding:0 10px;
+
+}
+.product_section .services-thumb {
+    position: relative;
+    overflow: hidden;
+}
+.product_section  .services-thumb::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%; /* Adjust height as needed */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    pointer-events: none;
 }
 .product_section .card .card-body p{
     color:#fff;
@@ -751,14 +896,14 @@ button {
     font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
     font-size:20px;
 }
-.product_section .card .card-body .duration-wrap span{
+.product_section .duration-wrap span{
     color:#fff;
     background:#202020;
     border-radius: 8px;
     margin-right: 10px;
     padding: 3px 6px;
 }
-.product_section .card .card-body .duration-wrap span i{
+.product_section .duration-wrap span i{
     margin-right: 7px;
 }
 .product_section .card .card-body a{
@@ -954,7 +1099,7 @@ button {
     color:#E1C17E;
     text-transform: uppercase;
     font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
-
+    font-weight: 600;
 }
 .about_section_main svg text{
     color: #E1C17E!important;
@@ -1324,7 +1469,11 @@ button {
     justify-content: space-between;
 }
 .footer_section .business-hours .hours ul li{
-    color:#fff;
+    color:#E1C17E;
+    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+    font-size:20px;
+
+
 }
 .footer_section .main h3{
     text-align: end;
@@ -1338,13 +1487,19 @@ button {
 }
 .footer_section .cancellation-btn{
     background: none;
-    color:#fff;
-    border: 1px solid #E1C17E;
+    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:#E1C17E;
+    border: 1px solid #E73232;
     width:100%;
     padding: 5px 10px;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.footer_section .cancellation-btn svg{
+    width:30px!important;
 }
 .footer_section .modal-content{
     background: #202020;
@@ -1414,6 +1569,14 @@ button {
     color: #E73232;
     font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
     font-weight: 500;
+}
+
+.address_text_1 {
+    font-size: 36px;
+    color: #E73232;
+    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-align: center;
 }
 
 .dummy_text {
@@ -1619,13 +1782,8 @@ button {
     border-radius: 50%;
     border: 1px solid #fff;
 }
-.swiper-pagination2{
-    color:#fff;
-    font-weight: 500;
-    font-size: 17px;
-    padding-left: 100px;
-}
-.swiper-pagination-current{
+
+.-current{
     display:flex;
     align-items:center;
 } 
@@ -1847,22 +2005,37 @@ button {
 }
 .services-section h3 {
     margin: 0;
-    color: #e1c17e;
-    text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
     font-family: Ysabeau Office, Times New Roman, Times, serif;
-    font-size: 32px;
+    font-size: 52px;
+    color:#E73232;
+    text-align: center;
+}
+.services-section h4{
+    color: #E1C17E;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    font-family: Ysabeau Office, Times New Roman, Times, serif;
+    text-transform: uppercase;
 }
 .services-info h4 {
     color: #fff;
     font-size: 22px;
     font-weight: 600;
 }
+.services-section p{
+    color:#fff;
+}
 .services-thumb {
     border-radius: 20px;
     position: relative;
     overflow: hidden;
-    height:350px;
+    height:550px;
+}
+.services-thumb img{
+    height:100%;
+    object-fit: cover;
 }
   
   .services-thumb:hover .services-info {

@@ -78,9 +78,6 @@
                   <a class="nav-link" href="/">Home</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" href="/about">About</a>
-                  </li>
-                  <li class="nav-item">
                   <a class="nav-link" href="/services">Services</a>
                   </li>
                   <li class="nav-item">
@@ -109,134 +106,216 @@
       </main>
       <!-- footer section start -->
       <div class="footer_section layout_padding">
-         <div class="container">
-            <div class="footer_logo"><a href="index.html"><img src="storage/images/logo.png" alt="logo"></a></div>
-            <div class="contact_section_2">
-               <div class="row">
-                  <div class="col-sm-4">
-                     <h3 class="address_text">Contact Us</h3>
-                     <div class="address_bt">
-                           <ul>
-                           <li>
-                              <a href="#">
-                              <i class="fa fa-map-marker" aria-hidden="true"></i><span class="padding_left10">Address : 6th Floor, Wood Avenue Plaza, Kilimani, Nairobi</span>
-                              </a>
-                           </li>
-                           <li>
-                              <a href="#">
-                              <i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left10">Call : +07 95 614 357</span>
-                              </a>
-                           </li>
-                           <li>
-                              <a href="#">
-                              <i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left10">Email : info@allureessence.com</span>
-                              </a>
-                           </li>
-                           </ul>
-                     </div>
-                  </div>
-                  <div class="col-sm-4">
-                     <div class="footer_logo_1"><a href="index.html"><img src="storage/images/logo.png" alt="logo"></a></div>
-                     <p class="dummy_text">Experience relaxation and rejuvenation</p>
-                  </div>
-                  <div class="col-sm-4">
-                        <div class="main">
-                            <h3 class="address_text text-white">Quick Links</h3>1
-                            <ul>
-                                <li><a href="/about" class="text-white">About</a></li>
-                                <li><a href="/contact" class="text-white">Contact</a></li>
-                                <li><a href="/book" class="text-white">Book</a></li>
-                                <li><a href="/blogs" class="text-white">Blog</a></li>
-                            </ul>
+            <div class="container">
+                <div class="footer_logo"><a href="index.html"><img src="/storage/images/logo.png" alt="logo"></a></div>
+                <div class="contact_section_2">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="footer_logo_1"><a href="index.html"><img src="/storage/images/logo2.png" alt="logo"></a></div>
+                            <p class="dummy_text">Beauty Beyond Skin Deep</p>
                         </div>
                     </div>
-               </div>
-            </div>
-            <div class="social_icon">
-               <ul>
-                    <li>
-                        <a href="https://www.facebook.com/allureessencespa"><i class="fa fa-facebook mb-4" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a href="mailto:info@allureessence.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a href="tel:+254795614357"><i class="fa fa-phone" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/allure_essence_spa/"><i class="fa fa-instagram mb-4" aria-hidden="true"></i></a>
-                    </li>
-                </ul>
-            </div>
-               <div class="row mt-5">
+                    <div class="row footer_contact_wrap">
+                        <div class="col-sm-6">
+                            <h3 class="address_text">Contact Us</h3>
+                            <div class="address_bt">
+                                <ul>
+                                <li>
+                                    <a href="#">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i><span class="padding_left10">6th Floor, Wood Avenue Plaza, Kilimani, Nairobi</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                    <i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left10">+07 95 614 357</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left10">info@allureessence.com</span>
+                                    </a>
+                                </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="main">
+                                <h3 class="address_text">Quick Links</h3>
+                                <ul>
+                                    <li><a href="/about">About</a></li>
+                                    <li><a href="/contact">Contact</a></li>
+                                    <li><a href="/book">Book</a></li>
+                                    <li><a href="/blogs">Blog</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social_icon">
+                    <ul class="top-icons">
+                        <li>
+                            <a href="https://www.facebook.com/allureessencespa"><i class="fa fa-facebook mb-4" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="mailto:info@allureessence.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="tel:+254795614357"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/allure_essence_spa/"><i class="fa fa-instagram mb-4" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                    <ul class="d-flex privacy justify-content-center">
+                        <li><a href="/contact">Contact Us</a><div class="dot"></div></li>
+                        <li><a href="/contact">Privacy Policy</a><div class="dot"></div></li>
+                        <li><a href="/contact">Terms & Conditions</a><div class="dot"></div></li>
+                        <li><a href="/contact">Help & FAQs</a></li>
+
+                    </ul>
+                </div>
+                <div class="row mt-5">
                     <div class="col-12">
-                        <h3 class="address_text">Business Hours</h3>
+                        <h3 class="address_text_1">Operating Hours</h3>
 
                     </div>
                     <div class="col-12 business-hours">
                         <div class="hours">
                             <ul style="text-decoration-none">
-                                <li><span class="dot"></span>Monday</li>
-                                <li><span class="dot"></span>Tuesday</li>
-                                <li><span class="dot"></span>Wednesday</li>
-                                <li><span class="dot"></span>Thursday</li>
-                                <li><span class="dot"></span>Friday</li>
-                                <li><span class="dot"></span>Saturday</li>
-                                <li><span class="dot"></span>Sunday</li>
+                                <li>Monday</li>
+                                <li>Tuesday</li>
+                                <li>Wednesday</li>
+                                <li>Thursday</li>
+                                <li>Friday</li>
+                                <li>Saturday</li>
+                                <li>Sunday</li>
                             </ul>
                             <ul style="text-decoration-none">
-                                <li>8:00 A.M - 7:00 P.M</li>
-                                <li>8:00 A.M - 7:00 P.M</li>
-                                <li>8:00 A.M - 7:00 P.M</li>
-                                <li>8:00 A.M - 7:00 P.M</li>
-                                <li>8:00 A.M - 7:00 P.M</li>
-                                <li>8:00 A.M - 7:00 P.M</li>
-                                <li>Appointment Only</li>
+                                <li>8:00 A.M - 10:00 P.M</li>
+                                <li>8:00 A.M - 10:00 P.M</li>
+                                <li>8:00 A.M - 10:00 P.M</li>
+                                <li>8:00 A.M - 10:00 P.M</li>
+                                <li>8:00 A.M - 10:00 P.M</li>
+                                <li>8:00 A.M - 10:00 P.M</li>
+                                <li>8:00 A.M - 10:00 P.M</li>
                             </ul>
                         </div>
 
                     </div>
                 </div>
                 <div class="row mt-5">
+                    <div class="col-12">
+                        <h3 class="address_text_1">Policies</h3>
+
+                    </div>
                     <!-- Button trigger modal -->
                     <div class="col-12">
                         <button type="button" class="cancellation-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Cancellation Policy<i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        Cancellation Policy
+                        <svg
+                            xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+                            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:dc="http://purl.org/dc/elements/1.1/"
+                            xmlns:ns1="http://sozi.baierouge.fr"
+                            xmlns:cc="http://web.resource.org/cc/"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+                            id="Layer_1"
+                            enable-background="new 0 0 100 50"
+                            xml:space="preserve"
+                            viewBox="0 0 100 50"
+                            version="1.1"
+                            y="0px"
+                            x="0px"
+                        >
+                        <g>
+                            <line
+                                y2="24.704"
+                                x1="1.266"
+                                x2="70.3"
+                                stroke="#E73232"
+                                stroke-miterlimit="10"
+                                y1="24.704"
+                                stroke-width="6"
+                            />
+                            <polygon
+                                points="70.3 6.284 70.3 44.606 90.35 23.69"
+                                fill="#E73232"
+
+                            />
+                        </g>
+                        </svg>
                         </button>
                     </div>
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                        This venue has specific guidelines regarding cancellations for certain services. They have the authority to impose a fee for cancellations made late or in the event of a no-show.
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Cancellation Policy</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            This venue has specific guidelines regarding cancellations for certain services. They have the authority to impose a fee for cancellations made late or in the event of a no-show.
 
-                        There will be no charges for cancellations made up to 3 hours to your appointment time. Later than this, a cancellation fee of up to 30% of your booking value will be applied, before your refund is processed.
+                            There will be no charges for cancellations made up to 3 hours to your appointment time. Later than this, a cancellation fee of up to 30% of your booking value will be applied, before your refund is processed.
 
-                        Please note that in case of no show without any communication, your booking will be automatically cancelled 1 hour after your scheduled time.
+                            Please note that in case of no show without any communication, your booking will be automatically cancelled 1 hour after your scheduled time.
 
-                        The cancellation fee will only be imposed if the terms of the cancellation policy are violated.
+                            The cancellation fee will only be imposed if the terms of the cancellation policy are violated.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                            </div>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        </div>
-                        </div>
-                    </div>
                     </div>
                 </div>
                 <div class="row mt-3">
                     <!-- Button trigger modal -->
                     <div class="col-12">
-                        <button type="button" class="cancellation-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Reschedule Policy<i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <button type="button" class="cancellation-btn" data-bs-toggle="modal" data-bs-target="#rescheduleModal">
+                        Reschedule Policy
+                        <svg
+                            xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+                            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:dc="http://purl.org/dc/elements/1.1/"
+                            xmlns:ns1="http://sozi.baierouge.fr"
+                            xmlns:cc="http://web.resource.org/cc/"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+                            id="Layer_1"
+                            enable-background="new 0 0 100 50"
+                            xml:space="preserve"
+                            viewBox="0 0 100 50"
+                            version="1.1"
+                            y="0px"
+                            x="0px"
+                        >
+                        <g>
+                            <line
+                                y2="24.704"
+                                x1="1.266"
+                                x2="70.3"
+                                stroke="#E73232"
+                                stroke-miterlimit="10"
+                                y1="24.704"
+                                stroke-width="6"
+                            />
+                            <polygon
+                                points="70.3 6.284 70.3 44.606 90.35 23.69"
+                                fill="#E73232"
+
+                            />
+                        </g>
+                        </svg>
                         </button>
                     </div>
                     <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal fade" id="rescheduleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                         <div class="modal-header">
@@ -256,8 +335,8 @@
                     </div>
                     </div>
                 </div>
-         </div>
-      </div>
+            </div>
+        </div>
       <!-- footer section end -->
       <!-- copyright section start -->
       <div class="copyright_section">

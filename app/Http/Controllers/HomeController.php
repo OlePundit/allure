@@ -22,11 +22,23 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $hairs = Service::where('category','Hair dressing')->limit(4)->get();
-        $massages = Service::where('category', 'Massage')->limit(4)->get();
-        $bodys = Service::where('category', 'Body Scrubs')->limit(4)->get();
+        $salons = Service::where('category','Salon')->limit(3)->get();
+        $massages = Service::where('category', 'Massage')->limit(3)->get();
+        $bodys = Service::where('category', 'Body Scrubs')->limit(3)->get();
+        $manis = Service::where('category', 'Mani-pedi treat')->limit(3)->get();
+        $salonCs = Service::where('category', 'SalonC')->limit(3)->get();
+        $barberAs = Service::where('category', 'Barber African')->limit(3)->get();
+        $barberCs = Service::where('category', 'Barber Caucasian')->limit(3)->get();
+        $steams = Service::where('category', 'Steam Aroma')->limit(3)->get();
 
-        return view('home', compact('hairs','massages','bodys'));
+        $moroccans = Service::where('category', 'Moroccan Bath')->limit(3)->get();
+        $hots = Service::where('category', 'Hot Stones')->limit(3)->get();
+        $facials = Service::where('category', 'Facials')->limit(3)->get();
+        $saunas = Service::where('category', 'Sauna')->limit(3)->get();
+        $waxings = Service::where('category', 'Waxing')->limit(3)->get();
+
+        return view('home', compact('salons','massages','bodys','manis','salonCs','barberAs','barberCs',
+        'steams','moroccans','hots','facials','saunas','waxings'));
     }
     public function about()
     {
@@ -52,21 +64,22 @@ class HomeController extends Controller
     }
     public function services()
     {
-        $hairs = Service::where('category','Hair dressing')->get();
+        $salons = Service::where('category','Salon')->get();
         $massages = Service::where('category', 'Massage')->get();
         $bodys = Service::where('category', 'Body Scrubs')->get();
-        $dreads = Service::where('category', 'Dread locks')->get();
-        $mens = Service::where('category', 'Mens')->get();
-        $colours = Service::where('category', 'Colour')->get();
-        $africans = Service::where('category', 'African Hair')->get();
-        $caucasians = Service::where('category', 'Caucasian Hair')->get();
-        $weavings = Service::where('category', 'weaving')->get();
-        $permanents = Service::where('category', 'Permanent Weave')->get();
-        $pixies = Service::where('category', 'Pixie cut')->get();
-        $relaxers = Service::where('category', 'Relaxers')->get();
+        $manis = Service::where('category', 'Mani-pedi treat')->get();
+        $salonCs = Service::where('category', 'SalonC')->get();
         $barberAs = Service::where('category', 'Barber African')->get();
         $barberCs = Service::where('category', 'Barber Caucasian')->get();
+        $steams = Service::where('category', 'Steam Aroma')->get();
 
-        return view('services', compact('hairs','massages','bodys','dreads','mens','colours','africans','caucasians','weavings','permanents','pixies','relaxers','barberAs','barberCs'));
+        $moroccans = Service::where('category', 'Moroccan Bath')->get();
+        $hots = Service::where('category', 'Hot Stones')->get();
+        $facials = Service::where('category', 'Facials')->get();
+        $saunas = Service::where('category', 'Sauna')->get();
+        $waxings = Service::where('category', 'Waxing')->get();
+
+        return view('services', compact('salons','massages','bodys','manis','salonCs','barberAs','barberCs',
+        'steams','moroccans','hots','facials','saunas','waxings'));
     }
 }
