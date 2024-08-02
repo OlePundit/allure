@@ -748,6 +748,9 @@ button {
     color: #fff;
     font-size: 30px;
 }
+.product_section .product-row{
+    margin-bottom: 30px;
+}
 .product_section .modal-content input{
     background:#666666;
     border:none;
