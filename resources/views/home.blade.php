@@ -1638,7 +1638,7 @@
                                 </div>                            
                             </div>
 
-                            <div class="row" style="width:100%">
+                            <div class="row justify-content-center" style="width:100%">
 
                                 @foreach($salons as $salon)
 
@@ -1716,7 +1716,7 @@
                                 </div>                            
                             </div>
 
-                            <div class="row" style="width:100%">
+                            <div class="row justify-content-center" style="width:100%">
 
                                 @foreach($salonCs as $salonC)
 
@@ -1793,7 +1793,7 @@
                                 </div>                            
                             </div>
 
-                            <div class="row" style="width:100%">
+                            <div class="row justify-content-center" style="width:100%">
 
                                 @foreach($manis as $mani)
 
@@ -1871,7 +1871,7 @@
                                 </div>                            
                             </div>
 
-                            <div class="row" style="width:100%">
+                            <div class="row justify-content-center" style="width:100%">
 
                                 @foreach($massages as $massage)
 
@@ -1948,7 +1948,7 @@
                                 </div>                            
                             </div>
 
-                            <div class="row" style="width:100%">
+                            <div class="row justify-content-center" style="width:100%">
 
                                 @foreach($facials as $facial)
 
@@ -2025,7 +2025,7 @@
                                 </div>                            
                             </div>
 
-                            <div class="row" style="width:100%">
+                            <div class="row justify-content-center" style="width:100%">
 
                                 @foreach($hots as $hot)
 
@@ -2102,7 +2102,7 @@
                                 </div>                            
                             </div>
 
-                            <div class="row" style="width:100%">
+                            <div class="row justify-content-center" style="width:100%">
 
                                 @foreach($moroccans as $moroccan)
 
@@ -2179,7 +2179,7 @@
                                 </div>                            
                             </div>
 
-                            <div class="row" style="width:100%">
+                            <div class="row justify-content-center" style="width:100%">
 
                                 @foreach($steams as $steam)
 
@@ -2259,7 +2259,7 @@
                                 </div>                            
                             </div>
 
-                            <div class="row" style="width:100%">
+                            <div class="row justify-content-center" style="width:100%">
                                 @foreach($saunas as $sauna)
 
                                 <div class="col-lg-4 col-md-4 col-sm-6 col-12">
@@ -2336,7 +2336,7 @@
                                 </div>                            
                             </div>
 
-                            <div class="row" style="width:100%">
+                            <div class="row justify-content-center" style="width:100%">
 
                                 @foreach($waxings as $waxing)
 
