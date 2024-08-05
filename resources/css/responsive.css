@@ -164,6 +164,15 @@
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
+    .product_section svg {
+        width: 150px;
+    }
+    .product_section .svg-wrap h4 {
+        font-family: Ysabeau Office, Times New Roman, Times, serif;
+        font-weight: 700;
+        color: #e1c17e;
+        font-size: 36px;
+    }
     .swiper-button-next3 {
         left: 50%;
         transform: translateX(-100%);
@@ -836,6 +845,9 @@
     }
     .product_section_2 .card{
         margin-bottom: 30px;
+    }
+    .product_section svg {
+        width: 150px;
     }
 }
 @media (max-width: 767px) {

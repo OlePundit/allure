@@ -1484,10 +1484,10 @@
 
                                 </div>
                             </div>
-                            <div class="row" style="width:100%;">
+                            <div class="row justify-content-center" style="width:100%;">
                                 @foreach($barberAs as $barberA)
 
-                                    <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                                         <div class="services-thumb">
                                             <img
                                             src="storage/{{$barberA->thumbnail}}"
@@ -1564,7 +1564,7 @@
 
                                 @foreach($barberCs as $barberC)
 
-                                <div class="col-lg-4 col-md-6 col-12">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                                     <div class="services-thumb">
                                         <img
                                         src="storage/{{$barberC->thumbnail}}"
@@ -1640,7 +1640,7 @@
 
                                 @foreach($salons as $salon)
 
-                                <div class="col-lg-4 col-md-6 col-12">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                                     <div class="services-thumb">
                                         <img
                                         src="storage/{{$salon->thumbnail}}"
@@ -1718,7 +1718,7 @@
 
                                 @foreach($salonCs as $salonC)
 
-                                <div class="col-lg-4 col-md-6 col-12">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                                     <div class="services-thumb">
                                         <img
                                         src="storage/{{$salonC->thumbnail}}"
@@ -1795,7 +1795,7 @@
 
                                 @foreach($manis as $mani)
 
-                                <div class="col-lg-4 col-md-6 col-12">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                                     <div class="services-thumb">
                                         <img
                                         src="storage/{{$mani->thumbnail}}"
@@ -1873,7 +1873,7 @@
 
                                 @foreach($massages as $massage)
 
-                                <div class="col-lg-4 col-md-6 col-12">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                                     <div class="services-thumb">
                                         <img
                                         src="storage/{{$massage->thumbnail}}"
@@ -1950,7 +1950,7 @@
 
                                 @foreach($facials as $facial)
 
-                                <div class="col-lg-4 col-md-6 col-12">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                                     <div class="services-thumb">
                                         <img
                                         src="storage/{{$facial->thumbnail}}"
@@ -2027,7 +2027,7 @@
 
                                 @foreach($hots as $hot)
 
-                                <div class="col-lg-4 col-md-6 col-12">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                                     <div class="services-thumb">
                                         <img
                                         src="storage/{{$hot->thumbnail}}"
@@ -2104,7 +2104,7 @@
 
                                 @foreach($moroccans as $moroccan)
 
-                                <div class="col-lg-4 col-md-6 col-12">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                                     <div class="services-thumb">
                                         <img
                                         src="storage/{{$moroccan->thumbnail}}"
@@ -2181,7 +2181,7 @@
 
                                 @foreach($steams as $steam)
 
-                                <div class="col-lg-4 col-md-6 col-12">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                                     <div class="services-thumb">
                                         <img
                                         src="storage/{{$steam->thumbnail}}"
@@ -2260,7 +2260,7 @@
                             <div class="row" style="width:100%">
                                 @foreach($saunas as $sauna)
 
-                                <div class="col-lg-4 col-md-6 col-12">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                                     <div class="services-thumb">
                                         <img
                                         src="storage/{{$sauna->thumbnail}}"
@@ -2338,7 +2338,7 @@
 
                                 @foreach($waxings as $waxing)
 
-                                <div class="col-lg-4 col-md-6 col-12">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                                     <div class="services-thumb">
                                         <img
                                         src="storage/{{$waxing->thumbnail}}"
