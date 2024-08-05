@@ -66,7 +66,7 @@
     }
     .swiper-container {
         width: 100%;
-        height: 700px;
+        height: 2000px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -183,6 +183,12 @@
         margin-right: 25px;
         margin-bottom: 30px;
     }
+    .services-thumb {
+        border-radius: 20px;
+        position: relative;
+        overflow: hidden;
+        height: 500px;
+    }
     .tab .image-container{
         margin-right: 30px;
     }
@@ -205,9 +211,27 @@
     }
     .swiper-container {
         width: 100%;
-        height: 1400px;
+        height: 1550px;
         margin-left: auto;
         margin-right: auto;
+    }
+    .swiper-container4 {
+        width: 100%;
+        height: 2050px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+    }
+    .product_section .services-thumb {
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+    .product_section .svg-wrap {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-direction: column;
     }
     .swiper-container1 {
         width: 100%;
@@ -262,23 +286,12 @@
     .navbar-brand{
         display:none;
     }
-    .box .text {
-        position: absolute;
-        z-index: 999;
-        margin: 0;
-        left: 40%;
-        right: 0;
-        top: 2ch;
-        text-align: start;
-        width: 70%;
-        padding: 16px 16px;
-        border-radius: 10px;
-    }
+
     .box-2 .text-2 {
         display: flex;
         align-items: center;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: end;
         padding: 15px 0;
         position: absolute;
         z-index: 999;
@@ -287,8 +300,81 @@
         right: 0;
         text-align: start;
         width: 7%;
-        background-color: rgba(255, 255, 255, 0.3);
         height: 100%;
+    }
+    .box .text {
+        position: absolute;
+        z-index: 999;
+        margin: 0;
+        left: 10%;
+        right: 10%;
+        top: 10%;
+        text-align: center;
+        width: 80%;
+        padding: 16px 16px;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+
+    .box .text p{
+        font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+        color:#fff;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1;
+    
+    }
+    .button-wrap {
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+    }
+
+    .box .text h2 {
+        font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+        color: #fff;
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 1;
+    }
+    .box .text h3 {
+        font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+        color: #fff;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 1;
+    }
+    .box .text p {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1;
+        margin: 0;
+    }
+    .read_bt a {
+        width: 100%;
+        float: left;
+        font-size: 12px;
+        color: #E73232;
+        text-align: center;
+        padding: 7px 0px;
+        border-radius: 20px;
+        border: 1px solid #E1C17E;
+        text-transform: uppercase;
+    }
+    .swiper-pagination-bullet-active {
+        font-weight: bold;
+        color: #E73232;
+        font-size: 30px;
+    }
+    .read_bt {
+        width: 170px;
+        float: left;
+        padding-top: 30px;
+        margin-right: 10px;
+    }
+    .services-section .swiper2 .mobile{
+        display: none;
     }
 }
 
@@ -351,6 +437,40 @@
     .main {
         width: 100%;
         float: right;
+    }
+    .box .text {
+        position: absolute;
+        z-index: 999;
+        margin: 0;
+        left: 10%;
+        right: 10%;
+        top: 10%;
+        text-align: center;
+        width: 80%;
+        padding: 16px 16px;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+    .box .text h2 {
+        font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+        color: #fff;
+        font-size: 45px;
+        font-weight: 800;
+        line-height: 1;
+    }
+    .box .text h3 {
+        font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+        color: #fff;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1;
+    }
+    .box .text p {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1;
+        margin: 0;
     }
 }
 
@@ -472,21 +592,102 @@
     .image_1 {
         height: auto;
     }
+    .box .text {
+        position: absolute;
+        z-index: 999;
+        margin: 0;
+        left: 10%;
+        right: 10%;
+        top: 10%;
+        text-align: center;
+        width: 80%;
+        padding: 16px 16px;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+    .box .text h2 {
+        font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+        color: #fff;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 1;
+    }
+    .box .text h3 {
+        font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+        color: #fff;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 1;
+    }
+    .box .text p {
+        color: #fff;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 1;
+        margin: 0;
+    }
+    .read_bt a {
+        width: 100%;
+        float: left;
+        font-size: 14px;
+        color: #E73232;
+        text-align: center;
+        padding: 7px 0px;
+        border-radius: 20px;
+        border: 1px solid #E1C17E;
+        text-transform: uppercase;
+    }
+    .swiper-pagination-bullet-active {
+        font-weight: bold;
+        color: #E73232;
+        font-size: 30px;
+    }
+    .read_bt {
+        width: 170px;
+        float: left;
+        padding-top: 30px;
+        margin-right: 10px;
+    }
 }
 @media (max-width: 279px) {
     .banner_section {
         width: 100%;
         float: left;
         background-image: url(../images/banner-bg.png);
-        height: 80vh;
+        height: 100vh;
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
     .swiper-container {
         width: 100%;
-        height: 1500px;
+        height: 1700px;
         margin-left: auto;
         margin-right: auto;
+    }
+    .product_section .service-wrap{
+        flex-direction: column;
+        align-items: start;
+    }
+    .product_section .svg-wrap h4 {
+        font-family: Ysabeau Office, Times New Roman, Times, serif;
+        font-weight: 700;
+        color: #E1C17E;
+        font-size: 36px;
+    }
+    .services-section .swiper2 .mobile{
+        display: none;
+    }
+    .swiper-container4 {
+        width: 100%;
+        height: 2050px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+    }
+    .product_section .services-thumb {
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 30px;
     }
     .info_section .buttons {
         display: flex;
@@ -528,7 +729,7 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: end;
         padding: 15px 0;
         position: absolute;
         z-index: 999;
@@ -537,19 +738,77 @@
         right: 0;
         text-align: start;
         width: 10%;
-        background-color: rgba(255, 255, 255, 0.3);
         height: 100%;
     }
-
-    .read_bt a {
+    .box .text {
+        position: absolute;
+        z-index: 999;
+        margin: 0;
+        left: 10%;
+        right: 10%;
+        top: 10%;
+        text-align: center;
         width: 80%;
+        padding: 16px 16px;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+    .product_section .svg-wrap {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .box .text p{
+        font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+        color:#fff;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1;
+    
+    }
+    .button-wrap {
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+    }
+
+    .box .text h2 {
+        font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+        color: #fff;
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 1;
+    }
+    .box .text h3 {
+        font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+        color: #fff;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 1;
+    }
+    .box .text p {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1;
+        margin: 0;
+    }
+    .read_bt {
+        width: 170px;
         float: left;
-        font-size: 16px;
-        color: #ffffff;
-        background-color: #252525;
+        padding-top: 30px;
+        margin-right: 5px;
+    }
+    .read_bt a {
+        width: 100%;
+        float: left;
+        font-size: 10px;
+        color: #E73232;
         text-align: center;
         padding: 10px 0px;
-        border-radius: 5px;
+        border-radius: 20px;
+        border: 1px solid #E1C17E;
         text-transform: uppercase;
     }
     .image-container {
@@ -644,21 +903,31 @@
         position: absolute;
         z-index: 999;
         margin: 0;
-        left: 20%;
+        left: 10%;
         right: 0;
         top: 10%;
         text-align: start;
-        width: 70%;
+        width: 80%;
         padding: 16px 16px;
         border-radius: 10px;
+    }
+    .swiper-pagination-bullet-active {
+        font-weight: bold;
+        color: #E73232;
+        font-size: 25px;
     }
     .box .text p{
         font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
         color:#fff;
-        font-size: 30px;
+        font-size: 15px;
         font-weight: 500;
         line-height: 1;
     
+    }
+    .button-wrap {
+        justify-content: space-between;
+        width: 100%;
+        margin: auto;
     }
     .product_taital {
         font-size: 30px;

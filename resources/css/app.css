@@ -255,7 +255,7 @@ html {
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: end;
     padding:15px 0;
     position: absolute;
     z-index: 999;
@@ -271,7 +271,7 @@ html {
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: end;
     padding:15px 0;
     position: absolute;
     z-index: 999;
@@ -784,6 +784,7 @@ button {
     border:none;
     top:50%;
     z-index:10;
+    padding:0;
 }
 .product_section .services-thumb .services-info p{
     margin:0;
@@ -955,6 +956,9 @@ button {
     width: 100%;
     float: left;
     padding-top: 30px;
+}
+.product_section .service-wrap{
+    align-items: center;
 }
 
 .product_box {
@@ -2039,6 +2043,7 @@ button {
 .services-thumb img{
     height:100%;
     object-fit: cover;
+    width:100%;
 }
   
   .services-thumb:hover .services-info {
