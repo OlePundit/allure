@@ -53,8 +53,10 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
         <!-- Styles -->
         <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
-        @vite(['resources/sass/app.scss', 'resources/js/app.js','resources/css/app.css','resources/css/responsive.css'])
-
+        <link rel="stylesheet" href="{{ asset('build/assets/app-B_VZRs9C.css') }}">
+      <link rel="stylesheet" href="{{ asset('build/assets/app-sEhFnVTV.css') }}">
+      <link rel="stylesheet" href="{{ asset('build/assets/responsive-DhAHJOLM.css') }}">
+      <script src="{{ asset('build/assets/app-BwDpqcm8.js') }}"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
         <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
@@ -1504,7 +1506,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                        <p>Our salon and barber shop offer a comprehensive range of services designed to enhance your personal care and grooming. From expert hairdressing, including cuts, coloring, and styling, to luxurious manicures, pedicures, and facials, we provide treatments that rejuvenate and refresh. We also offer soothing massages, invigorating Moroccan baths, and relaxing sauna sessions, as well as precise barbering services such as haircuts, beard grooming, and shaves. Each service is tailored to deliver exceptional results and a premium experience, ensuring you leave feeling your best.
 
                         </p>
                     </div>
@@ -2787,7 +2789,7 @@
                 nextEl: '.swiper-button-next2',
                 prevEl: '.swiper-button-prev2',
             },
-            autoplay:false,
+            autoplay:true,
 
         });
         var swiper3 = new Swiper('.swiper3', {
