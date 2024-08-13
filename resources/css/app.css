@@ -53,7 +53,7 @@ html {
 	width: 100%;
 	height: 80vh;
     position: relative;
-
+    touch-action: none;
 }
 .swiper1 .swiper-wrapper .swiper-slide .box .text img{
     height:100%!important;
@@ -323,7 +323,7 @@ html {
 }
 .box .text p{
     color:#fff;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 400;
     line-height: 1;
     margin:0;
@@ -695,6 +695,7 @@ button {
     border-radius: 20px;
     border:1px solid #E1C17E;
     text-transform: uppercase;
+    font-weight: 600;
 }
 .read_bt a svg{
     width: 25%;
@@ -773,7 +774,7 @@ button {
     opacity: 1; /* Optional: Ensure the color is fully opaque */
 }
 .product_section svg{
-    width:250px;
+    width:200px;
 }
 .product_section .svg-wrap{
     display: flex;

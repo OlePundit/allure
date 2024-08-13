@@ -23,7 +23,7 @@
                         </div>
                         <div class="d-flex price-wrap mt-3">
                             <p class="card-text">{{$massage->price}}</p>
-                            <a href="#"  data-bs-toggle="modal" data-bs-target="#massageModal" class="">Order Now</a>
+                            <a href="#"  data-bs-toggle="modal" data-bs-target="#massageModal" class="">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -86,7 +86,7 @@
                         </div>
                         <div class="d-flex price-wrap mt-3">
                             <p class="card-text">{{$facial->price}}</p>
-                            <a href="#"  data-bs-toggle="modal" data-bs-target="#facialModal" class="">Order Now</a>
+                            <a href="#"  data-bs-toggle="modal" data-bs-target="#facialModal" class="">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -150,7 +150,7 @@
                         </div>
                         <div class="d-flex price-wrap mt-3">
                             <p class="card-text">{{$hot->price}}</p>
-                            <a href="#"  data-bs-toggle="modal" data-bs-target="#hotModal" class="">Order Now</a>
+                            <a href="#"  data-bs-toggle="modal" data-bs-target="#hotModal" class="">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -212,7 +212,7 @@
                         </div>
                         <div class="d-flex price-wrap mt-3">
                             <p class="card-text">{{$moroccan->price}}</p>
-                            <a href="#"  data-bs-toggle="modal" data-bs-target="#moroccanModal" class="">Order Now</a>
+                            <a href="#"  data-bs-toggle="modal" data-bs-target="#moroccanModal" class="">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -275,7 +275,7 @@
                         </div>
                         <div class="d-flex price-wrap mt-3">
                             <p class="card-text">{{$steam->price}}</p>
-                            <a href="#"  data-bs-toggle="modal" data-bs-target="#steamModal" class="">Order Now</a>
+                            <a href="#"  data-bs-toggle="modal" data-bs-target="#steamModal" class="">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -338,7 +338,7 @@
                         </div>
                         <div class="d-flex price-wrap mt-3">
                             <p class="card-text">{{$sauna->price}}</p>
-                            <a href="#"  data-bs-toggle="modal" data-bs-target="#saunaModal" class="">Order Now</a>
+                            <a href="#"  data-bs-toggle="modal" data-bs-target="#saunaModal" class="">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -401,7 +401,7 @@
                         </div>
                         <div class="d-flex price-wrap mt-3">
                             <p class="card-text">{{$waxing->price}}</p>
-                            <a href="#"  data-bs-toggle="modal" data-bs-target="#waxingModal" class="">Order Now</a>
+                            <a href="#"  data-bs-toggle="modal" data-bs-target="#waxingModal" class="">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -464,7 +464,7 @@
                         </div>
                         <div class="d-flex price-wrap mt-3">
                             <p class="card-text">{{$mani->price}}</p>
-                            <a href="#"  data-bs-toggle="modal" data-bs-target="#maniModal" class="">Order Now</a>
+                            <a href="#"  data-bs-toggle="modal" data-bs-target="#maniModal" class="">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -529,7 +529,7 @@
                         </div>
                         <div class="d-flex price-wrap mt-3">
                             <p class="card-text">{{$salon->price}}</p>
-                            <a href="#"  data-bs-toggle="modal" data-bs-target="#salonModal" class="">Order Now</a>
+                            <a href="#"  data-bs-toggle="modal" data-bs-target="#salonModal" class="">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -594,7 +594,7 @@
                         </div>
                         <div class="d-flex price-wrap mt-3">
                             <p class="card-text">{{$salonC->price}}</p>
-                            <a href="#"  data-bs-toggle="modal" data-bs-target="#salonCModal" class="">Order Now</a>
+                            <a href="#"  data-bs-toggle="modal" data-bs-target="#salonCModal" class="">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -664,7 +664,7 @@
                         </div>
                         <div class="d-flex price-wrap mt-3">
                             <p class="card-text">{{$barberC->price}}</p>
-                            <a href="#"  data-bs-toggle="modal" data-bs-target="#barberCModal" class="">Order Now</a>
+                            <a href="#"  data-bs-toggle="modal" data-bs-target="#barberCModal" class="">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -729,7 +729,7 @@
                         </div>
                         <div class="d-flex price-wrap mt-3">
                             <p class="card-text">{{$barberA->price}}</p>
-                            <a href="#"  data-bs-toggle="modal" data-bs-target="#barberAModal" class="">Order Now</a>
+                            <a href="#"  data-bs-toggle="modal" data-bs-target="#barberAModal" class="">Book Now</a>
                         </div>
                     </div>
                 </div>
