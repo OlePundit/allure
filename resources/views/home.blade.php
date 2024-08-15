@@ -21,7 +21,7 @@
         <meta property="og:url" content="https://allureessencespa.com" />
         <meta property="og:site_name" content="Allure Essence"/>
         <!-- Fonts -->
-        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link href="https://allureessencespa.com/storage/favicon.svg" rel="icon">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000|Open+Sans:400,700&&display=swap" rel="stylesheet">
