@@ -57,7 +57,6 @@
       <link rel="stylesheet" href="{{ asset('build/assets/app-sEhFnVTV.css') }}">
       <link rel="stylesheet" href="{{ asset('build/assets/responsive-DhAHJOLM.css') }}">
       <script src="{{ asset('build/assets/app-BwDpqcm8.js') }}"></script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
         <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
     </head>
@@ -2580,7 +2579,7 @@
                                 <li>8:00 A.M - 10:00 P.M</li>
                                 <li>8:00 A.M - 10:00 P.M</li>
                                 <li>8:00 A.M - 10:00 P.M</li>
-                                <li>9:00 A.M - 10:00 P.M</li>
+                                <li>9:00 A.M - 9:00 P.M</li>
                             </ul>
                         </div>
 
@@ -2734,82 +2733,80 @@
       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
       <script>
-        var swiper1 = new Swiper('.swiper1', {
-            // Optional parameters
-            direction: 'vertical',
-            allowTouchMove: false, // Disable touch-based slide movement
+    var swiper1 = new Swiper('.swiper1', {
+        // Optional parameters
+        direction: 'vertical',
+        allowTouchMove: false, // Disable touch-based slide movement
 
-
-            // If we need pagination
-            pagination: {
-                el: '.swiper-pagination1',
-                clickable: true,
-                renderBullet: function (index, className) {
-                    return '<span class="' + className + '">' + (index + 1) + ' — </span>';
-                },
-                },
-
-                // Navigation arrows
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-
-
-                // Adding space between slides
-                spaceBetween: 0,
-
-                // Adding slide visibility check
-                watchSlidesVisibility: true,
-
-                // Adjusting slide transition
-                speed: 600,
-
-                // Debugging overlapping issues
-                on: {
-                    init: function () {
-                        this.update();
-                    },
-                    slideChangeTransitionEnd: function () {
-                        this.update();
-                    }
-                }
-                    // Allow page scrolling on touch within Swiper
-                    document.querySelector('.swiper1').addEventListener('touchstart', function (e) {
-                        e.stopPropagation(); // Prevents the touch event from being captured by Swiper
-                    });
-            });
-
-
-        var swiper2 = new Swiper('.swiper2', {
-            pagination: {
-                el: '.swiper-pagination2',
-                clickable: true,
-
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination1',
+            clickable: true,
+            renderBullet: function (index, className) {
+                return '<span class="' + className + '">' + (index + 1) + ' — </span>';
             },
+        },
 
-            navigation: {
-                nextEl: '.swiper-button-next2',
-                prevEl: '.swiper-button-prev2',
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // Adding space between slides
+        spaceBetween: 0,
+
+        // Adding slide visibility check
+        watchSlidesVisibility: true,
+
+        // Adjusting slide transition
+        speed: 600,
+
+        // Debugging overlapping issues
+        on: {
+            init: function () {
+                this.update();
             },
-            autoplay: {
-                delay: 12000,
-                disableOnInteraction: true,
+            slideChangeTransitionEnd: function () {
+                this.update();
+            }
+        }
+    });
 
-            },
-            speed: 600,
-        });
-        var swiper3 = new Swiper('.swiper3', {
-            pagination: {
-                el: '.swiper-pagination3',
-                clickable: true,
+    // Allow page scrolling on touch within Swiper
+    document.querySelector('.swiper1').addEventListener('touchstart', function (e) {
+        e.stopPropagation(); // Prevents the touch event from being captured by Swiper
+    });
 
-            },
-            slidesPerView: 1
+    var swiper2 = new Swiper('.swiper2', {
+        pagination: {
+            el: '.swiper-pagination2',
+            clickable: true,
+        },
 
-        });
+        navigation: {
+            nextEl: '.swiper-button-next2',
+            prevEl: '.swiper-button-prev2',
+        },
 
-      </script>
+        autoplay: {
+            delay: 12000,
+            disableOnInteraction: true,
+        },
+
+        speed: 600,
+    });
+
+    var swiper3 = new Swiper('.swiper3', {
+        pagination: {
+            el: '.swiper-pagination3',
+            clickable: true,
+        },
+
+        slidesPerView: 1,
+    });
+</script>
+
         <script>
         $( function() {
             $( "#tabs" ).tabs();
