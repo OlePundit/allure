@@ -177,7 +177,7 @@
         font-weight: 500;
         font-family: Ysabeau Office, Times New Roman, Times, serif;
         font-size: 15px;
-        color: #e73232;
+        color: #E63534;
         border: 1px solid #E1C17E;
         border-radius: 12px;
         padding: 0 10px;
@@ -378,7 +378,7 @@
         width: 100%;
         float: left;
         font-size: 12px;
-        color: #E73232;
+        color: #E63534;
         text-align: center;
         padding: 7px 0px;
         border-radius: 20px;
@@ -387,7 +387,7 @@
     }
     .swiper-pagination-bullet-active {
         font-weight: bold;
-        color: #E73232;
+        color: #E63534;
         font-size: 30px;
     }
     .read_bt {
@@ -697,7 +697,7 @@
         width: 100%;
         float: left;
         font-size: 14px;
-        color: #E73232;
+        color: #E63534;
         text-align: center;
         padding: 7px 0px;
         border-radius: 20px;
@@ -706,7 +706,7 @@
     }
     .swiper-pagination-bullet-active {
         font-weight: bold;
-        color: #E73232;
+        color: #E63534;
         font-size: 30px;
     }
     .read_bt {
@@ -753,7 +753,7 @@
         font-weight: 500;
         font-family: Ysabeau Office, Times New Roman, Times, serif;
         font-size: 15px;
-        color: #e73232;
+        color: #E63534;
         border: 1px solid #E1C17E;
         border-radius: 12px;
         padding: 0 10px;
@@ -894,7 +894,7 @@
         width: 100%;
         float: left;
         font-size: 10px;
-        color: #E73232;
+        color: #E63534;
         text-align: center;
         padding: 10px 0px;
         border-radius: 20px;
@@ -1006,7 +1006,7 @@
     }
     .swiper-pagination-bullet-active {
         font-weight: bold;
-        color: #E73232;
+        color: #E63534;
         font-size: 25px;
     }
     .box .text p{

@@ -2737,7 +2737,6 @@
         var swiper1 = new Swiper('.swiper1', {
             // Optional parameters
             direction: 'vertical',
-            simulateTouch: false,
             allowTouchMove: false, // Disable touch-based slide movement
 
 
