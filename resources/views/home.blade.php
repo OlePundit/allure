@@ -53,11 +53,8 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
         <!-- Styles -->
         <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
-        <link rel="stylesheet" href="{{ asset('build/assets/app-B_VZRs9C.css') }}">
-      <link rel="stylesheet" href="{{ asset('build/assets/app-sEhFnVTV.css') }}">
-      <link rel="stylesheet" href="{{ asset('build/assets/responsive-DhAHJOLM.css') }}">
-      <script src="{{ asset('build/assets/app-BwDpqcm8.js') }}"></script>
-        <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+        @vite(['resources/sass/app.scss', 'resources/js/app.js','resources/css/app.css','resources/css/responsive.css'])
+
 
     </head>
     <body>
@@ -2725,7 +2722,6 @@
                 <p class="copyright_text">2024 All Rights Reserved. Powered by <a href="https://sansa.Digital">Sansa Digital</a></p>
             </div>
         </div>
-    </body>
 
         <!-- copyright section end -->
       <!-- Javascript files-->
@@ -2734,86 +2730,86 @@
       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
       <script>
-    var swiper1 = new Swiper('.swiper1', {
-        // Optional parameters
-        direction: 'vertical',
-        allowTouchMove: false, // Disable touch-based slide movement
+            var swiper1 = new Swiper('.swiper1', {
+                // Optional parameters
+                direction: 'vertical',
+                allowTouchMove: false, // Disable touch-based slide movement
 
-        // If we need pagination
-        pagination: {
-            el: '.swiper-pagination1',
-            clickable: true,
-            renderBullet: function (index, className) {
-                return '<span class="' + className + '">' + (index + 1) + ' — </span>';
-            },
-        },
+                // If we need pagination
+                pagination: {
+                    el: '.swiper-pagination1',
+                    clickable: true,
+                    renderBullet: function (index, className) {
+                        return '<span class="' + className + '">' + (index + 1) + ' — </span>';
+                    },
+                },
 
-        // Navigation arrows
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
+                // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
 
-        // Adding space between slides
-        spaceBetween: 0,
+                // Adding space between slides
+                spaceBetween: 0,
 
-        // Adding slide visibility check
-        watchSlidesVisibility: true,
+                // Adding slide visibility check
+                watchSlidesVisibility: true,
 
-        // Adjusting slide transition
-        speed: 600,
+                // Adjusting slide transition
+                speed: 600,
 
-        // Debugging overlapping issues
-        on: {
-            init: function () {
-                this.update();
-            },
-            slideChangeTransitionEnd: function () {
-                this.update();
-            }
-        }
-    });
+                // Debugging overlapping issues
+                on: {
+                    init: function () {
+                        this.update();
+                    },
+                    slideChangeTransitionEnd: function () {
+                        this.update();
+                    }
+                }
+            });
 
-    // Allow page scrolling on touch within Swiper
-    document.querySelector('.swiper1').addEventListener('touchstart', function (e) {
-        e.stopPropagation(); // Prevents the touch event from being captured by Swiper
-    });
+            // Allow page scrolling on touch within Swiper
+            document.querySelector('.swiper1').addEventListener('touchstart', function (e) {
+                e.stopPropagation(); // Prevents the touch event from being captured by Swiper
+            });
 
-    var swiper2 = new Swiper('.swiper2', {
-        pagination: {
-            el: '.swiper-pagination2',
-            clickable: true,
-        },
+            var swiper2 = new Swiper('.swiper2', {
+                pagination: {
+                    el: '.swiper-pagination2',
+                    clickable: true,
+                },
 
-        navigation: {
-            nextEl: '.swiper-button-next2',
-            prevEl: '.swiper-button-prev2',
-        },
+                navigation: {
+                    nextEl: '.swiper-button-next2',
+                    prevEl: '.swiper-button-prev2',
+                },
 
-        autoplay: {
-            delay: 12000,
-            disableOnInteraction: true,
-        },
+                autoplay: {
+                    delay: 12000,
+                    disableOnInteraction: true,
+                },
 
-        speed: 600,
-    });
+                speed: 600,
+            });
 
-    var swiper3 = new Swiper('.swiper3', {
-        pagination: {
-            el: '.swiper-pagination3',
-            clickable: true,
-        },
+            var swiper3 = new Swiper('.swiper3', {
+                pagination: {
+                    el: '.swiper-pagination3',
+                    clickable: true,
+                },
 
-        slidesPerView: 1,
-    });
-</script>
+                slidesPerView: 1,
+            });
+        </script>
 
         <script>
         $( function() {
             $( "#tabs" ).tabs();
         } );
         </script>
-              <script>
+        <script>
         document.addEventListener('DOMContentLoaded', function() {
             flatpickr('#datePicker', {
             dateFormat: 'Y-m-d', // Customize the date format
