@@ -2774,6 +2774,10 @@
                         this.update();
                     }
                 }
+                    // Allow page scrolling on touch within Swiper
+                    document.querySelector('.swiper1').addEventListener('touchstart', function (e) {
+                        e.stopPropagation(); // Prevents the touch event from being captured by Swiper
+                    });
             });
 
 
