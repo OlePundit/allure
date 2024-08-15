@@ -2725,6 +2725,7 @@
                 <p class="copyright_text">2024 All Rights Reserved. Powered by <a href="https://sansa.Digital">Sansa Digital</a></p>
             </div>
         </div>
+    </body>
 
         <!-- copyright section end -->
       <!-- Javascript files-->
