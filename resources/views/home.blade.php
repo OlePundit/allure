@@ -141,7 +141,7 @@
                             <div class="d-flex button-wrap">
                                 <div class="read_bt"><a href="/book">Book Today</a></div>
                                 <div class="read_bt">
-                                    <a href="/#about_section">See more
+                                    <a href="/services">See more
                                         <svg
                                             xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
                                             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -214,7 +214,7 @@
                             <div class="d-flex button-wrap">
                                 <div class="read_bt"><a href="/book">Book Today</a></div>
                                 <div class="read_bt">
-                                    <a href="/#about_section">See more
+                                    <a href="/services">See more
                                         <svg
                                             xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
                                             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -286,7 +286,7 @@
                             <div class="d-flex button-wrap">
                                 <div class="read_bt"><a href="/book">Book Today</a></div>
                                 <div class="read_bt">
-                                    <a href="/#about_section">See more
+                                    <a href="/services">See more
                                     
                                         <svg
                                             xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -358,7 +358,7 @@
                             <div class="d-flex button-wrap">
                                 <div class="read_bt"><a href="/book">Book Today</a></div>
                                 <div class="read_bt">
-                                    <a href="/#about_section">See more
+                                    <a href="/services">See more
                                     
                                         <svg
                                             xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -2481,7 +2481,7 @@
             </div>
             <div class="map_main">
                 <div class="map-responsive">
-                    <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=6th%20Floor,%20Wood%20Avenue%20Plaza,%20Kilimani,%20Nairobi,%20Moi,%20Nairobi%20Area,%20Kenya%2000100+(Allure%20Essence%20Spa)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="600" height="400" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
+                    <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=6th%20Floor%20623%20Wood%20Avenue%20Plaza,%20Kilimani,%20Nairobi,%20Moi,%20Nairobi%20Area,%20Kenya%2000100+(Allure%20Essence%20Spa)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="600" height="400" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
                 </div>
             </div>
         </div>
@@ -2509,7 +2509,7 @@
                                 </li>
                                 <li>
                                     <a href="tel:+254795614357">
-                                    <i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left10">+2547 95 614 357</span>
+                                    <i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left10">+254 795 614 357</span>
                                     </a>
                                 </li>
                                 <li>
@@ -2789,8 +2789,12 @@
                 nextEl: '.swiper-button-next2',
                 prevEl: '.swiper-button-prev2',
             },
-            autoplay:true,
+            autoplay: {
+                delay: 12000,
+                disableOnInteraction: true,
 
+            },
+            speed: 600,
         });
         var swiper3 = new Swiper('.swiper3', {
             pagination: {
