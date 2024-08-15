@@ -14,7 +14,7 @@
                         <img
                         src="storage/{{$massage->thumbnail}}"
                         alt="info-img" class="services-image img-fluid" >
-                        <div class="services-info align-items-end">
+                        <div class="services-info">
                             <h4>{{$massage->name}}</h4>
                             <p>{{\Illuminate\Support\Str::limit($massage->description)}} </p>
                             <div class="d-flex mt-2 duration-wrap">
@@ -79,7 +79,7 @@
                         <img
                         src="storage/{{$mani->thumbnail}}"
                         alt="info-img" class="services-image img-fluid" >
-                        <div class="services-info align-items-end">
+                        <div class="services-info">
                             <h4>{{$mani->name}}</h4>
                             <p>{{\Illuminate\Support\Str::limit($mani->description)}} </p>
                             <div class="d-flex mt-2 duration-wrap">
@@ -144,7 +144,7 @@
                         <img
                         src="storage/{{$salon->thumbnail}}"
                         alt="info-img" class="services-image img-fluid" >
-                        <div class="services-info align-items-end">
+                        <div class="services-info">
                             <h4>{{$salon->name}}</h4>
                             <p>{{\Illuminate\Support\Str::limit($salon->description)}} </p>
                             <div class="d-flex mt-2 duration-wrap">
@@ -208,7 +208,7 @@
                         <img
                         src="storage/{{$salonC->thumbnail}}"
                         alt="info-img" class="services-image img-fluid" >
-                        <div class="services-info align-items-end">
+                        <div class="services-info">
                             <h4>{{$salonC->name}}</h4>
                             <p>{{ \Illuminate\Support\Str::limit($salonC->description, 50) }}
                             </p>

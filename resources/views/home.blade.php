@@ -1532,7 +1532,7 @@
                                         <img
                                         src="storage/{{$salon->thumbnail}}"
                                         alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info align-items-end">
+                                        <div class="services-info">
                                             <h4>{{$salon->name}}</h4>
                                             <p>{{\Illuminate\Support\Str::limit($salon->description)}} </p>
                                             <div class="d-flex mt-2 duration-wrap">
@@ -1610,7 +1610,7 @@
                                         <img
                                         src="storage/{{$salonC->thumbnail}}"
                                         alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info align-items-end">
+                                        <div class="services-info">
                                             <h4>{{$salonC->name}}</h4>
                                             <p>{{\Illuminate\Support\Str::limit($salonC->description)}} </p>
                                             <div class="d-flex mt-2 duration-wrap">
@@ -1686,7 +1686,7 @@
                                             <img
                                             src="storage/{{$barberA->thumbnail}}"
                                             alt="info-img" class="services-image img-fluid" >
-                                            <div class="services-info align-items-end">
+                                            <div class="services-info">
                                                 <h4>{{$barberA->name}}</h4>
                                                 <p>{{\Illuminate\Support\Str::limit($barberA->description)}} </p>
                                                 <div class="d-flex mt-2 duration-wrap">
@@ -1763,7 +1763,7 @@
                                         <img
                                         src="storage/{{$barberC->thumbnail}}"
                                         alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info align-items-end">
+                                        <div class="services-info">
                                             <h4>{{$barberC->name}}</h4>
                                             <p>{{\Illuminate\Support\Str::limit($barberC->description)}} </p>
                                             <div class="d-flex mt-2 duration-wrap">
@@ -1840,7 +1840,7 @@
                                         <img
                                         src="storage/{{$massage->thumbnail}}"
                                         alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info align-items-end">
+                                        <div class="services-info">
                                             <h4>{{$massage->name}}</h4>
                                             <p>{{\Illuminate\Support\Str::limit($massage->description)}} </p>
                                             <div class="d-flex mt-2 duration-wrap">
@@ -1918,7 +1918,7 @@
                                         <img
                                         src="storage/{{$mani->thumbnail}}"
                                         alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info align-items-end">
+                                        <div class="services-info">
                                             <h4>{{$mani->name}}</h4>
                                             <p>{{\Illuminate\Support\Str::limit($mani->description)}} </p>
                                             <div class="d-flex mt-2 duration-wrap">
@@ -1997,7 +1997,7 @@
                                         <img
                                         src="storage/{{$facial->thumbnail}}"
                                         alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info align-items-end">
+                                        <div class="services-info">
                                             <h4>{{$facial->name}}</h4>
                                             <p>{{\Illuminate\Support\Str::limit($facial->description)}} </p>
                                             <div class="d-flex mt-2 duration-wrap">
@@ -2074,7 +2074,7 @@
                                         <img
                                         src="storage/{{$hot->thumbnail}}"
                                         alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info align-items-end">
+                                        <div class="services-info">
                                             <h4>{{$hot->name}}</h4>
                                             <p>{{\Illuminate\Support\Str::limit($hot->description)}} </p>
                                             <div class="d-flex mt-2 duration-wrap">
@@ -2151,7 +2151,7 @@
                                         <img
                                         src="storage/{{$moroccan->thumbnail}}"
                                         alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info align-items-end">
+                                        <div class="services-info">
                                             <h4>{{$moroccan->name}}</h4>
                                             <p>{{\Illuminate\Support\Str::limit($moroccan->description)}} </p>
                                             <div class="d-flex mt-2 duration-wrap">
@@ -2228,7 +2228,7 @@
                                         <img
                                         src="storage/{{$steam->thumbnail}}"
                                         alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info align-items-end">
+                                        <div class="services-info">
                                             <h4>{{$steam->name}}</h4>
                                             <p>{{\Illuminate\Support\Str::limit($steam->description)}} </p>
                                             <div class="d-flex mt-2 duration-wrap">
@@ -2307,7 +2307,7 @@
                                         <img
                                         src="storage/{{$sauna->thumbnail}}"
                                         alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info align-items-end">
+                                        <div class="services-info">
                                             <h4>{{$sauna->name}}</h4>
                                             <p>{{\Illuminate\Support\Str::limit($sauna->description)}} </p>
                                             <div class="d-flex mt-2 duration-wrap">
@@ -2385,7 +2385,7 @@
                                         <img
                                         src="storage/{{$waxing->thumbnail}}"
                                         alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info align-items-end">
+                                        <div class="services-info">
                                             <h4>{{$waxing->name}}</h4>
                                             <p>{{\Illuminate\Support\Str::limit($waxing->description)}} </p>
                                             <div class="d-flex mt-2 duration-wrap">

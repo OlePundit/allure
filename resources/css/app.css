@@ -786,6 +786,9 @@ button {
     top:55%;
     z-index:10;
     padding:0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
 .product_section .services-thumb .services-info p{
     margin:0;
@@ -854,6 +857,7 @@ button {
 .product_section .price-wrap {
     display:flex;
     justify-content: space-between;
+    width:100%;
 }
 .product_section .price-wrap p{
     font-weight: 500;
