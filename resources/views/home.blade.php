@@ -439,14 +439,14 @@
                             <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350"><defs><style>.cls-1{color: #E1C17E;font-size:48.28px;font-family:YsabeauOffice-Bold, Ysabeau Office;font-weight:700;}</style></defs><path fill="#E1C17E" d="M301.48,116.46a104.74,104.74,0,0,0-24.43-9.83c-1.4-.37-2.85-.74-4.32-1-.41-.11-.85-.19-1.3-.3s-.85-.15-1.29-.26a106.48,106.48,0,0,0-51.74,2.88l-3.69,1.22q-2.49.89-4.88,1.89c-1,.37-2,.81-3,1.25s-1.92.85-2.88,1.33c-.4.19-.81.37-1.18.56a106.66,106.66,0,0,0-52.36,57.94c-.34.82-.63,1.67-.93,2.48a108.09,108.09,0,0,0-3.14,10.9c-.07.41-.18.85-.29,1.29-.26,1.19-.49,2.41-.71,3.66-.14.63-.22,1.3-.33,2s-.18,1.22-.3,1.81c-.4,2.92-.73,5.84-.88,8.83,0,.67-.08,1.37-.11,2-.08,1.44-.08,2.91-.08,4.39v2.29c0,.74,0,1.52.08,2.3s.07,1.51.15,2.25A106.26,106.26,0,0,0,292.2,307c0-.22-.15-.48-.52-.81a11.14,11.14,0,0,1-1-1.48c-.41-.55-.81-1.15-1.18-1.74-.26-.4-.45-.85-.71-1.25l-.11-.23c-.55-.81-1.18-1.62-1.7-2.43s-1-1.85-1.59-2.7-1.1-1.63-1.66-2.44l-.11-.19a12.34,12.34,0,0,0-2.33-3.73,22.68,22.68,0,0,1-1-2.1,15.47,15.47,0,0,0-.85-1.44c-.37-.56-.74-1.19-1.11-1.74-.59-.78-1.18-1.52-1.77-2.29s-.85-1.41-1.37-2-1-1.22-1.55-1.84c-.37-.45-.71-.93-1.08-1.41l-.29-.4c-.48-.34-1-.59-1.44-.93-.82-.62-1.66-1.22-2.48-1.84a11,11,0,0,1-1.33-1.22h0l-.51-.34a18.72,18.72,0,0,1-2.48-1.73h0l-.25-.11a13.6,13.6,0,0,1-1.48-1c-.59-.48-1.19-.92-1.78-1.37s-1.11-.81-1.62-1.22l-.74-.63c-.67-.48-1.55-.73-2-1.33a14.55,14.55,0,0,0-3.25-2.62c-1.18-.92-2.29-2-3.51-3-.7-.59-1.55-1-2.33-1.51-1.11-.74-2.21-1.59-3.32-2.33-.56-.33-1.19-.55-1.7-.89s-1-.77-1.56-1.1a15.09,15.09,0,0,0-1.51-.74h0c-.55-.3-1.11-.59-1.62-.89a8.75,8.75,0,0,1-1-.59l-.11-.3a4.64,4.64,0,0,0-1.4-.18h-.41c-.44,0-.85,0-1.26,0-.59,0-.85-.15-1-.78a16.84,16.84,0,0,0-1-2c-.18-.34-.55-.74.19-1.11a1.62,1.62,0,0,0,.92-1.52,5.94,5.94,0,0,0-.78-3.36,1.48,1.48,0,0,1-.07-2c.26-.33.11-.88.15-1.33.07-1-.33-2.1.55-2.95-.11-1.89.85-3.85-.4-5.7A.75.75,0,0,1,232,229c.56-.14,1.08-.29,1.63-.44l.41-.07.7-.22a1.89,1.89,0,0,0,1.07-.74L236,227c.22-.51.7-.85.92-1.33l.3-.7.26-.37.11-.18.07-.11a21.13,21.13,0,0,0,.67-2.63,5.59,5.59,0,0,1,1.44-3.33l.44.19c.26.52.41,1.11.71,1.63a6.58,6.58,0,0,0,.88,1.14c.37.37.74.78,1.15,1.15l.37.15.52.14c.4,1.37,1.88,1.15,2.69,1.89l.22.48-.18,0a8.48,8.48,0,0,0-.37,2.29,3.49,3.49,0,0,0,.85,1.62,3.85,3.85,0,0,0,2.59,1.44c.59.11,1.07,1,1.48,1.63a4.85,4.85,0,0,1,.88,2.73,7.19,7.19,0,0,0,.63,2.33l.74.74c.55.3,1.26.44,1.81.81s1.29,1,1.92,1.41a22.68,22.68,0,0,1,1.92,1.25c.85.74,2,.3,2.81.67a23,23,0,0,0,2.51.63h0a6.67,6.67,0,0,1,2.14.48l.89.48,2.37,1.44,0,0,.23.07.48.41c.59.74,1.18,1.51,1.73,2.25.34.45.59.93,1,1.33a10.09,10.09,0,0,0,1.59,1.67c1.26,1,2.66,1.77,3.88,2.8,1,.85,1.85,2,2.81,2.92.52.52,1.22,1,1.77,1.48.34.33.56.81.89,1.15.52.48,1.07.92,1.59,1.36l1.66,1.22,0,0c.81.26,1.59.48,2.4.7a20.14,20.14,0,0,0,3.44,1.15c1.48.18,1.14,1.14,1.14,2.07a6.3,6.3,0,0,0,0,1.44,7.61,7.61,0,0,0,.85,2.4l.19.3.37.33.7.15.59-.11c.48.07,1.26-.26,1.22.7a20.43,20.43,0,0,0,0,3,2.55,2.55,0,0,0,.7,1.37,16,16,0,0,0,1.66,1.4l.11.48c0,.52,0,1,0,1.51a3,3,0,0,0,3.22,3.15c.44,0,.88,0,1.33,0,.7,0,1.29-.08,1.44,1a5.33,5.33,0,0,0,1.07,1.88c.41.6,2.25.52,2.73,0l.15-.15c.81-.26,1.66-.48,2.48-.74l.44-.11.52-.3c.29.34.74.67.85,1.08l.22.85a44.25,44.25,0,0,1,.92,4.47,8.76,8.76,0,0,1-.33,2.55l-.11.7a106.27,106.27,0,0,0-14.26-176.53Zm37.95,62.45-.59,1a12.76,12.76,0,0,0-1.63,2.18c-.37.82-1.22,1.44-1,2.52a5,5,0,0,1-.34,2.51,4.32,4.32,0,0,0,.59,4.43l.56.37c0,.41,1.07.45.33,1.08-.33.22-.41.73-.63,1.1-.37.59-.7,1.19-1.07,1.81s-.7,1.19-1.07,1.78l-.11.26a7.74,7.74,0,0,1-1.22,2.92,17.71,17.71,0,0,0-.85,2.84c-.3,1-.7,2-1,3.07l-.18.81c-.11.78.3,1.66-.52,2.33-.22.18-.07.7-.11,1.07-.26,3.14-.29,6.28-.81,9.35-.22,1.29-.22,2.59-.48,3.81-.22.81-.56,1.59-.85,2.36-.15.41-.33.82-.48,1.26a21.58,21.58,0,0,0-.7,6.35l-.19.56v0h0l0,.22v.26c-.08.44-.19.85-.3,1.25s-.22,1-.37,1.41l0,.15-.45.88v0a12,12,0,0,0-.44,2.55v.18l-.3.3-1.55.66c-1,.45-1.92.85-2.88,1.26l-.48.33c-.85.45-1.78,1.26-2.74.74-1.36-.7-2.77-.44-4.14-.55s-2.95-.41-4.43-.67a2.68,2.68,0,0,1-1.29-.59l-.78-.85a14,14,0,0,0-1.22-4.58,20.77,20.77,0,0,1-.66-2.07c-.45-1.52-.93-3-1.33-4.47-.3-1.15-.48-2.29-.78-3.4-.22-.78-.55-1.48-1.59-1.26a5.46,5.46,0,0,0-1.81.45,3.53,3.53,0,0,1-1.81.18l-.63.15-.81.18-.63.19h0l-.4.07h-.34l-.26,0h0c-1.48.22-2.11,1-1.92,2.62.18,1.74.51,3.44.81,5.18l.07.29a14.2,14.2,0,0,1,.48,1.78l-.55.48c-.85-.23-1.7-.48-2.55-.78l-.07,0a7.7,7.7,0,0,0-1.93-1.07,3.6,3.6,0,0,1-1.84-1.44v-.48a25.56,25.56,0,0,0,1-3.14A29.57,29.57,0,0,0,288,227l-.36-.63a12.71,12.71,0,0,0-1.41-.81c-.7-.37-1.33-.74-2-1.08s-1.29-.55-1.92-.81c-.85-.37-1.67-.74-2.48-1.07s-1.7-.56-2.55-.85c-1-.37-2.07-.81-3.1-1.18-.7-.26-1.44-.45-2.11-.74s-1.22-.93-1.88-1a6.45,6.45,0,0,1-2.29-.88l-.93-.3a8.19,8.19,0,0,1-2.47-1.77l-.3-.19c-.55-.44-1-1-1.55-1.48s-1.11-1-1.7-1.47c-.81-.6-1.63-1.11-2.44-1.67l-.89-.51-.48.11-.48.29c-.63.08-.74.44-.89,1s-.4,1-.7,1a6.14,6.14,0,0,1-2.29-.19c-.85-.26-1.59-.77-2.44-1.07s-1.66-.48-2.51-.74l-.26-.11c-.81-.41-1.63-.81-2.44-1.18a16.54,16.54,0,0,1-2-.85c-1-.67-1.81-.48-2.1.7s-.48,2.55-.71,3.84l-.4.82-.85-.67-.81-.59a11.76,11.76,0,0,0-1.22-.11c-.6-.07-1.26-1-1-1.44a18.93,18.93,0,0,1,1-1.89,6,6,0,0,0,.74-1.88c.07-2.77,0-5.54,0-8.32,0-1,.18-1.88-.52-2.84a6.44,6.44,0,0,1-.78-1.74l-.29-.44a15.09,15.09,0,0,0-1.78-2l-.18-.07-.89-.7a17,17,0,0,0-2.14-1.15c-.74-.29-1.59-.44-2.37-.66l0-.08c-.89-.85-1.7-1.81-2.63-2.62a16.09,16.09,0,0,0-2.62-1.78,12.72,12.72,0,0,0-1.85-.73c-.81-.34-1.59-.78-2.4-1.08s-1.74-.44-2.59-.66c-1.29-.33-2.62-.11-3.91-.56s-2.77-.11-4.14-.11l-.56.22a9.59,9.59,0,0,1-1.51.19,20,20,0,0,1-2.51.85c-.48.18-1,.3-1.52.48a17,17,0,0,0-3,1.29c-1.07.78-2.29,1.33-3.4,2a14.14,14.14,0,0,0-1.66,1.29c-.49.37-.89.85-1.34,1.26a16.94,16.94,0,0,0-1.73,1.55,28.37,28.37,0,0,0-1.85,2.47,6.71,6.71,0,0,0-.78,1.26c-.29.78-.44,1.59-.7,2.4l0,.15a13.84,13.84,0,0,0-1.15,3,8.18,8.18,0,0,0,.52,4.95c.48,1,.26,2.33.59,3.55a17.36,17.36,0,0,1,.07,4.62l-.33.52a13.25,13.25,0,0,0-1.29.7,2.1,2.1,0,0,0-.63,2.36c.4,1,.7,2,1,3l.08.37a6.61,6.61,0,0,1,1.18,3.66,11.2,11.2,0,0,0,0,1.92,5.81,5.81,0,0,0,.81,2.51,2.7,2.7,0,0,1,.52,2l-.11,4.88a3.69,3.69,0,0,0,.18,1.11c.15.52.37,1,.55,1.44l0,.45c.85.81.48,1.81.48,2.77,0,.48-.18,1.11.59,1.25-.14.45,1,.56.26,1.3a5.52,5.52,0,0,0-.74,1.88,8,8,0,0,0-.48,2.37,28.45,28.45,0,0,0,.63,3.84c.07.48.41.92.48,1.4a11.08,11.08,0,0,1,0,1.63c0,.48,0,.92-.52,1.29a17.48,17.48,0,0,0-1.88,1.78c-1.15,1.22-2.29,2.44-3.47,3.62a4.74,4.74,0,0,1-1.37.78c-.56.29-1.18.48-1.7.77-1,.63-2,1.26-3,1.88-.52.34-1,.71-1.48,1.08l-.7.55-.85.7h-.11l-2.48,1.78-.29.26a17.78,17.78,0,0,1-2.3,1.55l0,0A100,100,0,0,1,303.69,125c.26.48.52,1,.82,1.45a16.07,16.07,0,0,0,1.59,2c.51.56,1.25.89,1.7,1.48s.88.78.81,1.59a36.53,36.53,0,0,0,0,6.1c.22,2.1-.67,4.29.59,6.28.29.48.66,1,.92,1.48.33.77,1.18,1.33,1,2.33-.14.77.15,1.55-.51,2.36s-.15,1.78-.59,2.74a13.13,13.13,0,0,0-.82,3.88,13.58,13.58,0,0,0,0,3c0,.63.48,1.18.55,1.77.15.85,1,.45,1.29.82.6.66,1.22.33,1.89.22a9.32,9.32,0,0,1,2.29-.22l.78.88a2.61,2.61,0,0,0,2.14,4c.74,0,.81.45.74,1a1.83,1.83,0,0,0,1,1.74c.74.48,1.59.81,2.36,1.22l.48.63a5.17,5.17,0,0,1-.52,2.81c-.7,1.25,0,2.8.67,4.13l.59.6.37.14.67.11.51.3a4.22,4.22,0,0,0,1.7.33l.15,0a8.12,8.12,0,0,1,1.37-.11c.63,0,1.36.26,1.77-.52l.3-.07c1.25-.22,2.51-.41,3.73-.74,1-.3,2-.81,3-1.15s2-.51,2.92-.74l.62.23-.33.4C340,178,339.72,178.43,339.43,178.91Z"/></svg>
                             <h3>Barber Shop</h3>
                             <div class="about_taital_main">
-                            <p class="about_text">Our spa and hair studio offers premium barber services, including precision haircuts, beard grooming, and relaxing shaves, tailored for every client.</p>
+                            <p class="about_text">We offer premium barber services, including precision haircuts, beard grooming, and relaxing shaves, tailored for every client.</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-4 col-6">
                             <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350"><path fill="#E1C17E" d="M240.6,264.42c-1.28,3.08-2.45,5.85-3.57,8.53A24.81,24.81,0,0,0,252,278.1a19.66,19.66,0,0,0,13.85-5.3l-3.53-8.23a35.2,35.2,0,0,1-10.84,1.77A32.09,32.09,0,0,1,240.6,264.42Z"/><path fill="#E1C17E" d="M273.77,248.44c4-6,6.7-13.17,8.17-21.85a10.38,10.38,0,0,0-.61-6.11A42.25,42.25,0,0,0,267,204.07a64.8,64.8,0,0,1-38.11,12.14c-1.91,0-3.88-.08-5.85-.23-2.75,2.41-3.7,4.8-3.18,7.92,2,11.85,5.39,20.14,11,26.87S243.64,261,251.52,261C260.34,261,268.45,256.41,273.77,248.44Z"/><path fill="#E1C17E" d="M296.1,217.86c.43-6.14.34-12.28.24-18.78,0-1.14,0-2.28,0-3.43a120.3,120.3,0,0,0-91.64,1.24,89.37,89.37,0,0,0,.74,21.55c.88,4.68,3.22,8.35,6.93,12.6l0-.1c.33-2.23.62-4.16,1-6.07,1.31-7.5,4.38-13.2,9.11-17a138.38,138.38,0,0,1,34.05-19.55l.74-.3.63.5c1.57,1.25,3.17,2.48,4.76,3.7,3.47,2.66,7.05,5.41,10.29,8.45,6.77,6.31,15.65,16.29,16,30.71C292.72,227.1,295.74,223,296.1,217.86Z"/><path fill="#E1C17E" d="M324.44,219.45l-.37.63a3.9,3.9,0,0,0,.08,4.66c.63.81,1.14,1.7,1.81,2.47,1.88,2.33,3.84,4.62,5.73,7,2.8,3.54,5.54,7.16,8.31,10.75,1.92,2.47,3.92,5,5.88,7.39.29.41.62.77.92,1.18a106.23,106.23,0,1,0-.81,1.74l-.37-.45c-1.26-1.55-2.48-3.1-3.81-4.61-4.29-5-8.61-9.94-12.89-14.93-2.15-2.48-4.18-5.07-6.32-7.58a25,25,0,0,0-1.85-2l-.37-.37-4.95,4.06a1.16,1.16,0,0,1-1.56-.14,1.13,1.13,0,0,1,.12-1.48l4.32-4.21.11-.3-.07-.26-.56,0L312.88,227a1.09,1.09,0,0,1-1.44-1.63L316,221l0-.56,0,0-.52,0-5.17,4.32a1.09,1.09,0,0,1-1.44-1.62l4.84-4.59.11-.33-.08-.3-.62,0-5.33,4.54a1.08,1.08,0,0,1-1.44-1.62l4.92-4.66.18-.48-.14-.44-.93-.08c-1.66,1.45-3.33,2.81-5,4.25l-.07.08a1.09,1.09,0,0,1-1.44-1.63c1.59-1.51,3.21-3.07,4.84-4.54l0-.93,0,0-.89-.08-1,.81-1.92,1.7-2,1.67,0,0a1.1,1.1,0,0,1-1.48-1.62c1.07-1,2.29-2.18,3.51-3.33-1.33.48-2.62,1-3.92,1.48-.15,1.18-.26,2.18-.44,3.14-1.74,9.68-5.62,17.85-15.12,22.4a8.1,8.1,0,0,0-3.69,3.76,42.49,42.49,0,0,1-15,18.81c.3,7.62,2.37,11.2,7.58,12.38a69.44,69.44,0,0,1,33.81,18.7l.33.26a101.51,101.51,0,0,1-115.4,1.18c10.6-10.57,23.09-18.18,38-20.58,3.21-3.66,5.43-7.1,5.06-11.9-6.36-4.43-10.94-10.35-14.67-17.15a15.38,15.38,0,0,0-6.54-6c-8.06-3.85-11.31-10.9-13.6-18.74a62.52,62.52,0,0,1-1.37-6.8c-3.21-1.29-6.1-2.29-8.76-3.66-1.77-.88-3.47-2-5.28-3.1-1.07-.67-2.15-1.37-3.33-2.07l.15-.15c1.48-1,3-2,4.55-3,.36-.22.73-.48,1.1-.7l1.89-1.11.22-.11c.52-.33,1-.63,1.55-.92s1.26-.67,1.89-1l2.32-1.22c1.26-.63,2.52-1.25,3.77-1.81l1.08-.51.29-.12.22-.11c.78-.37,1.59-.7,2.41-1,1.66-.7,3.32-1.33,5-2l0,0c.81-.29,1.66-.59,2.48-.85a127.15,127.15,0,0,1,83.73,1l.23.07c.66.26,1.36.52,2.06.78l.19.07a118.55,118.55,0,0,1,16.63,8.24l.7.41c2,1.22,3.95,2.48,5.84,3.81l-.37.33,2.66,2c1.89,1.41,3.73,2.85,5.54,4.22a1.63,1.63,0,0,1,.34,2.36l-3.37,5.14a10.1,10.1,0,0,0-1-.78c-1.77-1.48-4.21-3.43-6.8-5.54-1.29-1-2.58-2.11-3.88-3.18l-1.4.67.41.33.88.7.52.44.89.71.51.44.89.74.52.41.89.7.55.44.85.7.55.45.82.7.22.15.37.33.77.63.67.51.7.59.78.6.48.4c-.19.33-.37.67-.56,1Zm-.88-21.88c-19.88-13.41-44.68-21.32-71.58-21.32a127.9,127.9,0,0,0-71.29,21.14c.41-6.43.59-12.16,1.48-17.77,3-19,10.83-35.67,24.69-49.15,25.13-24.47,61.45-25.69,87.76-2.74,18.44,16,27.09,36.92,28.86,60.9C323.7,191.44,323.63,194.28,323.56,197.57Z"/><polygon points="321.39 373.89 303.12 350.23 302.06 350.23 299.75 350.23 298.03 350.23 298.03 381.85 302.73 381.85 302.2 356.89 321.38 381.85 321.57 381.85 323.44 381.85 325.56 381.85 325.56 350.23 320.85 350.23 321.39 373.89"/><polygon points="240.22 350.23 235.08 350.23 235.08 381.85 236.71 381.85 240.22 381.85 255.79 381.85 255.79 377.81 240.22 377.81 240.22 350.23"/><path d="M216.47,350.23h-4.4l-12.82,31.63h5.17l3.48-9.68h11.78l3.48,9.68h5.58Zm-7.13,17.92,4.4-12.38,4.47,12.38Z"/><path d="M192.48,366.64a16.47,16.47,0,0,0-2.88-2q-1.56-.84-3.12-1.59c-1-.49-2-1-2.88-1.51a7.78,7.78,0,0,1-2.12-1.71,3.33,3.33,0,0,1-.79-2.23,4.49,4.49,0,0,1,.45-1.92,3.78,3.78,0,0,1,1.49-1.59,5.29,5.29,0,0,1,2.72-.62,11.08,11.08,0,0,1,3.65.69,10.66,10.66,0,0,1,3.41,1.95l1.83-4.61a14.59,14.59,0,0,0-3.87-1.4,19,19,0,0,0-4.06-.48,12,12,0,0,0-5.24,1.13,9.38,9.38,0,0,0-3.75,3.17,8.71,8.71,0,0,0-1.39,5,7.07,7.07,0,0,0,.79,3.41,8.08,8.08,0,0,0,2.12,2.47,18.68,18.68,0,0,0,2.86,1.85c1,.55,2.06,1.06,3.1,1.54a24.74,24.74,0,0,1,2.86,1.54,7.78,7.78,0,0,1,2.09,1.87,4.12,4.12,0,0,1,.79,2.5,4,4,0,0,1-1.39,3.2,5.51,5.51,0,0,1-3.66,1.17,11.65,11.65,0,0,1-4.54-1,14.23,14.23,0,0,1-4-2.5l-2.5,4.28a15.43,15.43,0,0,0,4.3,2.21,17,17,0,0,0,5.65.91,13.44,13.44,0,0,0,5.5-1.1,9.54,9.54,0,0,0,4-3.27,8.9,8.9,0,0,0,1.51-5.24,7.44,7.44,0,0,0-.79-3.55A8.74,8.74,0,0,0,192.48,366.64Z"/></svg> 
                             <h3>Salon</h3>
                             <div class="about_taital_main">
-                            <p class="about_text">Our salon offers a variety of hairdressing services, including professional hair coloring, intricate styling, deep conditioning treatments, and expert highlights, designed to enhance your hair's natural beauty.</p>
+                            <p class="about_text">We offer a variety of hairdressing services, including professional hair coloring, intricate styling, deep conditioning treatments, and expert highlights, designed to enhance your hair's natural beauty.</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-4 col-6">
@@ -454,7 +454,7 @@
                             <h3>Mani-pedi treat</h3>
 
                             <div class="about_taital_main">
-                            <p class="about_text">Our salon offers professional manicure and pedicure services, including nail shaping, cuticle care, exfoliation, and luxurious hand and foot massages, leaving you with beautifully polished nails and soft, smooth skin.</p>
+                            <p class="about_text">We offer professional manicure and pedicure services, including nail shaping, cuticle care, exfoliation, and luxurious hand and foot massages, leaving you with beautifully polished nails and soft, smooth skin.</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-4 col-6">
@@ -462,7 +462,7 @@
                             <h3>Massage</h3>
 
                             <div class="about_taital_main">
-                            <p class="about_text">Our salon provides soothing massage services designed to relax and rejuvenate your body, including deep tissue, and Swedish massages, each tailored to relieve stress and tension.</p>
+                            <p class="about_text">We provide soothing massage services designed to relax and rejuvenate your body, including deep tissue, and Swedish massages, each tailored to relieve stress and tension.</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-4 col-6">
@@ -470,7 +470,7 @@
                             <h3>Facials</h3>
 
                             <div class="about_taital_main">
-                            <p class="about_text">Our salon offers rejuvenating facial treatments, including deep cleansing, exfoliation, and customized masks to address various skin concerns, leaving your complexion refreshed, radiant, and glowing.</p>
+                            <p class="about_text">We offer rejuvenating facial treatments, including deep cleansing, exfoliation, and customized masks to address various skin concerns, leaving your complexion refreshed, radiant, and glowing.</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-4 col-6">
@@ -479,7 +479,7 @@
     
                         <div class="about_taital_main">
                             <p class="about_text">
-                            Our salon features hot stone massages, using heated stones to ease muscle tension, improve circulation, and provide a deeply relaxing experience that soothes both body and mind.</p>
+                            Our spa and hair studio features hot stone massages, using heated stones to ease muscle tension, improve circulation, and provide a deeply relaxing experience that soothes both body and mind.</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-4 col-6">
@@ -488,7 +488,7 @@
 
                             <div class="about_taital_main">
                             <p class="about_text">
-                            Our salon offers a luxurious Moroccan bath experience, including a traditional steam treatment, exfoliating scrub, and moisturizing ritual, designed to cleanse, refresh, and revitalize your skin.</p>
+                            We offer a luxurious Moroccan bath experience, including a traditional steam treatment, exfoliating scrub, and moisturizing ritual, designed to cleanse, refresh, and revitalize your skin.</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-4 col-6">
@@ -497,7 +497,7 @@
 
                             <div class="about_taital_main">
                             <p class="about_text">
-                            Our salon provides a soothing steam aroma therapy, combining gentle steam with therapeutic essential oils to relax your muscles, improve circulation, and enhance your overall sense of well-being.</p>
+                            We provide a soothing steam aroma therapy, combining gentle steam with therapeutic essential oils to relax your muscles, improve circulation, and enhance your overall sense of well-being.</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-4 col-6">
@@ -506,7 +506,7 @@
                             <h3>Sauna</h3>
 
                             <div class="about_taital_main">
-                            <p class="about_text">Our salon features a sauna experience that helps to relax muscles, detoxify the body, and improve circulation, providing a tranquil environment to unwind and rejuvenate.</p>
+                            <p class="about_text">Our spa and hair studio features a sauna experience that helps to relax muscles, detoxify the body, and improve circulation, providing a tranquil environment to unwind and rejuvenate.</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-4 col-6">
@@ -514,7 +514,7 @@
                             <h3>Waxing</h3>
 
                             <div class="about_taital_main">
-                            <p class="about_text">Our salon offers professional waxing services, including full-body, facial, and bikini waxing, providing smooth, hair-free skin with minimal discomfort and long-lasting results.</p>
+                            <p class="about_text">We offer professional waxing services, including full-body, facial, and bikini waxing, providing smooth, hair-free skin with minimal discomfort and long-lasting results.</p>
                             </div>
                         </div>
 
@@ -544,7 +544,7 @@
                                 </div>
                                 <div class="col-md-8">
                                     <p>
-                                    Our barber shop provides a range of grooming services tailored to men’s needs, focusing on precision and style. We offer expertly crafted haircuts that suit your face shape and personal preferences, ensuring a polished and modern look. Our barbers are skilled in various cutting techniques, from classic styles to contemporary trends, making sure you leave looking sharp and confident.
+                                    We provide a range of grooming services tailored to men’s needs, focusing on precision and style. We offer expertly crafted haircuts that suit your face shape and personal preferences, ensuring a polished and modern look. Our barbers are skilled in various cutting techniques, from classic styles to contemporary trends, making sure you leave looking sharp and confident.
 
                                     </p>
                                     <p>
@@ -635,8 +635,8 @@
                                 </div>
                                 <div class="col-md-8">
                                     <p>
-                                    Our salon specializes in a comprehensive range of hairdressing services designed to enhance your personal style and hair health. Our skilled stylists offer precision haircuts tailored to your face shape and preferences, ensuring a look that complements your unique features. We also provide expert hair coloring services, including vipa
-                                    <p>nt shades and subtle highlights, to refresh your look or make a bold statement.
+                                    We specialize in a comprehensive range of hairdressing services designed to enhance your personal style and hair health. Our skilled stylists offer precision haircuts tailored to your face shape and preferences, ensuring a look that complements your unique features. We also provide expert hair coloring services, including vibrant
+                                     shades and subtle highlights, to refresh your look or make a bold statement.
                                     </p>
                                     <p>
                                     In addition to cuts and color, we offer deep conditioning treatments to nourish and repair damaged hair. Our team uses high-quality products to restore moisture, add shine, and improve the overall texture of your hair. Whether you’re preparing for a special occasion or simply want to update your everyday look, our salon’s hairdressing services are designed to meet all your styling needs.
@@ -826,7 +826,7 @@
                                 </div>
                                 <div class="col-md-8">
                                     <p>
-                                    Our salon offers a range of massage services to help you unwind and relieve stress. From deep tissue massages that target muscle tension to Swedish massages that promote relaxation, our skilled therapists tailor each session to meet your specific needs. We use techniques designed to improve circulation, reduce muscle soreness, and enhance overall well-being.
+                                    We offer a range of massage services to help you unwind and relieve stress. From deep tissue massages that target muscle tension to Swedish massages that promote relaxation, our skilled therapists tailor each session to meet your specific needs. We use techniques designed to improve circulation, reduce muscle soreness, and enhance overall well-being.
 
                                     </p>
                                     <p>
@@ -921,7 +921,7 @@
                                 </div>
                                 <div class="col-md-8">
                                     <p>
-                                    Our salon provides an array of facial treatments designed to address various skin concerns and leave your complexion glowing. Our deep cleansing facials remove impurities and unclog pores, while exfoliating treatments help to slough off dead skin cells and reveal a pi
+                                    We provide an array of facial treatments designed to address various skin concerns and leave your complexion glowing. Our deep cleansing facials remove impurities and unclog pores, while exfoliating treatments help to slough off dead skin cells and reveal a pi
                                     <p>ghter, smoother surface. We use high-quality products suited to your skin type to ensure the best results.
 
                                     </p>
@@ -1303,7 +1303,7 @@
                                 </div>
                                 <div class="col-md-8">
                                     <p>
-                                    Our salon features a state-of-the-art sauna designed to provide a relaxing and detoxifying experience. The sauna's heat helps to relax your muscles, ease tension, and improve circulation, making it an ideal choice for unwinding after a long day or intense workout. The warm environment also encourages sweating, which aids in detoxifying your body and promoting overall health.
+                                    Our spa and hair studio features a state-of-the-art sauna designed to provide a relaxing and detoxifying experience. The sauna's heat helps to relax your muscles, ease tension, and improve circulation, making it an ideal choice for unwinding after a long day or intense workout. The warm environment also encourages sweating, which aids in detoxifying your body and promoting overall health.
 
                                     </p>
                                     <p>
@@ -1400,7 +1400,7 @@
                                 <div class="col-md-8">
 
                                     <p>
-                                    Our salon provides professional waxing services that ensure smooth, hair-free skin with minimal discomfort. We offer a range of waxing treatments, including full-body, facial, and bikini waxing, using high-quality products designed to deliver effective results. Our experienced technicians use precise techniques to remove unwanted hair and leave your skin feeling silky and smooth.
+                                    We provide professional waxing services that ensure smooth, hair-free skin with minimal discomfort. We offer a range of waxing treatments, including full-body, facial, and bikini waxing, using high-quality products designed to deliver effective results. Our experienced technicians use precise techniques to remove unwanted hair and leave your skin feeling silky and smooth.
 
                                     </p>
                                     <p>
