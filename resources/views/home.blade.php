@@ -1882,7 +1882,7 @@
                 <div class="col-md-6">
                     <div class="contact_main">
                         <div class="read_bt"><a href="/contact">Contact Form</a></div>
-                        <div class="read_bt mx-3"><a href="#">Newletter</a></div>
+                        <div class="read_bt mx-3"><a href="#">Newsletter</a></div>
                     </div>
                 </div>
                 </div>
