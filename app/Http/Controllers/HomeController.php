@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Blog;
 use App\Models\Service;
+use App\Models\Gallery;
 
 class HomeController extends Controller
 {
@@ -37,8 +38,22 @@ class HomeController extends Controller
         $saunas = Service::where('category', 'Sauna')->limit(3)->get();
         $waxings = Service::where('category', 'Waxing')->limit(3)->get();
 
+        $salonGs = Gallery::where('service','Salon')->inRandomOrder()->limit(3)->get();
+        $massageGs = Gallery::where('service', 'Massage')->inRandomOrder()->limit(3)->get();
+        $bodyGs = Gallery::where('service', 'Body Scrubs')->inRandomOrder()->limit(3)->get();
+        $maniGs = Gallery::where('service', 'Mani-pedi treat')->inRandomOrder()->limit(3)->get();
+        $barberGs = Gallery::where('service', 'Barber')->inRandomOrder()->limit(3)->get();
+        $steamGs = Gallery::where('service', 'Steam Aroma')->inRandomOrder()->limit(3)->get();
+
+        $moroccanGs = Gallery::where('service', 'Moroccan Bath')->inRandomOrder()->limit(3)->get();
+        $hotGs = Gallery::where('service', 'Hot Stones')->inRandomOrder()->limit(3)->get();
+        $facialGs = Gallery::where('service', 'Facials')->inRandomOrder()->limit(3)->get();
+        $saunaGs = Gallery::where('service', 'Sauna')->inRandomOrder()->limit(3)->get();
+        $waxingGs = Gallery::where('service', 'Waxing')->inRandomOrder()->limit(3)->get();
+
         return view('home', compact('salons','massages','bodys','manis','salonCs','barberAs','barberCs',
-        'steams','moroccans','hots','facials','saunas','waxings'));
+        'steams','moroccans','hots','facials','saunas','waxings','salonGs','massageGs','bodyGs','maniGs','barberGs',
+        'steamGs','moroccanGs','hotGs','facialGs','saunaGs','waxingGs'));
     }
     public function about()
     {

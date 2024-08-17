@@ -51,15 +51,15 @@
 
         <!-- Bootstrap JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
         <!-- Styles -->
         <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
-    <link rel="stylesheet" href="{{ asset('build/assets/app-B_VZRs9C.css') }}">
-      <link rel="stylesheet" href="{{ asset('build/assets/app-sEhFnVTV.css') }}">
-      <link rel="stylesheet" href="{{ asset('build/assets/responsive-DhAHJOLM.css') }}">
-      <script src="{{ asset('build/assets/app-BwDpqcm8.js') }}"></script>
+        @vite(['resources/sass/app.scss', 'resources/js/app.js','resources/css/app.css','resources/css/responsive.css'])
+
 
     </head>
     <body>
@@ -69,7 +69,7 @@
 
             <!-- Slider main container -->
             <div class="swiper-container3 swiper swiper1 box-2">
-                <nav class="navbar navbar-expand-md text-3">
+                <nav class="navbar navbar-expand-md text-3 fixed-top">
                     <div class="container">
                         <a class="navbar-brand" href="{{ url('/') }}">
                             <img src="/storage/images/logo.png" class="mx-2" width="200" alt="logo">
@@ -130,7 +130,8 @@
                     <!-- Slides -->
                     <div class="swiper-slide box">
                         <div class="col-sm-12 text">
-                            <h2 class="banner_text">BEAUTY BEYOND SKIN DEEP</h2>
+                            <h2 class="banner_text" id="typed"></h2>
+
                             <h3>Refine, Rejuvenate, Radiate Panache inside & Out</h3>
                             <br/>
 
@@ -203,7 +204,8 @@
 
                     <div class="swiper-slide box">
                         <div class="col-sm-12 text">
-                            <h2 class="banner_text">BEAUTY BEYOND SKIN DEEP</h2>
+                            <h2 class="banner_text" id="typed"></h2>
+
                             <h3>Refine, Rejuvenate, Radiate Panache inside & Out</h3>
                             <br/>
 
@@ -275,7 +277,8 @@
                     </div>
                     <div class="swiper-slide box">
                         <div class="col-sm-12 text">
-                            <h2 class="banner_text">BEAUTY BEYOND SKIN DEEP</h2>
+                            <h2 class="banner_text" id="typed"></h2>
+
                             <h3>Refine, Rejuvenate, Radiate Panache inside & Out</h3>
                             <br/>
 
@@ -348,7 +351,8 @@
                     </div>
                     <div class="swiper-slide box">
                         <div class="col-sm-12 text">
-                            <h2 class="banner_text">BEAUTY BEYOND SKIN DEEP</h2>
+                            <h2 class="banner_text" id="typed"></h2>
+
                             <h3>Refine, Rejuvenate, Radiate Panache inside & Out</h3>
                             <br/>
                             <p>Step into ALLURE ESSENCE SPA & HAIR STUDIO</p>
@@ -554,77 +558,18 @@
                                 </div>
                             </div>
                             <div class="row justify-content-center">
+                            @foreach($barberGs as $barberG)
+
                                 <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
                                     <div class="services-thumb">
                                         <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/about3_upz0lc_c_scale,w_200.webp 200w,
-                                        storage/images/about3_upz0lc_c_scale,w_572.webp 572w,
-                                        storage/images/about3_upz0lc_c_scale,w_837.webp 837w,
-                                        storage/images/about3_upz0lc_c_scale,w_1050.webp 1050w,
-                                        storage/images/about3_upz0lc_c_scale,w_1286.webp 1286w,
-                                        storage/images/about3_upz0lc_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/about3_upz0lc_c_scale,w_1400.webp"
+                                        src="storage/{{$barberG->image}}"
                                         alt="info-img" class="services-image img-fluid">
                                         <div class="services-info d-flex align-items-end">
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-4 mobile">
-                                    <div class="services-thumb">
-                                        <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/about_qhucqq_c_scale,w_200.webp 200w,
-                                        storage/images/about_qhucqq_c_scale,w_391.webp 391w,
-                                        storage/images/about_qhucqq_c_scale,w_512.webp 512w,
-                                        storage/images/about_qhucqq_c_scale,w_653.webp 653w,
-                                        storage/images/about_qhucqq_c_scale,w_780.webp 780w,
-                                        storage/images/about_qhucqq_c_scale,w_913.webp 913w,
-                                        storage/images/about_qhucqq_c_scale,w_950.webp 950w,
-                                        storage/images/about_qhucqq_c_scale,w_994.webp 994w,
-                                        storage/images/about_qhucqq_c_scale,w_1106.webp 1106w,
-                                        storage/images/about_qhucqq_c_scale,w_1202.webp 1202w,
-                                        storage/images/about_qhucqq_c_scale,w_1312.webp 1312w,
-                                        storage/images/about_qhucqq_c_scale,w_1397.webp 1397w,
-                                        storage/images/about_qhucqq_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/about_qhucqq_c_scale,w_1400.webp"
-                                        alt="info-img" class="services-image img-fluid">
-                                        <div class="services-info d-flex align-items-end">
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-4 mb-lg-0 mobile">
-                                    <div class="services-thumb">
-                                    <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/about4_en1htn_c_scale,w_200.webp 200w,
-                                        storage/images/about4_en1htn_c_scale,w_381.webp 381w,
-                                        storage/images/about4_en1htn_c_scale,w_582.webp 582w,
-                                        storage/images/about4_en1htn_c_scale,w_573.webp 573w,
-                                        storage/images/about4_en1htn_c_scale,w_676.webp 676w,
-                                        storage/images/about4_en1htn_c_scale,w_777.webp 777w,
-                                        storage/images/about4_en1htn_c_scale,w_872.webp 872w,
-                                        storage/images/about4_en1htn_c_scale,w_966.webp 966w,
-                                        storage/images/about4_en1htn_c_scale,w_1067.webp 1067w,
-                                        storage/images/about4_en1htn_c_scale,w_1159.webp 1159w,
-                                        storage/images/about4_en1htn_c_scale,w_1269.webp 1269w,
-                                        storage/images/about4_en1htn_c_scale,w_1365.webp 1365w,
-                                        storage/images/about4_en1htn_c_scale,w_1396.webp 1396w,
-                                        storage/images/about4_en1htn_c_scale,w_1392.webp 1392w,
-                                        storage/images/about4_en1htn_c_scale,w_1397.webp 1397w,
-                                        storage/images/about4_en1htn_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/about4_en1htn_c_scale,w_1400.webp"
-                                        class="services-image img-fluid" alt="info-img">
-                                        <div class="services-info d-flex align-items-end">
-                                        </div>
-                                    </div>
-                                </div>
+                            @endforeach
                             </div>
                         </div>
                         <div class="swiper-slide" style="width:100%">
@@ -647,80 +592,18 @@
                             </div>
 
                             <div class="row justify-content-center">
+                            @foreach($salonGs as $salonG)
 
-                                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
                                     <div class="services-thumb">
                                         <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/about2_ubmvtp_c_scale,w_200.webp 200w,
-                                        storage/images/about2_ubmvtp_c_scale,w_362.webp 362w,
-                                        storage/images/about2_ubmvtp_c_scale,w_490.webp 490w,
-                                        storage/images/about2_ubmvtp_c_scale,w_602.webp 602w,
-                                        storage/images/about2_ubmvtp_c_scale,w_711.webp 711w,
-                                        storage/images/about2_ubmvtp_c_scale,w_829.webp 829w,
-                                        storage/images/about2_ubmvtp_c_scale,w_927.webp 927w,
-                                        storage/images/about2_ubmvtp_c_scale,w_931.webp 931w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1006.webp 1006w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1097.webp 1097w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1199.webp 1199w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1287.webp 1287w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1373.webp 1373w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1398.webp 1398w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/about2_ubmvtp_c_scale,w_1400.webp"
-                                        alt="info-img" class="services-image img-fluid" >
+                                        src="storage/{{$salonG->image}}"
+                                        alt="info-img" class="services-image img-fluid">
                                         <div class="services-info d-flex align-items-end">
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mobile">
-                                    <div class="services-thumb">
-                                        <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/barber1_vsh8ga_c_scale,w_200.webp 200w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_387.webp 387w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_490.webp 490w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_624.webp 624w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_762.webp 762w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_877.webp 877w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_977.webp 977w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1142.webp 1142w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1230.webp 1230w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1357.webp 1357w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1382.webp 1382w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1354.webp 1354w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1383.webp 1383w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/barber1_vsh8ga_c_scale,w_1400.webp"
-                                        alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info d-flex align-items-end">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mobile">
-                                    <div class="services-thumb">
-                                        <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/spa2_uijii6_c_scale,w_200.webp 200w,
-                                        storage/images/spa2_uijii6_c_scale,w_502.webp 502w,
-                                        storage/images/spa2_uijii6_c_scale,w_731.webp 731w,
-                                        storage/images/spa2_uijii6_c_scale,w_876.webp 876w,
-                                        storage/images/spa2_uijii6_c_scale,w_986.webp 986w,
-                                        storage/images/spa2_uijii6_c_scale,w_1158.webp 1158w,
-                                        storage/images/spa2_uijii6_c_scale,w_1344.webp 1344w,
-                                        storage/images/spa2_uijii6_c_scale,w_1374.webp 1374w,
-                                        storage/images/spa2_uijii6_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/spa2_uijii6_c_scale,w_1400.webp"
-                                        alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info d-flex align-items-end">
-                                        </div>
-                                    </div>
-                                </div>
+                            @endforeach
                             </div>
                         </div>
                         <div class="swiper-slide" style="width:100%">
@@ -743,79 +626,18 @@
 
                             <div class="row justify-content-center">
 
-                                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                                    <div class="services-thumb">
-                                        <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/about2_ubmvtp_c_scale,w_200.webp 200w,
-                                        storage/images/about2_ubmvtp_c_scale,w_362.webp 362w,
-                                        storage/images/about2_ubmvtp_c_scale,w_490.webp 490w,
-                                        storage/images/about2_ubmvtp_c_scale,w_602.webp 602w,
-                                        storage/images/about2_ubmvtp_c_scale,w_711.webp 711w,
-                                        storage/images/about2_ubmvtp_c_scale,w_829.webp 829w,
-                                        storage/images/about2_ubmvtp_c_scale,w_927.webp 927w,
-                                        storage/images/about2_ubmvtp_c_scale,w_931.webp 931w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1006.webp 1006w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1097.webp 1097w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1199.webp 1199w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1287.webp 1287w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1373.webp 1373w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1398.webp 1398w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/about2_ubmvtp_c_scale,w_1400.webp"
-                                        alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info d-flex align-items-end">
-                                        </div>
-                                    </div>
-                                </div>
+                            @foreach($maniGs as $maniG)
 
-                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mobile">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
                                     <div class="services-thumb">
                                         <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/barber1_vsh8ga_c_scale,w_200.webp 200w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_387.webp 387w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_490.webp 490w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_624.webp 624w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_762.webp 762w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_877.webp 877w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_977.webp 977w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1142.webp 1142w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1230.webp 1230w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1357.webp 1357w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1382.webp 1382w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1354.webp 1354w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1383.webp 1383w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/barber1_vsh8ga_c_scale,w_1400.webp"
-                                        alt="info-img" class="services-image img-fluid" >
+                                        src="storage/{{$maniG->image}}"
+                                        alt="info-img" class="services-image img-fluid">
                                         <div class="services-info d-flex align-items-end">
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mobile">
-                                    <div class="services-thumb">
-                                        <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/spa2_uijii6_c_scale,w_200.webp 200w,
-                                        storage/images/spa2_uijii6_c_scale,w_502.webp 502w,
-                                        storage/images/spa2_uijii6_c_scale,w_731.webp 731w,
-                                        storage/images/spa2_uijii6_c_scale,w_876.webp 876w,
-                                        storage/images/spa2_uijii6_c_scale,w_986.webp 986w,
-                                        storage/images/spa2_uijii6_c_scale,w_1158.webp 1158w,
-                                        storage/images/spa2_uijii6_c_scale,w_1344.webp 1344w,
-                                        storage/images/spa2_uijii6_c_scale,w_1374.webp 1374w,
-                                        storage/images/spa2_uijii6_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/spa2_uijii6_c_scale,w_1400.webp"
-                                        alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info d-flex align-items-end">
-                                        </div>
-                                    </div>
-                                </div>
+                            @endforeach
                             </div>
                         </div>
                         <div class="swiper-slide" style="width:100%">
@@ -837,80 +659,19 @@
                             </div>
 
                             <div class="row justify-content-center">
+                                @foreach($massageGs as $massageG)
 
-                                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                                    <div class="services-thumb">
-                                        <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/about2_ubmvtp_c_scale,w_200.webp 200w,
-                                        storage/images/about2_ubmvtp_c_scale,w_362.webp 362w,
-                                        storage/images/about2_ubmvtp_c_scale,w_490.webp 490w,
-                                        storage/images/about2_ubmvtp_c_scale,w_602.webp 602w,
-                                        storage/images/about2_ubmvtp_c_scale,w_711.webp 711w,
-                                        storage/images/about2_ubmvtp_c_scale,w_829.webp 829w,
-                                        storage/images/about2_ubmvtp_c_scale,w_927.webp 927w,
-                                        storage/images/about2_ubmvtp_c_scale,w_931.webp 931w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1006.webp 1006w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1097.webp 1097w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1199.webp 1199w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1287.webp 1287w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1373.webp 1373w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1398.webp 1398w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/about2_ubmvtp_c_scale,w_1400.webp"
-                                        alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info d-flex align-items-end">
+                                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
+                                        <div class="services-thumb">
+                                            <img
+                                            src="storage/{{$massageG->image}}"
+                                            alt="info-img" class="services-image img-fluid">
+                                            <div class="services-info d-flex align-items-end">
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                @endforeach
 
-                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mobile">
-                                    <div class="services-thumb">
-                                        <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/barber1_vsh8ga_c_scale,w_200.webp 200w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_387.webp 387w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_490.webp 490w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_624.webp 624w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_762.webp 762w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_877.webp 877w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_977.webp 977w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1142.webp 1142w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1230.webp 1230w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1357.webp 1357w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1382.webp 1382w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1354.webp 1354w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1383.webp 1383w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/barber1_vsh8ga_c_scale,w_1400.webp"
-                                        alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info d-flex align-items-end">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mobile">
-                                    <div class="services-thumb">
-                                        <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/spa2_uijii6_c_scale,w_200.webp 200w,
-                                        storage/images/spa2_uijii6_c_scale,w_502.webp 502w,
-                                        storage/images/spa2_uijii6_c_scale,w_731.webp 731w,
-                                        storage/images/spa2_uijii6_c_scale,w_876.webp 876w,
-                                        storage/images/spa2_uijii6_c_scale,w_986.webp 986w,
-                                        storage/images/spa2_uijii6_c_scale,w_1158.webp 1158w,
-                                        storage/images/spa2_uijii6_c_scale,w_1344.webp 1344w,
-                                        storage/images/spa2_uijii6_c_scale,w_1374.webp 1374w,
-                                        storage/images/spa2_uijii6_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/spa2_uijii6_c_scale,w_1400.webp"
-                                        alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info d-flex align-items-end">
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                         <div class="swiper-slide" style="width:100%">
@@ -934,79 +695,19 @@
 
                             <div class="row justify-content-center">
 
-                                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                                    <div class="services-thumb">
-                                        <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/about2_ubmvtp_c_scale,w_200.webp 200w,
-                                        storage/images/about2_ubmvtp_c_scale,w_362.webp 362w,
-                                        storage/images/about2_ubmvtp_c_scale,w_490.webp 490w,
-                                        storage/images/about2_ubmvtp_c_scale,w_602.webp 602w,
-                                        storage/images/about2_ubmvtp_c_scale,w_711.webp 711w,
-                                        storage/images/about2_ubmvtp_c_scale,w_829.webp 829w,
-                                        storage/images/about2_ubmvtp_c_scale,w_927.webp 927w,
-                                        storage/images/about2_ubmvtp_c_scale,w_931.webp 931w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1006.webp 1006w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1097.webp 1097w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1199.webp 1199w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1287.webp 1287w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1373.webp 1373w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1398.webp 1398w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/about2_ubmvtp_c_scale,w_1400.webp"
-                                        alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info d-flex align-items-end">
-                                        </div>
-                                    </div>
-                                </div>
+                                @foreach($facialGs as $facialG)
 
-                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mobile">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
                                     <div class="services-thumb">
                                         <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/barber1_vsh8ga_c_scale,w_200.webp 200w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_387.webp 387w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_490.webp 490w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_624.webp 624w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_762.webp 762w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_877.webp 877w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_977.webp 977w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1142.webp 1142w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1230.webp 1230w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1357.webp 1357w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1382.webp 1382w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1354.webp 1354w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1383.webp 1383w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/barber1_vsh8ga_c_scale,w_1400.webp"
-                                        alt="info-img" class="services-image img-fluid" >
+                                        src="storage/{{$facialG->image}}"
+                                        alt="info-img" class="services-image img-fluid">
                                         <div class="services-info d-flex align-items-end">
                                         </div>
                                     </div>
                                 </div>
+                                @endforeach
 
-                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mobile">
-                                    <div class="services-thumb">
-                                        <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/spa2_uijii6_c_scale,w_200.webp 200w,
-                                        storage/images/spa2_uijii6_c_scale,w_502.webp 502w,
-                                        storage/images/spa2_uijii6_c_scale,w_731.webp 731w,
-                                        storage/images/spa2_uijii6_c_scale,w_876.webp 876w,
-                                        storage/images/spa2_uijii6_c_scale,w_986.webp 986w,
-                                        storage/images/spa2_uijii6_c_scale,w_1158.webp 1158w,
-                                        storage/images/spa2_uijii6_c_scale,w_1344.webp 1344w,
-                                        storage/images/spa2_uijii6_c_scale,w_1374.webp 1374w,
-                                        storage/images/spa2_uijii6_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/spa2_uijii6_c_scale,w_1400.webp"
-                                        alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info d-flex align-items-end">
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                         <div class="swiper-slide" style="width:100%">
@@ -1029,79 +730,20 @@
 
                             <div class="row justify-content-center">
 
-                                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                                    <div class="services-thumb">
-                                        <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/about2_ubmvtp_c_scale,w_200.webp 200w,
-                                        storage/images/about2_ubmvtp_c_scale,w_362.webp 362w,
-                                        storage/images/about2_ubmvtp_c_scale,w_490.webp 490w,
-                                        storage/images/about2_ubmvtp_c_scale,w_602.webp 602w,
-                                        storage/images/about2_ubmvtp_c_scale,w_711.webp 711w,
-                                        storage/images/about2_ubmvtp_c_scale,w_829.webp 829w,
-                                        storage/images/about2_ubmvtp_c_scale,w_927.webp 927w,
-                                        storage/images/about2_ubmvtp_c_scale,w_931.webp 931w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1006.webp 1006w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1097.webp 1097w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1199.webp 1199w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1287.webp 1287w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1373.webp 1373w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1398.webp 1398w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/about2_ubmvtp_c_scale,w_1400.webp"
-                                        alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info d-flex align-items-end">
-                                        </div>
-                                    </div>
-                                </div>
+                            @foreach($hotGs as $hotG)
 
-                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mobile">
-                                    <div class="services-thumb">
-                                        <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/barber1_vsh8ga_c_scale,w_200.webp 200w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_387.webp 387w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_490.webp 490w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_624.webp 624w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_762.webp 762w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_877.webp 877w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_977.webp 977w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1142.webp 1142w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1230.webp 1230w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1357.webp 1357w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1382.webp 1382w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1354.webp 1354w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1383.webp 1383w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/barber1_vsh8ga_c_scale,w_1400.webp"
-                                        alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info d-flex align-items-end">
-                                        </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
+                                <div class="services-thumb">
+                                    <img
+                                    src="storage/{{$hotG->image}}"
+                                    alt="info-img" class="services-image img-fluid">
+                                    <div class="services-info d-flex align-items-end">
                                     </div>
                                 </div>
+                            </div>
+                            @endforeach
 
-                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mobile">
-                                    <div class="services-thumb">
-                                        <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/spa2_uijii6_c_scale,w_200.webp 200w,
-                                        storage/images/spa2_uijii6_c_scale,w_502.webp 502w,
-                                        storage/images/spa2_uijii6_c_scale,w_731.webp 731w,
-                                        storage/images/spa2_uijii6_c_scale,w_876.webp 876w,
-                                        storage/images/spa2_uijii6_c_scale,w_986.webp 986w,
-                                        storage/images/spa2_uijii6_c_scale,w_1158.webp 1158w,
-                                        storage/images/spa2_uijii6_c_scale,w_1344.webp 1344w,
-                                        storage/images/spa2_uijii6_c_scale,w_1374.webp 1374w,
-                                        storage/images/spa2_uijii6_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/spa2_uijii6_c_scale,w_1400.webp"
-                                        alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info d-flex align-items-end">
-                                        </div>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                         <div class="swiper-slide" style="width:100%">
@@ -1124,79 +766,22 @@
 
                             <div class="row justify-content-center">
 
-                                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                                    <div class="services-thumb">
-                                        <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/about2_ubmvtp_c_scale,w_200.webp 200w,
-                                        storage/images/about2_ubmvtp_c_scale,w_362.webp 362w,
-                                        storage/images/about2_ubmvtp_c_scale,w_490.webp 490w,
-                                        storage/images/about2_ubmvtp_c_scale,w_602.webp 602w,
-                                        storage/images/about2_ubmvtp_c_scale,w_711.webp 711w,
-                                        storage/images/about2_ubmvtp_c_scale,w_829.webp 829w,
-                                        storage/images/about2_ubmvtp_c_scale,w_927.webp 927w,
-                                        storage/images/about2_ubmvtp_c_scale,w_931.webp 931w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1006.webp 1006w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1097.webp 1097w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1199.webp 1199w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1287.webp 1287w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1373.webp 1373w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1398.webp 1398w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/about2_ubmvtp_c_scale,w_1400.webp"
-                                        alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info d-flex align-items-end">
-                                        </div>
-                                    </div>
-                                </div>
 
-                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mobile">
-                                    <div class="services-thumb">
-                                        <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/barber1_vsh8ga_c_scale,w_200.webp 200w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_387.webp 387w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_490.webp 490w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_624.webp 624w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_762.webp 762w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_877.webp 877w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_977.webp 977w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1142.webp 1142w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1230.webp 1230w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1357.webp 1357w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1382.webp 1382w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1354.webp 1354w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1383.webp 1383w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/barber1_vsh8ga_c_scale,w_1400.webp"
-                                        alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info d-flex align-items-end">
-                                        </div>
-                                    </div>
-                                </div>
 
-                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mobile">
+                                @foreach($moroccans as $moroccan)
+
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
                                     <div class="services-thumb">
                                         <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/spa2_uijii6_c_scale,w_200.webp 200w,
-                                        storage/images/spa2_uijii6_c_scale,w_502.webp 502w,
-                                        storage/images/spa2_uijii6_c_scale,w_731.webp 731w,
-                                        storage/images/spa2_uijii6_c_scale,w_876.webp 876w,
-                                        storage/images/spa2_uijii6_c_scale,w_986.webp 986w,
-                                        storage/images/spa2_uijii6_c_scale,w_1158.webp 1158w,
-                                        storage/images/spa2_uijii6_c_scale,w_1344.webp 1344w,
-                                        storage/images/spa2_uijii6_c_scale,w_1374.webp 1374w,
-                                        storage/images/spa2_uijii6_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/spa2_uijii6_c_scale,w_1400.webp"
-                                        alt="info-img" class="services-image img-fluid" >
+                                        src="storage/{{$moroccan->image}}"
+                                        alt="info-img" class="services-image img-fluid">
                                         <div class="services-info d-flex align-items-end">
                                         </div>
                                     </div>
                                 </div>
+                                @endforeach
+
+
                             </div>
                         </div>
                         <div class="swiper-slide" style="width:100%">
@@ -1219,79 +804,20 @@
 
                             <div class="row justify-content-center">
 
-                                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                                    <div class="services-thumb">
-                                        <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/about2_ubmvtp_c_scale,w_200.webp 200w,
-                                        storage/images/about2_ubmvtp_c_scale,w_362.webp 362w,
-                                        storage/images/about2_ubmvtp_c_scale,w_490.webp 490w,
-                                        storage/images/about2_ubmvtp_c_scale,w_602.webp 602w,
-                                        storage/images/about2_ubmvtp_c_scale,w_711.webp 711w,
-                                        storage/images/about2_ubmvtp_c_scale,w_829.webp 829w,
-                                        storage/images/about2_ubmvtp_c_scale,w_927.webp 927w,
-                                        storage/images/about2_ubmvtp_c_scale,w_931.webp 931w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1006.webp 1006w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1097.webp 1097w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1199.webp 1199w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1287.webp 1287w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1373.webp 1373w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1398.webp 1398w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/about2_ubmvtp_c_scale,w_1400.webp"
-                                        alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info d-flex align-items-end">
-                                        </div>
-                                    </div>
-                                </div>
+                                @foreach($steamGs as $steamG)
 
-                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mobile">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
                                     <div class="services-thumb">
                                         <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/barber1_vsh8ga_c_scale,w_200.webp 200w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_387.webp 387w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_490.webp 490w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_624.webp 624w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_762.webp 762w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_877.webp 877w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_977.webp 977w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1142.webp 1142w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1230.webp 1230w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1357.webp 1357w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1382.webp 1382w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1354.webp 1354w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1383.webp 1383w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/barber1_vsh8ga_c_scale,w_1400.webp"
-                                        alt="info-img" class="services-image img-fluid" >
+                                        src="storage/{{$steamG->image}}"
+                                        alt="info-img" class="services-image img-fluid">
                                         <div class="services-info d-flex align-items-end">
                                         </div>
                                     </div>
                                 </div>
+                                @endforeach
 
-                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mobile">
-                                    <div class="services-thumb">
-                                        <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/spa2_uijii6_c_scale,w_200.webp 200w,
-                                        storage/images/spa2_uijii6_c_scale,w_502.webp 502w,
-                                        storage/images/spa2_uijii6_c_scale,w_731.webp 731w,
-                                        storage/images/spa2_uijii6_c_scale,w_876.webp 876w,
-                                        storage/images/spa2_uijii6_c_scale,w_986.webp 986w,
-                                        storage/images/spa2_uijii6_c_scale,w_1158.webp 1158w,
-                                        storage/images/spa2_uijii6_c_scale,w_1344.webp 1344w,
-                                        storage/images/spa2_uijii6_c_scale,w_1374.webp 1374w,
-                                        storage/images/spa2_uijii6_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/spa2_uijii6_c_scale,w_1400.webp"
-                                        alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info d-flex align-items-end">
-                                        </div>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                         <div class="swiper-slide" style="width:100%">
@@ -1315,79 +841,19 @@
 
                             <div class="row justify-content-center">
 
-                                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                                    <div class="services-thumb">
-                                        <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/about2_ubmvtp_c_scale,w_200.webp 200w,
-                                        storage/images/about2_ubmvtp_c_scale,w_362.webp 362w,
-                                        storage/images/about2_ubmvtp_c_scale,w_490.webp 490w,
-                                        storage/images/about2_ubmvtp_c_scale,w_602.webp 602w,
-                                        storage/images/about2_ubmvtp_c_scale,w_711.webp 711w,
-                                        storage/images/about2_ubmvtp_c_scale,w_829.webp 829w,
-                                        storage/images/about2_ubmvtp_c_scale,w_927.webp 927w,
-                                        storage/images/about2_ubmvtp_c_scale,w_931.webp 931w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1006.webp 1006w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1097.webp 1097w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1199.webp 1199w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1287.webp 1287w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1373.webp 1373w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1398.webp 1398w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/about2_ubmvtp_c_scale,w_1400.webp"
-                                        alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info d-flex align-items-end">
-                                        </div>
-                                    </div>
-                                </div>
+                                @foreach($saunaGs as $saunaG)
 
-                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mobile">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
                                     <div class="services-thumb">
                                         <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/barber1_vsh8ga_c_scale,w_200.webp 200w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_387.webp 387w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_490.webp 490w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_624.webp 624w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_762.webp 762w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_877.webp 877w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_977.webp 977w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1142.webp 1142w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1230.webp 1230w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1357.webp 1357w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1382.webp 1382w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1354.webp 1354w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1383.webp 1383w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/barber1_vsh8ga_c_scale,w_1400.webp"
-                                        alt="info-img" class="services-image img-fluid" >
+                                        src="storage/{{$saunaG->image}}"
+                                        alt="info-img" class="services-image img-fluid">
                                         <div class="services-info d-flex align-items-end">
                                         </div>
                                     </div>
                                 </div>
+                                @endforeach
 
-                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mobile">
-                                    <div class="services-thumb">
-                                        <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/spa2_uijii6_c_scale,w_200.webp 200w,
-                                        storage/images/spa2_uijii6_c_scale,w_502.webp 502w,
-                                        storage/images/spa2_uijii6_c_scale,w_731.webp 731w,
-                                        storage/images/spa2_uijii6_c_scale,w_876.webp 876w,
-                                        storage/images/spa2_uijii6_c_scale,w_986.webp 986w,
-                                        storage/images/spa2_uijii6_c_scale,w_1158.webp 1158w,
-                                        storage/images/spa2_uijii6_c_scale,w_1344.webp 1344w,
-                                        storage/images/spa2_uijii6_c_scale,w_1374.webp 1374w,
-                                        storage/images/spa2_uijii6_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/spa2_uijii6_c_scale,w_1400.webp"
-                                        alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info d-flex align-items-end">
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                         <div class="swiper-slide" style="width:100%">
@@ -1412,79 +878,18 @@
 
                             <div class="row justify-content-center">
 
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="services-thumb">
-                                        <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/about2_ubmvtp_c_scale,w_200.webp 200w,
-                                        storage/images/about2_ubmvtp_c_scale,w_362.webp 362w,
-                                        storage/images/about2_ubmvtp_c_scale,w_490.webp 490w,
-                                        storage/images/about2_ubmvtp_c_scale,w_602.webp 602w,
-                                        storage/images/about2_ubmvtp_c_scale,w_711.webp 711w,
-                                        storage/images/about2_ubmvtp_c_scale,w_829.webp 829w,
-                                        storage/images/about2_ubmvtp_c_scale,w_927.webp 927w,
-                                        storage/images/about2_ubmvtp_c_scale,w_931.webp 931w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1006.webp 1006w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1097.webp 1097w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1199.webp 1199w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1287.webp 1287w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1373.webp 1373w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1398.webp 1398w,
-                                        storage/images/about2_ubmvtp_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/about2_ubmvtp_c_scale,w_1400.webp"
-                                        alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info d-flex align-items-end">
-                                        </div>
-                                    </div>
-                                </div>
+                                @foreach($waxingGs as $waxingG)
 
-                                <div class="col-lg-4 col-md-6 col-12 mobile">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
                                     <div class="services-thumb">
                                         <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/barber1_vsh8ga_c_scale,w_200.webp 200w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_387.webp 387w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_490.webp 490w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_624.webp 624w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_762.webp 762w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_877.webp 877w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_977.webp 977w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1142.webp 1142w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1230.webp 1230w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1357.webp 1357w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1382.webp 1382w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1354.webp 1354w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1383.webp 1383w,
-                                        storage/images/barber1_vsh8ga_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/barber1_vsh8ga_c_scale,w_1400.webp"
-                                        alt="info-img" class="services-image img-fluid" >
+                                        src="storage/{{$waxingG->image}}"
+                                        alt="info-img" class="services-image img-fluid">
                                         <div class="services-info d-flex align-items-end">
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="col-lg-4 col-md-6 col-12 mobile">
-                                    <div class="services-thumb">
-                                        <img
-                                        sizes="(max-width: 1400px) 100vw, 1400px"
-                                        srcset="
-                                        storage/images/spa2_uijii6_c_scale,w_200.webp 200w,
-                                        storage/images/spa2_uijii6_c_scale,w_502.webp 502w,
-                                        storage/images/spa2_uijii6_c_scale,w_731.webp 731w,
-                                        storage/images/spa2_uijii6_c_scale,w_876.webp 876w,
-                                        storage/images/spa2_uijii6_c_scale,w_986.webp 986w,
-                                        storage/images/spa2_uijii6_c_scale,w_1158.webp 1158w,
-                                        storage/images/spa2_uijii6_c_scale,w_1344.webp 1344w,
-                                        storage/images/spa2_uijii6_c_scale,w_1374.webp 1374w,
-                                        storage/images/spa2_uijii6_c_scale,w_1400.webp 1400w"
-                                        src="storage/images/spa2_uijii6_c_scale,w_1400.webp"
-                                        alt="info-img" class="services-image img-fluid" >
-                                        <div class="services-info d-flex align-items-end">
-                                        </div>
-                                    </div>
-                                </div>
+                                @endforeach
                             </div>
                         </div>
                     </div>
@@ -1543,17 +948,17 @@
                                             </div>
                                             <div class="d-flex price-wrap mt-3">
                                                 <p class="card-text">{{$salon->price}}</p>
-                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#salonModal" class="">Book Now</a>
+                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#salonModal{{$salon->id}}" class="">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- Modal -->
-                                <div class="modal fade" id="salonModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal fade" id="salonModal{{$salon->id}}" tabindex="-1" aria-labelledby="salonModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Booking Form</h5>
+                                            <h5 class="modal-title" id="salonModalLabel">Booking Form</h5>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
@@ -1580,7 +985,7 @@
                                         </form>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">Close</button>
                                         </div>
                                         </div>
                                     </div>
@@ -1621,13 +1026,13 @@
                                             </div>
                                             <div class="d-flex price-wrap mt-3">
                                                 <p class="card-text">{{$salonC->price}}</p>
-                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#salonCModal" class="">Book Now</a>
+                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#salonCModal{{$salonC->id}}" class="">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- Modal -->
-                                <div class="modal fade" id="salonCModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal fade" id="salonCModal{{$salonC->id}}" tabindex="-1" aria-labelledby="salonCModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                         <div class="modal-header">
@@ -1658,7 +1063,7 @@
                                         </form>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">Close</button>
                                         </div>
                                         </div>
                                     </div>
@@ -1697,13 +1102,13 @@
                                                 </div>
                                                 <div class="d-flex price-wrap mt-3">
                                                     <p class="card-text">{{$barberA->price}}</p>
-                                                    <a href="#"  data-bs-toggle="modal" data-bs-target="#barberAModal" class="">Book Now</a>
+                                                    <a href="#"  data-bs-toggle="modal" data-bs-target="#barberAModal{{$barberA->id}}" class="">Book Now</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 <!-- Modal -->
-                                <div class="modal fade" id="barberAModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal fade" id="barberAModal{{$barberA->id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                         <div class="modal-header">
@@ -1734,7 +1139,7 @@
                                         </form>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">Close</button>
                                         </div>
                                         </div>
                                     </div>
@@ -1774,13 +1179,13 @@
                                             </div>
                                             <div class="d-flex price-wrap mt-3">
                                                 <p class="card-text">{{$barberC->price}}</p>
-                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#barberCModal" class="">Book Now</a>
+                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#barberCModal{{$barberC->id}}" class="">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- Modal -->
-                                <div class="modal fade" id="barberCModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal fade" id="barberCModal{{$barberC->id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                         <div class="modal-header">
@@ -1811,7 +1216,7 @@
                                         </form>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">Close</button>
                                         </div>
                                         </div>
                                     </div>
@@ -1851,13 +1256,13 @@
                                             </div>
                                             <div class="d-flex price-wrap mt-3">
                                                 <p class="card-text">{{$massage->price}}</p>
-                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#massageModal" class="">Book Now</a>
+                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#massageModal{{$massage->id}}" class="">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- Modal -->
-                                <div class="modal fade" id="massageModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal fade" id="massageModal{{$massage->id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                         <div class="modal-header">
@@ -1888,7 +1293,7 @@
                                         </form>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">Close</button>
                                         </div>
                                         </div>
                                     </div>
@@ -1929,13 +1334,13 @@
                                             </div>
                                             <div class="d-flex price-wrap mt-3">
                                                 <p class="card-text">{{$mani->price}}</p>
-                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#maniModal" class="">Book Now</a>
+                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#maniModal{{$mani->id}}" class="">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- Modal -->
-                                <div class="modal fade" id="maniModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal fade" id="maniModal{{$mani->id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                         <div class="modal-header">
@@ -1966,7 +1371,7 @@
                                         </form>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">Close</button>
                                         </div>
                                         </div>
                                     </div>
@@ -2008,13 +1413,13 @@
                                             </div>
                                             <div class="d-flex price-wrap mt-3">
                                                 <p class="card-text">{{$facial->price}}</p>
-                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#facialModal" class="">Book Now</a>
+                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#facialModal{{$facial->id}}" class="">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- Modal -->
-                                <div class="modal fade" id="facialModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal fade" id="facialModal{{$facial->id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                         <div class="modal-header">
@@ -2045,7 +1450,7 @@
                                         </form>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">Close</button>
                                         </div>
                                         </div>
                                     </div>
@@ -2085,13 +1490,13 @@
                                             </div>
                                             <div class="d-flex price-wrap mt-3">
                                                 <p class="card-text">{{$hot->price}}</p>
-                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#hotModal" class="">Book Now</a>
+                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#hotModal{{$hot->id}}" class="">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- Modal -->
-                                <div class="modal fade" id="hotModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal fade" id="hotModal{{$hot->id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                         <div class="modal-header">
@@ -2122,7 +1527,7 @@
                                         </form>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">Close</button>
                                         </div>
                                         </div>
                                     </div>
@@ -2162,13 +1567,13 @@
                                             </div>
                                             <div class="d-flex price-wrap mt-3">
                                                 <p class="card-text">{{$moroccan->price}}</p>
-                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#moroccanModal" class="">Book Now</a>
+                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#moroccanModal{{$moroccan->id}}" class="">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- Modal -->
-                                <div class="modal fade" id="moroccanModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal fade" id="moroccanModal{{$moroccan->id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                         <div class="modal-header">
@@ -2199,7 +1604,7 @@
                                         </form>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">Close</button>
                                         </div>
                                         </div>
                                     </div>
@@ -2239,13 +1644,13 @@
                                             </div>
                                             <div class="d-flex price-wrap mt-3">
                                                 <p class="card-text">{{$steam->price}}</p>
-                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#steamModal" class="">Book Now</a>
+                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#steamModal{{$steam->id}}" class="">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- Modal -->
-                                <div class="modal fade" id="steamModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal fade" id="steamModal{{$steam->id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                         <div class="modal-header">
@@ -2276,7 +1681,7 @@
                                         </form>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">Close</button>
                                         </div>
                                         </div>
                                     </div>
@@ -2318,13 +1723,13 @@
                                             </div>
                                             <div class="d-flex price-wrap mt-3">
                                                 <p class="card-text">{{$sauna->price}}</p>
-                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#saunaModal" class="">Book Now</a>
+                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#saunaModal{{$sauna->id}}" class="">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- Modal -->
-                                <div class="modal fade" id="saunaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal fade" id="saunaModal{{$sauna->id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                         <div class="modal-header">
@@ -2355,7 +1760,7 @@
                                         </form>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">Close</button>
                                         </div>
                                         </div>
                                     </div>
@@ -2396,13 +1801,13 @@
                                             </div>
                                             <div class="d-flex price-wrap mt-3">
                                                 <p class="card-text">{{$waxing->price}}</p>
-                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#waxingModal" class="">Book Now</a>
+                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#waxingModal{{$waxing->id}}" class="">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- Modal -->
-                                <div class="modal fade" id="waxingModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal fade" id="waxingModal{{$waxing->id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                         <div class="modal-header">
@@ -2433,7 +1838,7 @@
                                         </form>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">Close</button>
                                         </div>
                                         </div>
                                     </div>
@@ -2779,7 +2184,6 @@
             document.querySelector('.swiper1').addEventListener('touchstart', function (e) {
                 e.stopPropagation(); // Prevents the touch event from being captured by Swiper
             });
-
             var swiper2 = new Swiper('.swiper2', {
                 pagination: {
                     el: '.swiper-pagination2',
@@ -2832,6 +2236,27 @@
             // Add more options here to customize the appearance
             });
         });
+        </script>
+        <script>
+        document.addEventListener("scroll", function() {
+            const navbar = document.querySelector(".navbar");
+            if (window.scrollY > 50) { // Adjust the scroll distance as needed
+                navbar.classList.add("scrolled");
+            } else {
+                navbar.classList.remove("scrolled");
+            }
+        });
+        </script>
+        <script>
+            var typed = new Typed("#typed", {
+                strings: ["BEAUTY BEYOND SKIN DEEP"],
+                typeSpeed: 100, // Adjust typing speed
+                startDelay: 0, // Delay before typing starts
+                backSpeed: 0, // Speed for backspacing
+                backDelay: 500, // Delay before backspacing
+                loop: false, // Set to true if you want it to loop
+                showCursor: false, // Set to true to show the typing cursor
+            });
         </script>
 
    </body>

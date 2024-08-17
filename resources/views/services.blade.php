@@ -23,13 +23,13 @@
                             </div>
                             <div class="d-flex price-wrap mt-3">
                                 <p class="card-text">{{$massage->price}}</p>
-                                <a href="#"  data-bs-toggle="modal" data-bs-target="#massageModal" class="">Book Now</a>
+                                <a href="#"  data-bs-toggle="modal" data-bs-target="#massageModal{{$massage->id}}" class="">Book Now</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Modal -->
-                <div class="modal fade" id="massageModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="massageModal{{$massage->id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                         <div class="modal-header">
@@ -60,7 +60,7 @@
                         </form>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal">Close</button>
                         </div>
                         </div>
                     </div>
@@ -88,13 +88,13 @@
                             </div>
                             <div class="d-flex price-wrap mt-3">
                                 <p class="card-text">{{$mani->price}}</p>
-                                <a href="#"  data-bs-toggle="modal" data-bs-target="#maniModal" class="">Book Now</a>
+                                <a href="#"  data-bs-toggle="modal" data-bs-target="#maniModal{{$mani->id}}" class="">Book Now</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Modal -->
-                <div class="modal fade" id="maniModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="maniModal{{$mani->id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                         <div class="modal-header">
@@ -125,7 +125,7 @@
                         </form>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal">Close</button>
                         </div>
                         </div>
                     </div>
@@ -153,13 +153,13 @@
                             </div>
                             <div class="d-flex price-wrap mt-3">
                                 <p class="card-text">{{$salon->price}}</p>
-                                <a href="#"  data-bs-toggle="modal" data-bs-target="#salonModal" class="">Book Now</a>
+                                <a href="#"  data-bs-toggle="modal" data-bs-target="#salonModal{{$salon->id}}" class="">Book Now</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Modal -->
-                <div class="modal fade" id="salonModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="salonModal{{$salon->id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                         <div class="modal-header">
@@ -190,7 +190,7 @@
                         </form>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal">Close</button>
                         </div>
                         </div>
                     </div>
@@ -218,13 +218,13 @@
                             </div>
                             <div class="d-flex price-wrap mt-3">
                                 <p class="card-text">{{$salonC->price}}</p>
-                                <a href="#"  data-bs-toggle="modal" data-bs-target="#salonCModal" class="">Book Now</a>
+                                <a href="#"  data-bs-toggle="modal" data-bs-target="#salonCModal{{$salonC->id}}" class="">Book Now</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Modal -->
-                <div class="modal fade" id="salonCModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="salonCModal{{$salonC->id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                         <div class="modal-header">
@@ -255,7 +255,7 @@
                         </form>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal">Close</button>
                         </div>
                         </div>
                     </div>
