@@ -6,7 +6,7 @@
     <h1>Blogs</h1>
     <div class="row justify-content-center" style="margin-right:0; margin-left:0;">
 
-        <div class="col-10">
+        <div class="col-lg-10 col-md-12">
             <div class="row justify-content-center">
             @foreach($blogs as $blog)
             <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
