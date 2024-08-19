@@ -92,7 +92,7 @@ html {
 .modal {
     z-index: 1050; /* Bootstrap default z-index for modals */
 }
-.swiper-container4 .swipper-slide{
+.swiper-container4 .swiper-slide{
     display:flex;
     flex-direction: column;
     align-items: center;
