@@ -15,10 +15,13 @@
                     <div class="card-body">
                         <h4 class="card-title">{!! Str::limit(strip_tags($blog->title), 80) !!}</h4>
                         <p class="card-text">{!! Str::limit(strip_tags($blog->body), 120, '...') !!}...</p>
-                        <a href="/blogs/{{$blog->slug}}" style="text-decoration:none;" class="custom-card">
+                        <div class="read_bt">
+                            <a href="/blogs/{{$blog->slug}}" style="text-decoration:none;" class="custom-card">
 
-                            <button>Read more</button>
-                        </a>
+                                Read more
+                            </a>
+                        </div>
+
                     </div>
                 </div>
             </div>

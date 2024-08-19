@@ -1913,6 +1913,7 @@ button {
 .blog_section .card{
     border:none;
     background:#0e0d0d;
+    border-radius: 12px;
 
 }
 .blog_section .card p{
