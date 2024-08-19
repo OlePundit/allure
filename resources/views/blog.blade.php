@@ -31,8 +31,8 @@
                             <div class="card" style="width: 100%;">
                                 <img src="/storage/{{$blog->thumbnail}}" class="card-img-top">
                                 <div class="card-body">
-                                    <h4 class="card-title">{!! Str::limit(strip_tags($blog->title), 80) !!}</h4>
-                                    <p class="card-text">{!! Str::limit(strip_tags($blog->body), 120, '...') !!}...</p>
+                                    <h4 class="card-title">{!! Str::limit(strip_tags($blog->title), 50) !!}</h4>
+                                    <p class="card-text">{!! Str::limit(strip_tags($blog->body), 70, '...') !!}...</p>
                                     <div class="read_bt">
                                         <a href="/blogs/{{$blog->slug}}" style="text-decoration:none;" class="custom-card">
 
