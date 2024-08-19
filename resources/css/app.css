@@ -708,15 +708,14 @@ button {
 }
 
 .read_bt a {
-    width: 100%;
+    width: fit-content;
     float: left;
     font-size: 16px;
-    color: #E63534;
+    color: #e63534;
     text-align: center;
-    padding: 10px 0px;
+    padding: 5px 12px;
     border-radius: 20px;
-    border:1px solid #E1C17E;
-    text-transform: uppercase;
+    border: 1px solid #E1C17E;
     font-weight: 600;
 }
 .read_bt a svg{
@@ -2016,7 +2015,7 @@ button {
 
 }
 
-.blog h2, h3, h4{
+.blog h3, h4{
     color:#fff;
 }
 
