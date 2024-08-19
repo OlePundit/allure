@@ -4,7 +4,7 @@
 
 <div class="blog_section layout_padding ">
     <h1>Blogs</h1>
-    <div class="row justify-content-center">
+    <div class="row justify-content-center" style="margin-right:0; margin-left:0;">
 
         <div class="col-10">
             <div class="row justify-content-center">
