@@ -27,7 +27,7 @@
 
                     <div class="row blog_section">
                         @foreach($blogs as $blog)
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+                        <div class="col-md-4 col-sm-6 col-12 mt-5">
                             <div class="card" style="width: 100%;">
                                 <img src="/storage/{{$blog->thumbnail}}" class="card-img-top">
                                 <div class="card-body">
