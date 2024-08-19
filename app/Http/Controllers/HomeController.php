@@ -75,7 +75,7 @@ class HomeController extends Controller
     public function blog(Blog $slug)
     {
         $blogs = Blog::inRandomOrder()->limit(3)->get();
-        return view('blog', compact('slug'));
+        return view('blog', compact('slug','blogs'));
     }
     public function services()
     {
