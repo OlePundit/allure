@@ -1962,13 +1962,23 @@ button {
     margin: auto;
 }
 .blog h1 {
-    color: #fff;
+    color: #E63534;
     font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
     font-size: 52px;
     margin-bottom: 15px;
     margin-top: 15px;
-    font-weight: 500;
+    font-weight: 700;
     text-align: center;
+}
+
+.blog h2{
+    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 36px;
+    color: #E63534;
+
+
 }
 .blog .body{
     font-size: 15px;
@@ -2000,18 +2010,7 @@ button {
     padding-bottom: 90px;
     background: #202020;
 }
-.blog a{
-    background:#E1C17E;
-    border-radius: 8px;
-    padding:5px 10px;
-    margin:auto;
-}
-.blog a:hover{
-    background:#fff;
-    border-radius: 8px;
-    padding:5px 10px;
-    color:#000;
-}
+
 .blog a button{
     background:none;
 
