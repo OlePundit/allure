@@ -1951,17 +1951,7 @@ button {
     margin-bottom: 10px;
     font-size: 17px;
 }
-.blog_section .card .card-body a{
-    background:#E1C17E;
-    border-radius: 8px;
-    padding:5px 10px;
-}
-.blog_section .card .card-body a:hover{
-    background:#fff;
-    border-radius: 8px;
-    padding:5px 10px;
-    color:#000;
-}
+
 .blog_section {
     width: 100%;
     float: left;
