@@ -23,7 +23,7 @@
                         </div>
 
                     </div>
-                    <div class="row">
+                    <div class="row blog_section">
                         <h2>Read More Content</h2>
                         @foreach($blogs as $blog)
                         <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
