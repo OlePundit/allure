@@ -9,14 +9,14 @@
       <meta name="robots" content="index, follow">
 
       <meta name="twitter:title" content="Allure Essence">
-        <meta name="twitter:description" content="<p>Welcome to Allure Essence Spa & Hair Studio, your sanctuary of tranquility and beauty in the heart of Nairobi. Immerse yourself in our luxurious treatments designed to rejuvenate your mind, body, and spirit.</p>">
+        <meta name="twitter:description" content="Welcome to Allure Essence Spa & Hair Studio, your sanctuary of tranquility and beauty in the heart of Nairobi. Immerse yourself in our luxurious treatments designed to rejuvenate your mind, body, and spirit.">
         <meta name="twitter:image" content="https://allureessencespa.com/storage/images/logo.png">
         <meta name="twitter:site" content="allureessencespa.com">
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:creator" content="@allureessence">
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Allure Essence"/>
-        <meta property="og:description" content="<p>Welcome to Allure Essence Spa & Hair Studio, your sanctuary of tranquility and beauty in the heart of Nairobi. Immerse yourself in our luxurious treatments designed to rejuvenate your mind, body, and spirit.</p>" />
+        <meta property="og:description" content="Welcome to Allure Essence Spa & Hair Studio, your sanctuary of tranquility and beauty in the heart of Nairobi. Immerse yourself in our luxurious treatments designed to rejuvenate your mind, body, and spirit." />
         <meta property="og:image" content="https://allureessencespa.com/storage/storage/images/logo.png" />
         <meta property="og:url" content="https://allureessencespa.com" />
         <meta property="og:site_name" content="Allure Essence"/>

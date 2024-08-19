@@ -1,29 +1,29 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <title>{{$slug->title}}</title>
-        <meta name="description" content="Welcome to Allure Essence Spa & Hair Studio, your sanctuary of tranquility and beauty in the heart of Nairobi. Immerse yourself in our luxurious treatments designed to rejuvenate your mind, body, and spirit.">
-        <meta name="robots" content="index, follow">
+    <title>{{$slug->title}}</title>
+    <meta name="description" content="Welcome to Allure Essence Spa & Hair Studio, your sanctuary of tranquility and beauty in the heart of Nairobi. Immerse yourself in our luxurious treatments designed to rejuvenate your mind, body, and spirit.">
+    <meta name="robots" content="index, follow">
 
     <meta name="twitter:title" content="{{$slug->title}}">
-    <meta name="twitter:description" content="<p>{{$slug->title}}</p>">
+    <meta name="twitter:description" content="{{$slug->title}}</p>">
     <meta name="twitter:image" content="https://allureessencespa.com/storage/{{$slug->thumbnail}}">
     <meta name="twitter:site" content="https://allureessencespa.com/{{$slug->slug}}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:creator" content="@allureessence">
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{$slug->title}}"/>
-    <meta property="og:description" content="<p>{{$slug->title}}</p>" />
+    <meta property="og:description" content="{{$slug->title}}" />
     <meta property="og:image" content="https://allureessencespa.com/storage/{{$slug->thumbnail}}" />
     <meta property="og:url" content="https://allureessencespa.com/{{$slug->slug}}" />
     <meta property="og:site_name" content="Allure Essence"/>
 
     <!-- Fonts -->
       <!-- Fonts -->
-      <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+      <link href="https://allureessencespa.com/storage/favicon.svg" rel="icon">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000|Open+Sans:400,700&&display=swap" rel="stylesheet">
