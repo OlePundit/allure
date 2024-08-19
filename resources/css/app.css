@@ -1923,6 +1923,7 @@ button {
     border-radius:6px 6px  0 0;
     height: 300px;
     object-fit: cover;
+    width:100%;
 }
 .blog_section .card .card-body{
     border-radius: 0 0 8px 8px;
