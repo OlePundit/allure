@@ -13,7 +13,7 @@
                 </div>
                 <div class="col-lg-9 col-md-12 body">
                     <h1>{{$slug->title}}</h1>
-                    <img src="{{$slug->thumbnail}}">
+                    <img src="/storage/{{$slug->thumbnail}}">
                     {!! $slug->body !!}
                     <div class="row">
                         <a href="/book">
