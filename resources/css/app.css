@@ -1128,6 +1128,13 @@ button {
     width: 100%;
     float: left;
 }
+.about_section .about-card:hover{
+    cursor:pointer;
+    transform: translateY(-20px);
+}
+.about_section .about-card:hover svg path{
+    color:#fff!important;
+}
 .about_section_main h3{
     color:#E1C17E;
     text-transform: uppercase;
@@ -2017,6 +2024,12 @@ button {
 
 .blog h3, h4{
     color:#fff;
+}
+.blog ul, ol{
+    padding-left:30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    list-style-type: disc
 }
 
 
