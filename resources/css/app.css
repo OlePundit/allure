@@ -639,7 +639,7 @@ button {
 }
 .navbar{
     z-index: 1030;
-    position:sticky;
+
 }
 .fixed-top{
     position: fixed!important;
