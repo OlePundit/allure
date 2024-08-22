@@ -74,7 +74,7 @@
                 <nav class="navbar navbar-expand-md text-3 fixed-top">
                     <div class="container">
                         <a class="navbar-brand" href="{{ url('/') }}">
-                            <img src="/storage/images/logo.png" class="mx-2" width="150" alt="logo">
+                            <img src="/storage/images/logo.png" class="mx-2" alt="logo">
                         </a>                    
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                             <span class="navbar-toggler-icon"></span>

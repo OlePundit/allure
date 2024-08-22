@@ -539,6 +539,9 @@
         z-index: 10;
         padding: 0;
     }
+    .swiper-container3 .navbar .navbar-brand img{
+        width:100!important;
+    }
 }
 @media (min-width: 280px) and (max-width: 340px) {
     .product_section .services-thumb .services-info {

@@ -526,7 +526,9 @@ button {
 .other-nav{
     background:#000;
 }
-
+.other-nav .nav-link{
+    color:#fff;
+}
 /* header section start */
 
 .header_section {
@@ -637,12 +639,21 @@ button {
 .app .navbar-toggler{
     border-color:#202020;
 }
+.other-nav .navbar-toggler{
+    border-color:#fff;
+}
+.other-nav .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")!important;
+}
 .app .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 .navbar{
     z-index: 1030;
 
+}
+.navbar .navbar-brand img{
+    width:150;
 }
 .fixed-top{
     position: fixed!important;
