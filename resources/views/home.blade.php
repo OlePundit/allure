@@ -71,7 +71,7 @@
 
             <!-- Slider main container -->
             <div class="swiper-container3 swiper swiper1 box-2">
-                <nav class="navbar navbar-expand-md text-3 fixed-top">
+                <nav class="navbar navbar-expand-md text-3 sticky-top">
                     <div class="container">
                         <a class="navbar-brand" href="{{ url('/') }}">
                             <img src="/storage/images/logo.png" class="mx-2" width="200" alt="logo">
