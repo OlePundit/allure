@@ -653,13 +653,13 @@ button {
 
 }
 .navbar .navbar-brand img{
-    width:150;
+    width:150px;
 }
 .fixed-top{
     position: fixed!important;
 }
 .navbar.scrolled {
-    background-color: #000; /* Whitish background with slight transparency */
+    background-color: #202020; /* Whitish background with slight transparency */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
 }
 .navbar.scrolled .nav-link{

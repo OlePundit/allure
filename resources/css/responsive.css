@@ -540,7 +540,7 @@
         padding: 0;
     }
     .swiper-container3 .navbar .navbar-brand img{
-        width:100!important;
+        width:100px!important;
     }
 }
 @media (min-width: 280px) and (max-width: 340px) {

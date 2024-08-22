@@ -51,9 +51,11 @@ class HomeController extends Controller
         $saunaGs = Gallery::where('service', 'Sauna')->inRandomOrder()->limit(3)->get();
         $waxingGs = Gallery::where('service', 'Waxing')->inRandomOrder()->limit(3)->get();
 
+        $landings = Landing::limit(4)->get();
+
         return view('home', compact('salons','massages','bodys','manis','salonCs','barberAs','barberCs',
         'steams','moroccans','hots','facials','saunas','waxings','salonGs','massageGs','bodyGs','maniGs','barberGs',
-        'steamGs','moroccanGs','hotGs','facialGs','saunaGs','waxingGs'));
+        'steamGs','moroccanGs','hotGs','facialGs','saunaGs','waxingGs','landings'));
     }
     public function about()
     {
