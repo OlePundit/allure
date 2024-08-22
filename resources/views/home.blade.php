@@ -790,12 +790,12 @@
 
 
 
-                                @foreach($moroccans as $moroccan)
+                                @foreach($moroccanGs as $moroccanG)
 
                                 <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
                                     <div class="services-thumb">
                                         <img
-                                        src="storage/{{$moroccan->image}}"
+                                        src="storage/{{$moroccanG->image}}"
                                         alt="info-img" class="services-image img-fluid">
                                         <div class="services-info d-flex align-items-end">
                                         </div>
