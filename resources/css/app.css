@@ -162,7 +162,8 @@ html {
 }
 
 .swiper-container3{
-    height:100%
+    height:100%;
+    z-index:1000;
 }
 
 .swiper-slide {
@@ -266,7 +267,7 @@ html {
     justify-content: end;
     padding:15px 0;
     position: absolute;
-    z-index: 999;
+    z-index: 900;
     margin: 0;
     left: 0;
     right: 0;
@@ -522,7 +523,9 @@ button {
 .padding_0 {
     padding: 0px;
 }
-
+.other-nav{
+    background:#000;
+}
 
 /* header section start */
 
@@ -645,11 +648,15 @@ button {
     position: fixed!important;
 }
 .navbar.scrolled {
-    background-color: rgba(255, 255, 255, 0.3); /* Whitish background with slight transparency */
+    background-color: #000; /* Whitish background with slight transparency */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
 }
 .navbar.scrolled .nav-link{
     color:#E63534!important;
+
+}
+.navbar.scrolled .nav-link:hover{
+    color:#E1C17E!important;
 
 }
 /* header section end */
