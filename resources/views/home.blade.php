@@ -71,7 +71,7 @@
 
             <!-- Slider main container -->
             <div class="swiper-container3 swiper swiper1 box-2">
-                <nav class="navbar navbar-expand-md text-3 sticky-top">
+                <nav class="navbar navbar-expand-md text-3 fixed-top">
                     <div class="container">
                         <a class="navbar-brand" href="{{ url('/') }}">
                             <img src="/storage/images/logo.png" class="mx-2" width="200" alt="logo">
@@ -2304,24 +2304,13 @@
         });
         </script>
         <script>
-        let lastScrollTop = 0;
-
         document.addEventListener("scroll", function() {
             const navbar = document.querySelector(".navbar");
-            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-            if (scrollTop > lastScrollTop && scrollTop > 50) {
-                // Scrolling down
-                navbar.classList.remove("scrolled");
-            } else if (scrollTop < lastScrollTop && scrollTop > 50) {
-                // Scrolling up
+            if (window.scrollY > 50) { // Adjust the scroll distance as needed
                 navbar.classList.add("scrolled");
-            } else if (scrollTop <= 50) {
-                // At the top of the page
+            } else {
                 navbar.classList.remove("scrolled");
             }
-
-            lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For mobile or negative scrolling
         });
 
         </script>
