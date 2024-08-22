@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Blog;
 use App\Models\Service;
 use App\Models\Gallery;
+use App\Models\Landing;
 
 class HomeController extends Controller
 {
