@@ -58,10 +58,8 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
-    <link rel="stylesheet" href="{{ asset('build/assets/app-B_VZRs9C.css') }}">
-      <link rel="stylesheet" href="{{ asset('build/assets/app-sEhFnVTV.css') }}">
-      <link rel="stylesheet" href="{{ asset('build/assets/responsive-DhAHJOLM.css') }}">
-      <script src="{{ asset('build/assets/app-BwDpqcm8.js') }}"></script>
+    @vite(['resources/sass/app.scss', 'resources/js/app.js','resources/css/app.css','resources/css/responsive.css'])
+
 
     </head>
     <body>
@@ -2304,14 +2302,26 @@
         });
         </script>
         <script>
+        let lastScrollTop = 0;
+
         document.addEventListener("scroll", function() {
             const navbar = document.querySelector(".navbar");
-            if (window.scrollY > 50) { // Adjust the scroll distance as needed
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            if (scrollTop > lastScrollTop && scrollTop > 50) {
+                // Scrolling down
+                navbar.classList.remove("scrolled");
+            } else if (scrollTop < lastScrollTop && scrollTop > 50) {
+                // Scrolling up
                 navbar.classList.add("scrolled");
-            } else {
+            } else if (scrollTop <= 50) {
+                // At the top of the page
                 navbar.classList.remove("scrolled");
             }
+
+            lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For mobile or negative scrolling
         });
+
         </script>
         <script>
             var typed = new Typed("#typed", {
