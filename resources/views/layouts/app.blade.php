@@ -138,7 +138,7 @@
          </div>
       </nav>
 
-      <main class="">
+      <main class="py-5">
          @yield('content')
       </main>
       <!-- footer section start -->
