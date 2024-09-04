@@ -70,10 +70,6 @@ class HomeController extends Controller
     {
         return view('book');
     }
-    public function thanks()
-    {
-        return view('thanks');
-    }
 
     public function blogs()
     {

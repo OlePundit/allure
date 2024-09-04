@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-uuse App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
 use Paystack;
@@ -81,7 +80,7 @@ class PaymentController extends Controller
     }
     public function success()
     {
-        return "Payment is successful";
+        return view('success');
     }
     public function cancel()
     {
