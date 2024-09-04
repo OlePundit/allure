@@ -1240,7 +1240,7 @@
                                     <label class="text-white" style="font-size:16px;">Payment terms</label>
                                     <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$salon->payment_terms}}">
 
-                                    <button type="submit" onclick="payWithPaystack()">Send</button>
+                                    <button type="submit">Send</button>
                                 </form>
                             </div>
                             <div class="modal-footer">
@@ -1280,7 +1280,7 @@
                             <label class="text-white" style="font-size:16px;">Payment terms</label>
                             <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$salonC->payment_terms}}">
 
-                            <button type="submit" onclick="payWithPaystack()">Send</button>
+                            <button type="submit">Send</button>
                         </form>
                         </div>
                         <div class="modal-footer">
@@ -1320,7 +1320,7 @@
                             <label class="text-white" style="font-size:16px;">Payment terms</label>
                             <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$barberA->payment_terms}}">
 
-                            <button type="submit" onclick="payWithPaystack()">Send</button>
+                            <button type="submit">Send</button>
                         </form>
                         </div>
                         <div class="modal-footer">
@@ -1360,7 +1360,7 @@
                             <label class="text-white" style="font-size:16px;">Payment terms</label>
                             <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$barberC->payment_terms}}">
 
-                            <button type="submit" onclick="payWithPaystack()">Send</button>
+                            <button type="submit">Send</button>
                         </form>
                         </div>
                         <div class="modal-footer">
@@ -1400,7 +1400,7 @@
                             <label class="text-white" style="font-size:16px;">Payment terms</label>
                             <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$massage->payment_terms}}">
 
-                            <button type="submit" onclick="payWithPaystack()">Send</button>
+                            <button type="submit">Send</button>
                         </form>
                         </div>
                         <div class="modal-footer">
@@ -1440,7 +1440,7 @@
                             <label class="text-white" style="font-size:16px;">Payment terms</label>
                             <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$mani->payment_terms}}">
 
-                            <button type="submit" onclick="payWithPaystack()">Send</button>
+                            <button type="submit">Send</button>
                         </form>
                         </div>
                         <div class="modal-footer">
@@ -1480,7 +1480,7 @@
                             <label class="text-white" style="font-size:16px;">Payment terms</label>
                             <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$facial->payment_terms}}">
 
-                            <button type="submit" onclick="payWithPaystack()">Send</button>
+                            <button type="submit">Send</button>
                         </form>
                         </div>
                         <div class="modal-footer">
@@ -1520,7 +1520,7 @@
                         <label class="text-white" style="font-size:16px;">Payment terms</label>
                         <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$hot->payment_terms}}">
 
-                        <button type="submit" onclick="payWithPaystack()">Send</button>
+                        <button type="submit">Send</button>
                     </form>
                     </div>
                     <div class="modal-footer">
@@ -1560,7 +1560,7 @@
                         <label class="text-white" style="font-size:16px;">Payment terms</label>
                         <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$moroccan->payment_terms}}">
 
-                        <button type="submit" onclick="payWithPaystack()">Send</button>
+                        <button type="submit">Send</button>
                     </form>
                     </div>
                     <div class="modal-footer">
@@ -1600,7 +1600,7 @@
                         <label class="text-white" style="font-size:16px;">Payment terms</label>
                         <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$steam->payment_terms}}">
 
-                        <button type="submit" onclick="payWithPaystack()">Send</button>
+                        <button type="submit">Send</button>
                     </form>
                     </div>
                     <div class="modal-footer">
@@ -1640,7 +1640,7 @@
                         <label class="text-white" style="font-size:16px;">Payment terms</label>
                         <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$sauna->payment_terms}}">
 
-                        <button type="submit" onclick="payWithPaystack()">Send</button>
+                        <button type="submit">Send</button>
                     </form>
                     </div>
                     <div class="modal-footer">
@@ -1680,7 +1680,7 @@
                         <label class="text-white" style="font-size:16px;">Payment terms</label>
                         <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$waxing->payment_terms}}">
 
-                        <button type="submit" onclick="payWithPaystack()">Send</button>
+                        <button type="submit">Send</button>
                     </form>
                     </div>
                     <div class="modal-footer">
@@ -2100,41 +2100,38 @@
         </script>
         <script src="https://js.paystack.co/v1/inline.js"></script>
         <script>
-            const paymentForm = document.getElementById('paymentForm');
-            paymentForm.addEventListener("submit", payWithPaystack, false);
-            function payWithPaystack(e) {
-                e.preventDefault();
-                let handler = PaystackPop.setup({
-                    key: "{{ env('PAYSTACK_PUBLIC_KEY') }}",
-                    email: document.getElementById("email").value,
-                    amount: document.getElementById("amount").value * 100/2,
-                    ref: ''+Math.floor((Math.random()*10000000000) + 1),
+        const paymentForm = document.getElementById('paymentForm');
+        paymentForm.addEventListener("submit", payWithPaystack, false);
 
-                    metadata: {
-                            custom_fields: [
-                            {
-                                name: document.getElementById("name").value,
-                                booking_date: document.getElementById("booking_date").value,
-                                time: document.getElementById("time").value,
-                                service_name: document.getElementById("service_name").value,
-                                payment_terms: document.getElementById("payment_terms").value,
-                                service_type: document.getElementById("service_type").value
+        function payWithPaystack(e) {
+            e.preventDefault();
+            let handler = PaystackPop.setup({
+                key: "{{ env('PAYSTACK_PUBLIC_KEY') }}",
+                email: document.getElementById("email").value,
+                amount: document.getElementById("amount").value * 100 / 2,
+                ref: '' + Math.floor((Math.random() * 10000000000) + 1),
 
-                            },
-                        ]
-                    },
-                    onClose: function(){
-                        alert('Window closed.');
-                    },
-                    callback: function(response){
-                        let message = 'Payment complete! Reference: ' + response.reference;
-                        alert(message);
-                        alert(JSON.stringify(response));
-                        window.location.href = "{{ route('callback') }}" + response.redirecturl;
-                    }
-                });
-                handler.openIframe();
-            }
+                metadata: {
+                    custom_fields: [
+                        {
+                            name: document.getElementById("name").value,
+                            booking_date: document.getElementById("booking_date").value,
+                            time: document.getElementById("time").value,
+                            service_name: document.getElementById("service_name").value,
+                            payment_terms: document.getElementById("payment_terms").value,
+                            service_type: document.getElementById("service_type").value
+                        },
+                    ]
+                },
+                onClose: function(){
+                    alert('Window closed.');
+                },
+                callback: function(response){
+                    window.location.href = "{{ route('callback') }}?trxref=" + response.reference + "&reference=" + response.reference;
+                }
+            });
+            handler.openIframe();
+        }
         </script>
 
    </body>
