@@ -54,11 +54,12 @@ class PaymentController extends Controller
         //dd($response);
         $meta_data = $response->data->metadata->custom_fields;
         if($response->data->status == 'success')
-        dd($response->data->metadata);
 
         {
             $obj = new Booking;
             $obj->payment_id = $reference;
+            dd($response->data->metadata);
+
             $obj->name = $meta_data[0]->value;
             $obj->booking_date = $meta_data[1]->value;
             $obj->time = $meta_data[2]->value;
