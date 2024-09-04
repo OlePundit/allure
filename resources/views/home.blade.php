@@ -1222,7 +1222,7 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <form method="POST" action="/b">
+                                <form id="paymentForm">
                                     <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
                                     <input type="email" class="form-control mb-3" name="email" placeholder="email" required>
                                     <label class="text-white" style="font-size:16px;">Booking date</label>
@@ -1261,7 +1261,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                        <form method="POST" action="/b">
+                        <form id="paymentForm">
                             <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
                             <input type="email" class="form-control mb-3" name="email" placeholder="email" required>
                             <label class="text-white" style="font-size:16px;">Booking date</label>
@@ -1301,7 +1301,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                        <form method="POST" action="/b">
+                        <form id="paymentForm">
                             <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
                             <input type="email" class="form-control mb-3" name="email" placeholder="email" required>
                             <label class="text-white" style="font-size:16px;">Booking date</label>
@@ -1341,7 +1341,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                        <form method="POST" action="/b">
+                        <form id="paymentForm">
                             <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
                             <input type="email" class="form-control mb-3" name="email" placeholder="email" required>
                             <label class="text-white" style="font-size:16px;">Booking date</label>
@@ -1381,7 +1381,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                        <form method="POST" action="/b">
+                        <form id="paymentForm">
                             <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
                             <input type="email" class="form-control mb-3" name="email" placeholder="email" required>
                             <label class="text-white" style="font-size:16px;">Booking date</label>
@@ -1421,7 +1421,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                        <form method="POST" action="/b">
+                        <form id="paymentForm">
                             <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
                             <input type="email" class="form-control mb-3" name="email" placeholder="email" required>
                             <label class="text-white" style="font-size:16px;">Booking date</label>
@@ -1461,7 +1461,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                        <form method="POST" action="/b">
+                        <form id="paymentForm">
                             <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
                             <input type="email" class="form-control mb-3" name="email" placeholder="email" required>
                             <label class="text-white" style="font-size:16px;">Booking date</label>
@@ -1501,7 +1501,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                    <form method="POST" action="/b">
+                    <form id="paymentForm">
                         <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
                         <input type="email" class="form-control mb-3" name="email" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
@@ -1541,7 +1541,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                    <form method="POST" action="/b">
+                    <form id="paymentForm">
                         <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
                         <input type="email" class="form-control mb-3" name="email" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
@@ -1581,7 +1581,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                    <form method="POST" action="/b">
+                    <form id="paymentForm">
                         <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
                         <input type="email" class="form-control mb-3" name="email" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
@@ -1621,7 +1621,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                    <form method="POST" action="/b">
+                    <form id="paymentForm">
                         <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
                         <input type="email" class="form-control mb-3" name="email" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
@@ -1661,7 +1661,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                    <form method="POST" action="/b">
+                    <form id="paymentForm">
                         <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
                         <input type="email" class="form-control mb-3" name="email" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>

@@ -74,23 +74,7 @@ class HomeController extends Controller
     {
         return view('thanks');
     }
-    public function store()
-    {
-        $data = $request->validate();
 
-        $booking = Booking::create([
-            'name'=> $data['name'],
-            'phone'=>$data['phone'],
-            'name'=>$data['booking_date'],
-            'time'=>$data['time'],
-            'amount'=>$data['amount'],
-            'service_name'=>$data['service_name'],
-            'payment_terms'=>$data['payment_terms'],
-
-        ]);
-
-        return()->redirect('/thank-you');
-    }
     public function blogs()
     {
         $blogs = Blog::all();

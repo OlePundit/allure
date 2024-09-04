@@ -15,7 +15,6 @@ Route::post('/pay', [PaymentController::class, 'redirectToGateway'])->name('pay'
 Route::get('/callback', [PaymentController::class, 'handleGatewayCallback'])->name('pay');
 Route::get('success', [PaymentController::class, 'success'])->name('success');
 Route::get('cancel', [PaymentController::class, 'cancel'])->name('cancel');
-Route::post('/b', [HomeController::class, 'store']);
 Route::get('/thank-you', [HomeController::class, 'thanks']);
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
