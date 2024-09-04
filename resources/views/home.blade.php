@@ -1240,7 +1240,7 @@
                                     <label class="text-white" style="font-size:16px;">Payment terms</label>
                                     <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$salon->payment_terms}}">
 
-                                    <button type="submit">Send</button>
+                                    <button type="submit" onclick="payWithPaystack()">Send</button>
                                 </form>
                             </div>
                             <div class="modal-footer">
@@ -1280,7 +1280,7 @@
                             <label class="text-white" style="font-size:16px;">Payment terms</label>
                             <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$salonC->payment_terms}}">
 
-                            <button type="submit">Send</button>
+                            <button type="submit" onclick="payWithPaystack()">Send</button>
                         </form>
                         </div>
                         <div class="modal-footer">
@@ -1320,7 +1320,7 @@
                             <label class="text-white" style="font-size:16px;">Payment terms</label>
                             <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$barberA->payment_terms}}">
 
-                            <button type="submit">Send</button>
+                            <button type="submit" onclick="payWithPaystack()">Send</button>
                         </form>
                         </div>
                         <div class="modal-footer">
@@ -1360,7 +1360,7 @@
                             <label class="text-white" style="font-size:16px;">Payment terms</label>
                             <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$barberC->payment_terms}}">
 
-                            <button type="submit">Send</button>
+                            <button type="submit" onclick="payWithPaystack()">Send</button>
                         </form>
                         </div>
                         <div class="modal-footer">
@@ -1400,7 +1400,7 @@
                             <label class="text-white" style="font-size:16px;">Payment terms</label>
                             <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$massage->payment_terms}}">
 
-                            <button type="submit">Send</button>
+                            <button type="submit" onclick="payWithPaystack()">Send</button>
                         </form>
                         </div>
                         <div class="modal-footer">
@@ -1440,7 +1440,7 @@
                             <label class="text-white" style="font-size:16px;">Payment terms</label>
                             <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$mani->payment_terms}}">
 
-                            <button type="submit">Send</button>
+                            <button type="submit" onclick="payWithPaystack()">Send</button>
                         </form>
                         </div>
                         <div class="modal-footer">
@@ -1480,7 +1480,7 @@
                             <label class="text-white" style="font-size:16px;">Payment terms</label>
                             <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$facial->payment_terms}}">
 
-                            <button type="submit">Send</button>
+                            <button type="submit" onclick="payWithPaystack()">Send</button>
                         </form>
                         </div>
                         <div class="modal-footer">
@@ -1520,7 +1520,7 @@
                         <label class="text-white" style="font-size:16px;">Payment terms</label>
                         <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$hot->payment_terms}}">
 
-                        <button type="submit">Send</button>
+                        <button type="submit" onclick="payWithPaystack()">Send</button>
                     </form>
                     </div>
                     <div class="modal-footer">
@@ -1560,7 +1560,7 @@
                         <label class="text-white" style="font-size:16px;">Payment terms</label>
                         <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$moroccan->payment_terms}}">
 
-                        <button type="submit">Send</button>
+                        <button type="submit" onclick="payWithPaystack()">Send</button>
                     </form>
                     </div>
                     <div class="modal-footer">
@@ -1600,7 +1600,7 @@
                         <label class="text-white" style="font-size:16px;">Payment terms</label>
                         <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$steam->payment_terms}}">
 
-                        <button type="submit">Send</button>
+                        <button type="submit" onclick="payWithPaystack()">Send</button>
                     </form>
                     </div>
                     <div class="modal-footer">
@@ -1640,7 +1640,7 @@
                         <label class="text-white" style="font-size:16px;">Payment terms</label>
                         <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$sauna->payment_terms}}">
 
-                        <button type="submit">Send</button>
+                        <button type="submit" onclick="payWithPaystack()">Send</button>
                     </form>
                     </div>
                     <div class="modal-footer">
@@ -1680,7 +1680,7 @@
                         <label class="text-white" style="font-size:16px;">Payment terms</label>
                         <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$waxing->payment_terms}}">
 
-                        <button type="submit">Send</button>
+                        <button type="submit" onclick="payWithPaystack()">Send</button>
                     </form>
                     </div>
                     <div class="modal-footer">
