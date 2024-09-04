@@ -2127,9 +2127,9 @@
                         alert('Window closed.');
                     },
                     callback: function(response){
-                        // let message = 'Payment complete! Reference: ' + response.reference;
-                        // alert(message);
-                        //alert(JSON.stringify(response));
+                        let message = 'Payment complete! Reference: ' + response.reference;
+                        alert(message);
+                        alert(JSON.stringify(response));
                         window.location.href = "{{ route('callback') }}" + response.redirecturl;
                     }
                 });
