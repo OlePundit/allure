@@ -12,7 +12,7 @@ Route::get('/blogs',[App\Http\Controllers\HomeController::class, 'blogs'])->name
 Route::get('/blogs/{slug}', [App\Http\Controllers\HomeController::class, 'blog'])->name('blog');
 Route::get('/services',[App\Http\Controllers\HomeController::class, 'services'])->name('services');
 Route::post('/pay', [PaymentController::class, 'redirectToGateway'])->name('pay');
-Route::get('/callback', [PaymentController::class, 'handleGatewayCallback'])->name('pay');
+Route::get('/callback', [PaymentController::class, 'handleGatewayCallback'])->name('callback');
 Route::get('success', [PaymentController::class, 'success'])->name('success');
 Route::get('cancel', [PaymentController::class, 'cancel'])->name('cancel');
 Route::get('/thank-you', [HomeController::class, 'thanks']);
