@@ -1223,22 +1223,22 @@
                             </div>
                             <div class="modal-body">
                                 <form id="paymentForm">
-                                    <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
-                                    <input type="email" class="form-control mb-3" name="email" placeholder="email" required>
+                                    <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
+                                    <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                                     <label class="text-white" style="font-size:16px;">Booking date</label>
-                                    <input type="text" id="datePicker" class="form-control mb-3" name="booking_date" placeholder="Booking date" required>
+                                    <input type="text" id="datePicker" class="form-control mb-3" id="booking_date" name="booking_date" placeholder="Booking date" required>
                                     <label class="text-white" style="font-size:16px;">Booking time</label>
-                                    <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>
+                                    <input type="text" id="timePicker" class="form-control mb-3" id="time" name="time" placeholder="Select time" required>
                                     
-                                    <input type="text" class="form-control mb-3" name="service_type" value="Salon">
+                                    <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Salon">
 
                                     <label class="text-white" style="font-size:16px;">Price</label>
-                                    <input type="text" class="form-control mb-3" name="amount" value="{{$salon->price}}">
+                                    <input type="text" class="form-control mb-3" id="amount" name="amount" value="{{$salon->price}}">
 
                                     <label class="text-white" style="font-size:16px;">Service name</label>
-                                    <input type="text" class="form-control mb-3" name="service_name" value="{{$salon->name}}">
+                                    <input type="text" class="form-control mb-3" id="service_name" name="service_name" value="{{$salon->name}}">
                                     <label class="text-white" style="font-size:16px;">Payment terms</label>
-                                    <input type="text" class="form-control mb-3" name="payment_terms" value="{{$salon->payment_terms}}">
+                                    <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$salon->payment_terms}}">
 
                                     <button type="submit">Send</button>
                                 </form>
@@ -1262,23 +1262,23 @@
                         </div>
                         <div class="modal-body">
                         <form id="paymentForm">
-                            <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
-                            <input type="email" class="form-control mb-3" name="email" placeholder="email" required>
+                            <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
+                            <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                             <label class="text-white" style="font-size:16px;">Booking date</label>
-                            <input type="text" id="datePicker" class="form-control mb-3" name="booking_date" placeholder="Booking date" required>
+                            <input type="text" id="datePicker" class="form-control mb-3" id="booking_date" name="booking_date" placeholder="Booking date" required>
                             <label class="text-white" style="font-size:16px;">Booking time</label>
-                            <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>                                                     
+                            <input type="text" id="timePicker" class="form-control mb-3" id="time" name="time" placeholder="Select time" required>                                                     
                             
-                            <input type="text" class="form-control mb-3" name="service_type" value="Salon (Caucasian hair)">
+                            <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Salon (Caucasian hair)">
 
                             <label class="text-white" style="font-size:16px;">Price</label>
 
-                            <input type="text" class="form-control mb-3" name="amount" value="{{$salonC->price}}">
+                            <input type="text" class="form-control mb-3" id="amount" name="amount" value="{{$salonC->price}}">
 
                             <label class="text-white" style="font-size:16px;">Service name</label>
-                            <input type="text" class="form-control mb-3" name="service_name" value="{{$salonC->name}}">
+                            <input type="text" class="form-control mb-3" id="service_name" name="service_name" value="{{$salonC->name}}">
                             <label class="text-white" style="font-size:16px;">Payment terms</label>
-                            <input type="text" class="form-control mb-3" name="payment_terms" value="{{$salonC->payment_terms}}">
+                            <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$salonC->payment_terms}}">
 
                             <button type="submit">Send</button>
                         </form>
@@ -1302,23 +1302,23 @@
                         </div>
                         <div class="modal-body">
                         <form id="paymentForm">
-                            <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
-                            <input type="email" class="form-control mb-3" name="email" placeholder="email" required>
+                            <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
+                            <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                             <label class="text-white" style="font-size:16px;">Booking date</label>
-                            <input type="text" id="datePicker" class="form-control mb-3" name="booking_date" placeholder="Booking date" required>
+                            <input type="text" id="datePicker" class="form-control mb-3" id="booking_date" name="booking_date" placeholder="Booking date" required>
                             <label class="text-white" style="font-size:16px;">Booking time</label>
-                            <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>                                                     
+                            <input type="text" id="timePicker" class="form-control mb-3" id="time" name="time" placeholder="Select time" required>                                                     
                             
-                            <input type="text" class="form-control mb-3" name="service_type" value="Barber Shop (African Hair)">
+                            <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Barber Shop (African Hair)">
 
                             <label class="text-white" style="font-size:16px;">Price</label>
 
-                            <input type="text" class="form-control mb-3" name="amount" value="{{$barberA->price}}">
+                            <input type="text" class="form-control mb-3" id="amount" name="amount" value="{{$barberA->price}}">
 
                             <label class="text-white" style="font-size:16px;">Service name</label>
-                            <input type="text" class="form-control mb-3" name="service_name" value="{{$barberA->name}}">
+                            <input type="text" class="form-control mb-3" id="service_name" name="service_name" value="{{$barberA->name}}">
                             <label class="text-white" style="font-size:16px;">Payment terms</label>
-                            <input type="text" class="form-control mb-3" name="payment_terms" value="{{$barberA->payment_terms}}">
+                            <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$barberA->payment_terms}}">
 
                             <button type="submit">Send</button>
                         </form>
@@ -1342,23 +1342,23 @@
                         </div>
                         <div class="modal-body">
                         <form id="paymentForm">
-                            <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
-                            <input type="email" class="form-control mb-3" name="email" placeholder="email" required>
+                            <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
+                            <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                             <label class="text-white" style="font-size:16px;">Booking date</label>
-                            <input type="text" id="datePicker" class="form-control mb-3" name="booking_date" placeholder="Booking date" required>
+                            <input type="text" id="datePicker" class="form-control mb-3" id="booking_date" name="booking_date" placeholder="Booking date" required>
                             <label class="text-white" style="font-size:16px;">Booking time</label>
-                            <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>                                                     
+                            <input type="text" id="timePicker" class="form-control mb-3" id="time" name="time" placeholder="Select time" required>                                                     
                             
-                            <input type="text" class="form-control mb-3" name="service_type" value="Barber Shop (Caucasian Hair)">
+                            <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Barber Shop (Caucasian Hair)">
 
                             <label class="text-white" style="font-size:16px;">Price</label>
 
-                            <input type="text" class="form-control mb-3" name="amount" value="{{$barberC->price}}">
+                            <input type="text" class="form-control mb-3" id="amount" name="amount" value="{{$barberC->price}}">
 
                             <label class="text-white" style="font-size:16px;">Service name</label>
-                            <input type="text" class="form-control mb-3" name="service_name" value="{{$barberC->name}}">
+                            <input type="text" class="form-control mb-3" id="service_name" name="service_name" value="{{$barberC->name}}">
                             <label class="text-white" style="font-size:16px;">Payment terms</label>
-                            <input type="text" class="form-control mb-3" name="payment_terms" value="{{$barberC->payment_terms}}">
+                            <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$barberC->payment_terms}}">
 
                             <button type="submit">Send</button>
                         </form>
@@ -1382,23 +1382,23 @@
                         </div>
                         <div class="modal-body">
                         <form id="paymentForm">
-                            <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
-                            <input type="email" class="form-control mb-3" name="email" placeholder="email" required>
+                            <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
+                            <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                             <label class="text-white" style="font-size:16px;">Booking date</label>
-                            <input type="text" id="datePicker" class="form-control mb-3" name="booking_date" placeholder="Booking date" required>
+                            <input type="text" id="datePicker" class="form-control mb-3" id="booking_date" name="booking_date" placeholder="Booking date" required>
                             <label class="text-white" style="font-size:16px;">Booking time</label>
-                            <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>                                                     
+                            <input type="text" id="timePicker" class="form-control mb-3" id="time" name="time" placeholder="Select time" required>                                                     
                             
-                            <input type="text" class="form-control mb-3" name="service_type" value="Massage Services">
+                            <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Massage Services">
 
                             <label class="text-white" style="font-size:16px;">Price</label>
 
-                            <input type="text" class="form-control mb-3" name="amount" value="{{$massage->price}}">
+                            <input type="text" class="form-control mb-3" id="amount" name="amount" value="{{$massage->price}}">
 
                             <label class="text-white" style="font-size:16px;">Service name</label>
-                            <input type="text" class="form-control mb-3" name="service_name" value="{{$massage->name}}">
+                            <input type="text" class="form-control mb-3" id="service_name" name="service_name" value="{{$massage->name}}">
                             <label class="text-white" style="font-size:16px;">Payment terms</label>
-                            <input type="text" class="form-control mb-3" name="payment_terms" value="{{$massage->payment_terms}}">
+                            <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$massage->payment_terms}}">
 
                             <button type="submit">Send</button>
                         </form>
@@ -1422,23 +1422,23 @@
                         </div>
                         <div class="modal-body">
                         <form id="paymentForm">
-                            <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
-                            <input type="email" class="form-control mb-3" name="email" placeholder="email" required>
+                            <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
+                            <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                             <label class="text-white" style="font-size:16px;">Booking date</label>
-                            <input type="text" id="datePicker" class="form-control mb-3" name="booking_date" placeholder="Booking date" required>
+                            <input type="text" id="datePicker" class="form-control mb-3" id="booking_date" name="booking_date" placeholder="Booking date" required>
                             <label class="text-white" style="font-size:16px;">Booking time</label>
-                            <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>                                                     
+                            <input type="text" id="timePicker" class="form-control mb-3" id="time" name="time" placeholder="Select time" required>                                                     
                             
-                            <input type="text" class="form-control mb-3" name="service_type" value="Mani-pedi treat">
+                            <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Mani-pedi treat">
 
                             <label class="text-white" style="font-size:16px;">Price</label>
 
-                            <input type="text" class="form-control mb-3" name="amount" value="{{$mani->price}}">
+                            <input type="text" class="form-control mb-3" id="amount" name="amount" value="{{$mani->price}}">
 
                             <label class="text-white" style="font-size:16px;">Service name</label>
-                            <input type="text" class="form-control mb-3" name="service_name" value="{{$mani->name}}">
+                            <input type="text" class="form-control mb-3" id="service_name" name="service_name" value="{{$mani->name}}">
                             <label class="text-white" style="font-size:16px;">Payment terms</label>
-                            <input type="text" class="form-control mb-3" name="payment_terms" value="{{$mani->payment_terms}}">
+                            <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$mani->payment_terms}}">
 
                             <button type="submit">Send</button>
                         </form>
@@ -1462,23 +1462,23 @@
                         </div>
                         <div class="modal-body">
                         <form id="paymentForm">
-                            <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
-                            <input type="email" class="form-control mb-3" name="email" placeholder="email" required>
+                            <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
+                            <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                             <label class="text-white" style="font-size:16px;">Booking date</label>
-                            <input type="text" id="datePicker" class="form-control mb-3" name="booking_date" placeholder="Booking date" required>
+                            <input type="text" id="datePicker" class="form-control mb-3" id="booking_date" name="booking_date" placeholder="Booking date" required>
                             <label class="text-white" style="font-size:16px;">Booking time</label>
-                            <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>                                                     
+                            <input type="text" id="timePicker" class="form-control mb-3" id="time" name="time" placeholder="Select time" required>                                                     
                             
-                            <input type="text" class="form-control mb-3" name="service_type" value="Facials">
+                            <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Facials">
 
                             <label class="text-white" style="font-size:16px;">Price</label>
 
-                            <input type="text" class="form-control mb-3" name="amount" value="{{$facial->price}}">
+                            <input type="text" class="form-control mb-3" id="amount" name="amount" value="{{$facial->price}}">
 
                             <label class="text-white" style="font-size:16px;">Service name</label>
-                            <input type="text" class="form-control mb-3" name="service_name" value="{{$facial->name}}">
+                            <input type="text" class="form-control mb-3" id="service_name" name="service_name" value="{{$facial->name}}">
                             <label class="text-white" style="font-size:16px;">Payment terms</label>
-                            <input type="text" class="form-control mb-3" name="payment_terms" value="{{$facial->payment_terms}}">
+                            <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$facial->payment_terms}}">
 
                             <button type="submit">Send</button>
                         </form>
@@ -1502,23 +1502,23 @@
                     </div>
                     <div class="modal-body">
                     <form id="paymentForm">
-                        <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
-                        <input type="email" class="form-control mb-3" name="email" placeholder="email" required>
+                        <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
+                        <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
-                        <input type="text" id="datePicker" class="form-control mb-3" name="booking_date" placeholder="Booking date" required>
+                        <input type="text" id="datePicker" class="form-control mb-3" id="booking_date" name="booking_date" placeholder="Booking date" required>
                         <label class="text-white" style="font-size:16px;">Booking time</label>
-                        <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>                                                     
+                        <input type="text" id="timePicker" class="form-control mb-3" id="time" name="time" placeholder="Select time" required>                                                     
                         
-                        <input type="text" class="form-control mb-3" name="service_type" value="Hot stones">
+                        <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Hot stones">
 
                         <label class="text-white" style="font-size:16px;">Price</label>
 
-                        <input type="text" class="form-control mb-3" name="amount" value="{{$hot->price}}">
+                        <input type="text" class="form-control mb-3" id="amount" name="amount" value="{{$hot->price}}">
 
                         <label class="text-white" style="font-size:16px;">Service name</label>
-                        <input type="text" class="form-control mb-3" name="service_name" value="{{$hot->name}}">
+                        <input type="text" class="form-control mb-3" id="service_name" name="service_name" value="{{$hot->name}}">
                         <label class="text-white" style="font-size:16px;">Payment terms</label>
-                        <input type="text" class="form-control mb-3" name="payment_terms" value="{{$hot->payment_terms}}">
+                        <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$hot->payment_terms}}">
 
                         <button type="submit">Send</button>
                     </form>
@@ -1542,23 +1542,23 @@
                     </div>
                     <div class="modal-body">
                     <form id="paymentForm">
-                        <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
-                        <input type="email" class="form-control mb-3" name="email" placeholder="email" required>
+                        <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
+                        <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
-                        <input type="text" id="datePicker" class="form-control mb-3" name="booking_date" placeholder="Booking date" required>
+                        <input type="text" id="datePicker" class="form-control mb-3" id="booking_date" name="booking_date" placeholder="Booking date" required>
                         <label class="text-white" style="font-size:16px;">Booking time</label>
-                        <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>                                                     
+                        <input type="text" id="timePicker" class="form-control mb-3" id="time" name="time" placeholder="Select time" required>                                                     
                         
-                        <input type="text" class="form-control mb-3" name="service_type" value="Moroccan Bath">
+                        <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Moroccan Bath">
 
                         <label class="text-white" style="font-size:16px;">Price</label>
 
-                        <input type="text" class="form-control mb-3" name="amount" value="{{$moroccan->price}}">
+                        <input type="text" class="form-control mb-3" id="amount" name="amount" value="{{$moroccan->price}}">
 
                         <label class="text-white" style="font-size:16px;">Service name</label>
-                        <input type="text" class="form-control mb-3" name="service_name" value="{{$moroccan->name}}">
+                        <input type="text" class="form-control mb-3" id="service_name" name="service_name" value="{{$moroccan->name}}">
                         <label class="text-white" style="font-size:16px;">Payment terms</label>
-                        <input type="text" class="form-control mb-3" name="payment_terms" value="{{$moroccan->payment_terms}}">
+                        <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$moroccan->payment_terms}}">
 
                         <button type="submit">Send</button>
                     </form>
@@ -1582,23 +1582,23 @@
                     </div>
                     <div class="modal-body">
                     <form id="paymentForm">
-                        <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
-                        <input type="email" class="form-control mb-3" name="email" placeholder="email" required>
+                        <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
+                        <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
-                        <input type="text" id="datePicker" class="form-control mb-3" name="booking_date" placeholder="Booking date" required>
+                        <input type="text" id="datePicker" class="form-control mb-3" id="booking_date" name="booking_date" placeholder="Booking date" required>
                         <label class="text-white" style="font-size:16px;">Booking time</label>
-                        <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>                                                     
+                        <input type="text" id="timePicker" class="form-control mb-3" id="time" name="time" placeholder="Select time" required>                                                     
                         
-                        <input type="text" class="form-control mb-3" name="service_type" value="Steam Aroma">
+                        <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Steam Aroma">
 
                         <label class="text-white" style="font-size:16px;">Price</label>
 
-                        <input type="text" class="form-control mb-3" name="amount" value="{{$steam->price}}">
+                        <input type="text" class="form-control mb-3" id="amount" name="amount" value="{{$steam->price}}">
 
                         <label class="text-white" style="font-size:16px;">Service name</label>
-                        <input type="text" class="form-control mb-3" name="service_name" value="{{$steam->name}}">
+                        <input type="text" class="form-control mb-3" id="service_name" name="service_name" value="{{$steam->name}}">
                         <label class="text-white" style="font-size:16px;">Payment terms</label>
-                        <input type="text" class="form-control mb-3" name="payment_terms" value="{{$steam->payment_terms}}">
+                        <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$steam->payment_terms}}">
 
                         <button type="submit">Send</button>
                     </form>
@@ -1622,23 +1622,23 @@
                     </div>
                     <div class="modal-body">
                     <form id="paymentForm">
-                        <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
-                        <input type="email" class="form-control mb-3" name="email" placeholder="email" required>
+                        <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
+                        <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
-                        <input type="text" id="datePicker" class="form-control mb-3" name="booking_date" placeholder="Booking date" required>
+                        <input type="text" id="datePicker" class="form-control mb-3" id="booking_date" name="booking_date" placeholder="Booking date" required>
                         <label class="text-white" style="font-size:16px;">Booking time</label>
-                        <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>                                                     
+                        <input type="text" id="timePicker" class="form-control mb-3" id="time" name="time" placeholder="Select time" required>                                                     
                         
-                        <input type="text" class="form-control mb-3" name="service_type" value="Sauna">
+                        <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Sauna">
 
                         <label class="text-white" style="font-size:16px;">Price</label>
 
-                        <input type="text" class="form-control mb-3" name="amount" value="{{$sauna->price}}">
+                        <input type="text" class="form-control mb-3" id="amount" name="amount" value="{{$sauna->price}}">
 
                         <label class="text-white" style="font-size:16px;">Service name</label>
-                        <input type="text" class="form-control mb-3" name="service_name" value="{{$sauna->name}}">
+                        <input type="text" class="form-control mb-3" id="service_name" name="service_name" value="{{$sauna->name}}">
                         <label class="text-white" style="font-size:16px;">Payment terms</label>
-                        <input type="text" class="form-control mb-3" name="payment_terms" value="{{$sauna->payment_terms}}">
+                        <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$sauna->payment_terms}}">
 
                         <button type="submit">Send</button>
                     </form>
@@ -1662,23 +1662,23 @@
                     </div>
                     <div class="modal-body">
                     <form id="paymentForm">
-                        <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
-                        <input type="email" class="form-control mb-3" name="email" placeholder="email" required>
+                        <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
+                        <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
-                        <input type="text" id="datePicker" class="form-control mb-3" name="booking_date" placeholder="Booking date" required>
+                        <input type="text" id="datePicker" class="form-control mb-3" id="booking_date" name="booking_date" placeholder="Booking date" required>
                         <label class="text-white" style="font-size:16px;">Booking time</label>
-                        <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>                                                     
+                        <input type="text" id="timePicker" class="form-control mb-3" id="time" name="time" placeholder="Select time" required>                                                     
                         
-                        <input type="text" class="form-control mb-3" name="service_type" value="Waxing">
+                        <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Waxing">
 
                         <label class="text-white" style="font-size:16px;">Price</label>
 
-                        <input type="text" class="form-control mb-3" name="amount" value="{{$waxing->price}}">
+                        <input type="text" class="form-control mb-3" id="amount" name="amount" value="{{$waxing->price}}">
 
                         <label class="text-white" style="font-size:16px;">Service name</label>
-                        <input type="text" class="form-control mb-3" name="service_name" value="{{$waxing->name}}">
+                        <input type="text" class="form-control mb-3" id="service_name" name="service_name" value="{{$waxing->name}}">
                         <label class="text-white" style="font-size:16px;">Payment terms</label>
-                        <input type="text" class="form-control mb-3" name="payment_terms" value="{{$waxing->payment_terms}}">
+                        <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$waxing->payment_terms}}">
 
                         <button type="submit">Send</button>
                     </form>
@@ -2118,6 +2118,8 @@
                                 time: document.getElementById("time").value,
                                 service_name: document.getElementById("service_name").value,
                                 payment_terms: document.getElementById("payment_terms").value
+                                service_type: document.getElementById("service_type").value
+
                             },
                         ]
                     },

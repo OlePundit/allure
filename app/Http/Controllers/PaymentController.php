@@ -60,7 +60,8 @@ class PaymentController extends Controller
             $obj->time = $meta_data[2]->value;
             $obj->service_name = $meta_data[3]->value;
             $obj->payment_terms = $meta_data[4]->value;
-  
+            $obj->service_type = $meta_data[5]->value;
+
             $obj->amount = $response->data->amount;
             $obj->email = $response->data->email;
 
