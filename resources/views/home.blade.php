@@ -1233,6 +1233,8 @@
                                     <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Salon">
 
                                     <label class="text-white" style="font-size:16px;">Price</label>
+                                    <input type="hidden" name="orderID" value="{{ $salon->id }}"/>
+
                                     <input type="text" class="form-control mb-3" id="amount" name="amount" value="{{$salon->price}}">
 
                                     <label class="text-white" style="font-size:16px;">Service name</label>
@@ -1272,6 +1274,8 @@
                             <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Salon (Caucasian hair)">
 
                             <label class="text-white" style="font-size:16px;">Price</label>
+                            <input type="hidden" name="orderID" value="{{ $salonC->id }}"/>
+
 
                             <input type="text" class="form-control mb-3" id="amount" name="amount" value="{{$salonC->price}}">
 
@@ -1312,6 +1316,8 @@
                             <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Barber Shop (African Hair)">
 
                             <label class="text-white" style="font-size:16px;">Price</label>
+                            <input type="hidden" name="orderID" value="{{ $barberA->id }}"/>
+
 
                             <input type="text" class="form-control mb-3" id="amount" name="amount" value="{{$barberA->price}}">
 
@@ -1352,6 +1358,8 @@
                             <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Barber Shop (Caucasian Hair)">
 
                             <label class="text-white" style="font-size:16px;">Price</label>
+                            <input type="hidden" name="orderID" value="{{ $barberC->id }}"/>
+
 
                             <input type="text" class="form-control mb-3" id="amount" name="amount" value="{{$barberC->price}}">
 
@@ -1392,6 +1400,8 @@
                             <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Massage Services">
 
                             <label class="text-white" style="font-size:16px;">Price</label>
+                            <input type="hidden" name="orderID" value="{{ $massage->id }}"/>
+
 
                             <input type="text" class="form-control mb-3" id="amount" name="amount" value="{{$massage->price}}">
 
@@ -1432,6 +1442,8 @@
                             <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Mani-pedi treat">
 
                             <label class="text-white" style="font-size:16px;">Price</label>
+                            <input type="hidden" name="orderID" value="{{ $mani->id }}"/>
+
 
                             <input type="text" class="form-control mb-3" id="amount" name="amount" value="{{$mani->price}}">
 
@@ -1472,6 +1484,8 @@
                             <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Facials">
 
                             <label class="text-white" style="font-size:16px;">Price</label>
+                            <input type="hidden" name="orderID" value="{{ $facial->id }}"/>
+
 
                             <input type="text" class="form-control mb-3" id="amount" name="amount" value="{{$facial->price}}">
 
@@ -1512,6 +1526,8 @@
                         <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Hot stones">
 
                         <label class="text-white" style="font-size:16px;">Price</label>
+                        <input type="hidden" name="orderID" value="{{ $hot->id }}"/>
+
 
                         <input type="text" class="form-control mb-3" id="amount" name="amount" value="{{$hot->price}}">
 
@@ -1552,6 +1568,8 @@
                         <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Moroccan Bath">
 
                         <label class="text-white" style="font-size:16px;">Price</label>
+                        <input type="hidden" name="orderID" value="{{ $moroccan->id }}"/>
+
 
                         <input type="text" class="form-control mb-3" id="amount" name="amount" value="{{$moroccan->price}}">
 
@@ -1592,6 +1610,8 @@
                         <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Steam Aroma">
 
                         <label class="text-white" style="font-size:16px;">Price</label>
+                        <input type="hidden" name="orderID" value="{{ $steam->id }}"/>
+
 
                         <input type="text" class="form-control mb-3" id="amount" name="amount" value="{{$steam->price}}">
 
@@ -1632,6 +1652,8 @@
                         <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Sauna">
 
                         <label class="text-white" style="font-size:16px;">Price</label>
+                        <input type="hidden" name="orderID" value="{{ $sauna->id }}"/>
+
 
                         <input type="text" class="form-control mb-3" id="amount" name="amount" value="{{$sauna->price}}">
 
@@ -1672,6 +1694,8 @@
                         <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Waxing">
 
                         <label class="text-white" style="font-size:16px;">Price</label>
+                        <input type="hidden" name="orderID" value="{{ $waxing->id }}"/>
+
 
                         <input type="text" class="form-control mb-3" id="amount" name="amount" value="{{$waxing->price}}">
 

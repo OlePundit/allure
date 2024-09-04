@@ -8,6 +8,9 @@ use Illuminate\Support\Facades\Redirect;
 use Paystack;
 use Illuminate\Support\Facades\Auth;
 use App\Models\Booking;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\BookingConfirmation;
+use App\Mail\BookingConfirmationAdmin;
 
 
 class PaymentController extends Controller
@@ -67,6 +70,10 @@ class PaymentController extends Controller
 
             $obj->currency = $response->data->currency;
             $obj->save();
+
+            Mail::to($obj->email)->send(new BookingConfirmation($obj));
+            Mail::to('info@allureessencespa.com')->send(new BookingConfirmationAdmin($obj));
+
             return redirect()->route('success');
         } else {
             return redirect()->route('cancel');
