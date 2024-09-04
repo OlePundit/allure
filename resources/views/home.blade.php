@@ -2110,7 +2110,7 @@
                 email: document.getElementById("email").value,
                 amount: document.getElementById("amount").value * 100 / 2,
                 ref: '' + Math.floor((Math.random() * 10000000000) + 1),
-
+                currency: 'KES',
                 metadata: {
                     custom_fields: [
                         {
