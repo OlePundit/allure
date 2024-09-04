@@ -2117,7 +2117,7 @@
                                 booking_date: document.getElementById("booking_date").value,
                                 time: document.getElementById("time").value,
                                 service_name: document.getElementById("service_name").value,
-                                payment_terms: document.getElementById("payment_terms").value
+                                payment_terms: document.getElementById("payment_terms").value,
                                 service_type: document.getElementById("service_type").value
 
                             },
