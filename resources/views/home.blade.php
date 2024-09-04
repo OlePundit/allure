@@ -1226,9 +1226,9 @@
                                     <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
                                     <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                                     <label class="text-white" style="font-size:16px;">Booking date</label>
-                                    <input type="text" id="datePicker" class="form-control mb-3" id="booking_date" name="booking_date" placeholder="Booking date" required>
+                                    <input type="text" id="datePicker" class="form-control mb-3" name="booking_date" placeholder="Booking date" required>
                                     <label class="text-white" style="font-size:16px;">Booking time</label>
-                                    <input type="text" id="timePicker" class="form-control mb-3" id="time" name="time" placeholder="Select time" required>
+                                    <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>
                                     
                                     <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Salon">
 
@@ -1265,9 +1265,9 @@
                             <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
                             <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                             <label class="text-white" style="font-size:16px;">Booking date</label>
-                            <input type="text" id="datePicker" class="form-control mb-3" id="booking_date" name="booking_date" placeholder="Booking date" required>
+                            <input type="text" id="datePicker" class="form-control mb-3" name="booking_date" placeholder="Booking date" required>
                             <label class="text-white" style="font-size:16px;">Booking time</label>
-                            <input type="text" id="timePicker" class="form-control mb-3" id="time" name="time" placeholder="Select time" required>                                                     
+                            <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>                                                     
                             
                             <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Salon (Caucasian hair)">
 
@@ -1305,9 +1305,9 @@
                             <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
                             <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                             <label class="text-white" style="font-size:16px;">Booking date</label>
-                            <input type="text" id="datePicker" class="form-control mb-3" id="booking_date" name="booking_date" placeholder="Booking date" required>
+                            <input type="text" id="datePicker" class="form-control mb-3" name="booking_date" placeholder="Booking date" required>
                             <label class="text-white" style="font-size:16px;">Booking time</label>
-                            <input type="text" id="timePicker" class="form-control mb-3" id="time" name="time" placeholder="Select time" required>                                                     
+                            <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>                                                     
                             
                             <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Barber Shop (African Hair)">
 
@@ -1345,9 +1345,9 @@
                             <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
                             <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                             <label class="text-white" style="font-size:16px;">Booking date</label>
-                            <input type="text" id="datePicker" class="form-control mb-3" id="booking_date" name="booking_date" placeholder="Booking date" required>
+                            <input type="text" id="datePicker" class="form-control mb-3" name="booking_date" placeholder="Booking date" required>
                             <label class="text-white" style="font-size:16px;">Booking time</label>
-                            <input type="text" id="timePicker" class="form-control mb-3" id="time" name="time" placeholder="Select time" required>                                                     
+                            <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>                                                     
                             
                             <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Barber Shop (Caucasian Hair)">
 
@@ -1385,9 +1385,9 @@
                             <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
                             <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                             <label class="text-white" style="font-size:16px;">Booking date</label>
-                            <input type="text" id="datePicker" class="form-control mb-3" id="booking_date" name="booking_date" placeholder="Booking date" required>
+                            <input type="text" id="datePicker" class="form-control mb-3" name="booking_date" placeholder="Booking date" required>
                             <label class="text-white" style="font-size:16px;">Booking time</label>
-                            <input type="text" id="timePicker" class="form-control mb-3" id="time" name="time" placeholder="Select time" required>                                                     
+                            <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>                                                     
                             
                             <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Massage Services">
 
@@ -1425,9 +1425,9 @@
                             <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
                             <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                             <label class="text-white" style="font-size:16px;">Booking date</label>
-                            <input type="text" id="datePicker" class="form-control mb-3" id="booking_date" name="booking_date" placeholder="Booking date" required>
+                            <input type="text" id="datePicker" class="form-control mb-3" name="booking_date" placeholder="Booking date" required>
                             <label class="text-white" style="font-size:16px;">Booking time</label>
-                            <input type="text" id="timePicker" class="form-control mb-3" id="time" name="time" placeholder="Select time" required>                                                     
+                            <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>                                                     
                             
                             <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Mani-pedi treat">
 
@@ -1465,9 +1465,9 @@
                             <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
                             <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                             <label class="text-white" style="font-size:16px;">Booking date</label>
-                            <input type="text" id="datePicker" class="form-control mb-3" id="booking_date" name="booking_date" placeholder="Booking date" required>
+                            <input type="text" id="datePicker" class="form-control mb-3" name="booking_date" placeholder="Booking date" required>
                             <label class="text-white" style="font-size:16px;">Booking time</label>
-                            <input type="text" id="timePicker" class="form-control mb-3" id="time" name="time" placeholder="Select time" required>                                                     
+                            <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>                                                     
                             
                             <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Facials">
 
@@ -1505,9 +1505,9 @@
                         <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
                         <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
-                        <input type="text" id="datePicker" class="form-control mb-3" id="booking_date" name="booking_date" placeholder="Booking date" required>
+                        <input type="text" id="datePicker" class="form-control mb-3" name="booking_date" placeholder="Booking date" required>
                         <label class="text-white" style="font-size:16px;">Booking time</label>
-                        <input type="text" id="timePicker" class="form-control mb-3" id="time" name="time" placeholder="Select time" required>                                                     
+                        <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>                                                     
                         
                         <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Hot stones">
 
@@ -1545,9 +1545,9 @@
                         <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
                         <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
-                        <input type="text" id="datePicker" class="form-control mb-3" id="booking_date" name="booking_date" placeholder="Booking date" required>
+                        <input type="text" id="datePicker" class="form-control mb-3" name="booking_date" placeholder="Booking date" required>
                         <label class="text-white" style="font-size:16px;">Booking time</label>
-                        <input type="text" id="timePicker" class="form-control mb-3" id="time" name="time" placeholder="Select time" required>                                                     
+                        <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>                                                     
                         
                         <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Moroccan Bath">
 
@@ -1585,9 +1585,9 @@
                         <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
                         <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
-                        <input type="text" id="datePicker" class="form-control mb-3" id="booking_date" name="booking_date" placeholder="Booking date" required>
+                        <input type="text" id="datePicker" class="form-control mb-3" name="booking_date" placeholder="Booking date" required>
                         <label class="text-white" style="font-size:16px;">Booking time</label>
-                        <input type="text" id="timePicker" class="form-control mb-3" id="time" name="time" placeholder="Select time" required>                                                     
+                        <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>                                                     
                         
                         <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Steam Aroma">
 
@@ -1625,9 +1625,9 @@
                         <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
                         <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
-                        <input type="text" id="datePicker" class="form-control mb-3" id="booking_date" name="booking_date" placeholder="Booking date" required>
+                        <input type="text" id="datePicker" class="form-control mb-3" name="booking_date" placeholder="Booking date" required>
                         <label class="text-white" style="font-size:16px;">Booking time</label>
-                        <input type="text" id="timePicker" class="form-control mb-3" id="time" name="time" placeholder="Select time" required>                                                     
+                        <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>                                                     
                         
                         <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Sauna">
 
@@ -1665,9 +1665,9 @@
                         <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
                         <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
-                        <input type="text" id="datePicker" class="form-control mb-3" id="booking_date" name="booking_date" placeholder="Booking date" required>
+                        <input type="text" id="datePicker" class="form-control mb-3" name="booking_date" placeholder="Booking date" required>
                         <label class="text-white" style="font-size:16px;">Booking time</label>
-                        <input type="text" id="timePicker" class="form-control mb-3" id="time" name="time" placeholder="Select time" required>                                                     
+                        <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>                                                     
                         
                         <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="Waxing">
 
@@ -2115,8 +2115,8 @@
                     custom_fields: [
                         {
                             name: document.getElementById("name").value,
-                            booking_date: document.getElementById("booking_date").value,
-                            time: document.getElementById("time").value,
+                            booking_date: document.getElementById("datePicker").value,
+                            time: document.getElementById("timePicker").value,
                             service_name: document.getElementById("service_name").value,
                             payment_terms: document.getElementById("payment_terms").value,
                             service_type: document.getElementById("service_type").value
