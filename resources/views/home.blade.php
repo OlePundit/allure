@@ -2123,385 +2123,45 @@
                 navbar.classList.remove("scrolled");
             }
         });
-        const paymentForm = document.getElementById('paymentForm');
-        paymentForm.addEventListener("submit", payWithPaystack, false);
-
-        function payWithPaystack(e) {
-            e.preventDefault();
-            let handler = PaystackPop.setup({
-                key: "{{ env('PAYSTACK_PUBLIC_KEY') }}",
-                email: document.getElementById("email").value,
-                amount: document.getElementById("amount").value * 100 / 2,
-                ref: '' + Math.floor((Math.random() * 10000000000) + 1),
-                currency: 'KES',
-                metadata: {
-                    custom_fields: [
-                        {
-                            name: document.getElementById("name").value,
-                            booking_date: document.getElementById("datePicker").value,
-                            time: document.getElementById("timePicker").value,
-                            service_name: document.getElementById("service_name").value,
-                            payment_terms: document.getElementById("payment_terms").value,
-                            service_type: document.getElementById("service_type").value
-                        },
-                    ]
-                },
-                onClose: function(){
-                    alert('Window closed.');
-                },
-                callback: function(response){
-                    window.location.href = "{{ route('callback') }}?trxref=" + response.reference + "&reference=" + response.reference;
-                }
+        // Handle the Paystack payment for multiple forms
+        function setupPaymentForm(formId) {
+            const form = document.getElementById(formId);
+            form.addEventListener("submit", function(e) {
+                e.preventDefault();
+                payWithPaystack(formId);
             });
-            handler.openIframe();
         }
-        const paymentForm1 = document.getElementById('paymentForm1');
-        paymentForm1.addEventListener("submit", payWithPaystack, false);
+        const formIds = ['paymentForm', 'paymentForm1', 'paymentForm2', 'paymentForm3', 'paymentForm4', 'paymentForm5', 'paymentForm6', 'paymentForm7', 'paymentForm8', 'paymentForm9', 'paymentForm10', 'paymentForm11'];
+        
+        
+        formIds.forEach(setupPaymentForm);
 
-        function payWithPaystack(e) {
-            e.preventDefault();
+
+
+        function payWithPaystack(formId) {
+            const form = document.getElementById(formId);
             let handler = PaystackPop.setup({
                 key: "{{ env('PAYSTACK_PUBLIC_KEY') }}",
-                email: document.getElementById("email").value,
-                amount: document.getElementById("amount").value * 100 / 2,
+                email: form.querySelector("#email").value,
+                amount: form.querySelector("#amount").value * 100 / 2,
                 ref: '' + Math.floor((Math.random() * 10000000000) + 1),
                 currency: 'KES',
                 metadata: {
                     custom_fields: [
                         {
-                            name: document.getElementById("name").value,
-                            booking_date: document.getElementById("datePicker").value,
-                            time: document.getElementById("timePicker").value,
-                            service_name: document.getElementById("service_name").value,
-                            payment_terms: document.getElementById("payment_terms").value,
-                            service_type: document.getElementById("service_type").value
+                            name: form.querySelector("#name").value,
+                            booking_date: form.querySelector("#datePicker").value,
+                            time: form.querySelector("#timePicker").value,
+                            service_name: form.querySelector("#service_name").value,
+                            payment_terms: form.querySelector("#payment_terms").value,
+                            service_type: form.querySelector("#service_type").value
                         },
                     ]
                 },
-                onClose: function(){
+                onClose: function() {
                     alert('Window closed.');
                 },
-                callback: function(response){
-                    window.location.href = "{{ route('callback') }}?trxref=" + response.reference + "&reference=" + response.reference;
-                }
-            });
-            handler.openIframe();
-        }
-        const paymentForm2 = document.getElementById('paymentForm2');
-        paymentForm2.addEventListener("submit", payWithPaystack, false);
-
-        function payWithPaystack(e) {
-            e.preventDefault();
-            let handler = PaystackPop.setup({
-                key: "{{ env('PAYSTACK_PUBLIC_KEY') }}",
-                email: document.getElementById("email").value,
-                amount: document.getElementById("amount").value * 100 / 2,
-                ref: '' + Math.floor((Math.random() * 10000000000) + 1),
-                currency: 'KES',
-                metadata: {
-                    custom_fields: [
-                        {
-                            name: document.getElementById("name").value,
-                            booking_date: document.getElementById("datePicker").value,
-                            time: document.getElementById("timePicker").value,
-                            service_name: document.getElementById("service_name").value,
-                            payment_terms: document.getElementById("payment_terms").value,
-                            service_type: document.getElementById("service_type").value
-                        },
-                    ]
-                },
-                onClose: function(){
-                    alert('Window closed.');
-                },
-                callback: function(response){
-                    window.location.href = "{{ route('callback') }}?trxref=" + response.reference + "&reference=" + response.reference;
-                }
-            });
-            handler.openIframe();
-        }
-        const paymentForm3 = document.getElementById('paymentForm3');
-        paymentForm3.addEventListener("submit", payWithPaystack, false);
-
-        function payWithPaystack(e) {
-            e.preventDefault();
-            let handler = PaystackPop.setup({
-                key: "{{ env('PAYSTACK_PUBLIC_KEY') }}",
-                email: document.getElementById("email").value,
-                amount: document.getElementById("amount").value * 100 / 2,
-                ref: '' + Math.floor((Math.random() * 10000000000) + 1),
-                currency: 'KES',
-                metadata: {
-                    custom_fields: [
-                        {
-                            name: document.getElementById("name").value,
-                            booking_date: document.getElementById("datePicker").value,
-                            time: document.getElementById("timePicker").value,
-                            service_name: document.getElementById("service_name").value,
-                            payment_terms: document.getElementById("payment_terms").value,
-                            service_type: document.getElementById("service_type").value
-                        },
-                    ]
-                },
-                onClose: function(){
-                    alert('Window closed.');
-                },
-                callback: function(response){
-                    window.location.href = "{{ route('callback') }}?trxref=" + response.reference + "&reference=" + response.reference;
-                }
-            });
-            handler.openIframe();
-        }
-        const paymentForm4 = document.getElementById('paymentForm4');
-        paymentForm4.addEventListener("submit", payWithPaystack, false);
-
-        function payWithPaystack(e) {
-            e.preventDefault();
-            let handler = PaystackPop.setup({
-                key: "{{ env('PAYSTACK_PUBLIC_KEY') }}",
-                email: document.getElementById("email").value,
-                amount: document.getElementById("amount").value * 100 / 2,
-                ref: '' + Math.floor((Math.random() * 10000000000) + 1),
-                currency: 'KES',
-                metadata: {
-                    custom_fields: [
-                        {
-                            name: document.getElementById("name").value,
-                            booking_date: document.getElementById("datePicker").value,
-                            time: document.getElementById("timePicker").value,
-                            service_name: document.getElementById("service_name").value,
-                            payment_terms: document.getElementById("payment_terms").value,
-                            service_type: document.getElementById("service_type").value
-                        },
-                    ]
-                },
-                onClose: function(){
-                    alert('Window closed.');
-                },
-                callback: function(response){
-                    window.location.href = "{{ route('callback') }}?trxref=" + response.reference + "&reference=" + response.reference;
-                }
-            });
-            handler.openIframe();
-        }
-        const paymentForm5 = document.getElementById('paymentForm5');
-        paymentForm5.addEventListener("submit", payWithPaystack, false);
-
-        function payWithPaystack(e) {
-            e.preventDefault();
-            let handler = PaystackPop.setup({
-                key: "{{ env('PAYSTACK_PUBLIC_KEY') }}",
-                email: document.getElementById("email").value,
-                amount: document.getElementById("amount").value * 100 / 2,
-                ref: '' + Math.floor((Math.random() * 10000000000) + 1),
-                currency: 'KES',
-                metadata: {
-                    custom_fields: [
-                        {
-                            name: document.getElementById("name").value,
-                            booking_date: document.getElementById("datePicker").value,
-                            time: document.getElementById("timePicker").value,
-                            service_name: document.getElementById("service_name").value,
-                            payment_terms: document.getElementById("payment_terms").value,
-                            service_type: document.getElementById("service_type").value
-                        },
-                    ]
-                },
-                onClose: function(){
-                    alert('Window closed.');
-                },
-                callback: function(response){
-                    window.location.href = "{{ route('callback') }}?trxref=" + response.reference + "&reference=" + response.reference;
-                }
-            });
-            handler.openIframe();
-        }
-        const paymentForm6 = document.getElementById('paymentForm6');
-        paymentForm6.addEventListener("submit", payWithPaystack, false);
-
-        function payWithPaystack(e) {
-            e.preventDefault();
-            let handler = PaystackPop.setup({
-                key: "{{ env('PAYSTACK_PUBLIC_KEY') }}",
-                email: document.getElementById("email").value,
-                amount: document.getElementById("amount").value * 100 / 2,
-                ref: '' + Math.floor((Math.random() * 10000000000) + 1),
-                currency: 'KES',
-                metadata: {
-                    custom_fields: [
-                        {
-                            name: document.getElementById("name").value,
-                            booking_date: document.getElementById("datePicker").value,
-                            time: document.getElementById("timePicker").value,
-                            service_name: document.getElementById("service_name").value,
-                            payment_terms: document.getElementById("payment_terms").value,
-                            service_type: document.getElementById("service_type").value
-                        },
-                    ]
-                },
-                onClose: function(){
-                    alert('Window closed.');
-                },
-                callback: function(response){
-                    window.location.href = "{{ route('callback') }}?trxref=" + response.reference + "&reference=" + response.reference;
-                }
-            });
-            handler.openIframe();
-        }
-        const paymentForm7 = document.getElementById('paymentForm7');
-        paymentForm7.addEventListener("submit", payWithPaystack, false);
-
-        function payWithPaystack(e) {
-            e.preventDefault();
-            let handler = PaystackPop.setup({
-                key: "{{ env('PAYSTACK_PUBLIC_KEY') }}",
-                email: document.getElementById("email").value,
-                amount: document.getElementById("amount").value * 100 / 2,
-                ref: '' + Math.floor((Math.random() * 10000000000) + 1),
-                currency: 'KES',
-                metadata: {
-                    custom_fields: [
-                        {
-                            name: document.getElementById("name").value,
-                            booking_date: document.getElementById("datePicker").value,
-                            time: document.getElementById("timePicker").value,
-                            service_name: document.getElementById("service_name").value,
-                            payment_terms: document.getElementById("payment_terms").value,
-                            service_type: document.getElementById("service_type").value
-                        },
-                    ]
-                },
-                onClose: function(){
-                    alert('Window closed.');
-                },
-                callback: function(response){
-                    window.location.href = "{{ route('callback') }}?trxref=" + response.reference + "&reference=" + response.reference;
-                }
-            });
-            handler.openIframe();
-        }
-        const paymentForm8 = document.getElementById('paymentForm8');
-        paymentForm8.addEventListener("submit", payWithPaystack, false);
-
-        function payWithPaystack(e) {
-            e.preventDefault();
-            let handler = PaystackPop.setup({
-                key: "{{ env('PAYSTACK_PUBLIC_KEY') }}",
-                email: document.getElementById("email").value,
-                amount: document.getElementById("amount").value * 100 / 2,
-                ref: '' + Math.floor((Math.random() * 10000000000) + 1),
-                currency: 'KES',
-                metadata: {
-                    custom_fields: [
-                        {
-                            name: document.getElementById("name").value,
-                            booking_date: document.getElementById("datePicker").value,
-                            time: document.getElementById("timePicker").value,
-                            service_name: document.getElementById("service_name").value,
-                            payment_terms: document.getElementById("payment_terms").value,
-                            service_type: document.getElementById("service_type").value
-                        },
-                    ]
-                },
-                onClose: function(){
-                    alert('Window closed.');
-                },
-                callback: function(response){
-                    window.location.href = "{{ route('callback') }}?trxref=" + response.reference + "&reference=" + response.reference;
-                }
-            });
-            handler.openIframe();
-        }
-        const paymentForm9 = document.getElementById('paymentForm9');
-        paymentForm9.addEventListener("submit", payWithPaystack, false);
-
-        function payWithPaystack(e) {
-            e.preventDefault();
-            let handler = PaystackPop.setup({
-                key: "{{ env('PAYSTACK_PUBLIC_KEY') }}",
-                email: document.getElementById("email").value,
-                amount: document.getElementById("amount").value * 100 / 2,
-                ref: '' + Math.floor((Math.random() * 10000000000) + 1),
-                currency: 'KES',
-                metadata: {
-                    custom_fields: [
-                        {
-                            name: document.getElementById("name").value,
-                            booking_date: document.getElementById("datePicker").value,
-                            time: document.getElementById("timePicker").value,
-                            service_name: document.getElementById("service_name").value,
-                            payment_terms: document.getElementById("payment_terms").value,
-                            service_type: document.getElementById("service_type").value
-                        },
-                    ]
-                },
-                onClose: function(){
-                    alert('Window closed.');
-                },
-                callback: function(response){
-                    window.location.href = "{{ route('callback') }}?trxref=" + response.reference + "&reference=" + response.reference;
-                }
-            });
-            handler.openIframe();
-        }
-        const paymentForm10 = document.getElementById('paymentForm10');
-        paymentForm10.addEventListener("submit", payWithPaystack, false);
-
-        function payWithPaystack(e) {
-            e.preventDefault();
-            let handler = PaystackPop.setup({
-                key: "{{ env('PAYSTACK_PUBLIC_KEY') }}",
-                email: document.getElementById("email").value,
-                amount: document.getElementById("amount").value * 100 / 2,
-                ref: '' + Math.floor((Math.random() * 10000000000) + 1),
-                currency: 'KES',
-                metadata: {
-                    custom_fields: [
-                        {
-                            name: document.getElementById("name").value,
-                            booking_date: document.getElementById("datePicker").value,
-                            time: document.getElementById("timePicker").value,
-                            service_name: document.getElementById("service_name").value,
-                            payment_terms: document.getElementById("payment_terms").value,
-                            service_type: document.getElementById("service_type").value
-                        },
-                    ]
-                },
-                onClose: function(){
-                    alert('Window closed.');
-                },
-                callback: function(response){
-                    window.location.href = "{{ route('callback') }}?trxref=" + response.reference + "&reference=" + response.reference;
-                }
-            });
-            handler.openIframe();
-        }
-        const paymentForm11 = document.getElementById('paymentForm11');
-        paymentForm11.addEventListener("submit", payWithPaystack, false);
-
-        function payWithPaystack(e) {
-            e.preventDefault();
-            let handler = PaystackPop.setup({
-                key: "{{ env('PAYSTACK_PUBLIC_KEY') }}",
-                email: document.getElementById("email").value,
-                amount: document.getElementById("amount").value * 100 / 2,
-                ref: '' + Math.floor((Math.random() * 10000000000) + 1),
-                currency: 'KES',
-                metadata: {
-                    custom_fields: [
-                        {
-                            name: document.getElementById("name").value,
-                            booking_date: document.getElementById("datePicker").value,
-                            time: document.getElementById("timePicker").value,
-                            service_name: document.getElementById("service_name").value,
-                            payment_terms: document.getElementById("payment_terms").value,
-                            service_type: document.getElementById("service_type").value
-                        },
-                    ]
-                },
-                onClose: function(){
-                    alert('Window closed.');
-                },
-                callback: function(response){
+                callback: function(response) {
                     window.location.href = "{{ route('callback') }}?trxref=" + response.reference + "&reference=" + response.reference;
                 }
             });
