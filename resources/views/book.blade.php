@@ -23,7 +23,7 @@
                     <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="{{$service->category}}">
                     <label class="text-white" style="font-size:16px;">Price</label>
                     <input type="hidden" name="orderID" value="{{ $service->id }}"/>
-                    <input type="text" class="form-control mb-3" id="amount" name="amount" value="{{$service->price}}">
+                    <input type="number" class="form-control mb-3" id="amount" name="amount" value="{{$service->price}}">
 
                     <label class="text-white" style="font-size:16px;">Service name</label>
                     <input type="text" class="form-control mb-3" id="service_name" name="service_name" value="{{$service->name}}">
