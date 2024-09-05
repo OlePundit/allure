@@ -999,6 +999,13 @@
         flex-direction: column;
         width: 100%;
     }
+    .contact_section .mobi{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .contact_section .contact_taital{
+        margin-top: 30px;
+    }
 }
 @media (max-width: 575px) {
     .blog img{

@@ -4,7 +4,7 @@
  <!-- contact section start -->
  <div class="contact_section layout_padding">
     <div class="container">
-    <div class="row">
+    <div class="row mobi">
         <div class="col-md-6">
             <h1 class="contact_taital">Book Today</h1>
             <p class="contact_text">You can book your service in advance so you dont have to wait when you get to our shop </p>
