@@ -12,27 +12,23 @@
         <div class="col-md-6">
             <div class="contact_main">
                 <form method="POST" action="https://formsubmit.co/info@allureessencespa.com">
-                    <input type="text" class="form-control mb-3" name="name" placeholder="name" required>
-                    <input type="tel" class="form-control mb-3" name="phone" placeholder="email" required>
+                    <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
+                    <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                     <label class="text-white" style="font-size:16px;">Booking date</label>
-                    <input type="text" id="datePicker" class="form-control mb-3" name="booking date" placeholder="Booking date" required>
+                    <input type="text" id="datePicker" class="form-control mb-3" name="booking_date" placeholder="Booking date" required>
                     
                     <label class="text-white" style="font-size:16px;">Booking time</label>
-                    <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>
+                    <input type="text" id="timePicker" class="form-control mb-3" name="time" placeholder="Select time" required>                                                     
 
-                    <select class="form-control mb-3" name="service type">
-                        <option value="null">Choose service type</option>
-                        <option value="hair dressing">Hair dressing</option>
-                        <option value="Massage">Massage</option>
-                        <option value="facial">facial</option>
-                        <option value="body scrub">Body scrub</option>
-                        <option value="Weaving">weaving</option>
-                        <option value="Pixie cut">Pixie cut</option>
-                        <option value="Relaxers">relaxers</option>
-                        <option value="Permanent weave">Permanent weave</option>
-                        <option value="Dread locks">Dread locks</option>
-                        <option value="Barber shop">Barber shop</option>
-                    </select>
+                    <input type="text" class="form-control mb-3" id="service_type" name="service_type" value="{{$service->category}}">
+                    <label class="text-white" style="font-size:16px;">Price</label>
+                    <input type="hidden" name="orderID" value="{{ $service->id }}"/>
+                    <input type="text" class="form-control mb-3" id="amount" name="amount" value="{{$service->price}}">
+
+                    <label class="text-white" style="font-size:16px;">Service name</label>
+                    <input type="text" class="form-control mb-3" id="service_name" name="service_name" value="{{$service->name}}">
+                    <label class="text-white" style="font-size:16px;">Payment terms</label>
+                    <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$service->payment_terms}}">
                     <button type="submit">Send</button>
                 </form>
             </div>

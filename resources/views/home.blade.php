@@ -91,9 +91,6 @@
                             <a class="nav-link text-white" href="/services">Services</a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link text-white" href="/book">Book</a>
-                            </li>
-                            <li class="nav-item">
                             <a class="nav-link text-white" href="/contact">Contact</a>
                             </li>
                             <li class="nav-item">
@@ -743,7 +740,7 @@
                                             </div>
                                             <div class="d-flex price-wrap mt-3">
                                                 <p class="card-text">{{$salon->price}}</p>
-                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#salonModal{{$salon->id}}" class="">Book Now</a>
+                                                <a href="booking/{{$salon->id}}">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -785,7 +782,7 @@
                                             </div>
                                             <div class="d-flex price-wrap mt-3">
                                                 <p class="card-text">{{$salonC->price}}</p>
-                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#salonCModal{{$salonC->id}}" class="">Book Now</a>
+                                                <a href="/{{ $salonC->id }}">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -825,7 +822,7 @@
                                                 </div>
                                                 <div class="d-flex price-wrap mt-3">
                                                     <p class="card-text">{{$barberA->price}}</p>
-                                                    <a href="#"  data-bs-toggle="modal" data-bs-target="#barberAModal{{$barberA->id}}" class="">Book Now</a>
+                                                    <a href="/booking/{{ $barberA->id }}">Book Now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -866,7 +863,7 @@
                                             </div>
                                             <div class="d-flex price-wrap mt-3">
                                                 <p class="card-text">{{$barberC->price}}</p>
-                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#barberCModal{{$barberC->id}}" class="">Book Now</a>
+                                                <a href="/booking/{{$barberC->id}}">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -907,7 +904,7 @@
                                             </div>
                                             <div class="d-flex price-wrap mt-3">
                                                 <p class="card-text">{{$massage->price}}</p>
-                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#massageModal{{$massage->id}}" class="">Book Now</a>
+                                                <a href="/booking/{{$massage->id}}">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -949,7 +946,7 @@
                                             </div>
                                             <div class="d-flex price-wrap mt-3">
                                                 <p class="card-text">{{$mani->price}}</p>
-                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#maniModal{{$mani->id}}" class="">Book Now</a>
+                                                <a href="/booking/{{$mani->id}}">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -992,7 +989,7 @@
                                             </div>
                                             <div class="d-flex price-wrap mt-3">
                                                 <p class="card-text">{{$facial->price}}</p>
-                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#facialModal{{$facial->id}}" class="">Book Now</a>
+                                                <a href="/booking/{{$facial->id}}">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1033,7 +1030,7 @@
                                             </div>
                                             <div class="d-flex price-wrap mt-3">
                                                 <p class="card-text">{{$hot->price}}</p>
-                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#hotModal{{$hot->id}}" class="">Book Now</a>
+                                                <a href="/booking/{{$hot->id}}">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1073,7 +1070,7 @@
                                             </div>
                                             <div class="d-flex price-wrap mt-3">
                                                 <p class="card-text">{{$moroccan->price}}</p>
-                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#moroccanModal{{$moroccan->id}}" class="">Book Now</a>
+                                                <a href="/booking/{{$moroccan->id}}">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1114,7 +1111,7 @@
                                             </div>
                                             <div class="d-flex price-wrap mt-3">
                                                 <p class="card-text">{{$steam->price}}</p>
-                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#steamModal{{$steam->id}}" class="">Book Now</a>
+                                                <a href="/booking/{{$steam->id}}">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1157,7 +1154,7 @@
                                             </div>
                                             <div class="d-flex price-wrap mt-3">
                                                 <p class="card-text">{{$sauna->price}}</p>
-                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#saunaModal{{$sauna->id}}" class="">Book Now</a>
+                                                <a href="/booking/{{$sauna->id}}">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1198,7 +1195,7 @@
                                             </div>
                                             <div class="d-flex price-wrap mt-3">
                                                 <p class="card-text">{{$waxing->price}}</p>
-                                                <a href="#"  data-bs-toggle="modal" data-bs-target="#waxingModal{{$waxing->id}}" class="">Book Now</a>
+                                                <a href="/booking/{{$waxing->id}}">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1263,7 +1260,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                        <form id="paymentForm1">
+                        <form id="paymentForm">
                             <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
                             <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                             <label class="text-white" style="font-size:16px;">Booking date</label>
@@ -1305,7 +1302,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                        <form id="paymentForm2">
+                        <form id="paymentForm">
                             <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
                             <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                             <label class="text-white" style="font-size:16px;">Booking date</label>
@@ -1347,7 +1344,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                        <form id="paymentForm3">
+                        <form id="paymentForm">
                             <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
                             <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                             <label class="text-white" style="font-size:16px;">Booking date</label>
@@ -1389,7 +1386,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                        <form id="paymentForm4">
+                        <form id="paymentForm">
                             <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
                             <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                             <label class="text-white" style="font-size:16px;">Booking date</label>
@@ -1431,7 +1428,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                        <form id="paymentForm5">
+                        <form id="paymentForm">
                             <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
                             <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                             <label class="text-white" style="font-size:16px;">Booking date</label>
@@ -1473,7 +1470,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                        <form id="paymentForm6">
+                        <form id="paymentForm">
                             <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
                             <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                             <label class="text-white" style="font-size:16px;">Booking date</label>
@@ -1515,7 +1512,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                    <form id="paymentForm7">
+                    <form id="paymentForm">
                         <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
                         <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
@@ -1557,7 +1554,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                    <form id="paymentForm8">
+                    <form id="paymentForm">
                         <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
                         <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
@@ -1599,7 +1596,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                    <form id="paymentForm9">
+                    <form id="paymentForm">
                         <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
                         <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
@@ -1641,7 +1638,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                    <form id="paymentForm10">
+                    <form id="paymentForm">
                         <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
                         <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
@@ -1683,7 +1680,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                    <form id="paymentForm11">
+                    <form id="paymentForm">
                         <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
                         <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                         <label class="text-white" style="font-size:16px;">Booking date</label>
@@ -2123,59 +2120,38 @@
                 navbar.classList.remove("scrolled");
             }
         });
+        const paymentForm = document.getElementById('paymentForm');
+        paymentForm.addEventListener("submit", payWithPaystack, false);
 
-        document.addEventListener('DOMContentLoaded', function() {
-
-            function setupPaymentForm(formId) {
-                const form = document.getElementById(formId);
-
-                // Ensure the form exists before adding an event listener
-                if (form) {
-                    form.addEventListener("submit", function(e) {
-                        e.preventDefault();
-                        payWithPaystack(formId);
-                    });
-                } else {
-                    console.warn(`Form with ID ${formId} not found.`);
+        function payWithPaystack(e) {
+            e.preventDefault();
+            let handler = PaystackPop.setup({
+                key: "{{ env('PAYSTACK_PUBLIC_KEY') }}",
+                email: document.getElementById("email").value,
+                amount: document.getElementById("amount").value * 100 / 2,
+                ref: '' + Math.floor((Math.random() * 10000000000) + 1),
+                currency: 'KES',
+                metadata: {
+                    custom_fields: [
+                        {
+                            name: document.getElementById("name").value,
+                            booking_date: document.getElementById("datePicker").value,
+                            time: document.getElementById("timePicker").value,
+                            service_name: document.getElementById("service_name").value,
+                            payment_terms: document.getElementById("payment_terms").value,
+                            service_type: document.getElementById("service_type").value
+                        },
+                    ]
+                },
+                onClose: function(){
+                    alert('Window closed.');
+                },
+                callback: function(response){
+                    window.location.href = "{{ route('callback') }}?trxref=" + response.reference + "&reference=" + response.reference;
                 }
-            }
-            const formIds = ['paymentForm', 'paymentForm1', 'paymentForm2', 'paymentForm3', 'paymentForm4', 'paymentForm5', 'paymentForm6', 'paymentForm7', 'paymentForm8', 'paymentForm9', 'paymentForm10', 'paymentForm11'];
-        
-        
-            formIds.forEach(setupPaymentForm);
-
-
-
-            function payWithPaystack(formId) {
-                const form = document.getElementById(formId);
-                let handler = PaystackPop.setup({
-                    key: "{{ env('PAYSTACK_PUBLIC_KEY') }}",
-                    email: form.querySelector("#email").value,
-                    amount: form.querySelector("#amount").value * 100 / 2,
-                    ref: '' + Math.floor((Math.random() * 10000000000) + 1),
-                    currency: 'KES',
-                    metadata: {
-                        custom_fields: [
-                            {
-                                name: form.querySelector("#name").value,
-                                booking_date: form.querySelector("#datePicker").value,
-                                time: form.querySelector("#timePicker").value,
-                                service_name: form.querySelector("#service_name").value,
-                                payment_terms: form.querySelector("#payment_terms").value,
-                                service_type: form.querySelector("#service_type").value
-                            },
-                        ]
-                    },
-                    onClose: function() {
-                        alert('Window closed.');
-                    },
-                    callback: function(response) {
-                        window.location.href = "{{ route('callback') }}?trxref=" + response.reference + "&reference=" + response.reference;
-                    }
-                });
-                handler.openIframe();
-            }
-        });
+            });
+            handler.openIframe();
+        }
         </script>
 
    </body>

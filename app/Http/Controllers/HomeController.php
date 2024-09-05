@@ -66,9 +66,9 @@ class HomeController extends Controller
     {
         return view('contact');
     }
-    public function book()
+    public function book(Service $service)
     {
-        return view('book');
+        return view('book', compact('service'));
     }
 
     public function blogs()
