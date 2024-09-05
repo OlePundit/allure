@@ -1620,38 +1620,46 @@
                 navbar.classList.remove("scrolled");
             }
         });
-        const paymentForm = document.getElementById('paymentForm');
-        paymentForm.addEventListener("submit", payWithPaystack, false);
+        document.addEventListener('DOMContentLoaded', function() {
+            const paymentForm = document.getElementById('paymentForm');
+            paymentForm.addEventListener("submit", payWithPaystack, false);
 
-        function payWithPaystack(e) {
-            e.preventDefault();
-            let handler = PaystackPop.setup({
-                key: "{{ env('PAYSTACK_PUBLIC_KEY') }}",
-                email: document.getElementById("email").value,
-                amount: document.getElementById("amount").value * 100 / 2,
-                ref: '' + Math.floor((Math.random() * 10000000000) + 1),
-                currency: 'KES',
-                metadata: {
-                    custom_fields: [
-                        {
-                            name: document.getElementById("name").value,
-                            booking_date: document.getElementById("datePicker").value,
-                            time: document.getElementById("timePicker").value,
-                            service_name: document.getElementById("service_name").value,
-                            payment_terms: document.getElementById("payment_terms").value,
-                            service_type: document.getElementById("service_type").value
-                        },
-                    ]
-                },
-                onClose: function(){
-                    alert('Window closed.');
-                },
-                callback: function(response){
-                    window.location.href = "{{ route('callback') }}?trxref=" + response.reference + "&reference=" + response.reference;
+            function payWithPaystack(e) {
+                e.preventDefault();
+                const amountField = document.getElementById('amount').value;
+                if (!amountField) {
+                    alert('Amount not set!');
+                    return;
                 }
-            });
-            handler.openIframe();
-        }
+                let handler = PaystackPop.setup({
+                    key: "{{ env('PAYSTACK_PUBLIC_KEY') }}",
+                    email: document.getElementById("email").value,
+                    amount: amountField * 100 / 2, // Assuming 50% deposit
+                    ref: '' + Math.floor((Math.random() * 10000000000) + 1),
+                    currency: 'KES',
+                    metadata: {
+                        custom_fields: [
+                            {
+                                name: document.getElementById("name").value,
+                                booking_date: document.getElementById("datePicker").value,
+                                time: document.getElementById("timePicker").value,
+                                service_name: document.getElementById("service_name").value,
+                                payment_terms: document.getElementById("payment_terms").value,
+                                service_type: document.getElementById("service_type").value
+                            },
+                        ]
+                    },
+                    onClose: function(){
+                        alert('Window closed.');
+                    },
+                    callback: function(response){
+                        window.location.href = "{{ route('callback') }}?trxref=" + response.reference + "&reference=" + response.reference;
+                    }
+                });
+                handler.openIframe();
+            }
+        });
+
         </script>
 
    </body>
