@@ -10,20 +10,20 @@ use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
-class TestEmail extends Mailable
+class BookingConfirmation extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $data;
+    public $booking;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($data)
+    public function __construct($booking)
     {
-        $this->data = $data;
+        $this->booking = $booking;
     }
 
     /**
@@ -33,7 +33,7 @@ class TestEmail extends Mailable
      */
     public function build()
     {
-        return $this->view('emails.test_email')
-                    ->with('data', $this->data);
+        return $this->view('emails.booking_confirmation')
+                    ->with('booking', $this->booking);
     }
 }
