@@ -63,7 +63,7 @@
 
                 <p>Name: {{ $booking->name }},</p>
                 <p>Email: {{ $booking->email }},</p>
-                <p>Amount to be paid: {{ ($booking->amount) / 2 }} {{ $booking->currency }},</p>
+                <p>Amount paid: {{ ($booking->amount) / 2 }} {{ $booking->currency }},</p>
                 <p>Payment terms: {{ $booking->payment_terms }},</p>
                 <p>Service name: {{ $booking->service_name }},</p>
                 <p>Service type: {{ $booking->service_type }},</p>
