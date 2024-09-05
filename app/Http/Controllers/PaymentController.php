@@ -52,20 +52,18 @@ class PaymentController extends Controller
         curl_close($curl);
         $response = json_decode($response);
         //dd($response);
-        $meta_data = $response->data->metadata->custom_fields;
+        $meta_data = $response->data->metadata->custom_fields[0]; // Access the first object in the array
         if($response->data->status == 'success')
 
         {
             $obj = new Booking;
             $obj->payment_id = $reference;
-            dd($response->data->metadata);
-
-            $obj->name = $meta_data[0]->value;
-            $obj->booking_date = $meta_data[1]->value;
-            $obj->time = $meta_data[2]->value;
-            $obj->service_name = $meta_data[3]->value;
-            $obj->payment_terms = $meta_data[4]->value;
-            $obj->service_type = $meta_data[5]->value;
+            $obj->name = $meta_data->name;
+            $obj->booking_date = $meta_data->booking_date;
+            $obj->time = $meta_data->time;
+            $obj->service_name = $meta_data->service_name;
+            $obj->payment_terms = $meta_data->payment_terms;
+            $obj->service_type = $meta_data->service_type;
 
             $obj->amount = $response->data->amount;
             $obj->email = $response->data->email;

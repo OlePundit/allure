@@ -2082,25 +2082,6 @@
         } );
         </script>
         <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            flatpickr('#datePicker', {
-            dateFormat: 'Y-m-d', // Customize the date format
-            // Add more options here to customize the appearance
-            });
-        });
-        </script>
-        <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            flatpickr('#timePicker', {
-            enableTime: true,
-            noCalendar: true,
-            dateFormat: 'H:i', // Customize the time format
-            time_24hr: true // Use 24-hour format
-            // Add more options here to customize the appearance
-            });
-        });
-        </script>
-        <script>
         document.addEventListener("scroll", function() {
             const navbar = document.querySelector(".navbar");
             if (window.scrollY > 50) { // Adjust the scroll distance as needed
@@ -2124,6 +2105,24 @@
         </script>
         <script src="https://js.paystack.co/v1/inline.js"></script>
         <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            flatpickr('#timePicker', {
+            enableTime: true,
+            noCalendar: true,
+            dateFormat: 'H:i', // Customize the time format
+            time_24hr: true // Use 24-hour format
+            // Add more options here to customize the appearance
+            });
+        });
+
+        document.addEventListener("scroll", function() {
+            const navbar = document.querySelector(".navbar");
+            if (window.scrollY > 50) { // Adjust the scroll distance as needed
+                navbar.classList.add("scrolled");
+            } else {
+                navbar.classList.remove("scrolled");
+            }
+        });
         const paymentForm = document.getElementById('paymentForm');
         paymentForm.addEventListener("submit", payWithPaystack, false);
 
