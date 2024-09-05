@@ -66,7 +66,7 @@ class PaymentController extends Controller
             $obj->service_type = $meta_data->service_type;
 
             $obj->amount = $response->data->amount;
-            $obj->email = $response->data->email;
+            $obj->email = $response->data->customer->email;
 
             $obj->currency = $response->data->currency;
             $obj->save();
