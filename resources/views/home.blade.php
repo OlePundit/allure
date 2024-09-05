@@ -1529,7 +1529,7 @@
                         <input type="hidden" name="orderID" value="{{ $hot->id }}"/>
 
 
-                        <input type="text" class="form-control mb-3" id="amount" name="amount" value="{{$hot->price}}">
+                        <input type="text" class="form-control mb-3" id="amount" name="amount" value="{{$hot->price }}">
 
                         <label class="text-white" style="font-size:16px;">Service name</label>
                         <input type="text" class="form-control mb-3" id="service_name" name="service_name" value="{{$hot->name}}">

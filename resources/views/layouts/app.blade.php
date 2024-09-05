@@ -77,25 +77,7 @@
       } );
       </script>
             <!-- Javascript files-->
-            <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            flatpickr('#datePicker', {
-            dateFormat: 'Y-m-d', // Customize the date format
-            // Add more options here to customize the appearance
-            });
-        });
-        </script>
-        <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            flatpickr('#timePicker', {
-            enableTime: true,
-            noCalendar: true,
-            dateFormat: 'H:i', // Customize the time format
-            time_24hr: true // Use 24-hour format
-            // Add more options here to customize the appearance
-            });
-        });
-        </script>
+
 
    </head>
    <body class="app">
@@ -382,7 +364,59 @@
          </div>
       </div>
       <!-- copyright section end -->
+      <script src="https://js.paystack.co/v1/inline.js"></script>
 
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            flatpickr('#timePicker', {
+            enableTime: true,
+            noCalendar: true,
+            dateFormat: 'H:i', // Customize the time format
+            time_24hr: true // Use 24-hour format
+            // Add more options here to customize the appearance
+            });
+        });
 
+        document.addEventListener("scroll", function() {
+            const navbar = document.querySelector(".navbar");
+            if (window.scrollY > 50) { // Adjust the scroll distance as needed
+                navbar.classList.add("scrolled");
+            } else {
+                navbar.classList.remove("scrolled");
+            }
+        });
+        const paymentForm = document.getElementById('paymentForm');
+        paymentForm.addEventListener("submit", payWithPaystack, false);
+
+        function payWithPaystack(e) {
+            e.preventDefault();
+            let handler = PaystackPop.setup({
+                key: "{{ env('PAYSTACK_PUBLIC_KEY') }}",
+                email: document.getElementById("email").value,
+                amount: document.getElementById("amount").value * 100 / 2,
+                ref: '' + Math.floor((Math.random() * 10000000000) + 1),
+                currency: 'KES',
+                metadata: {
+                    custom_fields: [
+                        {
+                            name: document.getElementById("name").value,
+                            booking_date: document.getElementById("datePicker").value,
+                            time: document.getElementById("timePicker").value,
+                            service_name: document.getElementById("service_name").value,
+                            payment_terms: document.getElementById("payment_terms").value,
+                            service_type: document.getElementById("service_type").value
+                        },
+                    ]
+                },
+                onClose: function(){
+                    alert('Window closed.');
+                },
+                callback: function(response){
+                    window.location.href = "{{ route('callback') }}?trxref=" + response.reference + "&reference=" + response.reference;
+                }
+            });
+            handler.openIframe();
+        }
+        </script>
    </body>
 </html>
