@@ -2130,7 +2130,6 @@
             e.preventDefault();
             let handler = PaystackPop.setup({
                 key: "{{ env('PAYSTACK_PUBLIC_KEY') }}",
-                email: document.getElementById("email").value,
                 amount: document.getElementById("amount").value * 100 / 2,
                 ref: '' + Math.floor((Math.random() * 10000000000) + 1),
                 currency: 'KES',
@@ -2142,7 +2141,9 @@
                             time: document.getElementById("timePicker").value,
                             service_name: document.getElementById("service_name").value,
                             payment_terms: document.getElementById("payment_terms").value,
-                            service_type: document.getElementById("service_type").value
+                            service_type: document.getElementById("service_type").value,
+                            email: document.getElementById("email").value,
+
                         },
                     ]
                 },
