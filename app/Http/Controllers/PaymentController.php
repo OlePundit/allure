@@ -51,7 +51,7 @@ class PaymentController extends Controller
         $response = curl_exec($curl);
         curl_close($curl);
         $response = json_decode($response);
-        //dd($response);
+        dd($response);
         $meta_data = $response->data->metadata->custom_fields[0]; // Access the first object in the array
         if($response->data->status == 'success')
 
