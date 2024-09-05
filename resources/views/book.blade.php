@@ -29,7 +29,10 @@
                     <input type="text" class="form-control mb-3" id="service_name" name="service_name" value="{{$service->name}}">
                     <label class="text-white" style="font-size:16px;">Payment terms</label>
                     <input type="text" class="form-control mb-3" id="payment_terms" name="payment_terms" value="{{$service->payment_terms}}">
-                    <button type="submit">Send</button>
+                    <div class="read_bt">
+                        <a href="#"><button type="submit">Send</button></a>
+
+                    </div>
                 </form>
             </div>
         </div>
