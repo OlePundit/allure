@@ -11,7 +11,7 @@
         </div>
         <div class="col-md-6">
             <div class="contact_main">
-                <form method="POST" action="https://formsubmit.co/info@allureessencespa.com">
+                <form id="paymentForm">
                     <input type="text" class="form-control mb-3" id="name" name="name" placeholder="name" required>
                     <input type="email" class="form-control mb-3" id="email" name="email" placeholder="email" required>
                     <label class="text-white" style="font-size:16px;">Booking date</label>
