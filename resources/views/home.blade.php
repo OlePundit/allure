@@ -740,7 +740,7 @@
                                             </div>
                                             <div class="d-flex price-wrap mt-3">
                                                 <p class="card-text">{{$salon->price}}</p>
-                                                <a href="booking/{{$salon->id}}">Book Now</a>
+                                                <a href="/booking/{{$salon->id}}">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -782,7 +782,7 @@
                                             </div>
                                             <div class="d-flex price-wrap mt-3">
                                                 <p class="card-text">{{$salonC->price}}</p>
-                                                <a href="/{{ $salonC->id }}">Book Now</a>
+                                                <a href="/booking/{{ $salonC->id }}">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
