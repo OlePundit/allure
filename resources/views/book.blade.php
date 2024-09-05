@@ -8,6 +8,7 @@
         <div class="col-md-6">
             <h1 class="contact_taital">Book Today</h1>
             <p class="contact_text">You can book your service in advance so you dont have to wait when you get to our shop </p>
+            <img src="/storage/images/spa2.web" class="rounded" alt="contact-img">
         </div>
         <div class="col-md-6">
             <div class="contact_main">
