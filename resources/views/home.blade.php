@@ -2123,50 +2123,59 @@
                 navbar.classList.remove("scrolled");
             }
         });
-        // Handle the Paystack payment for multiple forms
-        function setupPaymentForm(formId) {
-            const form = document.getElementById(formId);
-            form.addEventListener("submit", function(e) {
-                e.preventDefault();
-                payWithPaystack(formId);
-            });
-        }
-        const formIds = ['paymentForm', 'paymentForm1', 'paymentForm2', 'paymentForm3', 'paymentForm4', 'paymentForm5', 'paymentForm6', 'paymentForm7', 'paymentForm8', 'paymentForm9', 'paymentForm10', 'paymentForm11'];
-        
-        
-        formIds.forEach(setupPaymentForm);
 
+        document.addEventListener('DOMContentLoaded', function() {
 
+            function setupPaymentForm(formId) {
+                const form = document.getElementById(formId);
 
-        function payWithPaystack(formId) {
-            const form = document.getElementById(formId);
-            let handler = PaystackPop.setup({
-                key: "{{ env('PAYSTACK_PUBLIC_KEY') }}",
-                email: form.querySelector("#email").value,
-                amount: form.querySelector("#amount").value * 100 / 2,
-                ref: '' + Math.floor((Math.random() * 10000000000) + 1),
-                currency: 'KES',
-                metadata: {
-                    custom_fields: [
-                        {
-                            name: form.querySelector("#name").value,
-                            booking_date: form.querySelector("#datePicker").value,
-                            time: form.querySelector("#timePicker").value,
-                            service_name: form.querySelector("#service_name").value,
-                            payment_terms: form.querySelector("#payment_terms").value,
-                            service_type: form.querySelector("#service_type").value
-                        },
-                    ]
-                },
-                onClose: function() {
-                    alert('Window closed.');
-                },
-                callback: function(response) {
-                    window.location.href = "{{ route('callback') }}?trxref=" + response.reference + "&reference=" + response.reference;
+                // Ensure the form exists before adding an event listener
+                if (form) {
+                    form.addEventListener("submit", function(e) {
+                        e.preventDefault();
+                        payWithPaystack(formId);
+                    });
+                } else {
+                    console.warn(`Form with ID ${formId} not found.`);
                 }
-            });
-            handler.openIframe();
-        }
+            }
+            const formIds = ['paymentForm', 'paymentForm1', 'paymentForm2', 'paymentForm3', 'paymentForm4', 'paymentForm5', 'paymentForm6', 'paymentForm7', 'paymentForm8', 'paymentForm9', 'paymentForm10', 'paymentForm11'];
+        
+        
+            formIds.forEach(setupPaymentForm);
+
+
+
+            function payWithPaystack(formId) {
+                const form = document.getElementById(formId);
+                let handler = PaystackPop.setup({
+                    key: "{{ env('PAYSTACK_PUBLIC_KEY') }}",
+                    email: form.querySelector("#email").value,
+                    amount: form.querySelector("#amount").value * 100 / 2,
+                    ref: '' + Math.floor((Math.random() * 10000000000) + 1),
+                    currency: 'KES',
+                    metadata: {
+                        custom_fields: [
+                            {
+                                name: form.querySelector("#name").value,
+                                booking_date: form.querySelector("#datePicker").value,
+                                time: form.querySelector("#timePicker").value,
+                                service_name: form.querySelector("#service_name").value,
+                                payment_terms: form.querySelector("#payment_terms").value,
+                                service_type: form.querySelector("#service_type").value
+                            },
+                        ]
+                    },
+                    onClose: function() {
+                        alert('Window closed.');
+                    },
+                    callback: function(response) {
+                        window.location.href = "{{ route('callback') }}?trxref=" + response.reference + "&reference=" + response.reference;
+                    }
+                });
+                handler.openIframe();
+            }
+        });
         </script>
 
    </body>
