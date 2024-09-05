@@ -52,8 +52,12 @@
 </head>
 <body>
     <div class="container">
+        <div class="row justify-content-center py-3">
+            <img src="{{ asset('storage/images/logo2.png') }}" width="150" class="mx-2" alt="logo">
+
+        </div>
         <div class="row justify-content-center">
-            <div class="py-5 col-lg-8 col-md-12">
+            <div class="py-3 col-lg-8 col-md-12">
                 <h1>Booking Confirmation</h1>
                 <p>Dear {{ $booking->name }},</p>
                 <p>Your booking for {{ $booking->service_name }} on {{ $booking->booking_date }} at {{ $booking->time }} has been confirmed.</p>

@@ -56,6 +56,7 @@
 </head>
 <body>
     <div class="container">
+
         <div class="row justify-content-center">
             <div class="py-5 col-lg-8 col-md-12">
                 <h1>New Booking</h1>
