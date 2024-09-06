@@ -1400,10 +1400,9 @@ button {
 .contact_taital {
     width: 100%;
     float: left;
-    color: #fff;
+    color: #E63534;
     font-weight: bold;
     font-size: 40px;
-    text-transform: uppercase;
     font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
 }
 
@@ -1414,7 +1413,11 @@ button {
     margin: 0px;
     font-size: 16px;
 }
-
+.contact_section img{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
 .contact_main {
     width: 100%;
     display: flex;

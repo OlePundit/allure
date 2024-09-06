@@ -373,6 +373,12 @@
             // Add more options here to customize the appearance
             });
         });
+        document.addEventListener('DOMContentLoaded', function() {
+            flatpickr('#datePicker', {
+            dateFormat: 'Y-m-d', // Customize the date format
+            // Add more options here to customize the appearance
+            });
+        });
 
         document.addEventListener("scroll", function() {
             const navbar = document.querySelector(".navbar");
