@@ -49,7 +49,13 @@
 
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
       <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
-
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-TLQL3R52');</script>
+        <!-- End Google Tag Manager -->
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
       <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
@@ -81,6 +87,10 @@
 
    </head>
    <body class="app">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TLQL3R52"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
       <nav class="navbar other-nav navbar-expand-md shadow-sm text-3 fixed-top">
          <div class="container">
                <a class="navbar-brand" href="{{ url('/') }}">
