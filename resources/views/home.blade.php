@@ -1496,7 +1496,7 @@
         <!-- copyright section start -->
         <div class="copyright_section">
             <div class="container">
-                <p class="copyright_text">2024 All Rights Reserved. Powered by <a href="https://sansa.Digital">Sansa Digital</a></p>
+                <p class="copyright_text">2024 All Rights Reserved. Powered by <a href="https://sansadigital.com">Sansa Digital</a></p>
             </div>
         </div>
 
