@@ -21,7 +21,7 @@
                         A commitment to excellence and customer satisfaction makes our salon the ultimate destination for self-care and transformation.
                     </p>
                     <div class="read_bt">
-                        <a href="/book">
+                        <a href="/booking">
                             Book Today
                         </a>
                     </div>
@@ -74,7 +74,7 @@
                         </li>
                     </ul>
                     <div class="read_bt">
-                        <a href="/book">
+                        <a href="/booking">
                             Book Today
                         </a>
                     </div>
@@ -95,7 +95,7 @@
                         to relieve you promptly, while looking and feeling your very best
                     </p>
                     <div class="read_bt">
-                        <a href="/book">
+                        <a href="/booking">
                             Book Today
                         </a>
                     </div>

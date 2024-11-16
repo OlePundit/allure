@@ -7,7 +7,7 @@ use App\Models\Blog;
 use App\Models\Service;
 use App\Models\Gallery;
 use App\Models\Landing;
-use App\Models\Lp;
+use App\Models\LP;
 
 class HomeController extends Controller
 {
