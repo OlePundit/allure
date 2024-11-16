@@ -6,7 +6,7 @@
     <div class="row justify-content-center" style="margin-right:0px;margin-left:0px;">
         <div class="container" style="width:100%;margin:auto;">
             <div class="row blog-col section-service" style="display:flex;align-items:center;justify-content:flex-start;margin-right:0px;margin-left:0px;">
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-6 col-sm-12">
                     <h1>{{$slug->title}}</h1>
                     <p>
                         {!!$slug->intro!!}
@@ -18,17 +18,17 @@
                     </div>
 
                 </div>
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-6 col-sm-12">
                     <img src="/storage/{{$slug->thumb}}" alt="welcome-img" class="thumbnail rounded">
 
                 </div>
             </div>
             <div class="row why-us align-items-center mt-5">
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-6 col-sm-12">
                     <img src="/storage/{{$slug->thumb1}}" alt="benefit-img" class="thumbnail rounded">
 
                 </div>
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-6 col-sm-12">
                     <h2>Why Us?</h2>
                     {!!$slug->benefits!!}
                     <div class="read_bt">
@@ -39,7 +39,7 @@
                 </div>
             </div>
             <div class="row align-items-center mt-5">
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-6 col-sm-12">
                     <h2>Our Process At Allure Essence Spa & Hair Studio</h2>
                     {!!$slug->process!!}
                     <div class="read_bt">
@@ -48,7 +48,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-6 col-sm-12">
                     <img src="/storage/{{$slug->thumb2}}" alt="process-img" class="thumbnail rounded">
 
                 </div>
