@@ -9,7 +9,7 @@
                 <div class="col-lg-6 col-md-12">
                     <h1>{{$slug->title}}</h1>
                     <p>
-                        {{$slug->intro}}
+                        {!!$slug->intro!!}
                     </p>
                     <div class="read_bt">
                         <a href="/book">
@@ -30,7 +30,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <h2>Why Us?</h2>
-                    {{$slug->benefits}}
+                    {!!$slug->benefits!!}
                     <div class="read_bt">
                         <a href="/book">
                             Book Today
@@ -41,7 +41,7 @@
             <div class="row align-items-center mt-5">
                 <div class="col-lg-6 col-md-12">
                     <h2>Our Process At Allure Essence Spa & Hair Studio</h2>
-                    {{$slug->process}}
+                    {!!$slug->process!!}
                     <div class="read_bt">
                         <a href="/book">
                             Book Today
