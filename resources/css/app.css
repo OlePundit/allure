@@ -2009,7 +2009,57 @@ button {
     font-weight: 700;
     text-align: center;
 }
+.lp h1 {
+    color: #E63534;
+    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 600;
+    text-align: start;
+}
+.lp img{
+    width:100%;
+}
+.lp h2 {
+    color: #E63534;
+    font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 600;
+    text-align: start;
+}
+.lp p{
+    margin:0px;
+    color:#fff;
+    font-size:17px;
 
+}
+.lp ul li{
+    margin:0px;
+    color:#fff;
+    font-size:20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+.lp ul li p{ 
+    font-weight: 400;
+}
+.lp a{
+    color:#fff;
+}
+.lp ul li::before {
+    content: '\e2e6'; /* Unicode character or text */
+    color: #E1C17E; /* Bullet color */
+    font-size: 16px; /* Adjust size */
+    margin-right: 10px; /* Spacing between bullet and text */
+    font-family: 'Material Icons';
+    vertical-align: middle; /* Align with the text */
+
+  }
+  
 .blog h2{
     font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
     margin-top: 50px;
@@ -2030,6 +2080,7 @@ button {
     object-fit: cover;
     margin-bottom:50px ;
 }
+.blog .lp
 .blog h5 {
     color: #fff;
     font-family: 'Ysabeau Office', 'Times New Roman', Times, serif;
@@ -2050,7 +2101,19 @@ button {
     padding-bottom: 90px;
     background: #202020;
 }
-
+.lp {
+    width: 100%;
+    float: left;
+    height: auto;
+    padding-bottom: 90px;
+    background: #202020;
+}
+main {
+    background: #202020;
+}
+.lp .row{
+    margin-bottom:100px ;
+}
 .blog a button{
     background:none;
 

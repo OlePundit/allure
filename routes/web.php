@@ -17,6 +17,9 @@ Route::get('/callback', [App\Http\Controllers\PaymentController::class, 'handleG
 Route::get('success', [App\Http\Controllers\PaymentController::class, 'success'])->name('success');
 Route::get('cancel', [App\Http\Controllers\PaymentController::class, 'cancel'])->name('cancel');
 Route::get('/thank-you', [App\Http\Controllers\HomeController::class, 'thanks']);
+Route::get('/lp/{slug}', [App\Http\Controllers\HomeController::class, 'lp']);
+Route::get('/booking', [App\Http\Controllers\HomeController::class, 'book2'])->name('book2');
+
 Route::get('/send-test-email', function () {
     $data = [
         'name' => 'John Doe',

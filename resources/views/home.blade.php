@@ -64,10 +64,12 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
-    <link rel="stylesheet" href="{{ asset('build/assets/app-B_VZRs9C.css') }}">
+    <!--<link rel="stylesheet" href="{{ asset('build/assets/app-B_VZRs9C.css') }}">
       <link rel="stylesheet" href="{{ asset('build/assets/app-sEhFnVTV.css') }}">
       <link rel="stylesheet" href="{{ asset('build/assets/responsive-DhAHJOLM.css') }}">
-      <script src="{{ asset('build/assets/app-BwDpqcm8.js') }}"></script>
+      <script src="{{ asset('build/assets/app-BwDpqcm8.js') }}"></script>-->
+      @vite(['resources/sass/app.scss', 'resources/js/app.js','resources/css/app.css','resources/css/responsive.css'])
+
 
     </head>
     <body>
@@ -1228,9 +1230,9 @@
         <div class="customer_section layout_padding">
             <div class="container">
                 <div class="row">
-                <div class="col-sm-12">
-                    <h1 class="customer_taital">What Our customers say</h1>
-                </div>
+                    <div class="col-sm-12">
+                        <h1 class="customer_taital">What Our customers say</h1>
+                    </div>
                 </div>
                 <script src="https://widget.trustmary.com/m1v3XdTF5"></script>
             </div>
@@ -1254,7 +1256,7 @@
             </div>
             <div class="map_main">
                 <div class="map-responsive">
-                    <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=6th%20Floor,623%20Wood%20Avenue%20Plaza,%20Kilimani,%20Nairobi+(allure%20essence%20spa)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="600" height="400" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
+                    <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=623%20Wood%20Avenue+(Allure%20Essence%20Spa%20and%20Hair%20Studio)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="600" height="400" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
                 </div>
             </div>
         </div>

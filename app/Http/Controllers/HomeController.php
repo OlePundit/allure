@@ -7,6 +7,7 @@ use App\Models\Blog;
 use App\Models\Service;
 use App\Models\Gallery;
 use App\Models\Landing;
+use App\Models\Lp;
 
 class HomeController extends Controller
 {
@@ -69,6 +70,14 @@ class HomeController extends Controller
     public function book(Service $service)
     {
         return view('book', compact('service'));
+    }
+    public function book2()
+    {
+        return view('book2');
+    }
+    public function lp(LP $slug)
+    {
+        return view('lp', compact('slug'));
     }
 
     public function blogs()

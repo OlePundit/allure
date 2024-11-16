@@ -1,25 +1,33 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
    <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{{$slug->title}}</title>
-    <meta name="description" content="Welcome to Allure Essence Spa & Hair Studio, your sanctuary of tranquility and beauty in the heart of Nairobi. Immerse yourself in our luxurious treatments designed to rejuvenate your mind, body, and spirit.">
-    <meta name="robots" content="index, follow">
+      <title>{{$slug->title}}</title>
+      <meta name="description" content="Welcome to Allure Essence Spa & Hair Studio, your sanctuary of tranquility and beauty in the heart of Nairobi. Immerse yourself in our luxurious treatments designed to rejuvenate your mind, body, and spirit.">
+      <meta name="robots" content="index, follow">
 
-    <meta name="twitter:title" content="{{$slug->title}}">
-    <meta name="twitter:description" content="{{$slug->title}}">
-    <meta name="twitter:image" content="https://allureessencespa.com/storage/{{$slug->thumbnail}}">
-    <meta name="twitter:site" content="https://allureessencespa.com/{{$slug->slug}}">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:creator" content="@allureessence">
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="{{$slug->title}}"/>
-    <meta property="og:description" content="{{$slug->title}}" />
-    <meta property="og:image" content="https://allureessencespa.com/storage/{{$slug->thumbnail}}" />
-    <meta property="og:url" content="https://allureessencespa.com/{{$slug->slug}}" />
-    <meta property="og:site_name" content="Allure Essence"/>
+      <meta name="twitter:title" content="{{$slug->title}}">
+        <meta name="twitter:description" content="{{$slug->title}}">
+        <meta name="twitter:image" content="https://allureessencespa.com/storage/{{$slug->thumb}}">
+        <meta name="twitter:site" content="https://allureessencespa.com/{{$slug->slug}}">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:creator" content="@allureessence">
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="{{$slug->title}}"/>
+        <meta property="og:description" content="{{$slug->title}}" />
+        <meta property="og:image" content="https://allureessencespa.com/storage/{{$slug->thumb}}" />
+        <meta property="og:url" content="https://allureessencespa.com/{{$slug->slug}}" />
+        <meta property="og:site_name" content="Allure Essence"/>
+        <!-- Fonts -->
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000|Open+Sans:400,700&&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.bunny.net">
+        <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+
 
     <!-- Fonts -->
       <!-- Fonts -->
@@ -30,6 +38,7 @@
 
       <link rel="preconnect" href="https://fonts.bunny.net">
       <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
       <!-- style css -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
@@ -40,7 +49,14 @@
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+      <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-TLQL3R52');</script>
+        <!-- End Google Tag Manager -->
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
       <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
@@ -52,16 +68,32 @@
 
       <!-- Bootstrap JS -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
       <!-- Styles -->
       <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
       <!-- Scripts -->
-      <link rel="stylesheet" href="{{ asset('build/assets/app-B_VZRs9C.css') }}">
-      <link rel="stylesheet" href="{{ asset('build/assets/app-sEhFnVTV.css') }}">
-      <link rel="stylesheet" href="{{ asset('build/assets/responsive-DhAHJOLM.css') }}">
-      <script src="{{ asset('build/assets/app-BwDpqcm8.js') }}"></script>
+        <!--<link rel="stylesheet" href="{{ asset('build/assets/app-B_VZRs9C.css') }}">
+        <link rel="stylesheet" href="{{ asset('build/assets/app-sEhFnVTV.css') }}">
+        <link rel="stylesheet" href="{{ asset('build/assets/responsive-DhAHJOLM.css') }}">
+        <script src="{{ asset('build/assets/app-BwDpqcm8.js') }}"></script>-->
+        @vite(['resources/sass/app.scss', 'resources/js/app.js','resources/css/app.css','resources/css/responsive.css'])
+
+      <script>
+      $( function() {
+         $( "#datepicker" ).datepicker();
+      } );
+      </script>
+            <!-- Javascript files-->
+
 
    </head>
    <body class="app">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TLQL3R52"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
       <nav class="navbar other-nav navbar-expand-md shadow-sm text-3 fixed-top">
          <div class="container">
                <a class="navbar-brand" href="{{ url('/') }}">
@@ -81,9 +113,6 @@
                   <a class="nav-link" href="/services">Services</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" href="/book">Book</a>
-                  </li>
-                  <li class="nav-item">
                   <a class="nav-link" href="/contact">Contact</a>
                   </li>
                   <li class="nav-item">
@@ -101,7 +130,7 @@
          </div>
       </nav>
 
-      <main class="">
+      <main class="py-5">
          @yield('content')
       </main>
       <!-- footer section start -->
@@ -345,8 +374,25 @@
          </div>
       </div>
       <!-- copyright section end -->
-      <!-- Javascript files-->
+      <script src="https://js.paystack.co/v1/inline.js"></script>
+
       <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            flatpickr('#timePicker', {
+            enableTime: true,
+            noCalendar: true,
+            dateFormat: 'H:i', // Customize the time format
+            time_24hr: true // Use 24-hour format
+            // Add more options here to customize the appearance
+            });
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            flatpickr('#datePicker', {
+            dateFormat: 'Y-m-d', // Customize the date format
+            // Add more options here to customize the appearance
+            });
+        });
+
         document.addEventListener("scroll", function() {
             const navbar = document.querySelector(".navbar");
             if (window.scrollY > 50) { // Adjust the scroll distance as needed
@@ -355,7 +401,38 @@
                 navbar.classList.remove("scrolled");
             }
         });
+        const paymentForm = document.getElementById('paymentForm');
+        paymentForm.addEventListener("submit", payWithPaystack, false);
 
+        function payWithPaystack(e) {
+            e.preventDefault();
+            let handler = PaystackPop.setup({
+                key: "{{ env('PAYSTACK_PUBLIC_KEY') }}",
+                email: document.getElementById("email").value,
+                amount: document.getElementById("amount").value * 100 / 2,
+                ref: '' + Math.floor((Math.random() * 10000000000) + 1),
+                currency: 'KES',
+                metadata: {
+                    custom_fields: [
+                        {
+                            name: document.getElementById("name").value,
+                            booking_date: document.getElementById("datePicker").value,
+                            time: document.getElementById("timePicker").value,
+                            service_name: document.getElementById("service_name").value,
+                            payment_terms: document.getElementById("payment_terms").value,
+                            service_type: document.getElementById("service_type").value
+                        },
+                    ]
+                },
+                onClose: function(){
+                    alert('Window closed.');
+                },
+                callback: function(response){
+                    window.location.href = "{{ route('callback') }}?trxref=" + response.reference + "&reference=" + response.reference;
+                }
+            });
+            handler.openIframe();
+        }
         </script>
    </body>
 </html>
