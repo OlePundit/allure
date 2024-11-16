@@ -64,12 +64,10 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
-    <!--<link rel="stylesheet" href="{{ asset('build/assets/app-B_VZRs9C.css') }}">
+        <link rel="stylesheet" href="{{ asset('build/assets/app-B_VZRs9C.css') }}">
       <link rel="stylesheet" href="{{ asset('build/assets/app-sEhFnVTV.css') }}">
       <link rel="stylesheet" href="{{ asset('build/assets/responsive-DhAHJOLM.css') }}">
-      <script src="{{ asset('build/assets/app-BwDpqcm8.js') }}"></script>-->
-      @vite(['resources/sass/app.scss', 'resources/js/app.js','resources/css/app.css','resources/css/responsive.css'])
-
+      <script src="{{ asset('build/assets/app-BwDpqcm8.js') }}"></script>
 
     </head>
     <body>
