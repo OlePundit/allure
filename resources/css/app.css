@@ -2036,6 +2036,11 @@ button {
     font-size:17px;
 
 }
+.lp div{
+    color:#fff;
+    font-size:17px;
+
+}
 .lp ul li{
     margin:0px;
     color:#fff;
@@ -2047,9 +2052,7 @@ button {
 .lp ul li p{ 
     font-weight: 400;
 }
-.lp a{
-    color:#fff;
-}
+
 .lp ul li::before {
     content: '\e2e6'; /* Unicode character or text */
     color: #E1C17E; /* Bullet color */
