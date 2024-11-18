@@ -77,6 +77,12 @@
         <link rel="stylesheet" href="{{ asset('build/assets/app-sEhFnVTV.css') }}">
         <link rel="stylesheet" href="{{ asset('build/assets/responsive-DhAHJOLM.css') }}">
         <script src="{{ asset('build/assets/app-BwDpqcm8.js') }}"></script>
+        @vite([
+            'resources/sass/app.scss',
+'resources/js/app.js',
+'resources/css/app.css',
+])
+
       <script>
       $( function() {
          $( "#datepicker" ).datepicker();

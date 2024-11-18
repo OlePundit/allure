@@ -79,6 +79,10 @@ class HomeController extends Controller
     {
         return view('lp', compact('slug'));
     }
+    public function lp2()
+    {
+        return view('lp2');
+    }
 
     public function blogs()
     {

@@ -18,6 +18,8 @@ Route::get('success', [App\Http\Controllers\PaymentController::class, 'success']
 Route::get('cancel', [App\Http\Controllers\PaymentController::class, 'cancel'])->name('cancel');
 Route::get('/thank-you', [App\Http\Controllers\HomeController::class, 'thanks']);
 Route::get('/lp/{slug}', [App\Http\Controllers\HomeController::class, 'lp']);
+Route::get('/lp2', [App\Http\Controllers\HomeController::class, 'lp2']);
+
 Route::get('/booking', [App\Http\Controllers\HomeController::class, 'book2'])->name('book2');
 
 Route::get('/send-test-email', function () {

@@ -2018,6 +2018,21 @@ button {
     font-weight: 600;
     text-align: start;
 }
+.lp h3 {
+
+    margin: 0;
+    font-weight: 500;
+    font-family: Ysabeau Office, Times New Roman, Times, serif;
+    font-size: 32px;
+    color: #E63534!important;
+    text-align: start;
+}
+.lp h3 button{
+
+    background:none;
+    color: #E63534!important;
+
+}
 .lp img{
     width:100%;
 }
