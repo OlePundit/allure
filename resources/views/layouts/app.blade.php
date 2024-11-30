@@ -56,6 +56,16 @@
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-TLQL3R52');</script>
         <!-- End Google Tag Manager -->
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-M0E945WBPH"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-16650467371');
+
+          gtag('config', 'G-M0E945WBPH');
+        </script>
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
       <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
@@ -109,19 +119,52 @@
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <!-- Left Side Of Navbar -->
                   <ul class="navbar-nav mx-auto">
-                  <li class="nav-item">
-                  <a class="nav-link" href="/">Home</a>
-                  </li>
-                  <li class="nav-item">
-                  <a class="nav-link" href="/services">Services</a>
-                  </li>
-                  <li class="nav-item">
-                  <a class="nav-link" href="/contact">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                  <a class="nav-link" href="/blogs">Blog</a>
-                  </li>
-               </ul>
+                      <li class="nav-item">
+                      <a class="nav-link" href="/">Home</a>
+                      </li>
+                      <li class="nav-item">
+                      <a class="nav-link" href="/services">Services</a>
+                      </li>
+                      <li class="nav-item">
+                      <a class="nav-link" href="/contact">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                      <a class="nav-link" href="/blogs">Blog</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" style="color:#fff;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Packages
+                      </a>
+                    
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="https://allureessencespa.com/lp/clean-chic-and-beautiful-package">Clean Chic & Beautiful</a></li>
+                        <li><a class="dropdown-item" href="https://allureessencespa.com/lp/experience-rejuvenating-body-scrubs-at-allure-essence-spa-and-hair-studio">Funmi ni Ginger</a></li>
+                        <li><a class="dropdown-item" href="https://allureessencespa.com/lp/monsieur-maketh-package">Monsieur Maketh</a></li>
+                        <li><a class="dropdown-item" href="https://allureessencespa.com/lp/serenity-supreme-package">Serenity Supreme</a></li>
+                        <li><a class="dropdown-item" href="https://allureessencespa.com/lp/shimmer-and-shine-hottie">Shimmie and Shine</a></li>
+                        <li><a class="dropdown-item" href="https://allureessencespa.com/lp/butterfly-for-my-belly-package">Butterfly for My Belly</a></li>
+
+
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" style="color:#fff;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Categories
+                        </a>
+                      
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="https://allureessencespa.com/lp/experience-rejuvenating-body-scrubs-at-allure-essence-spa-and-hair-studio">Body scrubs</a></li>
+                          <li><a class="dropdown-item" href="https://allureessencespa.com/lp/experience-rejuvenating-massages-at-allure-essence-spa">Massages</a></li>
+                          <li><a class="dropdown-item" href="https://allureessencespa.com/lp/experience-rejuvenating-moroccan-bath-at-allure-essence-spa-and-hair-studio">Moroccan bath</a></li>
+                          <li><a class="dropdown-item" href="https://allureessencespa.com/lp/experience-rejuvenating-steam-aroma-therapy-at-allure-essence-spa-and-hair-studio">Steam Aroma</a></li>
+                          <li><a class="dropdown-item" href="https://allureessencespa.com/lp/get-the-best-facials-at-allure-essence-spa">Facials</a></li>
+                          <li><a class="dropdown-item" href="https://allureessencespa.com/lp/welcome-to-allure-essence-barber-shop">Barbershop</a></li>
+                          <li><a class="dropdown-item" href="https://allureessencespa.com/lp/welcome-to-allure-essence-salon">Salon</a></li>
+  
+                        </ul>
+                      </li>
+                    
+                   </ul>
 
 
 

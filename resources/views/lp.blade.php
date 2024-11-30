@@ -12,7 +12,7 @@
                         {!!$slug->intro!!}
                     </p>
                     <div class="read_bt">
-                        <a href="/book">
+                        <a href="/booking">
                             Book Today
                         </a>
                     </div>
@@ -32,7 +32,7 @@
                     <h2>Why Us?</h2>
                     {!!$slug->benefits!!}
                     <div class="read_bt">
-                        <a href="/book">
+                        <a href="/booking">
                             Book Today
                         </a>
                     </div>
@@ -43,7 +43,7 @@
                     <h2>Our Process At Allure Essence Spa & Hair Studio</h2>
                     {!!$slug->process!!}
                     <div class="read_bt">
-                        <a href="/book">
+                        <a href="/booking">
                             Book Today
                         </a>
                     </div>
