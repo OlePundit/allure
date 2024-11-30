@@ -246,6 +246,12 @@ html {
 .swiper-wrapper {
     position: relative; /* Ensure swiper wrapper is positioned */
 }
+.dropdown-menu{
+    background:#000!important;
+}
+.dropdown-item{
+    color:fff!important;
+}
 .box .text{
     position: absolute;
     z-index: 999;
