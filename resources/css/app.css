@@ -250,7 +250,7 @@ html {
     background:#000!important;
 }
 .dropdown-item{
-    color:fff!important;
+    color:#fff!important;
 }
 .box .text{
     position: absolute;
@@ -2033,7 +2033,7 @@ button {
     color: #E63534!important;
     text-align: start;
 }
-.lp h3 {
+.lp h4 {
 
     font-weight: 500;
     font-family: Ysabeau Office, Times New Roman, Times, serif;
