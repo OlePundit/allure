@@ -11,6 +11,9 @@
                     <p>
                         {!!$slug->intro!!}
                     </p>
+                    @if($slug->price)
+                    <h4>KSH {{$slug->price}}</h4>
+                    @endif
                     <div class="read_bt">
                         <a href="/booking">
                             Book Today
