@@ -10,7 +10,7 @@ use App\Models\Booking;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\BookingConfirmation;
 use App\Mail\BookingConfirmationAdmin;
-
+use App\Notifications\BookingConfirmation;
 
 class PaymentController extends Controller
 {
@@ -71,6 +71,8 @@ class PaymentController extends Controller
 
             $obj->currency = $response->data->currency;
             $obj->save();
+
+            $obj->notify(new BookingConfirmation($obj)); // Notify the customer
 
             Mail::to($obj->email)->send(new BookingConfirmation($obj));
             Mail::to('info@allureessencespa.com')->send(new BookingConfirmationAdmin($obj));

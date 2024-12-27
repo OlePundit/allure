@@ -62,7 +62,7 @@
                 <p>Dear {{ $booking->name }},</p>
                 <p>Your booking for {{ $booking->service_name }} on {{ $booking->booking_date }} at {{ $booking->time }} has been confirmed.</p>
                 <p>Payment Terms: {{ $booking->payment_terms }}</p>
-                <p>Amount Paid: {{ $booking->amount /2 }} {{ $booking->currency }}</p>
+                <p>Amount Paid: {{ $booking->amount }} {{ $booking->currency }}</p>
                 <p>Your order reference number is: {{ $booking->payment_id }}</p>
 
                 <p>Thank you for choosing our service!</p>

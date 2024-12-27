@@ -250,7 +250,7 @@ html {
     background:#000!important;
 }
 .dropdown-item{
-    color:#fff!important;
+    color:#fff;
 }
 .box .text{
     position: absolute;
@@ -353,7 +353,9 @@ body {
     overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
 }
-
+.nav-link:hover .dropdown-menu.show {
+    display: block;
+  }
 a {
     color: #1f1f1f;
     text-decoration: none !important;
