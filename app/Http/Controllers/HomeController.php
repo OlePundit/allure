@@ -101,8 +101,8 @@ class HomeController extends Controller
         $bodys = Service::where('category', 'Body Scrub')->get();
         $manis = Service::where('category', 'Mani-pedi treat')->get();
         $salonCs = Service::where('category', 'SalonC')->get();
-        $barberAs = Service::where('category', 'Barber African')->get();
-        $barberCs = Service::where('category', 'Barber Caucasian')->get();
+        $barberAs = Service::where('category', 'BarberA')->get();
+        $barberCs = Service::where('category', 'BarberC')->get();
         $steams = Service::where('category', 'Steam Aroma')->get();
 
         $moroccans = Service::where('category', 'Moroccan Bath')->get();
